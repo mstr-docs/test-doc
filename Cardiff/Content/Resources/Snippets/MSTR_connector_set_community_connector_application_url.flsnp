@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p class="reqs">Administrator privileges are required.</p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="1">
+            <li>In MicroStrategy Web, click the username drop-down and select <b>Preferences</b>.<p><img src="../../../../../Administrators/WebAdmin/Content/Resources/Images/Community_Data_Connectors/Configuring Community Connectors_1.png"></img></p></li>
+            <li>Under Preferences Level, click <b>Project Defaults.</b></li>
+            <li>Enter your MicroStrategy Community Data Connectors application URL in <b>Link to Community Connectors</b>. <div class="Note"><p>The URL format: https://[HOST_NAME]:[PORT_NUMBER]/CommunityConnectors/ <br></br></p><ul><li>The HOST_NAME is the host name of the machine you have the Community Connectors application installed on. <br></br></li><li>The PORT_NUMBER is the port number that your web server listens to. Use only if required.</li></ul></div><p><br></br><img src="../../../../../Administrators/WebAdmin/Content/Resources/Images/Community_Data_Connectors/Configuring Community Connectors_3.png" style="visibility: visible;mso-wrap-style: square;width: 980px;height: 527px;"></img></p></li>
+            <li>Click <b>Apply</b>.</li>
+        </ol>
+    </body>
+</html>

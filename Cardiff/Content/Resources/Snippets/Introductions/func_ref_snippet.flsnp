@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="129" MadCap:lastWidth="1255">
+    <head>
+    </head>
+    <body>
+        <p>Functions in MicroStrategy are powerful tools used in expressions to define MicroStrategy objects and initiate complex user-selected calculations. Wherever you can define an expression, you can use a function. From creating basic objects to building complex reports and analyzing data, you have the ability to create custom expressions using a large library of functions supported by MicroStrategy. Although functions are most commonly used in metric expressions, they are also used to create filters, define attribute forms, and so on.
+
+</p>
+    </body>
+</html>

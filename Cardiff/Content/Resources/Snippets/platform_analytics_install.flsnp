@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html MadCap:conditions="MSTR_Docs_Conditions.SharedContent" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>If Platform Analytics is chosen for installation you need to identify the MySQL database to store the Platform Analytics telemetry data. </p>
+        <p>Provide the following information in the designated fields:</p>
+        <ul>
+            <li><b>Server</b>: IP Address</li>
+            <li><b>Port</b>: Port number used by the MySQL database</li>
+            <li><b>Username</b>
+            </li>
+            <li>
+                <p><b>Password</b>
+                </p>
+                <p class="Note">The database user must have all privileges to the database where the Platform Analytics warehouse will be created.</p>
+            </li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="164" MadCap:lastWidth="1255">
+    <head>
+    </head>
+    <body>
+        <p>MicroStrategy Mobile is an interactive interface of the MicroStrategy BI platform that lets mobile business users harness the analytical power of MicroStrategy through the use of their iPhone®, iPad®, and Android™ devices.</p>
+        <p>MicroStrategy Mobile and the MicroStrategy Mobile Server provide MicroStrategy reporting and analysis capabilities on iPhone, iPad, and Android devices. MicroStrategy utilizes the intuitive interface of these mobile devices to let users explore information using touch and smart gestures. MicroStrategy Mobile also provides application developers a new way to develop and deploy Mobile applications that is faster, easier, and more maintainable than using traditional Integrated Development Environments.</p>
+    </body>
+</html>

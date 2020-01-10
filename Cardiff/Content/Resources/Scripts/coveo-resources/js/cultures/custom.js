@@ -1,0 +1,31 @@
+String.toLocaleString({
+  'en': {
+    'ShowingResultsOf': $A.get('$Label.c.MSC_Coveo_ShowingResultsOf'),
+    'ShowingResultsOfWithQuery': $A.get('$Label.c.MSC_Coveo_ShowingResultsOfWithQuery'),
+    'Seconds': $A.get('$Label.c.MSC_Coveo_Seconds'),
+    'ResultTemplate_Type_User': $A.get('$Label.c.MSC_Coveo_ResultTemplate_Type_User'),
+    'ResultTemplate_Type_Video': $A.get('$Label.c.MSC_Coveo_ResultTemplate_Type_Video'),
+    'ResultTemplate_Type_Document': $A.get('$Label.c.MSC_Coveo_ResultTemplate_Type_Document'),
+    'ResultTemplate_Type_Idea': $A.get('$Label.c.MSC_Coveo_ResultTemplate_Type_Idea'),
+    'ResultTemplate_Type_KB': $A.get('$Label.c.MSC_Coveo_ResultTemplate_Type_KB'),
+    'ResultTemplate_Type_BlogPost': $A.get('$Label.c.MSC_Coveo_ResultTemplate_Type_BlogPost'),
+    'ResultTemplate_Type_MicroStrategyCOM': $A.get('$Label.c.MSC_Coveo_ResultTemplate_Type_MicroStrategyCOM'),
+    'ResultTemplate_Type_ProductHelp': $A.get('$Label.c.MSC_Coveo_ResultTemplate_Type_ProductHelp'),
+    'ResultTemplate_Type_SdkApi': $A.get('$Label.c.MSC_Coveo_ResultTemplate_Type_SdkApi'),
+    'ResultTemplate_Type_FeedComment': $A.get('$Label.c.MSC_Coveo_ResultTemplate_Type_FeedComment'),
+    'ResultTemplate_Type_FeedItem': $A.get('$Label.c.MSC_Coveo_ResultTemplate_Type_FeedItem'),
+    'ResultTemplate_Type_KnowledgeFeed': $A.get('$Label.c.MSC_Coveo_ResultTemplate_Type_KnowledgeFeed'),
+    'FacetTitle_ContentType': $A.get('$Label.c.MSC_Coveo_FacetTitle_ContentType'),
+    'FacetTitle_Topics': $A.get('$Label.c.MSC_Coveo_FacetTitle_Topics'),
+    'FacetTitle_DocumentationVersion': $A.get('$Label.c.MSC_Coveo_FacetTitle_DocumentationVersion'),
+    'FacetTitle_DocumentationGuide': $A.get('$Label.c.MSC_Coveo_FacetTitle_DocumentationGuide'),
+    'FacetTitle_Language': $A.get('$Label.c.MSC_Coveo_FacetTitle_Language'),
+    'PostedBy': $A.get('$Label.c.MSC_Coveo_PostedBy'),
+    'PostedByOn': $A.get('$Label.c.MSC_Coveo_PostedByOn'),
+    'PostedOn': $A.get('$Label.c.MSC_Coveo_PostedOn'),
+    'CreatedOn': $A.get('$Label.c.MSC_Coveo_CreatedOn'),
+    'LastUpdatedOn': $A.get('$Label.c.MSC_Coveo_LastUpdatedOn'),
+    'LastPublishedOn': $A.get('$Label.c.MSC_Coveo_LastPublishedOn'),
+    'Searchbox_Placeholder': $A.get('$Label.c.MSC_Coveo_Searchbox_Placeholder')
+  }
+});

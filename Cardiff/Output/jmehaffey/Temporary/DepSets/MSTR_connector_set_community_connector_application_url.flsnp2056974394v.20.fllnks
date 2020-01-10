@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="../../Administrators/WebAdmin/Content/Resources/Images/Community_Data_Connectors/Configuring Community Connectors_1.png" />
+    <Link
+      Url="../../Administrators/WebAdmin/Content/Resources/Images/Community_Data_Connectors/Configuring Community Connectors_3.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="../../Administrators/WebAdmin/Content/Resources/Images/Community_Data_Connectors/Configuring Community Connectors_1.png" />
+    <Link
+      Url="../../Administrators/WebAdmin/Content/Resources/Images/Community_Data_Connectors/Configuring Community Connectors_3.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

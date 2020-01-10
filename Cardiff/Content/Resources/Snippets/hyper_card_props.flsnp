@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="MSTR_Tool.Hyper">
+    <body>
+        <p>You can view and edit properties and security for cards you create. As the card's author, you have full control permissions. You can give other users full control permissions or provide them with modify, view, deny, or default permission levels. </p>
+        <p>Additionally, you must certify your cards to officially deploy them to the Chrome Extension.</p>
+        <ol>
+            <li>Open the <a href="../../Navigating_Workstation.htm">[%=Company_ProductNames.VizTool%] window</a>.</li>
+            <li>In the Navigation pane, click <b>Cards</b>.</li>
+            <li>Right-click a card and choose <b>Properties</b>. </li>
+            <li>
+                <p>Select the <b>Certified Card</b> checkbox to certify the card. </p>
+                <p class="Note">You must certify the card to deploy it.</p>
+            </li>
+            <li>In the left pane, click <b>Security Access</b> to add user and group permissions. </li>
+            <li>Use the search bar to locate and select users or user groups.</li>
+            <li>Next to each user, in the <b>Permissions</b> drop-down, select the level of permissions for each user or user group.<p class="Note">Click <b>Advanced</b> to open the Advanced Security dialog and change permissions for multiple users and groups all at once and click <b>OK</b>.</p><MadCap:dropDown><MadCap:dropDownHead>Types of Permissions</MadCap:dropDownHead><MadCap:dropDownBody><p><b>Deny</b>: The card does not appear on the extension. If the user previously had access to it, before refreshing, a warning sign will appear. </p><p style="font-weight: bold;">View: <span style="font-weight: normal;">The card appears on the extension and users can browse, read, and use them.</span></p><p><b>Modify</b>: The card appears on the extension and users can browse, read, use, write, and delete them.</p><p><b>Default</b>: Depends on the parent folder.</p><p><b>Full Control</b>:&#160;The card appears on the extension and the user can browse, read, use, execute, write, delete, and control the them. Card authors have this permission by default.</p><p><b>Custom</b>: Depends on the custom settings. To view and use the card, select Browse, Read, and Execute.</p></MadCap:dropDownBody></MadCap:dropDown></li>
+            <li>Click <b>OK</b>.</li>
+        </ol>
+    </body>
+</html>

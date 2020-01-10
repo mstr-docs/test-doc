@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>MicroStrategy Collaboration has been enhanced  to use a central data repository installed as part of the MicroStrategy Platform. Starting in MicroStrategy 2020 the Collaboration Server constructs the connection string to the MicroStrategy Data Repository during runtime.  After performing the upgrade, Collaboration Server will only support connections to the MicroStrategy Data Repository.</p>
+        <p>After upgrading Collaboration Server, the previous data repository remains unchanged but it will not be used by the new version of Collaboration Server.   Any comments stored in the previous data repository will need to be moved to the new repository to be accessible.</p>
+        <h2>Migrating Comments to the MicroStrategy Data Repository</h2>
+        <p> The Collaboration Server Administration Tool provides a way for system administrators to migrate comments from the previous data repository to the new data repository. The Collaboration Administration Page will display a warning message when it detects that a previous data repository was used by the Collaboration Server before the upgrade. </p>
+        <p>The Collaboration Server Administration Tool is a console application and will connect to the data repository using the same configuration as the Collaboration Server so no user input is required to connect.  The tool will provide feedback as data is being migrated and will show a message when the migration is complete.</p>
+        <p> In order to recover collaboration messages that were stored in the previous version of the MicroStrategy Platform please follow these steps:</p>
+        <ol>
+            <li>
+                <p>Click <b>Start</b> &gt; <b>Windows Administrative Tools</b> &gt; <b>Services</b>.</p>
+            </li>
+            <li>
+                <p>Stop the service MicroStrategy Collaboration/Realtime Service.</p>
+            </li>
+            <li>
+                <p>Start the service Mongo DB.</p>
+            </li>
+            <li>
+                <p>Run the Data Migration Command:</p>
+                <ul>
+                    <li>
+                        <p>Enter the three file locations in the following format:</p>
+                        <p><span class="code">$ "&lt;PATH_TO_NODE&gt;" "&lt;PATH_TO_ADMIN_TOOL_FILE&gt;" "&lt;PATH_TO_CONFIG_FILE&gt;"</span>
+                        </p>
+                        <div class="sdk_code"><pre>"C:\Program Files\MicroStrategy\Common Files\MicroStrategy\nodejs\node.exe" "C:\Program Files\MicroStrategy\Collaboration Server\node_modules\mstr-collab-svc\admintool.js" "C:\Program Files\MicroStrategy\Collaboration Server\config.json"</pre>
+                        </div>
+                    </li>
+                    <li>
+                        <p>Use the <span class="code">migrate</span> command to run the data migration:</p>
+                        <div>
+                            <p class="sdk_code">cmd&gt; migrate</p>
+                        </div>
+                    </li>
+                    <li>Enter <span class="code">quit</span> to close the Collaboration Server Administration Tool.</li>
+                </ul>
+            </li>
+            <li>Stop the service Mongo DB.</li>
+            <li>Start the service MicroStrategy Collaboration/Realtime Service.</li>
+        </ol>
+        <p>The Collaboration Admin Page will stop displaying the warning message at this point.</p>
+    </body>
+</html>

@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="Resources/TableStyles/table_from_MSTR_website.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>Log in to HyperIntelligence for Office</h1>
+        <p>The HyperIntelligence for Office add-in connects to the environment that generated the manifest file. If you need to connect to another environment, you need another add-in/manifest file with the new environment's information.</p>
+        <p>Since the manifest file has been deployed to user's accounts, they can now view cards by logging into HyperIntelligence on Outlook for desktop and Outlook for web.</p>
+        <h2>Log into Outlook for Desktop</h2>
+        <ol>
+            <li>Open Microsoft Outlook.</li>
+            <li>Click the <b>HyperIntelligence</b> <img src="Resources/Images/hyper_icon.png" /> icon in the ribbon bar. </li>
+            <li>Enter your environment's log in and password.</li>
+            <li>
+                <p>Click the <b>pin</b><img src="Resources/Images/outlook_pin.png" style="width: 20px;height: 27px;" /> icon and click <b>Log in with credentials</b>.</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>What modes of authentication are supported?</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>The add-in connects to the MicroStrategy platform via the Library Server. It currently supports a subset of the authentication modes supported by Library. Use the table below to learn the differences:</p>
+                        <table style="width: 100%;mc-table-style: url('Resources/TableStyles/table_from_MSTR_website.css');" class="TableStyle-table_from_MSTR_website" cellspacing="0">
+                            <col class="TableStyle-table_from_MSTR_website-Column-Column2" style="width: 358px;" />
+                            <col class="TableStyle-table_from_MSTR_website-Column-Column2" style="width: 294px;" />
+                            <col class="TableStyle-table_from_MSTR_website-Column-Column2" style="width: 284px;" />
+                            <col class="TableStyle-table_from_MSTR_website-Column-Column2" />
+                            <thead>
+                                <tr class="TableStyle-table_from_MSTR_website-Head-Header1">
+                                    <th class="TableStyle-table_from_MSTR_website-HeadE-Column2-Header1">Supported Authentication</th>
+                                    <th class="TableStyle-table_from_MSTR_website-HeadE-Column2-Header1">Library</th>
+                                    <th class="TableStyle-table_from_MSTR_website-HeadE-Column2-Header1">Add-in</th>
+                                    <th class="TableStyle-table_from_MSTR_website-HeadD-Column2-Header1">Notes</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="TableStyle-table_from_MSTR_website-Body-Body1">
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body1" style="text-align: center;">Standard</td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body1" style="text-align: center;">Yes</td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body1" style="text-align: center;">Yes</td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyD-Column2-Body1" style="text-align: center;">&#160;</td>
+                                </tr>
+                                <tr class="TableStyle-table_from_MSTR_website-Body-Body2">
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body2" style="text-align: center;">
+                                        <p>LDAP</p>
+                                    </td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body2" style="text-align: center;">
+                                        <p>Yes</p>
+                                    </td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body2" style="text-align: center;">
+                                        <p>Yes</p>
+                                    </td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyD-Column2-Body2" style="text-align: center;">
+                                        <p>&#160;</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-table_from_MSTR_website-Body-Body1">
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body1" style="text-align: center;">Guest</td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body1" style="text-align: center;">Yes</td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body1" style="text-align: center;">Yes</td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyD-Column2-Body1" style="text-align: center;">&#160;</td>
+                                </tr>
+                                <tr class="TableStyle-table_from_MSTR_website-Body-Body2">
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body2" style="text-align: center;">
+                                        <p>Integrated</p>
+                                    </td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body2" style="text-align: center;">
+                                        <p>Yes</p>
+                                    </td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body2" style="text-align: center;">
+                                        <p>No</p>
+                                    </td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyD-Column2-Body2" style="text-align: center;">
+                                        <p>&#160;</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-table_from_MSTR_website-Body-Body1">
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body1" style="text-align: center;">Trusted</td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body1" style="text-align: center;">Yes</td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body1" style="text-align: center;">No</td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyD-Column2-Body1" style="text-align: center;">
+                                        <p>&#160;</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-table_from_MSTR_website-Body-Body2">
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body2" style="text-align: center;">
+                                        <p>MicroStrategy Identity</p>
+                                    </td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body2" style="text-align: center;">
+                                        <p>Yes</p>
+                                    </td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body2" style="text-align: center;">
+                                        <p>Yes</p>
+                                    </td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyD-Column2-Body2" style="text-align: center;">
+                                        <p>&#160;</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-table_from_MSTR_website-Body-Body1">
+                                    <td class="TableStyle-table_from_MSTR_website-BodyB-Column2-Body1" style="text-align: center;">SAML</td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyB-Column2-Body1" style="text-align: center;">Yes</td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyB-Column2-Body1" style="text-align: center;">Yes</td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyA-Column2-Body1" style="text-align: center;">Only HTTP Redirect Binding is currently supported</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </li>
+        </ol>
+        <h2>Log into Outlook for Web</h2>
+        <ol>
+            <li>
+                <p>Open Outlook in a supported web browser.</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Which web browsers are supported?</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>Google Chrome is a certified PC browser. Firefox and Internet Explorer are also supported.</p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </li>
+            <li>Click an email and select the <b>More actions</b> icon. </li>
+            <li>
+                <p>Click the <b>HyperIntelligence</b><img src="Resources/Images/hyper_icon.png" /> icon.</p>
+                <p>
+                    <object MadCap:HTML5Video="true" src="Resources/Images/outlook_web.mp4" MadCap:Param_controls="false" MadCap:Param_muted="true" MadCap:Param_loop="true" MadCap:Param_autoplay="true" style="width: 60%;">
+                    </object>
+                </p>
+            </li>
+            <li>
+                <p>Click the <b>pin</b><img src="Resources/Images/outlook_pin.png" style="width: 20px;height: 27px;" /> icon and click <b>Log in with credentials</b>.</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>What modes of authentication are supported?</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>The add-in connects to the MicroStrategy platform via the Library Server. It currently supports a subset of the authentication modes supported by Library. Use the table below to learn the differences:</p>
+                        <table style="width: 100%;mc-table-style: url('Resources/TableStyles/table_from_MSTR_website.css');" class="TableStyle-table_from_MSTR_website" cellspacing="0">
+                            <col class="TableStyle-table_from_MSTR_website-Column-Column2" style="width: 358px;" />
+                            <col class="TableStyle-table_from_MSTR_website-Column-Column2" style="width: 294px;" />
+                            <col class="TableStyle-table_from_MSTR_website-Column-Column2" style="width: 284px;" />
+                            <col class="TableStyle-table_from_MSTR_website-Column-Column2" />
+                            <thead>
+                                <tr class="TableStyle-table_from_MSTR_website-Head-Header1">
+                                    <th class="TableStyle-table_from_MSTR_website-HeadE-Column2-Header1">Supported Authentication</th>
+                                    <th class="TableStyle-table_from_MSTR_website-HeadE-Column2-Header1">Library</th>
+                                    <th class="TableStyle-table_from_MSTR_website-HeadE-Column2-Header1">Add-in</th>
+                                    <th class="TableStyle-table_from_MSTR_website-HeadD-Column2-Header1">Notes</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="TableStyle-table_from_MSTR_website-Body-Body1">
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body1" style="text-align: center;">Standard</td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body1" style="text-align: center;">Yes</td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body1" style="text-align: center;">Yes</td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyD-Column2-Body1" style="text-align: center;">&#160;</td>
+                                </tr>
+                                <tr class="TableStyle-table_from_MSTR_website-Body-Body2">
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body2" style="text-align: center;">
+                                        <p>LDAP</p>
+                                    </td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body2" style="text-align: center;">
+                                        <p>Yes</p>
+                                    </td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body2" style="text-align: center;">
+                                        <p>Yes</p>
+                                    </td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyD-Column2-Body2" style="text-align: center;">
+                                        <p>&#160;</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-table_from_MSTR_website-Body-Body1">
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body1" style="text-align: center;">Guest</td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body1" style="text-align: center;">Yes</td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body1" style="text-align: center;">Yes</td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyD-Column2-Body1" style="text-align: center;">&#160;</td>
+                                </tr>
+                                <tr class="TableStyle-table_from_MSTR_website-Body-Body2">
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body2" style="text-align: center;">
+                                        <p>Integrated</p>
+                                    </td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body2" style="text-align: center;">
+                                        <p>Yes</p>
+                                    </td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body2" style="text-align: center;">
+                                        <p>No</p>
+                                    </td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyD-Column2-Body2" style="text-align: center;">
+                                        <p>&#160;</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-table_from_MSTR_website-Body-Body1">
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body1" style="text-align: center;">Trusted</td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body1" style="text-align: center;">Yes</td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body1" style="text-align: center;">No</td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyD-Column2-Body1" style="text-align: center;">
+                                        <p>&#160;</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-table_from_MSTR_website-Body-Body2">
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body2" style="text-align: center;">
+                                        <p>MicroStrategy Identity</p>
+                                    </td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body2" style="text-align: center;">
+                                        <p>Yes</p>
+                                    </td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body2" style="text-align: center;">
+                                        <p>Yes</p>
+                                    </td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyD-Column2-Body2" style="text-align: center;">
+                                        <p>&#160;</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-table_from_MSTR_website-Body-Body1">
+                                    <td class="TableStyle-table_from_MSTR_website-BodyB-Column2-Body1" style="text-align: center;">SAML</td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyB-Column2-Body1" style="text-align: center;">Yes</td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyB-Column2-Body1" style="text-align: center;">Yes</td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyA-Column2-Body1" style="text-align: center;">Only HTTP Redirect Binding is currently supported</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/ConditionTagSets/MSTR_Docs_Conditions.flcts" />
+    <Link
+      Url="Project/ConditionTagSets/Language.flcts" />
+    <Link
+      Url="Project/ConditionTagSets/release_type.flcts" />
+    <Link
+      Url="Content/Resources/Snippets/Guide_Links/Translated_Guide_Links/Readmes/10_4_Readme_SZH_link.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Guide_Links/Translated_Guide_Links/Readmes/Readme_SZH_link.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Guide_Links/Translated_Guide_Links/Readmes/10_4_ Readme_EN.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Guide_Links/Translated_Guide_Links/Readmes/Readme_EN.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Guide_Links/Translated_Guide_Links/Readmes/10_4_Readme_FR_link.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Guide_Links/Translated_Guide_Links/Readmes/Readme_FR_link.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Guide_Links/Translated_Guide_Links/Readmes/10_4_Readme_DE_link.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Guide_Links/Translated_Guide_Links/Readmes/Readme_DE_link.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Guide_Links/Translated_Guide_Links/Readmes/10_4_Readme_IT_link.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Guide_Links/Translated_Guide_Links/Readmes/Readme_IT_link.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Guide_Links/Translated_Guide_Links/Readmes/10_4_Readme_JA_link.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Guide_Links/Translated_Guide_Links/Readmes/Readme_JA_link.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Guide_Links/Translated_Guide_Links/Readmes/10_4_Readme_KO_link.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Guide_Links/Translated_Guide_Links/Readmes/Readme_KO_link.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Guide_Links/Translated_Guide_Links/Readmes/10_4_Readme_PT_link.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Guide_Links/Translated_Guide_Links/Readmes/Readme_PT_link.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Guide_Links/Translated_Guide_Links/Readmes/10_4_Readme_ES_link.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Guide_Links/Translated_Guide_Links/Readmes/Readme_ES_link.flsnp" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/ConditionTagSets/MSTR_Docs_Conditions.flcts" />
+    <Link
+      Url="Project/ConditionTagSets/Language.flcts" />
+    <Link
+      Url="Project/ConditionTagSets/release_type.flcts" />
+    <Link
+      Url="Content/Resources/Snippets/Guide_Links/Translated_Guide_Links/Readmes/10_4_Readme_SZH_link.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Guide_Links/Translated_Guide_Links/Readmes/Readme_SZH_link.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Guide_Links/Translated_Guide_Links/Readmes/10_4_ Readme_EN.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Guide_Links/Translated_Guide_Links/Readmes/Readme_EN.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Guide_Links/Translated_Guide_Links/Readmes/10_4_Readme_FR_link.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Guide_Links/Translated_Guide_Links/Readmes/Readme_FR_link.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Guide_Links/Translated_Guide_Links/Readmes/10_4_Readme_DE_link.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Guide_Links/Translated_Guide_Links/Readmes/Readme_DE_link.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Guide_Links/Translated_Guide_Links/Readmes/10_4_Readme_IT_link.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Guide_Links/Translated_Guide_Links/Readmes/Readme_IT_link.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Guide_Links/Translated_Guide_Links/Readmes/10_4_Readme_JA_link.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Guide_Links/Translated_Guide_Links/Readmes/Readme_JA_link.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Guide_Links/Translated_Guide_Links/Readmes/10_4_Readme_KO_link.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Guide_Links/Translated_Guide_Links/Readmes/Readme_KO_link.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Guide_Links/Translated_Guide_Links/Readmes/10_4_Readme_PT_link.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Guide_Links/Translated_Guide_Links/Readmes/Readme_PT_link.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Guide_Links/Translated_Guide_Links/Readmes/10_4_Readme_ES_link.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Guide_Links/Translated_Guide_Links/Readmes/Readme_ES_link.flsnp" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="MSTR_Docs_Conditions.OnlineOnly" />
+    <Condition
+      Tag="Language.Chinese (Simplified)" />
+    <Condition
+      Tag="release_type.Platform" />
+    <Condition
+      Tag="release_type.Feature" />
+    <Condition
+      Tag="Language.English" />
+    <Condition
+      Tag="Language.French" />
+    <Condition
+      Tag="Language.German" />
+    <Condition
+      Tag="Language.Italian" />
+    <Condition
+      Tag="Language.Japanese" />
+    <Condition
+      Tag="Language.Korean" />
+    <Condition
+      Tag="Language.Portuguese" />
+    <Condition
+      Tag="Language.Spanish" />
+  </AllConditions>
+  <Stylesheets />
+</CatapultFileLinkSet>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <div class="Note">
+            <p>To host Community Connectors on an Oracle WebLogic server:</p>
+            <ul>
+                <li> In MicroStrategy 2019 Update 1 or Update 2, see <a href="https://community.microstrategy.com/s/article/KB483005-Error-entering-the-Setup-page-when-deploying-the-Community-Connectors-in-WebLogic-in-MicroStrategy-2019-Update-1" target="_blank">KB483005: Error entering the Setup page when deploying the Community Connectors in WebLogic in MicroStrategy 2019 Update 1 or Update 2</a>.</li>
+                <li>In MicroStrategy 2019 Update 3 or later, see <a href="https://community.microstrategy.com/s/article/KB483555-Deploying-Community-Connectors-on-WebLogic" target="_blank">KB483555: Deploying Community Connectors on WebLogic</a>.</li>
+            </ul>
+        </div>
+    </body>
+</html>

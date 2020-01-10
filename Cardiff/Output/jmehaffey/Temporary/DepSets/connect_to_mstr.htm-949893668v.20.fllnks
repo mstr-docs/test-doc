@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/TableStyles/table_from_MSTR_website.css" />
+    <Link
+      Url="Content/Resources/Images/hyper_icon.png" />
+    <Link
+      Url="Content/Resources/Images/outlook_pin.png" />
+    <Link
+      Url="Content/Resources/Images/outlook_web.mp4" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/TableStyles/table_from_MSTR_website.css" />
+    <Link
+      Url="Content/Resources/Images/hyper_icon.png" />
+    <Link
+      Url="Content/Resources/Images/outlook_pin.png" />
+    <Link
+      Url="Content/Resources/Images/outlook_web.mp4" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/table_from_MSTR_website.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

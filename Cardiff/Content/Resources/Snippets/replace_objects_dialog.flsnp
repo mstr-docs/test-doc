@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol MadCap:continue="true">
+            <li>If you have renamed or applied number formatting to dataset objects in one or more of the datasets being replaced, you can choose to retain or discard the name and number formatting options using the <b>Clear object alias and number format on the dossier</b> checkbox.</li>
+            <li>
+                <p>Select the replacement method for each dataset object from the <b>New Objects</b> drop-down list. </p>
+                <p>To replace an object (i.e., attribute, derived attribute, metric, or derived metric) with an existing object from the new dataset, select the object to use as a replacement. If the elements of an object being replaced appear as choices in a filter, the filter updates to contain elements of the new object.</p>
+                <p>
+                    <i>or</i>
+                </p>
+                <p>To remove an object  (i.e., attribute, derived attribute, metric, or derived metric) from the dossier, select <b>Remove from dossier</b>. If the object appears in the dossier (e.g., in a visualization or filter), the objects and its values are removed.</p>
+                <p>
+                    <i>or</i>
+                </p>
+                <p>To keep a derived attribute/metric as part of the new dataset and retain its existing definition, select <b>Keep Existing Definition</b>. If an object that is part of a derived attribute/metric formula is replaced, it is also replaced in the definition of the object. </p>
+                <div class="example">
+                    <p>A derived attribute is defined as <code>Concat(Leftstr(Employee@First Name,1),".",Employee@LastName)</code>. You replace <code>Employee</code> with <code>InternationalEmployees</code>. The derived attribute's formula updates to <code>Concat(Leftstr(InternationalEmployees@First Name,1),".",InternationalEmployees@LastName)</code>.</p>
+                    <p>
+                        <i>or</i>
+                    </p>
+                    <p>A derived metric is defined as <code>Revenue - Cost</code>. You replace <code>Revenue</code> with <code>Regional Revenue</code> and <code>Cost</code> with <code>Regional Cost</code>. The derived metric's formula updates to <code>Regional Revenue - Regional Cost</code>.</p>
+                </div>
+            </li>
+            <li>Click <b>OK</b>.  <MadCap:variable name="Company_ProductNames.VizTool" /> replaces the dataset and the dossier updates to reflect the new dataset.</li>
+        </ol>
+    </body>
+</html>

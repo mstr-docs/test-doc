@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="2"
+  SkinType="Component"
+  Comment="HTML5 Menu skin"
+  ComponentType="Menu"
+  EnableResponsiveOutput="True">
+  <Stylesheet>
+    <Styles>
+      <Style
+        Name="Menu">
+        <Properties>
+          <Property
+            Name="MarginTop">4px</Property>
+          <Property
+            Name="MarginBottom">10px</Property>
+          <Property
+            Name="Width">100%</Property>
+          <Property
+            Name="PaddingLeft">10px</Property>
+          <Property
+            Name="LineHeight">120%</Property>
+          <Property
+            Name="FontFamily">Arial</Property>
+          <Property
+            Name="Color">#333333</Property>
+          <Property
+            Name="BorderLeft">solid 0px #b3b3ba</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Menu Item">
+        <Properties>
+          <Property
+            Name="PaddingTop">2px</Property>
+          <Property
+            Name="PaddingBottom">3px</Property>
+          <Property
+            Name="FontWeight">normal</Property>
+          <Property
+            Name="FontSize">1em</Property>
+          <Property
+            Name="FontFamily">sans-serif</Property>
+        </Properties>
+        <Classes>
+          <StyleClass
+            Name="2nd Level">
+            <Properties>
+              <Property
+                Name="PaddingLeft">20px</Property>
+              <Property
+                Name="FontSize">1em</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="1st Level">
+            <Properties>
+              <Property
+                Name="PaddingLeft">10px</Property>
+              <Property
+                Name="Color">#333</Property>
+              <Property
+                Name="FontSize">1em</Property>
+              <Property
+                Name="FontFamily">sans-serif</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="3rd Level">
+            <Properties>
+              <Property
+                Name="PaddingLeft">30px</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="4th Level">
+            <Properties>
+              <Property
+                Name="PaddingLeft">40px</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="Selected">
+            <Properties>
+              <Property
+                Name="Color">#d9232e</Property>
+              <Property
+                Name="FontWeight">normal</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
+      </Style>
+      <Medium
+        Name="Tablet">
+        <Style
+          Name="Menu">
+          <Properties>
+            <Property
+              Name="Display">none</Property>
+          </Properties>
+        </Style>
+      </Medium>
+      <Medium
+        Name="Mobile">
+        <Style
+          Name="Menu">
+          <Properties>
+            <Property
+              Name="Display">none</Property>
+          </Properties>
+        </Style>
+      </Medium>
+      <Style
+        Name="Menu Item (hover)">
+        <Properties>
+          <Property
+            Name="BackgroundColor">transparent</Property>
+          <Property
+            Name="Color">#d9232e</Property>
+        </Properties>
+        <Classes>
+          <StyleClass
+            Name="Selected">
+            <Properties>
+              <Property
+                Name="FontWeight">normal</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="1st Level">
+            <Properties>
+              <Property
+                Name="FontSize">14px</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
+      </Style>
+    </Styles>
+    <Stylesheet></Stylesheet>
+  </Stylesheet>
+  <Strings />
+</CatapultSkin>

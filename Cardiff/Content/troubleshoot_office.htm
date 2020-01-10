@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>Troubleshooting HyperIntelligence for Office</h1>
+        <p>While using HyperIntelligence for Office, you may encounter the following errors. Use the guidance below to troubleshoot these errors.</p>
+        <h2>Error:&#160;Installation Failed</h2>
+        <p>
+            <img src="Resources/Images/installation_failed.png" />
+        </p>
+        <p>This error appears when adding the HyperIntelligence for Office add-in xml file to Outlook. It's possible this error appeared because the incorrect manifest file was generated and added to Outlook. MicroStrategy Workstation allows you generate two types of manifest files: an <b>Excel add-in file</b> and an <b>Outlook add-in file</b>. If you accidentally generate the manifest file for Excel and apply it to outlook, the error appears.</p>
+        <h2>Warning: Access Denied</h2>
+        <p>
+            <img src="Resources/Images/warning.png" />
+        </p>
+        <p>This warning appears when you've been denied access to a card's cube or the attributes on the card. To see this card, contact your administrator to obtain the needed ACL permissions.</p>
+        <h2>Warning:&#160;Card Data is Unavailable</h2>
+        <p>
+            <img src="Resources/Images/locale_error.png" />
+        </p>
+        <p>This warning appears when the card's cube is not published. To publish your cube, see the <a href="https://www2.microstrategy.com/producthelp/Current/inmemoryanalytics/webhelp/lang_1033/content/inmemoryanalysis/publishing_intelligent_cubes.htm">In-Memory Analytics Help</a>.</p>
+        <h2>Warning: Locked Keyword Attribute Element</h2>
+        <p>
+            <img src="Resources/Images/lockedattribute.png" />
+        </p>
+        <p>This warning appears when enabling a card with a locked attribute element. To resolve this error, the attribute element must be unlocked in Developer. To unlock an attribute:</p>
+        <ol>
+            <li>In Developer, search for the attribute used to build the card header.</li>
+            <li>Right-click the attribute and click <b>Edit</b>.</li>
+            <li>Click on the <b>Display</b> tab and select the correct attribute form.</li>
+            <li>Under Element display, select <b>Unlocked</b>.</li>
+        </ol>
+        <h2>Warning: Missing Keyword Attribute</h2>
+        <p>
+            <img src="Resources/Images/constraints_error.png" />
+        </p>
+        <p>This error appears when you enable a card that does not have a keyword attribute.&#160;To use HyperIntelligence, cards require a keyword attribute. For instructions, see <MadCap:xref href="create_cards.htm">How to Create Cards.</MadCap:xref></p>
+        <h2>Error: Search Index is corrupted</h2>
+        <p>
+            <img src="Resources/Images/search_index_corrupted.png" />
+        </p>
+        <p>This error  appears when searching for a card while the search index for the project is in a corrupt state. Contact your Administrator to rebuild the search index for the project. For steps, see <a href="https://community.microstrategy.com/s/article/KB482892-How-to-Rebuild-the-Index-of-Quick-Search?language=undefined">How to Rebuild the Index of the Quick Search</a>.</p>
+        <h2>Error:&#160;Keyword Attribute Does Not Exist</h2>
+        <p>
+            <img src="Resources/Images/keyword_does_not_exist.png" />
+        </p>
+        <p>This error appears when you hover over a keyword of a previously enabled card that has been deleted from the cube. Click the <b>Refresh</b> button on the error to refresh the add-in.</p>
+        <h2>Error: Card is Not Available</h2>
+        <p>
+            <img src="Resources/Images/cardisnotavailable.png" />
+        </p>
+        <p>This error appears when you hover over a keyword of a previously enabled card that has been deleted from the cube. Click the <b>Refresh</b> button on the error to refresh the add-in.</p>
+        <h2>Error: No Privileges</h2>
+        <p>
+            <img src="Resources/Images/privilege_error.png" />
+        </p>
+        <p>This error appears if you do not have the Use Hyper Office privilege. All HyperIntelligence for Office users must be assigned the <b>Use Hyper Office</b> privilege directly or as part of a User Group or Security Role. This privilege can be found in this Client-Hyper-Office privilege group.</p>
+        <h2>Error: Your session timed out</h2>
+        <p>
+            <img src="Resources/Images/session_timeout.png" />
+        </p>
+        <p>This error appears when your Library session times out. Log back in to HyperIntelligence or contact your administrator to extend the idle time limit on Library user sessions.</p>
+        <h2>Error:&#160;Server Error</h2>
+        <p>
+            <img src="Resources/Images/IServer_not_connected.png" />
+        </p>
+        <p>This error appears when you try to log in or hover over a keyword attribute while the Intelligence Server is down. Please contact your administrator to restart the Intelligence Server.</p>
+        <h2>Error:&#160;Request failed with status code 502</h2>
+        <p>
+            <img src="Resources/Images/502error.png" />
+        </p>
+        <p>This error appears when you try to log in while the Library Server is down. Please contact your administrator to restart the Library Server.</p>
+        <h2>Warning:&#160;Network Error</h2>
+        <p>
+            <img src="Resources/Images/networkerror.png" />
+        </p>
+        <p>This error appears when you have lost connection to the WiFi. If cards were displayed before the WiFi disconnected, cached card data will appear. Check your network connection to resolve this error.</p>
+        <h2>Issue: The add-in panel is blank on Outlook for Windows</h2>
+        <p>
+            <img src="Resources/Images/blank_error.png" />
+        </p>
+        <p>This issue happens on Outlook for Windows when you open the add-in for the first time. It's likely that Internet Explorer is configured to use Compatibility View to display web app pages. There are a few scenarios where this could be true:</p>
+        <h3>The Library server is in the enterprise's intranet and "Display intranet sites in Compatibility View" is enabled</h3>
+        <p>To resolve this error:</p>
+        <ol>
+            <li>Open Internet Explorer and select <b>Tools</b> &gt; <b>Compatibility View Settings</b>.</li>
+            <li>Uncheck the <b>Display intranet sites in Compatibility View</b> checkbox.</li>
+            <li>Close Internet Explorer.</li>
+            <li>Relaunch Microsoft Outlook. HyperIntelligence should display correctly.</li>
+        </ol>
+        <h3>The Library server's domain is in the compatibility view list</h3>
+        <p>To resolve this error:</p>
+        <ol>
+            <li>Open Internet Explorer and select <b>Tools</b> &gt; <b>Compatibility View Settings</b>.</li>
+            <li>Under Websites you've added to Compatibility View, see if microstrategy.com is listed. If so, select the website and click <b>Remove</b>.</li>
+            <li>Close Internet Explorer.</li>
+            <li>Relaunch Microsoft Outlook. HyperIntelligence should display correctly.</li>
+        </ol>
+        <h3>Enable Protected&#160;Mode is selected</h3>
+        <p>To resolve this error:</p>
+        <ol>
+            <li>Open Internet Explorer and select <b>Tools</b> &gt; <b>Internet Options</b>.</li>
+            <li>Select the <b>Security</b> tab and click <b>Internet</b>.</li>
+            <li>Check the <b>Enable Protected Mode</b> checkbox.</li>
+            <li>Click <b>Restricted Sites</b>.</li>
+            <li>Check the <b>Enable Protected Mode</b> checkbox.</li>
+            <li>Click <b>Apply</b>.</li>
+            <li>Close Internet Explorer.</li>
+            <li>Relaunch Microsoft Outlook. HyperIntelligence should display correctly.</li>
+        </ol>
+        <h2>Issue: Log in screen appears every time HyperIntelligence is opened on Outlook for Mac</h2>
+        <p>If the side panel is not pinned on Outlook for Mac, the user session does not save because the session cookie is secured. The reason for this is that the HyperIntelligence add-in uses embedded browsers, and different browsers handle the secured cookie differently. For Macs, the embedded browser is Safari, and Safari will not keep session cookies when the add-in side panel is closed.</p>
+        <p>To avoid this situation, click the <b>pin</b><img src="Resources/Images/thumbtack.png" /> icon to keep the add-in panel open in Outlook. </p>
+        <h2>Issue: HyperIntelligence add-in is disabled on the toolbar</h2>
+        <p>
+            <img src="Resources/Images/disabled_icon.png" />
+        </p>
+        <p>The add-in becomes disabled when the Reading Pane is disabled. By default, Microsoft Outlook disables add-ins when the Reading Pane is set to Off.</p>
+        <p>To enable the Reading Pane:</p>
+        <ol>
+            <li>Open Outlook and click the <b>View</b> tab.</li>
+            <li>Click the Reading Pane drop-down and select <b>Right</b> or <b>Bottom</b>.</li>
+        </ol>
+        <h2>Issue: Generate Add-in File button is disabled</h2>
+        <p>
+            <img src="Resources/Images/generate_disabled.png" />
+        </p>
+        <p>The add-in is disabled when you try to generate a manifest file from an environment with an HTTP URL. You must use an environment beginning with an HTTPS URL. If your environment is using an HTTPS URL and the button remains disabled, ensure the Library Server is version 2019 Update 2 or newer, and the Intelligence Server is version 2019 or later.</p>
+        <h2>Issue: Unable to click HyperIntelligence button in Outlook</h2>
+        <p>You may find that you are unable to click the HyperIntelligence button in the Outlook ribbon. To troubleshoot, try opening other add-in applications. If none of the applications respond, try restarting Outlook.</p>
+        <h2>Error: Application Error</h2>
+        <p>
+            <img src="Resources/Images/application_error.png" />
+        </p>
+        <p>Using Azure SSO log in may result in this error. </p>
+        <p>The Identity Provider (IDP), in this case Azure SSO, is re-using information that you authenticated earlier (indicated by the "Authentication Instant" in the SAML response). By default, Spring SAML is configured to prevent users from logging in if the authentication instant is older than 30 days. So in this instance, the web server session has expired. As a result, the Service Provider (SP), in this scenario MicroStrategy Web, Library, and Mobile, issues a new SAML authentication request and redirects the user to the IDP to retrieve a new SAML assertion. The IDP assertion is still valid (the configuration is 90 days on Azure's side), and therefore the IDP returns a new SAML response with the original authentication instant. This is problamatic because it is too old for the default configuration of Spring SAML, and it will be redirected to the Library web page with an error.</p>
+        <p>For a workaround to this issue, see <a href="https://community.microstrategy.com/s/article/KB483546-How-to-Refresh-SSO-Sessions-When-Errors-Occur-in-HyperIntelligence-Outlook-and-MicroStrategy-Office-During-Single-Sign-On-Login?language=en_US&amp;t=1569431549142">KB483546</a>.</p>
+        <h2>Error: A problem occurred while trying to reach this add-in</h2>
+        <p>Logging in with Azure SSO&#160;may result in this error. The reason for this HTTP 400 error is a federated domain user name was posted in <span class="code">dsso_edge_username</span> to the Seamless SSO autologin endpoint. The error code is expected because the username was retrieved from the persistent cookie set to the client in previous sign-ins. This error should only appear on a federated domain user in a tenant that has another managed domain with Seamless SSO enabled. MSFT product group is working on fixing the issue.</p>
+        <p>For a workaround to this issue, see <a href="https://community.microstrategy.com/s/article/KB483546-How-to-Refresh-SSO-Sessions-When-Errors-Occur-in-HyperIntelligence-Outlook-and-MicroStrategy-Office-During-Single-Sign-On-Login?language=en_US&amp;t=1569431549142">KB483546</a>.</p>
+        <h2>Issue: Infinite load time on Outlook for Mac</h2>
+        <p>If the add-in is idle for a while on Outlook for Mac, the add-in will display an infinite spinning icon on the screen. This occurs because the window.Office.context.mailbox object becomes undefined, so no text can be extracted from your email box. To resolve this issue, close the add-in app and open it again.</p>
+        <h2>Issue: HyperIntelligence is not supported on New Outlook for Mac</h2>
+        <p>
+            <img src="Resources/Images/off.png" />
+        </p>
+        <p>In the New Outlook for Mac, you can no longer use add-ins. As such, to use HyperIntelligence for Office, turn off the New Outlook setting on Outlook for Mac.&#160;For more information, see <a href="https://support.office.com/en-us/article/the-new-outlook-for-mac-6283be54-e74d-434e-babb-b70cefc77439?ui=en-US&amp;rs=en-US&amp;ad=US">The new Outlook for Mac</a>.</p>
+        <h2>Issue: Icon font does not display correctly in Windows 10</h2>
+        <p>
+            <img src="Resources/Images/incorrectfonticon.png" />
+        </p>
+        <p>In Windows 10, certain icon fonts do not display correctly. This is because of a Windows feature called Untrusted Font Blocking. To resolve this issue, you must disabled Untrusted Font Blocking. You can do so using either Group Policy or Registry Editor.</p>
+        <h3>To Disable Untrusted Font Blocking Using Group Policy</h3>
+        <ol>
+            <li>Open the Group Policy Management Editor.</li>
+            <li>Under Local Computer Policy, open <b>Computer Configuration</b> &gt; <b>Administrative Templates</b>&#160;&gt; <b>System</b> &gt; <b>Mitigation Options</b>.</li>
+            <li>Select <b>Do not block untrusted fonts</b> in the Untrusted Font Blocking setting.</li>
+            <li>Restart your computer for your changes to take affect.</li>
+        </ol>
+        <h3>To Disable Untrusted Font Blocking Using Registry Editor</h3>
+        <ol>
+            <li>Open the Registry Editor (regedit.exe) and go to the following registry subkey:<p class="code">HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Kernel\</p></li>
+            <li>If the <b>MitigationOption</b> key is not there, right-click and add a new QWORD (64-bit) Value. Name it <b>MitigationOptions</b>.</li>
+            <li>Enter <b>2000000000000</b>.</li>
+            <li>Restart your computer for your changes to take affect.</li>
+        </ol>
+    </body>
+</html>

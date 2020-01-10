@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="3"
+  SkinType="Component"
+  Comment="HTML5 Toolbar skin"
+  ComponentType="TopicToolbar"
+  EnableResponsiveOutput="True">
+  <Stylesheet>
+    <Styles>
+      <Style
+        Name="Toolbar">
+        <Properties></Properties>
+      </Style>
+      <Style
+        Name="ToolbarItem">
+        <Classes>
+          <StyleClass
+            Name="RemoveHighlight">
+            <Properties>
+              <Property
+                Name="BorderTop">solid 0px #e1e1e1</Property>
+              <Property
+                Name="BorderRight">solid 0px #e1e1e1</Property>
+              <Property
+                Name="BorderBottom">solid 0px #e1e1e1</Property>
+              <Property
+                Name="BorderLeft">solid 0px #e1e1e1</Property>
+              <Property
+                Name="BackgroundColor">transparent</Property>
+              <Property
+                Name="BackgroundGradient">vertical transparent transparent</Property>
+              <Property
+                Name="BoxShadowVShadow">0px</Property>
+              <Property
+                Name="BoxShadowColor">transparent</Property>
+              <Property
+                Name="Width">25px</Property>
+              <Property
+                Name="Height">25px</Property>
+              <Property
+                Name="BorderTopLeftRadius">0px</Property>
+              <Property
+                Name="BorderTopRightRadius">0px</Property>
+              <Property
+                Name="BorderBottomRightRadius">0px</Property>
+              <Property
+                Name="BorderBottomLeftRadius">0px</Property>
+              <Property
+                Name="BackgroundImage">url('_MouseOverState.png')</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="PDF"
+            Custom="true">
+            <Properties>
+              <Property
+                Name="BackgroundRepeat">no-repeat</Property>
+              <Property
+                Name="BackgroundPosition">center center</Property>
+              <Property
+                Name="Display">block</Property>
+              <Property
+                Name="Click">window.open(buildUrl())</Property>
+              <Property
+                Name="BackgroundGradient">vertical transparent transparent</Property>
+              <Property
+                Name="BackgroundColor">transparent</Property>
+              <Property
+                Name="BackgroundImage">url('file.png')</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
+      </Style>
+      <Medium
+        Name="Tablet">
+        <Style
+          Name="ToolbarItem">
+          <Classes>
+            <StyleClass
+              Name="PDF">
+              <Properties>
+                <Property
+                  Name="BackgroundRepeat">no-repeat</Property>
+                <Property
+                  Name="BackgroundPosition">center center</Property>
+              </Properties>
+            </StyleClass>
+          </Classes>
+        </Style>
+      </Medium>
+      <Medium
+        Name="Mobile">
+        <Style
+          Name="ToolbarItem">
+          <Classes>
+            <StyleClass
+              Name="PDF">
+              <Properties>
+                <Property
+                  Name="BackgroundRepeat">no-repeat</Property>
+                <Property
+                  Name="BackgroundPosition">center center</Property>
+              </Properties>
+            </StyleClass>
+          </Classes>
+        </Style>
+      </Medium>
+    </Styles>
+    <Resources>
+      <Resource
+        Name="Highlight_INV.gif">H4sIAAAAAAAEAB1TfWjVZRR+ggKjkIFR4EcSS4lsop3YlkmWmDprFRZtunZpOk6t7rbMubyy3A0Zw9ZNSrl1UHGNFItYxsA52lwiORnvNGdEMeiW6S7tthZz1vXqejvnff87nHOe83z8fmtKVhc/WlWA+/Ev4O0578V79p68h1XOeSfesXfkHawpzot4YS/kBTbLzrN4Zs/kGbZKzpN4Yk/kCYrk4TzEgz3IAwZs0IqlyzoNu2NPnGPnyDnYWa1EnLATcgJjoU0Wx+yYHMNI6SyJI3ZEjqAcddVBHNiBHGCUTYOSVpZKC6bALim0YukyTJDV+liERGD69KxWzMIkDJOrLLRJLERCUPVKSmcFLCABzAwzS7fVDtUP88YkKZiSVpYwq+ywYiu0YsGcs7bW+ogZZqTq07NaETFBfVW5ykKbDGLAbLZUxGbNaJjr5p3YqtkBC8EUiiEZaVgmxkMM2KBhEdm02B170MTUSNWnZ7Ui2MeBED9CwAgRIoSEEAOC0QhWIpiFYAeCYARJCKQRaCEcRoBGWEZoa53NLBn5uZ1ffb2svOJzKjz+3PrM8MWDpS8MHfkiXvJ8U/6Snvc+bCx88vCWHR+07q6q2tTcHN9YETl85Oj57y9Eo2/09e7NXW3p/LJlW0PldG7wxx+6shNv9h6P3Pina/rGJf/f9b/SoycfoW8fXz6w8olYY2N2aiqVSsXj8fuu33qLsXlIOcD+CcxQ0bfPXXus/dSuGbMefPnssU9Pt+blrzuw9uuO79pmXTi4uXVpx5mtBRsbmo7WVtwR/an8/eryj+5dt2/ypYXV3UNXnt63qHr25e7xwaH9mYaZl/+4mi7dtnL37L6eTXNWyM3hUxW54cHC2mU165+qOVczXDuRzLXlXnytpLFoesPSgbvnLet6pejSqrLOusqd9WXJaGtppH3rWLZlTlHn3N/qt69J3uxJVBZvyebezaQTz5zovSc2+U1J8sCJ+iy2/34mcedo24JY3Uhy5lfp+mlMZVbnGlbtGH8rvXNg/9t1i/b0xTILl6eKRvIqo+9I4lDxw59dG7/48Scdk1ce2PD3rnMFh04uPrt384Lm2G3z+hf/erpt/p7ELyu6x/Ij8ycio01/XmsZS53v79ev4tm78vDY/2IrWcVIBAAA</Resource>
+      <Resource
+        Name="_MouseOverState.png">H4sIAAAAAAAEAAEPA/D8iVBORw0KGgoAAAANSUhEUgAAACgAAAAkCAYAAAD7PHgWAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAArFJREFUeNpi/P//P8NgBkwMgxyMOnDUgaMOJABYaGn4vVdfRR6//ykD48sKsj9REuN+MygcuPTkC5+GbU8bP//4a6QjeYvhynM1Bl4O5nOrk1VCDeT47xFtEKigpjZecuK5j3jZyZvO/Yv/f//J+///P4b/D99o/Fer2/O/Y8fDDFLMonoa7Nz5KKN43aNeYKipbc3OYuBg/QwWlxO6wRCgf3hg02DOijuta86/C4k336bW7NvHwMbyeXDk4jefvrMhO64zsBHDcY/eaTBsuGjLwMfO/IkkwylNb68/fmNz6Lu4EZjm/petrQenN3QMS38gdSD1pJhPNcetOhON1XGP35LvOIoceP7hByWVujNnQY7bdtkXq+N+/OL9D8rJIHV3X34RIcceujgOpJ7cgCC7jANF27E7jngdB1JHieNIdiAoDYFCBOQ4UMLH5jgQhjkO5BlKMyFJxczO6x/dQFWXldI5cMGLDZSvrwdVa7d6g+SKo80lttC1HLz6/LsOiN5+zR7sEGyOW3jS61aSpeh8ajiOJAcevPnOYN7x14kwPtAhDK3bizAcF2IotKYtQLGD7s2tlGX35wIpNWSxyQfDGYzkbjM8fCcJdrCrBt+eKREq1dSsPhmJ7XaCmk/ARsBmXPKaEhwMq5NV2UX4OH/RtUVdteF+RcD0awtBbGDCR5GT5mdlsFDgAYvvyJRgYGdN7Wf4z/iVIKZWXTxt/5MoYJGx9sk7SXDRASw2wBhUQPtPu/r/5ftn/z9+rfr/6WvW/z9/+HAWO2j4K1XKQVABa9K2Ye+nbzxgg0E0yJFAcTD+/PXk/1+/ZIl1FNkOxJtJHn+QlFFt2HsLWezJh9+pdsrrDnKylzIwM31ioDVgJHVs5vO37HZezml5FNrKTTMHjvaLRx046sBRB5IGAAIMAHlMz/Oygc5GAAAAAElFTkSuQmCCqqiH/w8DAAA=</Resource>
+      <Resource
+        Name="PDF.png">H4sIAAAAAAAEAAH8AQP+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC41ZYUyZQAAAXpJREFUOE+dkc1LAkEYxv1LunTuEt37N+rasat5ELHAQsOiD7p5TaIgqFWTFLSkDATFWlNXU1BYDx6UMvBgyNO8s82ww4ZBL/x4P/Z5nxlmXQAkRt2ASh2GwaBsw74ji1q1inqtysrZQTqChWpQ0XVMp1MJTs+B/SNlJnit6E6Dl/IzJpOJBMkE4PYoMwFpHQalYhHj8ViC/AOwuqLMBKR1GBQKBYxGIwmiZ+wGbpajypwgrcPgKf+I4WAgQTiM4ZDl40MgFFK+5ZnWYZDL3aPf73MQ3AUiESCVAi4vAJ+P55kG2UwGPbMHHJwAgQB6PdPCNPkN9KVlZOcWJLdr69xEGqTTKXxt7QAeL7rdDrqdLsPKxQ0/X7IH9R/FsrVMJJM3aLdbaLd+sNV384t86VOv4m17j2cKMpEG8UQM8XgMzUbDgTjd8AZ43fQHea8YEJp2BU27tmH1woBObmyGfr/BLOjBhIkI6pU3+AsS05LgvVBiY9tf+B9wfQNhm0P6RLN5FwAAAABJRU5ErkJggr7MJkz8AQAA</Resource>
+      <Resource
+        Name="file.png">H4sIAAAAAAAEAAGaA2X8iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMvSURBVFhH7ZdLT1NREMdxo1v1Qygvg4lSUVMTkFigL6BYCggGXKhRFxpWBuID0GjUxBhX6kL9BMYHYGJcCEGMSzcKtNy2FGgpBbSFQsvfmXNvw6WU0AtlxyT/tJ17OvM7M3NOcrMS5nGYiwP1Fud4nQXuWtOm5HWYMV5rin/RF7QqYdOzPwbDbrfd6J1rrIKUInC6ok1AOluBAX0B3hfm3FbCb2zumjP7KEBoK7tnMYCLAD4fz0ffiXx0H8tLD0KqM+6lnU9NZAigpygPn3TZ6D95CD26vDtKmvVtOwA+FGZTBXJkiKINILYL4KMuRwWRe1dJt9YyDdCtAlBD9BbldygpV1smAfizl4bw3ZEDAiIhngkxmLrctRCZAmB5KcYvc7GA4EpwOxLi0zFIR/Sr/nAH2tp2KekzC8BiCIoHZ025aMmKyuEj/4itLMpHX0mfeQAWtyOVJuut/Hx62wHWk8hhNwW1AVApJVuZ+Ez2ScJnTPIbFL/iU0k7APXO01AF74U6eOorMWopoQBG8lWSzwFPow2j5hJI1QbFr6w9XyN+J8fTBMC74IBR5xDic7OITQUQeNwlkkVHyBf+Rwoj/L1PAFFgeW0kjMVRp/AlV0IbAJWYd4OlJfjv30LozUvE5+cxdqkJiMUQevsKk+2tiP+dQ3jgG9z0/+WFBQSePoDvSrMSZ3UVtAO0OLBMu/R3tSP0+oVIMHaxEcvRBfg72zF89CCCz58A8Th8V1sQC01jsrONYOhSovap47G0AzTXivJzuWNBbsE9eadUgQTA1LNHYBMA00EBFxnsh1RZSsm2WgFuASULPOwQvXeVn5J9ZNyCiZvXEZ+dQeTnIA2pVVTIT2s9TTZKVLEqHksbAA8hBVp0DmP8xmV52tl3jgdzWB5CGrjIjwE6DdUCIDr0G2PUf3FaVLES0gQgxEdLvr1WpD6adNw4mTiG9GzN2iRpB2CluFS4EvKFQxeUus8p1qq1OYAMagdgB2AHICUA/6CHW341S0cih90047We3q+kp5fTa5l5Od1IHHuWctB3n6tJv0dJL5tkN54ONFhc21kFjh1osLokh7lUzpqV9R/VM+oZKAMUiQAAAABJRU5ErkJggv3eA6KaAwAA</Resource>
+    </Resources>
+    <Stylesheet></Stylesheet>
+  </Stylesheet>
+  <TopicToolbar
+    EnableCustomLayout="true"
+    Buttons="SelectLanguage">
+    <Script></Script>
+  </TopicToolbar>
+  <Strings>
+    <Stylesheet
+      lang="en-us">
+      <Stylesheet>
+        <Styles>
+          <Style
+            Name="ToolbarItem">
+            <Classes>
+              <StyleClass
+                Name="PDF">
+                <Properties>
+                  <Property
+                    Name="Tooltip">Download the PDF</Property>
+                </Properties>
+              </StyleClass>
+            </Classes>
+          </Style>
+        </Styles>
+      </Stylesheet>
+    </Stylesheet>
+  </Strings>
+</CatapultSkin>

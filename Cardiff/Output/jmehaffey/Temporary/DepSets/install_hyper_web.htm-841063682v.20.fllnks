@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="https://chrome.google.com/webstore/detail/microstrategy-hyperintell/ikaoafechdeidffgniffdhdckeclcdhf" />
+    <Link
+      Url="Content/configure_chrome_extension.htm" />
+    <Link
+      Url="Content/install_hyper_web.htm" />
+    <Link
+      Url="https://community.microstrategy.com/s/products" />
+    <Link
+      Url="Content/use_hyperintelligence.htm" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="https://chrome.google.com/webstore/detail/microstrategy-hyperintell/ikaoafechdeidffgniffdhdckeclcdhf" />
+    <Link
+      Url="Content/configure_chrome_extension.htm" />
+    <Link
+      Url="Content/install_hyper_web.htm#uninstall" />
+    <Link
+      Url="https://community.microstrategy.com/s/products" />
+    <Link
+      Url="Content/use_hyperintelligence.htm" />
+  </LongLinks>
+  <Anchors>
+    <Anchor
+      Name="uninstall" />
+  </Anchors>
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

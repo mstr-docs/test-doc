@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/generate_manifest_file.htm" />
+    <Link
+      Url="Content/Resources/Images/hyperoutlook_admin.PNG" />
+    <Link
+      Url="Content/Resources/Images/hyperoutlook_deploy_addin.PNG" />
+    <Link
+      Url="Content/Resources/Images/hyperoutlook_deploy_direct.png" />
+    <Link
+      Url="Content/Resources/Images/HyperOutlook_deployed.PNG" />
+    <Link
+      Url="https://docs.microsoft.com/en-us/office/dev/add-ins/publish/centralized-deployment" />
+    <Link
+      Url="https://community.microstrategy.com/s/article/Using-Azure-Single-Sign-On-to-log-into-the-HyperIntelligence-for-Office-Outlook-add-in-results-in-the-error-A-problem-occurred-while-trying-to-reach-this-add-in" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/generate_manifest_file.htm" />
+    <Link
+      Url="Content/Resources/Images/hyperoutlook_admin.PNG" />
+    <Link
+      Url="Content/Resources/Images/hyperoutlook_deploy_addin.PNG" />
+    <Link
+      Url="Content/Resources/Images/hyperoutlook_deploy_direct.png" />
+    <Link
+      Url="Content/Resources/Images/HyperOutlook_deployed.PNG" />
+    <Link
+      Url="https://docs.microsoft.com/en-us/office/dev/add-ins/publish/centralized-deployment" />
+    <Link
+      Url="https://community.microstrategy.com/s/article/Using-Azure-Single-Sign-On-to-log-into-the-HyperIntelligence-for-Office-Outlook-add-in-results-in-the-error-A-problem-occurred-while-trying-to-reach-this-add-in?language=en_US" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

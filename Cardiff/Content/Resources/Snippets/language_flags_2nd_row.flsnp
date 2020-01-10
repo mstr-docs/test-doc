@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="1243" MadCap:lastWidth="1174">
+    <head>
+    </head>
+    <body>
+        <div>
+            <div class="flags row" MadCap:conditions="MSTR_Docs_Conditions.OnlineOnly">
+                <div class="small-12 medium-3 columns" MadCap:conditions="Language.Chinese (Simplified)">
+                    <p MadCap:conditions="release_type.Platform" style="text-align: center;">
+                        <MadCap:snippetText src="Guide_Links/Translated_Guide_Links/Readmes/10_4_Readme_SZH_link.flsnp" />
+                    </p>
+                    <p MadCap:conditions="release_type.Feature" style="text-align: center;">
+                        <MadCap:snippetText src="Guide_Links/Translated_Guide_Links/Readmes/Readme_SZH_link.flsnp" />
+                    </p>
+                    <p style="text-align: center;">&#160;</p>
+                </div>
+                <div class="small-12 medium-3 columns" MadCap:conditions="Language.English">
+                    <p MadCap:conditions="release_type.Platform" style="text-align: center;">
+                        <MadCap:snippetText src="Guide_Links/Translated_Guide_Links/Readmes/10_4_ Readme_EN.flsnp" />
+                    </p>
+                    <p MadCap:conditions="release_type.Feature" style="text-align: center;">
+                        <MadCap:snippetText src="Guide_Links/Translated_Guide_Links/Readmes/Readme_EN.flsnp" />
+                    </p>
+                    <p style="text-align: center;">&#160;</p>
+                </div>
+                <div class="small-12 medium-3 columns" MadCap:conditions="Language.French">
+                    <p MadCap:conditions="release_type.Platform" style="text-align: center;">
+                        <MadCap:snippetText src="Guide_Links/Translated_Guide_Links/Readmes/10_4_Readme_FR_link.flsnp" />
+                    </p>
+                    <p MadCap:conditions="release_type.Feature" style="text-align: center;">
+                        <MadCap:snippetText src="Guide_Links/Translated_Guide_Links/Readmes/Readme_FR_link.flsnp" />
+                    </p>
+                    <p style="text-align: center;">&#160;</p>
+                </div>
+                <div class="small-12 medium-3 columns" MadCap:conditions="Language.German">
+                    <p MadCap:conditions="release_type.Platform" style="text-align: center;">
+                        <MadCap:snippetText src="Guide_Links/Translated_Guide_Links/Readmes/10_4_Readme_DE_link.flsnp" />
+                    </p>
+                    <p MadCap:conditions="release_type.Feature" style="text-align: center;">
+                        <MadCap:snippetText src="Guide_Links/Translated_Guide_Links/Readmes/Readme_DE_link.flsnp" />
+                    </p>
+                    <p style="text-align: center;">&#160;</p>
+                </div>
+            </div>
+            <div class="flags row" MadCap:conditions="MSTR_Docs_Conditions.OnlineOnly">
+                <div class="small-12 medium-3 columns" MadCap:conditions="Language.Italian">
+                    <p MadCap:conditions="release_type.Platform" style="text-align: center;">
+                        <MadCap:snippetText src="Guide_Links/Translated_Guide_Links/Readmes/10_4_Readme_IT_link.flsnp" />
+                    </p>
+                    <p MadCap:conditions="release_type.Feature" style="text-align: center;">
+                        <MadCap:snippetText src="Guide_Links/Translated_Guide_Links/Readmes/Readme_IT_link.flsnp" />
+                    </p>
+                    <p style="text-align: center;">&#160;</p>
+                </div>
+                <div class="small-12 medium-3 columns" MadCap:conditions="Language.Japanese">
+                    <p MadCap:conditions="release_type.Platform" style="text-align: center;">
+                        <MadCap:snippetText src="Guide_Links/Translated_Guide_Links/Readmes/10_4_Readme_JA_link.flsnp" />
+                    </p>
+                    <p MadCap:conditions="release_type.Feature" style="text-align: center;">
+                        <MadCap:snippetText src="Guide_Links/Translated_Guide_Links/Readmes/Readme_JA_link.flsnp" />
+                    </p>
+                    <p style="text-align: center;">&#160;</p>
+                </div>
+                <div class="small-12 medium-3 columns" MadCap:conditions="Language.Korean">
+                    <p MadCap:conditions="release_type.Platform" style="text-align: center;">
+                        <MadCap:snippetText src="Guide_Links/Translated_Guide_Links/Readmes/10_4_Readme_KO_link.flsnp" />
+                    </p>
+                    <p MadCap:conditions="release_type.Feature" style="text-align: center;">
+                        <MadCap:snippetText src="Guide_Links/Translated_Guide_Links/Readmes/Readme_KO_link.flsnp" />
+                    </p>
+                    <p style="text-align: center;">&#160;</p>
+                </div>
+                <div class="small-12 medium-3 columns" MadCap:conditions="Language.Portuguese">
+                    <p MadCap:conditions="release_type.Platform" style="text-align: center;">
+                        <MadCap:snippetText src="Guide_Links/Translated_Guide_Links/Readmes/10_4_Readme_PT_link.flsnp" />
+                    </p>
+                    <p MadCap:conditions="release_type.Feature" style="text-align: center;">
+                        <MadCap:snippetText src="Guide_Links/Translated_Guide_Links/Readmes/Readme_PT_link.flsnp" />
+                    </p>
+                    <p style="text-align: center;">&#160;</p>
+                </div>
+                <div class="small-12 medium-3 columns" MadCap:conditions="Language.Spanish">
+                    <p MadCap:conditions="release_type.Platform" style="text-align: center;">
+                        <MadCap:snippetText src="Guide_Links/Translated_Guide_Links/Readmes/10_4_Readme_ES_link.flsnp" />
+                    </p>
+                    <p MadCap:conditions="release_type.Feature" style="text-align: center;">
+                        <MadCap:snippetText src="Guide_Links/Translated_Guide_Links/Readmes/Readme_ES_link.flsnp" />
+                    </p>
+                    <p style="text-align: center;">&#160;</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

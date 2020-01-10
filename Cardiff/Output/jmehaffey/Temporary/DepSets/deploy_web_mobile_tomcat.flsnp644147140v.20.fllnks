@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle="Deploying with Tomcat"
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Snippets/Preconfiguration_information_3.htm" />
+    <Link
+      Url="Content/Resources/Snippets/Deploying_MicroStrategy_Web__Mobile_Server__or_Ope_3.htm" />
+    <Link
+      Url="http://www.oracle.com/technetwork/java/index.html" />
+    <Link
+      Url="Content/Resources/Locating_the_WAR_file.htm" />
+    <Link
+      Url="Content/Resources/Resources/Snippets/Guide_Links/MDAG_link.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Preconfiguration_information_4.htm" />
+    <Link
+      Url="Content/Resources/Snippets/Deploying_MicroStrategy_Web__Mobile_Server__or_Ope_4.htm" />
+    <Link
+      Url="http://tomcat.apache.org/download-70.cgi" />
+    <Link
+      Url="http://tomcat.apache.org/download-80.cgi" />
+    <Link
+      Url="Content/Resources/Snippets/deploy_web_mobile_tomcat.flsnp" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Snippets/Preconfiguration_information_3.htm#ic_wuconfig_2660991842_1078717" />
+    <Link
+      Url="Content/Resources/Snippets/Deploying_MicroStrategy_Web__Mobile_Server__or_Ope_3.htm#ic_wuconfig_2660991842_1078777" />
+    <Link
+      Url="http://www.oracle.com/technetwork/java/index.html" />
+    <Link
+      Url="Content/Resources/Locating_the_WAR_file.htm#ic_wuconfig_2660991842_1208239" />
+    <Link
+      Url="Content/Resources/Resources/Snippets/Guide_Links/MDAG_link.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Preconfiguration_information_4.htm#ic_wuconfig_2660991842_1038763" />
+    <Link
+      Url="Content/Resources/Snippets/Deploying_MicroStrategy_Web__Mobile_Server__or_Ope_4.htm#ic_wuconfig_2660991842_1038841" />
+    <Link
+      Url="http://tomcat.apache.org/download-70.cgi" />
+    <Link
+      Url="http://tomcat.apache.org/download-80.cgi" />
+    <Link
+      Url="Content/Resources/Snippets/deploy_web_mobile_tomcat.flsnp#ic_wuconfig_2660991842_1038877" />
+  </LongLinks>
+  <Anchors>
+    <Anchor
+      Name="ic_wuconfig_2660991842_1078717" />
+    <Anchor
+      Name="ic_wuconfig_2660991842_65868" />
+    <Anchor
+      Name="ic_wuconfig_2660991842_1078777" />
+    <Anchor
+      Name="ic_wuconfig_2660991842_54455" />
+    <Anchor
+      Name="ic_wuconfig_2660991842_1078793" />
+    <Anchor
+      Name="ic_wuconfig_2660991842_34533" />
+    <Anchor
+      Name="ic_wuconfig_2660991842_1215380" />
+    <Anchor
+      Name="ic_wuconfig_2660991842_76221" />
+    <Anchor
+      Name="ic_wuconfig_2660991842_1078813" />
+    <Anchor
+      Name="ic_wuconfig_2660991842_10427" />
+    <Anchor
+      Name="ic_wuconfig_2660991842_1078831" />
+    <Anchor
+      Name="ic_wuconfig_2660991842_49749" />
+    <Anchor
+      Name="ic_wuconfig_2660991842_1038763" />
+    <Anchor
+      Name="ic_wuconfig_2660991842_91518" />
+    <Anchor
+      Name="ic_wuconfig_2660991842_1069769" />
+    <Anchor
+      Name="ic_wuconfig_2660991842_41748" />
+    <Anchor
+      Name="ic_wuconfig_2660991842_1072222" />
+    <Anchor
+      Name="ic_wuconfig_2660991842_50041" />
+    <Anchor
+      Name="ic_wuconfig_2660991842_1072342" />
+    <Anchor
+      Name="ic_wuconfig_2660991842_97097" />
+    <Anchor
+      Name="ic_wuconfig_2660991842_1072345" />
+    <Anchor
+      Name="ic_wuconfig_2660991842_43233" />
+    <Anchor
+      Name="ic_wuconfig_2660991842_1038841" />
+    <Anchor
+      Name="ic_wuconfig_2660991842_75896" />
+    <Anchor
+      Name="ic_wuconfig_2660991842_34539" />
+    <Anchor
+      Name="ic_wuconfig_2660991842_36223" />
+    <Anchor
+      Name="ic_wuconfig_2660991842_1038857" />
+    <Anchor
+      Name="ic_wuconfig_2660991842_37126" />
+    <Anchor
+      Name="ic_wuconfig_2660991842_1038877" />
+    <Anchor
+      Name="ic_wuconfig_2660991842_96344" />
+  </Anchors>
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

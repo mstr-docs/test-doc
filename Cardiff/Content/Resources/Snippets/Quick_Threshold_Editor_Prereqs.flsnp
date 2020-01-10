@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="reqs">
+            <p>Your dossier must contain one of the following: </p>
+            <ul>
+                <li>A grid visualization with a metric in the <b>Metrics</b> area of the Editor panel. </li>
+                <li>A network visualization with a metric in the <b>Edge Color</b> area of the Editor panel. <MadCap:keyword term="Network visualization:threshold;threshold:Network visualization" /></li>
+                <li>A graph, heat map, or map visualization with a metric in the <b>Color By</b> area of the Editor panel.<MadCap:keyword term="ESRI Map visualization:threshold;threshold:ESRI Map visualization" /><MadCap:keyword term="Graph visualization:threshold;threshold:Graph visualization" /><MadCap:keyword term="Heat Map visualization:threshold;threshold:Heat Map visualization" /></li>
+            </ul>
+        </div>
+    </body>
+</html>

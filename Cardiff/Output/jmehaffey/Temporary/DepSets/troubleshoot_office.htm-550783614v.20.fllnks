@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Images/installation_failed.png" />
+    <Link
+      Url="Content/Resources/Images/warning.png" />
+    <Link
+      Url="Content/Resources/Images/locale_error.png" />
+    <Link
+      Url="https://www2.microstrategy.com/producthelp/Current/inmemoryanalytics/webhelp/lang_1033/content/inmemoryanalysis/publishing_intelligent_cubes.htm" />
+    <Link
+      Url="Content/Resources/Images/lockedattribute.png" />
+    <Link
+      Url="Content/Resources/Images/constraints_error.png" />
+    <Link
+      Url="Content/create_cards.htm" />
+    <Link
+      Url="Content/Resources/Images/search_index_corrupted.png" />
+    <Link
+      Url="https://community.microstrategy.com/s/article/KB482892-How-to-Rebuild-the-Index-of-Quick-Search" />
+    <Link
+      Url="Content/Resources/Images/keyword_does_not_exist.png" />
+    <Link
+      Url="Content/Resources/Images/cardisnotavailable.png" />
+    <Link
+      Url="Content/Resources/Images/privilege_error.png" />
+    <Link
+      Url="Content/Resources/Images/session_timeout.png" />
+    <Link
+      Url="Content/Resources/Images/IServer_not_connected.png" />
+    <Link
+      Url="Content/Resources/Images/502error.png" />
+    <Link
+      Url="Content/Resources/Images/networkerror.png" />
+    <Link
+      Url="Content/Resources/Images/blank_error.png" />
+    <Link
+      Url="Content/Resources/Images/thumbtack.png" />
+    <Link
+      Url="Content/Resources/Images/disabled_icon.png" />
+    <Link
+      Url="Content/Resources/Images/generate_disabled.png" />
+    <Link
+      Url="Content/Resources/Images/application_error.png" />
+    <Link
+      Url="https://community.microstrategy.com/s/article/KB483546-How-to-Refresh-SSO-Sessions-When-Errors-Occur-in-HyperIntelligence-Outlook-and-MicroStrategy-Office-During-Single-Sign-On-Login" />
+    <Link
+      Url="Content/Resources/Images/off.png" />
+    <Link
+      Url="https://support.office.com/en-us/article/the-new-outlook-for-mac-6283be54-e74d-434e-babb-b70cefc77439" />
+    <Link
+      Url="Content/Resources/Images/incorrectfonticon.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Images/installation_failed.png" />
+    <Link
+      Url="Content/Resources/Images/warning.png" />
+    <Link
+      Url="Content/Resources/Images/locale_error.png" />
+    <Link
+      Url="https://www2.microstrategy.com/producthelp/Current/inmemoryanalytics/webhelp/lang_1033/content/inmemoryanalysis/publishing_intelligent_cubes.htm" />
+    <Link
+      Url="Content/Resources/Images/lockedattribute.png" />
+    <Link
+      Url="Content/Resources/Images/constraints_error.png" />
+    <Link
+      Url="Content/create_cards.htm" />
+    <Link
+      Url="Content/Resources/Images/search_index_corrupted.png" />
+    <Link
+      Url="https://community.microstrategy.com/s/article/KB482892-How-to-Rebuild-the-Index-of-Quick-Search?language=undefined" />
+    <Link
+      Url="Content/Resources/Images/keyword_does_not_exist.png" />
+    <Link
+      Url="Content/Resources/Images/cardisnotavailable.png" />
+    <Link
+      Url="Content/Resources/Images/privilege_error.png" />
+    <Link
+      Url="Content/Resources/Images/session_timeout.png" />
+    <Link
+      Url="Content/Resources/Images/IServer_not_connected.png" />
+    <Link
+      Url="Content/Resources/Images/502error.png" />
+    <Link
+      Url="Content/Resources/Images/networkerror.png" />
+    <Link
+      Url="Content/Resources/Images/blank_error.png" />
+    <Link
+      Url="Content/Resources/Images/thumbtack.png" />
+    <Link
+      Url="Content/Resources/Images/disabled_icon.png" />
+    <Link
+      Url="Content/Resources/Images/generate_disabled.png" />
+    <Link
+      Url="Content/Resources/Images/application_error.png" />
+    <Link
+      Url="https://community.microstrategy.com/s/article/KB483546-How-to-Refresh-SSO-Sessions-When-Errors-Occur-in-HyperIntelligence-Outlook-and-MicroStrategy-Office-During-Single-Sign-On-Login?language=en_US&amp;t=1569431549142" />
+    <Link
+      Url="Content/Resources/Images/off.png" />
+    <Link
+      Url="https://support.office.com/en-us/article/the-new-outlook-for-mac-6283be54-e74d-434e-babb-b70cefc77439?ui=en-US&amp;rs=en-US&amp;ad=US" />
+    <Link
+      Url="Content/Resources/Images/incorrectfonticon.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

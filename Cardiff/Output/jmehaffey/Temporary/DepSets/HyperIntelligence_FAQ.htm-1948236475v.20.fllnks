@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/TableStyles/table_from_MSTR_website.css" />
+    <Link
+      Url="Content/HyperIntelligence_Chrome_Extension.htm" />
+    <Link
+      Url="Content/Resources/Images/FAQ.png" />
+    <Link
+      Url="Content/Resources/Images/enabled_extension.png" />
+    <Link
+      Url="Content/Resources/Images/FAQ_2.png" />
+    <Link
+      Url="Content/create_cards.htm" />
+    <Link
+      Url="Content/Resources/Images/FAQ_3.png" />
+    <Link
+      Url="Content/Resources/Images/logs_hyper_web.png" />
+    <Link
+      Url="Content/prereq_hyperintelligence.htm" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/TableStyles/table_from_MSTR_website.css" />
+    <Link
+      Url="Content/HyperIntelligence_Chrome_Extension.htm" />
+    <Link
+      Url="Content/Resources/Images/FAQ.png" />
+    <Link
+      Url="Content/Resources/Images/enabled_extension.png" />
+    <Link
+      Url="Content/Resources/Images/FAQ_2.png" />
+    <Link
+      Url="Content/create_cards.htm" />
+    <Link
+      Url="Content/Resources/Images/FAQ_3.png" />
+    <Link
+      Url="Content/Resources/Images/logs_hyper_web.png" />
+    <Link
+      Url="Content/prereq_hyperintelligence.htm" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/table_from_MSTR_website.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

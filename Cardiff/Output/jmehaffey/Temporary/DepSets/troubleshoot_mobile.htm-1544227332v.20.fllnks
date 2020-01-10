@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Images/historylisterror.png" />
+    <Link
+      Url="Content/Resources/Images/SSL1.png" />
+    <Link
+      Url="Content/Resources/Images/SSL2.png" />
+    <Link
+      Url="Content/Resources/Images/invalidenv.png" />
+    <Link
+      Url="Content/Resources/Images/servercanotreach.png" />
+    <Link
+      Url="Content/Resources/Images/servercannotbereached.png" />
+    <Link
+      Url="Content/Resources/Images/cardnotavailable_error.png" />
+    <Link
+      Url="Content/HyperMobile_FAQ.htm" />
+    <Link
+      Url="Content/Resources/Images/noaccess1.png" />
+    <Link
+      Url="Content/Resources/Images/noaccess2.png" />
+    <Link
+      Url="https://www2.microstrategy.com/producthelp/Current/SystemAdmin/WebHelp/Lang_1033/Content/List_of_all_privileges.htm" />
+    <Link
+      Url="Content/Resources/Images/datalang.png" />
+    <Link
+      Url="Content/How_to_access_cards.htm" />
+    <Link
+      Url="Content/Resources/Images/loading_disabled_cards.png" />
+    <Link
+      Url="Content/Resources/Images/android_error1.png" />
+    <Link
+      Url="Content/Resources/Images/android_error2.png" />
+    <Link
+      Url="Content/Resources/Images/android_error3.png" />
+    <Link
+      Url="Content/Resources/Images/android_error3.5.png" />
+    <Link
+      Url="Content/Resources/Images/android_error5.png" />
+    <Link
+      Url="https://support.google.com/calendar/answer/6261951" />
+    <Link
+      Url="Content/calendar_tab.htm" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Images/historylisterror.png" />
+    <Link
+      Url="Content/Resources/Images/SSL1.png" />
+    <Link
+      Url="Content/Resources/Images/SSL2.png" />
+    <Link
+      Url="Content/Resources/Images/invalidenv.png" />
+    <Link
+      Url="Content/Resources/Images/servercanotreach.png" />
+    <Link
+      Url="Content/Resources/Images/servercannotbereached.png" />
+    <Link
+      Url="Content/Resources/Images/cardnotavailable_error.png" />
+    <Link
+      Url="Content/HyperMobile_FAQ.htm" />
+    <Link
+      Url="Content/Resources/Images/noaccess1.png" />
+    <Link
+      Url="Content/Resources/Images/noaccess2.png" />
+    <Link
+      Url="https://www2.microstrategy.com/producthelp/Current/SystemAdmin/WebHelp/Lang_1033/Content/List_of_all_privileges.htm" />
+    <Link
+      Url="Content/Resources/Images/datalang.png" />
+    <Link
+      Url="Content/How_to_access_cards.htm#ios_spotlight" />
+    <Link
+      Url="Content/Resources/Images/loading_disabled_cards.png" />
+    <Link
+      Url="Content/Resources/Images/android_error1.png" />
+    <Link
+      Url="Content/Resources/Images/android_error2.png" />
+    <Link
+      Url="Content/Resources/Images/android_error3.png" />
+    <Link
+      Url="Content/Resources/Images/android_error3.5.png" />
+    <Link
+      Url="Content/Resources/Images/android_error5.png" />
+    <Link
+      Url="https://support.google.com/calendar/answer/6261951" />
+    <Link
+      Url="Content/calendar_tab.htm" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

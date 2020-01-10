@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="MSTR_Tool.Hyper">
+    <head>
+    </head>
+    <body>
+        <h1>Add Images to Cards</h1>
+        <p>The Profile template allows you to add images to your cards. You have two options for adding images:</p>
+        <ul>
+            <li>
+                <MadCap:xref href="#html_tags">Using HTML Image Tags</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#URLs">Using Image URLs</MadCap:xref>
+            </li>
+        </ul>
+        <p>HyperIntelligence supports JPEG, PNG,  or GIF formats. For optimal resolution, use square or circular images that are at least 80 x 80 pixels for your cards. Any values below this image will affect the image's resolution. </p>
+        <p>Additionally, images must be stored on a public repository, such as a&#160;website or storage drive that is open to the Internet. If the website or drive requires a log in or has a firewall blocking access to the Internet, images may not load properly in the card.</p>
+        <div>
+            <h2><a name="html_tags"></a>Using HTML Image Tags</h2>
+            <p>One way to add images to your Profile cards is by including an HTML img tag to your attributes. Tags are displayed as <span class="code">&lt;img src=“example_path”&gt;, </span>where <span class="code">"example_path"</span> is an image URL. Before importing your data, add a column called Images containing the image tags.</p>
+            <ol>
+                <li>
+                    <p>Create a dataset with a column specifically for images. Add your HTML img tags to this column.</p>
+                    <p>
+                        <img src="Resources/Images/img_tags.png" style="width: 672px;height: 589px;" />
+                    </p>
+                </li>
+                <li>From the Workstation navigation, next to Datasets, click <b>Create New Dataset</b>.</li>
+                <li>Upload your dataset to Workstation and click <b>Prepare Data</b>.</li>
+                <li>Create a multi-form attribute that contains the Image column as form. For steps to create a multi-form attribute, see <MadCap:xref href="Hyper_keyword_attributes.htm">Map Additional Information to Keyword Attributes</MadCap:xref>.<p><img src="Resources/Images/example.png" style="width: 880px;height: 477px;" /></p></li>
+                <li>Right-click the Image form and select <b>Change Data Type</b> &gt; <b>HTML&#160;Tag</b>.</li>
+                <li>Click <b>Finish</b>.</li>
+            </ol>
+            <p>Now in a Profile card, you can click the image bubble and select the Image form. The Image form may appear as Synonym X. To see an example of adding HTML&#160;image tags, see <a href="https://community.microstrategy.com/s/article/KB483140-Example-of-Adding-Images-to-HyperCards?language=en_US">KB483140: Best Practices and an Example of Adding Images to HyperCards</a>. </p>
+        </div>
+        <h2><a name="URLs"></a>Using Image URLs</h2>
+        <p>To use image URLs, you have to create a dataset specific for Profile cards. In your dataset, set the attribute form type to image using MicroStrategy Developer to add the information to the database. </p>
+        <p>There are five&#160;overarching steps to use image URLS:</p>
+        <ol>
+            <li>
+                <MadCap:xref href="#Create_tables">Create Tables Using the MicroStrategy Database Query Tool</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#add_table">Add the Table to Your Warehouse Catalog</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#Create_attributes">Create an Image Attribute</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#Create_metrics">Create Metrics for Your Dataset</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#cube">Create an OLAP Cube</MadCap:xref>
+            </li>
+        </ol>
+        <div>
+            <p class="Note">The following instructions assume you have a Cloud Console environment.</p>
+        </div>
+        <h3><a name="Create_tables"></a>Create Tables Using the MicroStrategy Database Query Tool</h3>
+        <ol>
+            <li>Using Remote Desktop, connect to your developer machine.</li>
+            <li>
+                <p>Connect to your VNC instance using the login information from the <i>Welcome to MicroStrategy on AWS</i> email.</p>
+            </li>
+            <li>Go to <b>Applications</b> &gt; <b>System Tools</b> &gt;&#160;<b>Terminal</b>.</li>
+            <li>Open the folder containing the MicroStrategy Database Query Tool by entering the following command:<div class="sdk_code"><pre>cd /opt/mstr/MicroStrategy/bin/</pre></div></li>
+            <li>Run the query tool by using the command:<div class="sdk_code"><pre>./mstrdbquerytool</pre></div></li>
+            <li>Log into your metadata warehouse using your environment's username and password in the <i>Getting Started with MicroStrategy</i> email.</li>
+            <li>
+                <p>Create a table called <b>ImageTable1</b>. </p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>How do I create a new table in my database?</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>To add a table to the MicroStrategy database, the following query can be used:</p>
+                        <div class="sdk_code"><pre>CREATE TABLE IF NOT EXISTS `[table name]` (
+	`[main ID name]` [data type] NOT NULL auto_increment,
+	`[column1 name]` [data type],
+	`[column2 name]` [data type],
+			…..
+	`[columnX name]` [data type],
+	PRIMARY KEY(`[main ID name]`)
+);
+</pre>
+                        </div>
+                        <p>Replace <span class="code">data type</span> with your selected data type, such as:</p>
+                        <ul>
+                            <li><span class="code">int(#)</span>: Specifies a positive or negative integer. The <span class="code">#</span> must be between 1 and 11 and specify how many digits the integer can have. </li>
+                            <li><span class="code">varchar(#)</span>: Specifies a variable-length string of any text. The <span class="code">#</span> must be between 1 and 255 and specify how many characters the string can have. </li>
+                            <li><span class="code">numeric(S,D)</span>: Specifies a positive or negative decimal number. The <span class="code">S</span> is the number of significant digits that can be displayed and <span class="code">D</span> is the number of decimals included in the number.  It’s recommended this datatype is used for data that must avoid rounding errors, such as financial data.</li>
+                        </ul>
+                        <p><span class="code">NOT NULL</span> can also be added to the end of any line to require the column to have a value. The <span class="code">IF NOT EXISTS</span> portion can be omitted; however, this prevents an existing table from being overwritten. </p>
+                        <p>The <span class="code">`[main ID name]` [data type] NOT NULL auto_increment,</span> creates a unique value to identify each row that automatically increases. This line can be omitted; however, a different column must have unique values to act as the primary key.</p>
+                        <p>The <span class="code">PRIMARY KEY(`[main ID name]`)</span> is a required line that must name a <span class="code">NOT NULL</span> column. All values are required to be unique.</p>
+                        <p>An example query is:</p>
+                        <div class="sdk_code"><pre>CREATE TABLE IF NOT EXISTS `employees` (
+		`mainid` int(11) NOT NULL auto_increment,
+		`name` varchar(255),
+		`salary` numeric(8,2),
+		PRIMARY KEY(`mainid `)
+);
+</pre><pre>
+CREATE TABLE IF NOT EXISTS `employees2` (
+		`employeeID` int(6) NOT NULL,
+		`name` varchar(255),
+		`salary` numeric(8,2),
+		PRIMARY KEY(`employeeID`)
+);
+</pre>
+                        </div>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </li>
+            <li>
+                <p>Add a row for your image URLs.</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>How do I add a row to my table?</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>A query to add a table is:</p>
+                        <div class="sdk_code"><pre>INSERT INTO [tablename] ([column1 name],[column2 name],…,[column name]) VALUES ('value1','value2',…,'valueX');</pre>
+                        </div>
+                        <p>Values must appear in the same order as their column names. When adding values, text values require apostrophes. </p>
+                        <p>For example:</p>
+                        <div class="sdk_code"><pre>INSERT INTO employees (name,salary) VALUES (‘John Smith’,50000.00);</pre><pre>INSERT INTO employees2 (employeeID,name,salary) VALUES (15000,’John Smith’,50000.00);</pre>
+                        </div>
+                        <p>If your table contains an auto_increment column, omit it from the query.</p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <p>
+                    <img src="Resources/Images/table_sql_query.png" style="width: 982px;height: 735px;" />
+                </p>
+            </li>
+        </ol>
+        <h3><a name="add_table"></a>Add the Table to Your Warehouse Catalog</h3>
+        <ol>
+            <li>
+                <p>Open MicroStrategy Developer and select your project.</p>
+                <MadCap:snippetBlock src="Resources/Snippets/admin_rights_windows.flsnp" />
+            </li>
+            <li>Click <b>Schema</b> &gt; <b>Warehouse Catalog</b>.</li>
+            <li>Under Tables available in the database instance, double-click <b>ImageTable1</b>. Your table is now in your project.<div><p class="Note">If your table does not appear, click <b><img src="Resources/Images/refresh_lightening.png" /> Refresh</b>.</p><p><img src="Resources/Images/catalog.png" style="width: 611px;height: 368px;" /></p></div></li>
+            <li>Click <b>Save and Close</b>.</li>
+        </ol>
+        <h3><a name="Create_attributes"></a>Create an Image Attribute</h3>
+        <ol>
+            <li>In your project, open the folder containing your attributes.</li>
+            <li>Click <b>File</b> &gt; <b>New</b>&#160;&gt; <b>Attribute</b>.</li>
+            <li>In the New Expression Form editor, click the drop-down and select <b>ImageTable1</b>.</li>
+            <li>Under Available columns, select an attribute ID and click <b>OK</b>.<div class="Warning"><p>Do not select the Image column.</p></div></li>
+            <li>In the Create New Attribute Form editor, under Form Category, use the drop-down and set <b>Category Used</b> to <b>ID</b>. </li>
+            <li>Click <b>New</b> to create another attribute form. This is the DESC form of the attribute.</li>
+            <li>In the New Expression Form editor, click the drop-down and select <b>ImageTable1</b>. </li>
+            <li>
+                <p>Under Available columns, select an attribute DESC and click <b>OK</b>.<div class="Warning"><p>Do not select the Image column. </p></div></p>
+            </li>
+            <li>In the Create New Attribute Form editor, under Form Category, use the drop-down and set <b>Category Used</b> to <b>DESC</b>. </li>
+            <li>Click <b>New</b> to create another attribute form. This is the Image form of the attribute.</li>
+            <li>In the New Expression Form editor, click the drop-down and select <b>ImageTable1</b>.</li>
+            <li>Under Available columns, select the Image column and click <b>OK</b>.</li>
+            <li>In the Create New Attribute Form editor, under Form Category, use the drop-down and set <b>Form&#160;Format</b> to <b>Picture</b>. </li>
+            <li>Click <b>OK</b>.</li>
+            <li>Click <b>Save and Close</b>.<div><p class="Note">You can create multiple image attributes.</p></div></li>
+        </ol>
+        <h3><a name="Create_metrics"></a>Create Metrics for Your Dataset</h3>
+        <ol>
+            <li>In your project, open the folder containing your metrics.</li>
+            <li>Click <b>File</b> &gt; <b>New</b>&#160;&gt; <b>Fact</b>.</li>
+            <li>In the New Fact Expression editor, click the drop-down and select <b>ImageTable1</b>.</li>
+            <li>Under Available columns, select a column to use as a fact and click <b>OK</b>.</li>
+            <li>Click <b>Save and Close</b>. Repeat these steps to add all intended metric values as facts.</li>
+            <li>Click <b>File</b> &gt;&#160;<b>New</b> &gt;&#160;<b>Metric</b>.</li>
+            <li>Open the folder where you saved your facts. Double-click a fact to add it to the metric as a <span class="code">Sum</span> value.<p><img src="Resources/Images/facts.png" style="width: 466px;height: 332px;" /></p></li>
+            <li>Click <b>Save and Close</b>. Create as many metrics as needed for your dataset.</li>
+        </ol>
+        <h3><a name="cube"></a>Create an OLAP Cube</h3>
+        <ol>
+            <li>Open the folder you'd like to store your cube in. </li>
+            <li>Click <b>File</b> &gt;&#160;<b>New</b>&#160;&gt;&#160;<b>Intelligence Cube</b>. </li>
+            <li>Select <b>Empty Cube</b> and click <b>OK</b>.</li>
+            <li>Open the folder where you’ve saved your attributes and metrics. Double-click the attributes and metrics you want in your cube. </li>
+            <li>Click <b>Save and Close</b>.</li>
+            <li>Click <b>Update Schema</b> <img src="Resources/Images/Update Schema icon.PNG" />.</li>
+            <li>Publish the cube.</li>
+        </ol>
+        <p>Now you can create Profile cards using your OLAP cube to include images. In the Profile card, click the image bubble and select the Image form. The Image form may appear as “Synonym X”.</p>
+    </body>
+</html>

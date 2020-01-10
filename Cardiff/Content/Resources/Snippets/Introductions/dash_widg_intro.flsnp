@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="268" MadCap:lastWidth="1229">
+    <head>
+    </head>
+    <body>
+        <p>This guide is the primary resource for you to use to learn about designing and creating MicroStrategy dashboards, which are displays that are optimized for online viewing and user interactivity. This guide includes information about:
+
+</p>
+        <ul>
+            <li>Dashboards: Simple visualizations and pre-defined, presentation-quality formatting allow you to quickly display your data in a visually-striking, interactive dashboard. You can create business attributes and metrics on-the-fly based on calculations on data that you have added to the dashboard, examine the underlying data for selected items in a visualization, and more. You can easily create filters for your data, add text, images, and web page content, select from pre-defined display themes, and organize your data to make it easy for users to analyze relationships at-a-glance.
+</li>
+            <li>Dashboard-style documents: A broad selection of widgets and a wide variety of formatting options allow you to design a customized, interactive display of your data. Dashboard-style documents provide the freedom to design a presentation pixel-by-pixel, in multiple editing and previewing modes. The abundant design options deliver full control over position, formatting, and interactivity. This guide builds on the basic concepts about documents presented in the <MadCap:snippetText src="../Guide_Links/DCG_link.flsnp" />.</li>
+        </ul>
+    </body>
+</html>

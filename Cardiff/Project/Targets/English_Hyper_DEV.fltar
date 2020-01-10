@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="HyperIntelligence Help"
+  Type="WebHelp2"
+  Destinations=""
+  MasterStylesheet="/Content/Resources/Stylesheets/main.css"
+  GenerateWebSafeImages="false"
+  WebSafeFileExtension="gif"
+  ReplaceSpacesWithUnderscores="true"
+  UseCustomTopicFileExtension="true"
+  CustomTopicFileExtension="htm"
+  EnableSitemap="false"
+  MasterToc="/Project/TOCs/Hyper.fltoc"
+  ConditionTagExpression="include[MSTR_Docs_Conditions.OnlineOnly or MSTR_Tool.Hyper or MSTR_Tool.Workstation] exclude[Default.PrintOnly or &quot;MSTR_Docs_Conditions.Archive Banner&quot; or MSTR_Docs_Conditions.Deprecated or MSTR_Docs_Conditions.Development or MSTR_Docs_Conditions.PrintOnly or MSTR_Guides.InstallConfig or MSTR_Guides.Library or MSTR_Guides.SystemAdmin or MSTR_Guides.Upgrade or MSTR_Tool.ARG or MSTR_Tool.AWS or MSTR_Tool.BRG or MSTR_Tool.CmdMgr or MSTR_Tool.DAWG or MSTR_Tool.DCG or MSTR_Tool.Desktop or MSTR_Tool.Desktop_NEW or MSTR_Tool.FuncRef or MSTR_Tool.ICG or MSTR_Tool.IMA or MSTR_Tool.IntroMSTR or MSTR_Tool.Lib or MSTR_Tool.MDX or MSTR_Tool.Mobile or MSTR_Tool.Office or MSTR_Tool.PA or MSTR_Tool.PDG or MSTR_Tool.R or MSTR_Tool.SystemAdmin or MSTR_Tool.UPG or MSTR_Tool.UsherAdmin or MSTR_Tool.UsherBadge or MSTR_Tool.Web or MSTR_Tool.WebAdmin or MSTR_Docs_Conditions.hasPDF] "
+  SitemapWebUrl=""
+  IncludeGlossarySearchResults="false"
+  OutputFile="index"
+  UseDeviceWidth="false"
+  PreCompileScaledImages="false"
+  TopicToolbarSkin="/Project/Skins/Toolbar_NewLook_PDF.flskn"
+  MasterStylesheetOverride="true"
+  TopNavTocPath="true"
+  MasterPage="/Content/Resources/MasterPages/OnlineHelp-Main.flmsp"
+  MinifyJavaScript="false"
+  ExcludeUnreferencedContent="true"
+  MoveOutputContentToRoot="false"
+  Skin="(none)"
+  GetLatestBeforeCompile="false"
+  EquationsOutputType="SVG"
+  CentralLinkIds=""
+  TargetLanguage="en-us"
+  MenuSkin="/Project/Skins/in_topic_menu.flskn"
+  GenerateAllSkins="false"
+  ChunkTOC="false">
+  <PrintedOutput
+    CollapseMargins="true"
+    OutputFormat="doc" />
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/Hyper-HTML5-DEV.fldes"
+      Publish="true" />
+  </Destinations>
+  <Glossaries></Glossaries>
+  <Variables>
+    <Variable
+      Name="Company_ProductNames/VizTool">Workstation</Variable>
+    <Variable
+      Name="MSTR_Default_Variables/ProductNameShort">HyperIntelligence</Variable>
+  </Variables>
+  <PostBuild></PostBuild>
+  <MetaTags>
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge" />
+    <meta
+      name="description"
+      content="With HyperIntelligence™, zero-click insights are now available everywhere, all the time, for everyone.  " />
+    <meta
+      name="keywords"
+      content="HyperIntelligence, HyperIntelligence for Mobile, HyperIntelligence for Office, MicroStrategy, Business Intelligence, documentation, Data Analysis, zero-click insights, help, 2019" />
+  </MetaTags>
+</CatapultTarget>

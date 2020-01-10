@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h2>Simple and Fast Deployment</h2>
+        <p>With just a few clicks, organizations can deploy fully configured enterprise environments. Most instances can be up and running in just 30 minutes. This saves users time and money by eliminating the need to download, install, and configure environments themselves. Users can choose from different instance types and sizes based on their budget and usage requirements.</p>
+        <h2>Flexible and Easy to Maintain</h2>
+        <p>Customers that deploy a MicroStrategy project on the cloud can dynamically start, stop, restart, and resize their environments. Organizations can reduce costs by stopping their environments during non-peak hours. Easily monitor and manage the environment with real-time notifications, automation, and scheduling.</p>
+        <h2>Scalable</h2>
+        <p>Scale the environment up or down based on usage from the Cloud Console with a click of a button or via a user&#8209;defined schedule, without a long&#8209;term commitment. Customers can choose from several different instance size options. Organizations can add new users at any time, deploy multiple environments and projects as they see fit, and pay only for what they use.</p>
+    </body>
+</html>

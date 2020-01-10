@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="105" MadCap:lastWidth="984">
+    <body>
+        <p class="Note_Indent_2x">If you color other graphs and heat maps using the same attribute, each attribute value displays the same color across all graphs and heat maps. <MadCap:variable name="Company_ProductNames.VizTool" /> automatically selects the colors based on the color palette, but you can select a color for each attribute value.</p>
+    </body>
+</html>

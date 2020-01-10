@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Before installing Platform Analytics on a Windows or Linux machine, ensure that all of the following prerequisites are met.</p>
+        <ul>
+            <li>The following ports must be open and available in the machines where you will install the Telemetry Server(s) and Platform Analytics:<ul><li>2181</li><li>2888 and 3888 (only if you plan to cluster three or more Telemetry Servers)</li><li>5432</li><li>6379</li><li>9092</li></ul></li>
+            <li>You must create a MicroStrategy user in the group <b>System Monitors</b> &gt; <b>System Administrators</b> or have access to the default Administrator user.</li>
+            <li>For an estimation of resource requirements for stable and performant operation of the Telemetry Store (previously called Platform Analytics Consumer) architecture under a consistent transactional load, see <a href="https://community.microstrategy.com/s/article/KB482872-Capacity-Planning-for-Platform-Analytics">KB482872: Capacity Planning for Platform Analytics</a>.</li>
+        </ul>
+    </body>
+</html>

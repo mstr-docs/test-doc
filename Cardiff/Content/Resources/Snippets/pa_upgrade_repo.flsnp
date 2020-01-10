@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>After installing Platform Analytics, there is a Platform Analytics Repository (Platform Analytics warehouse table) where you can create the Platform Analytics project on your local machine.
+
+You can upgrade the repository to benefit from new features and enhancements in the most 
+ recent release of MicroStrategy.</p>
+        <p>The Configuration Wizard provides the following options:</p>
+        <ul>
+            <li><b>Host</b>: Type the host name of the Platform Analytics warehouse. By default, this is set to the last successful connection value.</li>
+            <li><b>Port</b>: Type the port number of the Platform Analytics warehouse. By default, this is set to the last successful connection value.</li>
+            <li><b>User Name</b>: Type the  user name for the Platform Analytics warehouse. By default, this is set to the value from <code>PAConsumerConfig.yaml</code> file</li>
+            <li><b>Password</b>:  Type the password for the Platform Analytics warehouse user.</li>
+        </ul>
+        <div class="Note">
+            <p>Depending on the warehouse type you choose for the Host and Port, you must set the parameter <span class="code">whDbType</span> to either <span class="code">"postgresql"</span> or <span class="code">"mysql"</span> in the <code>PAConsumerConfig.yaml</code> file. </p>
+            <p>The default path is:</p>
+            <ul>
+                <li>Linux: <code>/opt/MicroStrategy/PlatformAnalytics/Conf</code></li>
+                <li>Windows: <code>C:\Program Files (x86)\MicroStrategy\Platform Analytics\conf</code></li>
+            </ul>
+        </div>
+        <p>Click <span style="font-weight: bold;">Next</span> to proceed.</p>
+        <p>You can also update the Platform Analytics repository using the Configuration Wizard in interactive mode.</p>
+        <h2>How to Update the Repository in Interactive Mode</h2>
+        <ul class="tabs">
+            <li class="tab-link current" data-tab="tab-1">Windows</li>
+            <li class="tab-link" data-tab="tab-2">Linux</li>
+        </ul>
+        <div class="container">
+            <div class="tab-content current" id="tab-1">
+                <p MadCap:conditions="MSTR_Docs_Conditions.PrintOnly">To update the Platform Analytics repository using the Configuration Wizard in interactive mode on Windows:</p>
+                <ol>
+                    <li>In a Windows console, enter one of the following commands:<ul><li>For 64-bit, enter <span class="code">MACfgWiz_64</span>.</li><li>For 32-bit, enter <span class="code">MACfgWiz</span>.</li></ul></li>
+                    <li>Click <b>Enter</b>.</li>
+                    <li>
+                        <p>Type <code>2</code> and click <b>Enter</b> to create a new <code>response.ini</code> file. </p>
+                    </li>
+                    <li>
+                        <p>Type <span class="code">5</span> and click <b>Enter</b> to upgrade your existing environment to MicroStrategy Analytics Enterprise.</p>
+                    </li>
+                    <li>Type 3 and click Enter to upgrade your Platform Analytics repository.</li>
+                    <li>Enter your Platform Analytics warehouse database credentials. By default, the server name, port number, and user name are set to the last successful connection value.<div class="Note"><p>If you did not change the values, leave as default. The default password can be found at C:\Program Files (x86)\Common Files\MicroStrategy\express_password.txt</p></div></li>
+                    <li>By default, the configuration is saved as Response.ini in the <span class="code">/HOME_PATH/ </span>directory, where <span class="code">HOME_PATH</span> is the directory you specified as the Home Directory during installation. You can leave the field blank to use the default name or type a different name, and then click <b>Enter</b>. The response.ini file is generated, and you are prompted whether to run the configuration immediately.</li>
+                    <li>Type <span class="code">Y</span> and click <b>Enter</b> to run the configuration.</li>
+                </ol>
+            </div>
+            <div class="tab-content" id="tab-2">
+                <p MadCap:conditions="MSTR_Docs_Conditions.PrintOnly">To update the Platform Analytics repository using the Configuration Wizard in interactive mode on Linux:</p>
+                <ol>
+                    <li>
+                        <MadCap:snippetText src="home_path_in_linux.flsnp" />
+                    </li>
+                    <li>Browse to the <code>bin</code> directory.</li>
+                    <li>At the command prompt, type <code>mstrcfgwiz-editor</code>, then click <b>Enter</b>. The Configuration Wizard opens in command line mode.</li>
+                    <li>Click <b>Enter</b>.</li>
+                    <li>
+                        <p>Type <code>2</code> and click <b>Enter</b> to create a new <code>response.ini</code> file. </p>
+                    </li>
+                    <li>
+                        <p>Type <span class="code">5</span> and click <b>Enter</b> to upgrade your existing environment to MicroStrategy Analytics Enterprise.</p>
+                    </li>
+                    <li>Type 3 and click Enter to upgrade your Platform Analytics repository.</li>
+                    <li>
+                        <p>Enter your Platform Analytics warehouse database credentials. By default, the server name, port number, and user name are set to the last successful connection value.</p>
+                    </li>
+                    <li>
+                        <p>By default, the configuration is saved as Response.ini in the <span class="code">/HOME_PATH/ </span>directory, where <span class="code">HOME_PATH</span> is the directory you specified as the Home Directory during installation. You can leave the field blank to use the default name or type a different name, and then click <b>Enter</b>. The response.ini file is generated, and you are prompted whether to run the configuration immediately.</p>
+                    </li>
+                    <li>
+                        <p>Type <span class="code">Y</span> and click <b>Enter</b> to run the configuration.</p>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </body>
+</html>

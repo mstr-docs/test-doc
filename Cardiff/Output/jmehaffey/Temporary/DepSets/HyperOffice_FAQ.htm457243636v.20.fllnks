@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/TableStyles/table_from_MSTR_website.css" />
+    <Link
+      Url="Content/Hyper_Outlook.htm" />
+    <Link
+      Url="Content/Resources/Images/Hyperoutlook.png" />
+    <Link
+      Url="Content/Resources/Images/reading_pane.png" />
+    <Link
+      Url="Content/installing_hyperoutlook.htm" />
+    <Link
+      Url="https://docs.microsoft.com/en-us/office/dev/add-ins/concepts/privacy-and-security" />
+    <Link
+      Url="Content/Resources/Images/outlook_pin.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/TableStyles/table_from_MSTR_website.css" />
+    <Link
+      Url="Content/Hyper_Outlook.htm" />
+    <Link
+      Url="Content/Resources/Images/Hyperoutlook.png" />
+    <Link
+      Url="Content/Resources/Images/reading_pane.png" />
+    <Link
+      Url="Content/installing_hyperoutlook.htm" />
+    <Link
+      Url="https://docs.microsoft.com/en-us/office/dev/add-ins/concepts/privacy-and-security#other-security-practices" />
+    <Link
+      Url="Content/Resources/Images/outlook_pin.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/table_from_MSTR_website.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

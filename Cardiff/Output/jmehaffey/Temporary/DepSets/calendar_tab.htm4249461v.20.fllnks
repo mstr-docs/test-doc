@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Images/enable_calendars_in_app.png" />
+    <Link
+      Url="Content/Resources/Images/filter_source_icon.png" />
+    <Link
+      Url="Content/Resources/Images/filter_card_source.png" />
+    <Link
+      Url="Content/Resources/Images/enable_calendar_android.png" />
+    <Link
+      Url="Content/Resources/Images/filter_card_source_android.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Images/enable_calendars_in_app.png" />
+    <Link
+      Url="Content/Resources/Images/filter_source_icon.png" />
+    <Link
+      Url="Content/Resources/Images/filter_card_source.png" />
+    <Link
+      Url="Content/Resources/Images/enable_calendar_android.png" />
+    <Link
+      Url="Content/Resources/Images/filter_card_source_android.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="MSTR_Tool.Hyper">
+    <head>
+    </head>
+    <body>
+        <h1>Utilize Datasets with Supported Relationships</h1>
+        <p>To effectively create a HyperIntelligence dataset, your data needs to have attributes with either <i>one-to-one relationships</i> or <i>many-to-one relationships.</i></p>
+        <p>A&#160;<b>one-to-one relationship</b> means each element in the parent attribute corresponds to only one element in the child attribute, and each child attribute corresponds to only one element in the parent attribute. A common example of a one-to-one relationship is citizen and taxpayer ID. A citizen can have only one taxpayer ID and a taxpayer ID can be assigned to only one citizen.</p>
+        <p>A <b>many-to-one relationship</b> means each element in the parent attribute corresponds to one and only one element in the child attribute, and each child attribute corresponds to one or more elements in the parent attribute. Many-to-one relationships are the same type of relationship as a one-to-many, but it is defined from a different perspective. For example, year is described above as having a one-to-many relationship to quarter. This means that quarter has a many-to-one relationship to year.</p>
+        <h3>To Define Attribute Relationships</h3>
+        <ol MadCap:continue="true">
+            <li>In Workstation, select the data  to import and click <b>Prepare Data.</b></li>
+            <li>Click the drop-down arrow for the table you want to modify and choose <b>Define Relationships</b>. </li>
+            <li>
+                <p>Click <b><img src="Resources/Images/add_new.png" class="intext" MadCap:conditions="MSTR_Tool.Workstation" /> Add New</b> and select the parent attribute from the <b>Parent Attribute</b> drop-down for the new relationship. </p>
+                <p class="Note">The parent attribute is at a higher level than the child.</p>
+            </li>
+            <li>Select the child attribute from the <b>Child Attribute</b> drop-down.</li>
+            <li>Select a relationship type from the <b>Relationship</b> drop-down. The relationship is defined as one to many, by default.</li>
+            <li>Click <b>Save</b>.</li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="267" MadCap:lastWidth="721">
+    <body>
+        <ol MadCap:continue="true">
+            <li>
+                <p>To import data from a specific database, select the corresponding logo (Amazon Redshift, Apache Cassandra, Cloudera Hive, Google BigQuery, Hadoop, etc.).<MadCap:conditionalText MadCap:conditions="build_type_select.select,build_type_select.build"> If you select <b>Pig</b> or <b>Web Services</b>, the Import from Tables dialog opens, bypassing the Select Import Options dialog, allowing you to <a href="../../Importing_data_from_a_database_by_typing_a_query.htm">type a query</a> to import a table.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="build_type_select.type"> If you select <b>Pig</b> or <b>Web Services</b>, go to step 5. </MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="build_type_select.select"> If you select <b>SAP Hana</b>, you must <a href="../../Importing_data_from_a_database_by_building_a_SQL_q.htm">build</a> or <a href="../../Importing_data_from_a_database_by_typing_a_query.htm">type</a> a query, instead of selecting tables.</MadCap:conditionalText></p>
+                <p>
+                    <i>or</i>
+                </p>
+                <p>To import data without specifying a database type, click <b>Databases</b>.</p>
+                <p>The Select Import Options dialog opens.</p>
+            </li>
+        </ol>
+    </body>
+</html>

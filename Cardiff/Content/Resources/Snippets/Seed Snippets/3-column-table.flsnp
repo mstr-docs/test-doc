@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../TableStyles/Table.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table style="width: 100%;mc-table-style: url('../../TableStyles/Table.css');" class="TableStyle-Table" cellspacing="0">
+            <col class="TableStyle-Table-Column-Column1" />
+            <col class="TableStyle-Table-Column-Column2" />
+            <col class="TableStyle-Table-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-Table-Head-Header1">
+                    <th class="TableStyle-Table-HeadE-Column1-Header1">3col Heading</th>
+                    <th class="TableStyle-Table-HeadF-Column2-Header1">Heading</th>
+                    <th class="TableStyle-Table-HeadD-Column2-Header1">Heading</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table-Body-Body1">
+                    <td class="TableStyle-Table-BodyE-Column1-Body1">Right-click the snippet and select <b>Convert to Text</b>, then edit the content.</td>
+                    <td class="TableStyle-Table-BodyF-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Table-BodyD-Column2-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-Table-Body-Body2">
+                    <td class="TableStyle-Table-BodyE-Column1-Body2">&#160;</td>
+                    <td class="TableStyle-Table-BodyF-Column2-Body2">&#160;</td>
+                    <td class="TableStyle-Table-BodyD-Column2-Body2">&#160;</td>
+                </tr>
+                <tr class="TableStyle-Table-Body-Body1">
+                    <td class="TableStyle-Table-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Table-BodyF-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Table-BodyD-Column2-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-Table-Body-Body2">
+                    <td class="TableStyle-Table-BodyB-Column1-Body2">&#160;</td>
+                    <td class="TableStyle-Table-BodyC-Column2-Body2">&#160;</td>
+                    <td class="TableStyle-Table-BodyA-Column2-Body2">&#160;</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

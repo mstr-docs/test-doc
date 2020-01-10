@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Images/thumbtack.png" />
+    <Link
+      Url="Content/Resources/Images/filter_cards.png" />
+    <Link
+      Url="Content/Resources/Images/filter.png" />
+    <Link
+      Url="Content/Resources/Images/enable_cards.png" />
+    <Link
+      Url="Content/Resources/Images/enable.png" />
+    <Link
+      Url="Content/Resources/Images/settings.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Images/thumbtack.png" />
+    <Link
+      Url="Content/Resources/Images/filter_cards.png" />
+    <Link
+      Url="Content/Resources/Images/filter.png" />
+    <Link
+      Url="Content/Resources/Images/enable_cards.png" />
+    <Link
+      Url="Content/Resources/Images/enable.png" />
+    <Link
+      Url="Content/Resources/Images/settings.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/creating_a_database_connection.htm" />
+    <Link
+      Url="Project/VariableSets/Company_ProductNames.flvar" />
+    <Link
+      Url="https://developers.google.com/bigquery/quota-policy" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/creating_a_database_connection.htm" />
+    <Link
+      Url="Project/VariableSets/Company_ProductNames.flvar" />
+    <Link
+      Url="https://developers.google.com/bigquery/quota-policy#queries" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="Company_ProductNames.VizTool" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Name="OrgId"
+    Comment=""
+    EvaluatedDefinition="microstrategyproductiony5d5gar2">microstrategyproductiony5d5gar2</Variable>
+  <Variable
+    Name="PlatformRestUri"
+    Comment=""
+    EvaluatedDefinition="https://platform.cloud.coveo.com/rest/search">https://platform.cloud.coveo.com/rest/search</Variable>
+  <Variable
+    Name="SearchPageUrl"
+    Comment=""
+    EvaluatedDefinition="https://community.microstrategy.com/s/global-search/%40uri">https://community.microstrategy.com/s/global-search/%40uri</Variable>
+  <Variable
+    Name="SearchTokenServiceUrl"
+    Comment=""
+    EvaluatedDefinition="https://cors-anywhere.herokuapp.com/https://community.microstrategy.com/services/apexrest/CoveoPublicSearchToken">https://cors-anywhere.herokuapp.com/https://community.microstrategy.com/services/apexrest/CoveoPublicSearchToken</Variable>
+</CatapultVariableSet>

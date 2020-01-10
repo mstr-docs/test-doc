@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="MicroStrategy HyperIntelligence"
+    Link="/Content/home_hyperintelligence.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <TocEntry
+      Title="Introduction"
+      Link="/Content/intro_hyperintelligence.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+    <TocEntry
+      Title="Prerequisites"
+      Link="/Content/prereq_hyperintelligence.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Optimize Dataset"
+      Link="/Content/Hyper_dataset.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      <TocEntry
+        Title="Define Attribute Relationships"
+        Link="/Content/Hyper_datasets_with_supported_relationships.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Allow Alternate Keyword Matching"
+        Link="/Content/Hyper_keyword_attributes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Add Images"
+        Link="/Content/profile_cards_adding_images.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Add Email Links"
+        Link="/Content/add_email_links_to_hypercards.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Add Links"
+        Link="/Content/add_links_to_dataset.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="Create Cards"
+      Link="/Content/create_cards.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      <TocEntry
+        Title="Enable Alternate Keyword Matching"
+        Link="/Content/enable_alternate_keyword_matching.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Add Contextual Links"
+        Link="/Content/dynamic_link.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="Edit Cards"
+      Link="/Content/edit_cards.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+    <TocEntry
+      Title="Edit Properties and Security"
+      Link="/Content/add_users_to_cards.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="View Card Usage Activity"
+      Link="/Content/view_card_activity.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
+  <TocEntry
+    Title="HyperIntelligence for Web"
+    Link="/Content/HyperIntelligence_Chrome_Extension.htm">
+    <TocEntry
+      Title="Install"
+      Link="/Content/install_hyper_web.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Configure"
+      Link="/Content/configure_chrome_extension.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Use"
+      Link="/Content/use_hyperintelligence.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+    <TocEntry
+      Title="Frequently Asked Questions"
+      Link="/Content/HyperIntelligence_FAQ.htm"></TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="HyperIntelligence for Mobile"
+    Link="/Content/Hyper_Mobile.htm">
+    <TocEntry
+      Title="Install and Configure"
+      Link="/Content/Configure_HyperMobile.htm" />
+    <TocEntry
+      Title="Navigate"
+      Link="/Content/navigate_hypermobile.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Search"
+      Link="/Content/How_to_access_cards.htm"></TocEntry>
+    <TocEntry
+      Title="View Calendar Tab"
+      Link="/Content/calendar_tab.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Enable Notifications"
+      Link="/Content/Calendar_Based_Notifications.htm" />
+    <TocEntry
+      Title="Frequently Asked Questions"
+      Link="/Content/HyperMobile_FAQ.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="HyperIntelligence for Office"
+    Link="/Content/Hyper_Outlook.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <TocEntry
+      Title="Prerequisites"
+      Link="/Content/Hyperoutlook_prerequisities.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Install"
+      Link="/Content/installing_hyperoutlook.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      <TocEntry
+        Title="Generate the Manifest File"
+        Link="/Content/generate_manifest_file.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Deploy the Add-in"
+        Link="/Content/deploy_hyperoutlook.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="Log in"
+      Link="/Content/connect_to_mstr.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Navigate"
+      Link="/Content/navigate_hyperoutlook.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+    <TocEntry
+      Title="Frequently Asked Questions"
+      Link="/Content/HyperOffice_FAQ.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Troubleshooting">
+    <TocEntry
+      Title="Authoring in Workstation"
+      Link="/Content/troubleshoot_authoring.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="HyperIntelligence for Web"
+      Link="/Content/troubleshoot_web.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="HyperIntelligence for Mobile"
+      Link="/Content/troubleshoot_mobile.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="HyperIntelligence for Office"
+      Link="/Content/troubleshoot_office.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
+</CatapultToc>

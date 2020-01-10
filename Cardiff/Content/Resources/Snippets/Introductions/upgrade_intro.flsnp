@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="118" MadCap:lastWidth="1255">
+    <head>
+    </head>
+    <body>
+        <p>This guide contains information and procedures for migrating to MicroStrategy Secure Enterprise.</p>
+        <p>The information covers the upgrade process: preparing a MicroStrategy system for an upgrade, upgrading your MicroStrategy system in different environments, and performing important post-upgrade tasks. This book is meant to be used in conjunction with the <MadCap:snippetText src="../Guide_Links/ICG_link.flsnp" />.</p>
+    </body>
+</html>

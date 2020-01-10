@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileClass="home-topic"
+  FileSearchable="false"
+  MasterPage="file:///C:/ContentTeam-Repositories/source-content/zArchive/zDevelopment/Cardiff/Content/Resources/MasterPages/HomePage.flmsp"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/MasterPages/HomePage.flmsp" />
+    <Link
+      Url="Content/Resources/Images/icon-gears.png" />
+    <Link
+      Url="https://youtu.be/WWcJoqGJ1E0" />
+    <Link
+      Url="https://youtu.be/ccWVDuoPD6c" />
+    <Link
+      Url="https://youtu.be/eYTmvrqLEmM" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/MasterPages/HomePage.flmsp" />
+    <Link
+      Url="Content/Resources/Images/icon-gears.png" />
+    <Link
+      Url="https://youtu.be/WWcJoqGJ1E0" />
+    <Link
+      Url="https://youtu.be/ccWVDuoPD6c" />
+    <Link
+      Url="https://youtu.be/eYTmvrqLEmM" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

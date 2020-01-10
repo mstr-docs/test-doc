@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Snippets/pa_prerequisites_2019.flsnp" />
+    <Link
+      Url="https://dev.mysql.com/downloads/mysql/" />
+    <Link
+      Url="https://dev.mysql.com/doc/refman/8.0/en/binary-installation.html" />
+    <Link
+      Url="https://dev.mysql.com/doc/refman/8.0/en/postinstallation.html" />
+    <Link
+      Url="https://dev.mysql.com/doc/connector-odbc/en/connector-odbc-installation-binary-unix-tarball.html" />
+    <Link
+      Url="https://dev.mysql.com/downloads/connector/j/" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Snippets/pa_prerequisites_2019.flsnp#Ports" />
+    <Link
+      Url="Content/Resources/Snippets/pa_prerequisites_2019.flsnp#MySQL" />
+    <Link
+      Url="Content/Resources/Snippets/pa_prerequisites_2019.flsnp#MySQL2" />
+    <Link
+      Url="Content/Resources/Snippets/pa_prerequisites_2019.flsnp#Disable" />
+    <Link
+      Url="Content/Resources/Snippets/pa_prerequisites_2019.flsnp#Platform" />
+    <Link
+      Url="https://dev.mysql.com/downloads/mysql/" />
+    <Link
+      Url="https://dev.mysql.com/doc/refman/8.0/en/binary-installation.html" />
+    <Link
+      Url="https://dev.mysql.com/doc/refman/8.0/en/postinstallation.html" />
+    <Link
+      Url="https://dev.mysql.com/doc/connector-odbc/en/connector-odbc-installation-binary-unix-tarball.html" />
+    <Link
+      Url="https://dev.mysql.com/downloads/connector/j/" />
+  </LongLinks>
+  <Anchors>
+    <Anchor
+      Name="Ports" />
+    <Anchor
+      Name="MySQL" />
+    <Anchor
+      Name="MySQL2" />
+    <Anchor
+      Name="Disable" />
+    <Anchor
+      Name="Platform" />
+  </Anchors>
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol MadCap:continue="true">
+            <li>
+                <p>Click <b>Prepare Data</b> if you are adding a new dataset and want to <a href="../../Previewing_your_data_and_specifying_data_import_op.htm">preview, modify, and specify import options</a>. </p>
+                <p>
+                    <i>or</i>
+                </p>
+                <p>Click <b>Add</b> if you are editing an existing dataset.</p>
+            </li>
+            <li>
+                <p>Click <b>Finish</b> if you are adding a new dataset and go to the next step.</p>
+                <p>
+                    <i>or</i>
+                </p>
+                <p>Click <b>Update Dataset</b> if you are editing an existing dataset and skip the next step.</p>
+            </li>
+            <li>
+                <p>The Data Access Mode dialog opens.</p>
+                <p>Click <b>Connect Live</b> to connect to a live database when retrieving data. Connecting live is useful if you are working with a large amount of data, when importing into the dossier may not be feasible. Go to the last step.</p>
+                <p>
+                    <i>or</i>
+                </p>
+                <p>Click <b>Import as an In-memory Dataset</b> to import the data directly into your dossier. Importing the data leads to faster interaction with the data, but uses more RAM memory. Go to the last step.</p>
+            </li>
+            <li>
+                <p>The Publishing Status dialog opens.</p>
+                <p>If you are editing a connect live dataset, the existing dataset is refreshed and updated.</p>
+                <p>
+                    <i>or </i>
+                </p>
+                <p>If you are editing an in-memory dataset, you are prompted to refresh the existing dataset first.</p>
+            </li>
+            <li>View the new or updated datasets on the Datasets panel.</li>
+        </ol>
+    </body>
+</html>

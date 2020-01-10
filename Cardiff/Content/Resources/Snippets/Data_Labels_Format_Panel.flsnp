@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="239" MadCap:lastWidth="1036">
+    <body>
+        <h4>Data Labels</h4>
+        <p>
+            <b>Values</b>: Display data labels using the metric values associated with each graph item. </p>
+        <p>
+            <b>None</b>: Hide data labels for graphs items.</p>
+        <p>
+            <b>Fit to bar</b>: Automatically resize the font size of the data labels to fit the size of the bar.</p>
+        <p>
+            <b>Rotation</b>: Enter the number of degrees in which you want to rotate the text clockwise (0-360).</p>
+        <p>
+            <b>Font</b>: Select font formatting options.</p>
+    </body>
+</html>

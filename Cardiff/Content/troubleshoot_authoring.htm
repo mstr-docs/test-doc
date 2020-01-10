@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>Troubleshooting HyperIntelligence Authoring in Workstation</h1>
+        <p>While creating cards in Workstation, you may encounter the following errors. Use the guidance below to troubleshoot these errors.</p>
+        <h2>Error: Cannot create or edit the card based on "X" cube</h2>
+        <p>
+            <img src="Resources/Images/unpublished_cube_error_1.png" />
+        </p>
+        <p>This error appears when creating or editing a card based on an unpublished cube. To publish your cube, see the <a href="https://www2.microstrategy.com/producthelp/Current/inmemoryanalytics/webhelp/lang_1033/content/inmemoryanalysis/publishing_intelligent_cubes.htm">In-Memory Analytics Help</a>.</p>
+        <h2>Error:&#160;Environment is not available to create a card</h2>
+        <p>
+            <img src="Resources/Images/environment_cannot_create_cards.png" />
+        </p>
+        <p>This error message appears when creating or editing a card. Typically, this error is a result of a networking issue where HyperIntelligence cannot connect to your environment. To resolve the error, its recommended that you modify your machine's host file to include your server IP address and server host name. For more information, see <a href="https://community.microstrategy.com/s/article/Solving-errors-related-to-connecting-to-the-host-when-creating-editing-or-saving-HyperCards?language=en_US">KB482957</a>.</p>
+        <h2>Error: Cannot create or edit the card</h2>
+        <p>There are two situations when you may see this error:&#160;when a port is closed or when an unknown error has appeared.</p>
+        <h3>Issue:&#160;Closed Port</h3>
+        <p>
+            <img src="Resources/Images/port_error.png" />
+        </p>
+        <p>This error may appear because the port on the Intelligence Server machine cannot be reached. To resolve this error, modify your machine's host file to include your server IP address and server host name. Ensure that both port 34962 and port 34952 are open on the Intelligence Server machine. </p>
+        <p>The client uses port 34962 to connect to the REST&#160;Server running on the Intelligence Server. You can confirm that the closed port is the root of your problem by entering the following URL into a browser on a different machine than where the Intelligence Server is hosted:&#160;<span class="code">http://[intelligence server ip address]:34962/api</span>. If a page opens with the text {“message”: “Error message: User has not logged in”}, then port 34962 is open. If you receive an error or notification, then the port is closed. It's recommended that you verify the port rule has been created on the Intelligence Server machine and that there are no network firewalls or rules that prevent traffic from communicating with port 34962. For more information, see <a href="https://www2.microstrategy.com/producthelp/Current/InstallConfig/en-us/Content/Using_firewalls.htm">Using MicroStrategy with Firewalls</a>. </p>
+        <p>Alternatively, this error can also appear when SSL is not properly configured on the Intelligence Server. Incorrectly configured SSL can create a false closed port error in Workstation. For more information, see <a href="https://www2.microstrategy.com/producthelp/Current/SystemAdmin/WebHelp/Lang_1033/Content/SSL_TLS_Iserver_Web_Mobile.htm">Secure Communication in MicroStrategy</a>.</p>
+        <h3>Issue:&#160;Unknown</h3>
+        <p>You may also see this error message with a different description under the title. Instead of a port error description, the error will ask you to check your error logs for the TicketID. This is a result of an unknown error.</p>
+        <p>
+            <img src="Resources/Images/generic_error.png" />
+        </p>
+        <p> The best way to determine the root of the problem is to read through the Workstation or Library error logs. To locate your logs, go to <span class="code">MicroStrategyLibrary/WEB-INF/classes/</span> and open the <span class="code">logback.xml</span> file in a text editor. Locate the line <span class="code">&lt;property name="LOG_HOME" value="logs" /&gt;</span>. The <span class="code">value </span>parameter is the path where the Library Logs are located. If the Intelligence Server is running on a different machine then this path is referring to that machine and not the machine running the Library Server.</p>
+        <p>Generally the Library logs appear in a logs folder wherever the Library Server was started from. Open this log and look for an error with a corresponding TicketID to determine the issue. If you cannot locate the logs folder, replace logs with a hard path on your machine (e.g. <span class="code">C:/Users/example/Desktop/logs</span>) and restart the Tomcat Server. The error appears again to produce a new log in your log folder. Contact MicroStrategy Technical Support for more complex errors.</p>
+        <h2>Error:&#160;Cannot create a card in "X" environment</h2>
+        <p>
+            <img src="Resources/Images/old_metadata_error.png" />
+        </p>
+        <p>This error appears when an older version of the metadata is used with your environment. To resolve the error, ensure you are connected to an upgraded version of the metadata or upgrade your metadata to 2019 or above. For steps to update your metadata, see the <a href="https://www2.microstrategy.com/producthelp/Current/UpgradeGuide/en-us/Content/upgrade_win_in_place_update_md.htm">Upgrade Guide</a>.</p>
+        <h2>Error: Cannot continue editing the <MadCap:variable name="Company_ProductNames.Cards" /></h2>
+        <p>
+            <img src="Resources/Images/large_dataset_error.png" />
+        </p>
+        <p>This error appears when the number of rows on the card exceeds the report limit. By default, the maximum report limit is 100,000 for a project. You can resolve this error by using a smaller dataset or by increasing the maximum report limit to support your large dataset.</p>
+        <p>To increase the maximum report limit, perform the following steps:</p>
+        <ol>
+            <li>Open MicroStrategy Developer.</li>
+            <li>Right-click your project and select <b>Project Configuration</b>. </li>
+            <li>Go to <b>Governing Rules</b> &gt; <b>Default</b> &gt;&#160;<b>Result Sets</b>.</li>
+            <li>Change the value for <b>All other reports</b> to <b>-1</b>. The value -1 indicates no limit.</li>
+            <li>Click&#160;<b>OK</b>. </li>
+        </ol>
+        <h2>Warning: Unable to fetch cards from following environment(s)</h2>
+        <p>
+            <img src="Resources/Images/environments_error2.png" />
+        </p>
+        <p>This warning appears in the Cards section of Workstation when you try to connect a 2019 Library Server to an older Intelligence Server version. You must connect the Library Server to a 2019 or newer Intelligence Server. </p>
+    </body>
+</html>

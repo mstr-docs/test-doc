@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>Generate the Manifest File Using Workstation</h1>
+        <p>Before deploying the HyperIntelligence for Office add-in, you must generate a manifest file from an environment in Workstation. Manifest files are directly tied to the environments they come from, so make sure that your environment contains all of the cards you want to see in Outlook. </p>
+        <div class="reqs">
+            <p>To generate a manifest file, you must have a MicroStrategy environment in Workstation. For steps, see <a href="https://www2.microstrategy.com/producthelp/current/Workstation/WebHelp/Lang_1033/Content/workstation_environments_main.htm">Introduction to Environments</a> in Workstation Online Help.</p>
+            <p>Your environment must be an HTTPS domain. Outlook does not support add-ins connecting to HTTP domains.</p>
+        </div>
+        <h2>How to Generate the Add-in Manifest File Using Workstation</h2>
+        <ul class="tabs">
+            <li class="tab-link current" data-tab="windows-tab">Windows
+			</li>
+            <li class="tab-link" data-tab="mac-tab">Mac
+			</li>
+        </ul>
+        <div class="tab-content current" id="windows-tab">
+            <ol>
+                <li>
+                    <p>In Workstation, click the <b>Environments</b> tab.</p>
+                    <p>
+                        <img src="Resources/Images/workstation_environments.png" />
+                    </p>
+                </li>
+                <li>Right-click the environment you want  to use and select <b>Properties</b>.</li>
+                <li>Click <b>Generate Add-in File</b> next to MicroStrategy HyperIntelligence.</li>
+                <li>
+                    <p>From the Generate Add-in File window you have two options:</p>
+                    <ol>
+                        <li>
+                            <p>Edit the name of the add-in.</p>
+                            <p>Click the pencil icon <img src="Resources/Images/edit_outlook_addin.png" /> to edit the name of the add-in that will appear in your Outlook ribbon. </p>
+                            <p class="Note">You do not have to change the name of the add-in to download the manifest file.</p>
+                        </li>
+                        <li>
+                            <p>Enter a URL to authorize third-party authentication service domains for the add-in to function properly. Click <b>Add a URL</b> if you have multiple authentication service domains. </p>
+                            <p class="Note">This option only applies to environments that use SAML or Trusted authentication. For steps to enable these authentication methods, see <a href="https://www2.microstrategy.com/producthelp/current/SystemAdmin/WebHelp/Lang_1033/Content/Enabling_single_sign_on_authentication.htm">Enabling Single Sign-On Authentication</a>. </p>
+                        </li>
+                    </ol>
+                    <p>
+                        <img src="Resources/Images/generate_addin_file.png" style="width: 687px;height: 428px;" />
+                    </p>
+                </li>
+                <li>Click <b>Download</b>.</li>
+                <li>Save the manifest file on your hard drive.</li>
+            </ol>
+        </div>
+        <div class="tab-content" id="mac-tab">
+            <ol>
+                <li>
+                    <p>In Workstation, click the <b>Environments</b> tab.</p>
+                    <p>
+                        <img src="Resources/Images/workstation_environments.png" />
+                    </p>
+                </li>
+                <li>Right-click the environment you want  to use and select <b>Get info</b>.</li>
+                <li>Expand the <b>HyperIntelligence Add-in</b> drop-down and select <b>Generate Add-in File</b>.</li>
+                <li>From the Generate Add-in File window you have two options:<ol><li>Edit the name of the add-in.<p class="Note">You do not have to change the name of the add-in to download the manifest file.</p></li><li>Enter a URL to authorize third-party authentication service domains for the add-in to function properly. Click <b>Add a URL</b> if you have multiple authentication service domains. <p class="Note">This option only applies to environments that use SAML or Trusted authentication. </p></li></ol><p><img src="Resources/Images/generate_addin_file.png" style="width: 711px;height: 443px;" /></p></li>
+                <li>Click <b>Download</b>.</li>
+                <li>Save the manifest file on your hard drive.</li>
+            </ol>
+        </div>
+        <p>Once you've generated the manifest file, you can deploy the HyperIntelligence for Office add-in as an administrator to multiple user groups, or deploy it directly to the Outlook desktop app. For instructions, see <MadCap:xref href="deploy_hyperoutlook.htm">How to Deploy the HyperIntelligence for Office Add-in</MadCap:xref>.</p>
+    </body>
+</html>

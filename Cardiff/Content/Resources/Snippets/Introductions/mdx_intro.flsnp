@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="350" MadCap:lastWidth="1229">
+    <head>
+    </head>
+    <body>
+        <p>Project designers who integrate MDX cube sources into MicroStrategy and Report designers who create MDX cube reports can integrate data from MDX cube sources such as SAP® BW, Microsoft® Analysis Services, Oracle® Essbase®, or IBM Cognos® TM1® into MicroStrategy projects and applications. This integration enables use of the rich set of MicroStrategy reporting and analysis functionality on the data in your MDX cube source.
+
+</p>
+        <p>The following sections explain how to integrate this data:
+
+</p>
+        <ul>
+            <li>About MDX Cube Sources in MicroStrategy: Describes how data from an MDX cube source is converted into a MicroStrategy BI solution. This section builds on basic knowledge of MicroStrategy and MDX cube source terminology and architecture, and describes how MDX cube sources are represented in MicroStrategy.
+</li>
+            <li>Connecting to MDX Cube Sources: Provides information about connecting to an MDX cube source for use within MicroStrategy.
+</li>
+            <li>Integrating MDX Cubes into MicroStrategy: Describes how you can integrate data from an MDX cube source into standard MicroStrategy objects for reporting and analysis.
+</li>
+            <li>Reporting on MDX Cubes: Provides information and guidelines on how to create MDX cube reports and use MicroStrategy features to analyze data from your MDX cube source.</li>
+        </ul>
+    </body>
+</html>

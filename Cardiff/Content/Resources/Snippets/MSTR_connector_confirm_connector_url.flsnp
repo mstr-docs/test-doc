@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <ul class="tabs">
+            <li class="tab-link current" data-tab="tab-1">Web</li>
+            <li class="tab-link" data-tab="tab-2">Workstation</li>
+        </ul>
+        <div class="container">
+            <div class="tab-content current" id="tab-1">
+                <ol>
+                    <li>Open MicroStrategy Web.</li>
+                    <li>Click <b>Create</b> &gt; <b>Add External Data</b>.</li>
+                    <li>
+                        <p>Locate the MicroStrategy Connector.</p>
+                        <p>
+                            <img src="../../../../../Administrators/WebAdmin/Content/Resources/Images/mstr_connector.png" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>Hover over the connector and click <b>Edit Connector</b>.</p>
+                        <p>
+                            <img src="../../../../../Administrators/WebAdmin/Content/Resources/Images/mstr_connector_edit.png" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>Ensure your Connector URL has <span class="code">/mstr-native/ </span>appended to the end. If it does not, add it to your URL.</p>
+                        <p class="code" xml:space="preserve">https://[HOST_NAME]:[PORT_NUMBER]/CommunityConnectors/mstr-native/</p>
+                    </li>
+                    <li>Click <b>Save</b>.</li>
+                </ol>
+            </div>
+        </div>
+        <div class="container">
+            <div class="tab-content" id="tab-2">
+                <ol>
+                    <li>Open MicroStrategy Workstation.</li>
+                    <li>Create a new dossier.</li>
+                    <li>Go to <b>Add Data</b> &gt; <b>New Data</b>.</li>
+                    <li>
+                        <p>Locate the MicroStrategy Connector.</p>
+                        <p>
+                            <img src="../../../../../Administrators/WebAdmin/Content/Resources/Images/mstr_connector.png" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>Hover over the connector and click <b>Edit Connector</b>.</p>
+                        <p>
+                            <img src="../../../../../Administrators/WebAdmin/Content/Resources/Images/mstr_connector_edit.png" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>Ensure your Connector URL has <span class="code">/mstr-native/ </span>appended to the end. If it does not, add it to your URL.</p>
+                        <p class="code" xml:space="preserve">https://[HOST_NAME]:[PORT_NUMBER]/CommunityConnectors/mstr-native/</p>
+                    </li>
+                    <li>Click <b>Save</b>.</li>
+                </ol>
+            </div>
+        </div>
+    </body>
+</html>

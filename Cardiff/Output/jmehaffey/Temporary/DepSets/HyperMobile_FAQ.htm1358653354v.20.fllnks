@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/TableStyles/table_from_MSTR_website.css" />
+    <Link
+      Url="Content/Hyper_Mobile.htm" />
+    <Link
+      Url="Content/How_to_access_cards.htm" />
+    <Link
+      Url="Content/Calendar_Based_Notifications.htm" />
+    <Link
+      Url="Content/calendar_tab.htm" />
+    <Link
+      Url="Content/Configure_HyperMobile.htm" />
+    <Link
+      Url="Content/Resources/Images/Picture2.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/TableStyles/table_from_MSTR_website.css" />
+    <Link
+      Url="Content/Hyper_Mobile.htm" />
+    <Link
+      Url="Content/How_to_access_cards.htm" />
+    <Link
+      Url="Content/Calendar_Based_Notifications.htm" />
+    <Link
+      Url="Content/calendar_tab.htm" />
+    <Link
+      Url="Content/Configure_HyperMobile.htm" />
+    <Link
+      Url="Content/Resources/Images/Picture2.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/table_from_MSTR_website.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="https://www2.microstrategy.com/producthelp/Current/Readme/en-us/content/whats_new.htm" />
+    <Link
+      Url="https://www2.microstrategy.com/producthelp/Current/Hyper/index.htm" />
+    <Link
+      Url="https://www2.microstrategy.com/producthelp/Current/Workstation/WebHelp/Lang_1033/index.htm" />
+    <Link
+      Url="https://www2.microstrategy.com/producthelp/Current/Cloud/index.htm" />
+    <Link
+      Url="mailto:documentationfeedback@microstrategy.com" />
+    <Link
+      Url="https://community.microstrategy.com/s/ideas" />
+    <Link
+      Url="https://community.microstrategy.com/s/discussions" />
+    <Link
+      Url="https://community.microstrategy.com/s/learning-center" />
+    <Link
+      Url="https://www2.microstrategy.com/producthelp/Current/Readme/en-us/content/certified_configurations.htm" />
+    <Link
+      Url="https://www.microstrategy.com/us/resources/library" />
+    <Link
+      Url="https://www.microstrategy.com/us/services/technical-support" />
+    <Link
+      Url="https://www.microstrategy.com/us/company/press" />
+    <Link
+      Url="https://www.microstrategy.com/us/company/careers" />
+    <Link
+      Url="https://www.microstrategy.com/us/company/contact" />
+    <Link
+      Url="https://www.microstrategy.com/us/legal/legal-policies" />
+    <Link
+      Url="https://www.microstrategy.com/us/legal/legal-policies/privacy-policy" />
+    <Link
+      Url="https://www.microstrategy.com/us/legal/legal-policies/terms-of-use" />
+    <Link
+      Url="https://www.microstrategy.com/us/legal/ethics-line" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="https://www2.microstrategy.com/producthelp/Current/Readme/en-us/content/whats_new.htm" />
+    <Link
+      Url="https://www2.microstrategy.com/producthelp/Current/Hyper/index.htm" />
+    <Link
+      Url="https://www2.microstrategy.com/producthelp/Current/Workstation/WebHelp/Lang_1033/index.htm" />
+    <Link
+      Url="https://www2.microstrategy.com/producthelp/Current/Cloud/index.htm" />
+    <Link
+      Url="mailto:documentationfeedback@microstrategy.com" />
+    <Link
+      Url="https://community.microstrategy.com/s/ideas" />
+    <Link
+      Url="https://community.microstrategy.com/s/discussions" />
+    <Link
+      Url="https://community.microstrategy.com/s/learning-center" />
+    <Link
+      Url="https://www2.microstrategy.com/producthelp/Current/Readme/en-us/content/certified_configurations.htm" />
+    <Link
+      Url="https://www.microstrategy.com/us/resources/library" />
+    <Link
+      Url="https://www.microstrategy.com/us/services/technical-support" />
+    <Link
+      Url="https://www.microstrategy.com/us/company/press" />
+    <Link
+      Url="https://www.microstrategy.com/us/company/careers" />
+    <Link
+      Url="https://www.microstrategy.com/us/company/contact" />
+    <Link
+      Url="https://www.microstrategy.com/us/legal/legal-policies" />
+    <Link
+      Url="https://www.microstrategy.com/us/legal/legal-policies/privacy-policy" />
+    <Link
+      Url="https://www.microstrategy.com/us/legal/legal-policies/terms-of-use" />
+    <Link
+      Url="https://www.microstrategy.com/us/legal/ethics-line" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

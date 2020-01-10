@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/VariableSets/MSTR_Default_Variables.flvar" />
+    <Link
+      Url="https://www2.microstrategy.com/producthelp/current/Readme/content/requirements_library_web_mobile_server.htm" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/VariableSets/MSTR_Default_Variables.flvar" />
+    <Link
+      Url="https://www2.microstrategy.com/producthelp/current/Readme/content/requirements_library_web_mobile_server.htm" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="MSTR_Default_Variables.CurrentVersion" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

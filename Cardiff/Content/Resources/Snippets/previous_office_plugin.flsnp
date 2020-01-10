@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <div class="Warning">
+            <p>This information applies to MicroStrategy Office, the add&#8209;in for Microsoft Office applications which is no longer actively developed.</p>
+            <p>It was substituted with a new add&#8209;in, <MadCap:variable name="Company_ProductNames.Office" />, which supports Office 365 applications. The initial version does not yet have all the functionalities of the previous add&#8209;in.</p>
+            <p>For more information, see the <a href="https://www2.microstrategy.com/producthelp/2019/Readme/content/mstr_office.htm"><MadCap:variable name="Company_ProductNames.Office" /> page in the 2019 Update 1 Readme</a> and the <MadCap:snippetText src="Guide_Links/Office_link.flsnp" />.</p>
+        </div>
+    </body>
+</html>

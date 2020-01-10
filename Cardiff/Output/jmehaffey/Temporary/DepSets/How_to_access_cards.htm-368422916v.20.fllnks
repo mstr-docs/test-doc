@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/How_to_access_cards.htm" />
+    <Link
+      Url="Content/Resources/Images/in-app-search-frame.mp4" />
+    <Link
+      Url="Content/Resources/Images/plus_icon.png" />
+    <Link
+      Url="Content/Resources/Images/negative_icon.png" />
+    <Link
+      Url="Content/Resources/Images/enable_spotlight_search.mp4" />
+    <Link
+      Url="Content/Resources/Images/android_template.png" />
+    <Link
+      Url="Content/Resources/Videos/Android_search.mp4" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/How_to_access_cards.htm#in-app" />
+    <Link
+      Url="Content/How_to_access_cards.htm#ios_spotlight" />
+    <Link
+      Url="Content/Resources/Images/in-app-search-frame.mp4" />
+    <Link
+      Url="Content/Resources/Images/plus_icon.png" />
+    <Link
+      Url="Content/Resources/Images/negative_icon.png" />
+    <Link
+      Url="Content/Resources/Images/enable_spotlight_search.mp4" />
+    <Link
+      Url="Content/Resources/Images/android_template.png" />
+    <Link
+      Url="Content/Resources/Videos/Android_search.mp4" />
+  </LongLinks>
+  <Anchors>
+    <Anchor
+      Name="in-app" />
+    <Anchor
+      Name="ios_spotlight" />
+  </Anchors>
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

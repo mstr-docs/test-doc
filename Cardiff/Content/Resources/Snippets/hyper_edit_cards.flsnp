@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="MSTR_Tool.Hyper">
+    <body>
+        <p>You can edit saved cards. Once you edit a card, it is automatically updated in HyperIntelligence for Web. </p>
+        <ol>
+            <li>Open the <a href="../../Navigating_Workstation.htm">[%=Company_ProductNames.VizTool%] window</a>  with the Navigation pane in smart mode.</li>
+            <li>In the Navigation pane, click <span class="Emphasis">cards</span>.</li>
+            <li>Right-click on a card and choose <span class="Emphasis">Edit</span>.</li>
+            <li>Make any necessary changes.</li>
+            <li>Click <span class="Emphasis">Save </span><img src="../Images/save_icon__workstation.png" style="vertical-align: baseline;max-width: 100%;" />. Your changes may take up to five minutes to update in your browser. </li>
+        </ol>
+    </body>
+</html>

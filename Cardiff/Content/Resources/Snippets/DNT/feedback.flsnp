@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="268" MadCap:lastWidth="882">
+    <body>
+        <p>Please send any comments or suggestions about <a href="mailto:documentationfeedback@microstrategy.com" MadCap:conditions="MSTR_Docs_Conditions.OnlineOnly">user documentation for MicroStrategy products here.</a><MadCap:conditionalText MadCap:conditions="MSTR_Docs_Conditions.PrintOnly">user documentation for MicroStrategy products here:</MadCap:conditionalText></p>
+        <p style="font-weight: normal;font-style: normal;font-size: 12pt;letter-spacing: 0em;color: #000000;text-decoration: none;" MadCap:conditions="MSTR_Docs_Conditions.PrintOnly"><code>documentationfeedback@microstrategy.com</code>
+        </p>
+        <p MadCap:conditions="MSTR_Docs_Conditions.PrintOnly">Send suggestions for product enhancements to:</p>
+        <p style="font-weight: normal;font-style: normal;font-size: 12pt;letter-spacing: 0em;color: #000000;text-decoration: none;" MadCap:conditions="MSTR_Docs_Conditions.PrintOnly"><code>support@microstrategy.com</code>
+        </p>
+        <p MadCap:conditions="MSTR_Docs_Conditions.OnlineOnly">Send suggestions for <a href="mailto:support@microstrategy.com" target="_blank">product enhancements here</a>.</p>
+        <p>When you provide us feedback, please include the name and version of the products you are currently using. Your feedback is important to us as we prepare for future releases.</p>
+    </body>
+</html>

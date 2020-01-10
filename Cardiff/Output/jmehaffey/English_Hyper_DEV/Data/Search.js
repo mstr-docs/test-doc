@@ -1,0 +1,1 @@
+define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/Calendar_Based_Notifications.htm'],s:['00','oper'],p:[['00',6],['below',6],['disable',38],['history',37],['manifest',29],['possible',36],['tap',24],['users',21]]});

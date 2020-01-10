@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../TableStyles/Table.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table cellspacing="0" class="TableStyle-Table" style="caption-side: top;mc-table-style: url('../TableStyles/Table.css');width: 100%;">
+            <col class="TableStyle-Table-Column-Column1" style="width: 198px;" />
+            <col class="TableStyle-Table-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-Table-Head-Header1">
+                    <td class="TableStyle-Table-HeadE-Column1-Header1">
+                        <p class="Table_Heading">Options</p>
+                    </td>
+                    <td class="TableStyle-Table-HeadD-Column2-Header1">
+                        <p class="Table_Heading">Description</p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table-Body-Body1">
+                    <td class="TableStyle-Table-BodyE-Column1-Body1">
+                        <p><span class="code">[EMProjectHeader]</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-Table-BodyD-Column2-Body1">
+                        <p class="Table_Body">Options in this portion refer to creating the Enterprise Manager project on this machine.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table-Body-Body2">
+                    <td class="TableStyle-Table-BodyE-Column1-Body2">
+                        <p><code style="font-size: 10pt;line-height: 12pt;">EMProject=</code>
+                        </p>
+                    </td>
+                    <td class="TableStyle-Table-BodyD-Column2-Body2">
+                        <p class="Table_Body">Defines whether to create the Enterprise Manager project, as determined by the following values:</p>
+                        <p class="Table_Bullet" MadCap:autonum="• "><code style="font-size: 10pt;line-height: 12pt;">1:</code> Create Enterprise Manager project on this machine.</p>
+                        <p class="Table_Bullet" MadCap:autonum="• "><code style="font-size: 10pt;line-height: 12pt;">0:</code> Do not create the Enterprise Manager project.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table-Body-Body1">
+                    <td class="TableStyle-Table-BodyE-Column1-Body1">
+                        <p><code style="font-size: 10pt;line-height: 12pt;">EMProjectEncryptPwd=</code>
+                        </p>
+                    </td>
+                    <td class="TableStyle-Table-BodyD-Column2-Body1">
+                        <p class="Table_Body">Defines whether the passwords are encrypted in the response file, as determined by the following values:</p>
+                        <p class="Table_Bullet" MadCap:autonum="• "><code style="font-size: 10pt;line-height: 12pt;">0:</code> The passwords are not encrypted in the response file, which enables you to modify the passwords in the response file using a text editor. You can then distribute the response file to multiple users with various login and password credentials. However, be aware that this can compromise your database security if you do not remove the passwords from the response file before distributing it. </p>
+                        <p class="Table_Bullet" MadCap:autonum="• "><code style="font-size: 10pt;line-height: 12pt;">1:</code> Encrypts the passwords in the response file, which ensures that your passwords are secure. This is the default behavior.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table-Body-Body2">
+                    <td class="TableStyle-Table-BodyE-Column1-Body2">
+                        <p><code style="font-size: 10pt;line-height: 12pt;">EMProjectDSSUser=</code>
+                        </p>
+                    </td>
+                    <td class="TableStyle-Table-BodyD-Column2-Body2">
+                        <p class="Table_Body">The user name to log in to the Enterprise Manager project.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table-Body-Body1">
+                    <td class="TableStyle-Table-BodyE-Column1-Body1">
+                        <p><code style="font-size: 10pt;line-height: 12pt;">EMProjectDSSPwd=</code>
+                        </p>
+                    </td>
+                    <td class="TableStyle-Table-BodyD-Column2-Body1">
+                        <p class="Table_Body">The password for the user name above. This may be encrypted, depending on the <code style="font-size: 10pt;line-height: 12pt;">EMProjectEncryptPwd=</code> setting.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table-Body-Body2">
+                    <td class="TableStyle-Table-BodyE-Column1-Body2">
+                        <p><code style="font-size: 10pt;line-height: 12pt;">EMProjectPkgFile=</code>
+                        </p>
+                    </td>
+                    <td class="TableStyle-Table-BodyD-Column2-Body2">
+                        <p class="Table_Body">The full path and file name of the MicroStrategy Enterprise Manager project package file used to create the project. On Windows, by default this is <code style="font-size: 10pt;line-height: 12pt;">C:\Program Files (x86)\Common Files\MicroStrategy\OOTB-EM.mmp</code>.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table-Body-Body1">
+                    <td class="TableStyle-Table-BodyE-Column1-Body1">
+                        <p><code style="font-size: 10pt;line-height: 12pt;">EMProjectDSNName=</code>
+                        </p>
+                    </td>
+                    <td class="TableStyle-Table-BodyD-Column2-Body1">
+                        <p class="Table_Body">The Data Source Name for the database that contains your Statistics and Enterprise Manager repository.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table-Body-Body2">
+                    <td class="TableStyle-Table-BodyE-Column1-Body2">
+                        <p><code style="font-size: 10pt;line-height: 12pt;">EMProjectDSNUserName=</code>
+                        </p>
+                    </td>
+                    <td class="TableStyle-Table-BodyD-Column2-Body2">
+                        <p class="Table_Body">The user name to connect to the Statistics and Enterprise Manager repository database.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table-Body-Body1">
+                    <td class="TableStyle-Table-BodyB-Column1-Body1">
+                        <p><code style="font-size: 10pt;line-height: 12pt;">EMProjectDSNUserPwd=</code>
+                        </p>
+                    </td>
+                    <td class="TableStyle-Table-BodyA-Column2-Body1">
+                        <p class="Table_Body">The password for the user name above for the Statistics and Enterprise Manager repository database. This may be encrypted, depending on the <code style="font-size: 10pt;line-height: 12pt;">EMProjectEncryptPwd=</code> setting.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

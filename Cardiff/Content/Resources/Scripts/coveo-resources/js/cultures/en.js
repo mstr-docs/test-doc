@@ -1,0 +1,31 @@
+String.toLocaleString({
+  'en': {
+    'ShowingResultsOf': 'Results {0}<pl>-{1}</pl> of {2}',
+    'ShowingResultsOfWithQuery': 'Results {0}<pl>-{1}</pl> of {2}',
+    'Seconds': '',
+    'ResultTemplate_Type_User': 'User',
+    'ResultTemplate_Type_Video': 'Learning Center',
+    'ResultTemplate_Type_Document': 'Document',
+    'ResultTemplate_Type_Idea': 'Idea',
+    'ResultTemplate_Type_KB': 'Knowledge Base',
+    'ResultTemplate_Type_BlogPost': 'Marketing Blog',
+    'ResultTemplate_Type_MicroStrategyCOM': 'Corporate Resources',
+    'ResultTemplate_Type_ProductHelp': 'Product Documentation',
+    'ResultTemplate_Type_SdkApi': 'SDK API',
+    'ResultTemplate_Type_FeedComment': 'Discussions',
+    'ResultTemplate_Type_FeedItem': 'Discussions',
+    'ResultTemplate_Type_KnowledgeFeed': 'Discussions',
+    'FacetTitle_ContentType': 'Content Type',
+    'FacetTitle_Topics': 'Community Topics',
+    'FacetTitle_DocumentationVersion': 'Documentation Version',
+    'FacetTitle_DocumentationGuide': 'Documentation Guide',
+    'FacetTitle_Language': 'Language',
+    'PostedBy': 'Posted by',
+    'PostedByOn': 'on',
+    'PostedOn': 'Posted on',
+    'CreatedOn': 'Created on',
+    'LastUpdatedOn': 'Last updated on',
+    'LastPublishedOn': 'Last published on',
+    'Searchbox_Placeholder': 'Search...'
+  }
+});

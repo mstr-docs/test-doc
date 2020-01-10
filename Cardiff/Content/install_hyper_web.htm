@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>Install HyperIntelligence for Web</h1>
+        <p>To use the HyperIntelligence for Web Chrome extension, either download the extension directly from the Chrome store or distribute the extensions via silent install.</p>
+        <div class="reqs">
+            <p>This extension supports Chrome 69 and above on both Windows and Mac.</p>
+            <p>All users attempting to use HyperIntelligence for Web in MicroStrategy 2019 Update 2 must be assigned the Use Hyper Web privilege, directly or as part of a User Group or Security Role.  This privilege can be found in this Client-Hyper-Web privilege group.</p>
+        </div>
+        <ul class="tabs">
+            <li class="tab-link current" data-tab="tab-1">User</li>
+            <li class="tab-link" data-tab="tab-2">Admin</li>
+        </ul>
+        <div class="container">
+            <div class="tab-content current" id="tab-1">
+                <h2>How to Add the HyperIntelligence Extension from the Chrome Store</h2>
+                <ol>
+                    <li>Open the <a href="https://chrome.google.com/webstore/detail/microstrategy-hyperintell/ikaoafechdeidffgniffdhdckeclcdhf">Chrome Web Store</a> to download the extension.</li>
+                    <li>Click <b>Add to Chrome</b> &gt; <b>Add Extension</b>. </li>
+                </ol>
+                <p>The MicroStrategy logo appears in your extension toolbar. Learn <MadCap:xref href="configure_chrome_extension.htm">How to Configure the HyperIntelligence Chrome Extension.</MadCap:xref></p>
+                <h2>How to Uninstall HyperIntelligence for Web</h2>
+                <ol>
+                    <li>Open the Chrome browser.</li>
+                    <li>At the top right, click <b>More</b> &gt; <b>More tools</b> &gt; <b>Extensions</b>.</li>
+                    <li>Locate HyperIntelligence, click <b>Remove</b>.</li>
+                    <li>Confirm by clicking <b>Remove</b>.</li>
+                </ol>
+            </div>
+        </div>
+        <div class="container">
+            <div class="tab-content" id="tab-2">
+                <h2>How to Add the HyperIntelligence Extension by Silent Install</h2>
+                <p>As an admin, you may want to distribute the extension via silent install. Perform the following steps to silently install the extension on your user's browsers.</p>
+                <div class="Note">
+                    <p>You can only add the extension by silent install on Windows.</p>
+                    <p>Once installed via silent install, users cannot remove the extension through Chrome. See  <MadCap:xref href="#uninstall">How to Uninstall the Chrome Extension</MadCap:xref> for more information.</p>
+                </div>
+                <ol>
+                    <li>Download HyperIntelligence for Web from the <a href="https://community.microstrategy.com/s/products">download site.</a></li>
+                    <li>
+                        <p>Create a response file with the following parameters:</p>
+                        <div class="sdk_code"><pre>[Installer]
+HideAllDialogs=FALSE
+[Welcome]
+RemoveAll=FALSE
+[Config]
+TargetDir=[directory where the extension will be installed] EnvironmentUrl=[MicroStrategy Library server URL]						</pre>
+                        </div>
+                        <p>Where</p>
+                        <p><span class="code">TargetDir </span>is the directory where the HyperIntelligence Chrome extension files will be stored. It's recommended to use the default directory C:\Program Files\MicroStrategy\HyperIntelligence.</p>
+                        <p><span class="code">EnvironmentUrl </span>is the MicroStrategy Library server URL where cards will be created.</p>
+                    </li>
+                    <li>Save the file as response.ini. </li>
+                    <li>
+                        <p>Close the Chrome browser and run the following command prompt:</p>
+                        <div class="sdk_code"><pre>HyperIntelligenceSetup.exe --Responsefile="[response file path]" -s -f1"[path for log]"</pre>
+                        </div>
+                    </li>
+                    <li>If you executed the command manually, click <b>Yes</b> on the message asking if HyperIntelligence can make changes to your device.</li>
+                </ol>
+                <p>Users can now log in to the extension using their environment credentials. Learn how to <MadCap:xref href="use_hyperintelligence.htm">Use HyperIntelligence for Web.</MadCap:xref></p>
+                <h2><a name="uninstall"></a>How to Uninstall HyperIntelligence for Web</h2>
+                <p>When the extension is installed by silent install, users cannot remove the extension through the Chrome Store or the Chrome extension settings page. If a user manually removes the extension in either of these manners, the extension is placed on a Chrome blocklist. When this occurs, the extension cannot be updated or reinstalled using the installer.</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>How do I remove HyperIntelligence from the Chrome blocklist?</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p> To remove HyperIntelligence from the blocklist, re-downloaded the extension through the Chrome Store and use the method below to uninstall the extension.</p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <p>To correctly remove the extension, you must remove HyperIntelligence from your machine. Use the following steps to correctly uninstall HyperIntelligence for Web that was installed via silent install:</p>
+                <ol>
+                    <li>Close the Chrome browser. </li>
+                    <li>On your Windows machine, go to <b>Settings</b> &gt; <b>Apps &amp; features</b>. </li>
+                    <li>Locate MicroStrategy HyperIntelligence and click <b>Uninstall</b>. </li>
+                    <li>Open Chrome and see the HyperIntelligence icon is no longer in the toolbar.</li>
+                </ol>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../TableStyles/Table.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h2><a name="bookoverview_2279103363_1084169"></a>Documentation</h2>
+        <p>MicroStrategy provides both manuals and online help; these two information sources provide different types of information, as described below:</p>
+        <p class="Bullet" MadCap:autonum="• "><b>Manuals</b>: In general, MicroStrategy manuals provide:</p>
+        <p class="Bullet_2" MadCap:autonum="▫ ">Introductory information and concepts</p>
+        <p class="Bullet_2" MadCap:autonum="▫ ">Examples and images</p>
+        <p class="Bullet_2" MadCap:autonum="▫ ">Checklists and high-level procedures to get started</p>
+        <p class="Indent">To access documentation resources from any location, <a href="https://community.microstrategy.com/s/learning-center">click here</a>.</p>
+        <p class="Indent">Most of these manuals are also available printed in a bound, soft cover format. To purchase printed manuals, contact your MicroStrategy Account Executive with a purchase order number.</p>
+        <p class="Bullet" MadCap:autonum="• "><b>Help</b>: In general, MicroStrategy help provides:</p>
+        <p class="Bullet_2" MadCap:autonum="▫ ">Detailed steps to perform procedures</p>
+        <p class="Bullet_2" MadCap:autonum="▫ ">Descriptions of each option on every software screen</p>
+        <h3>Translations</h3>
+        <p>Due to translation time, manuals in languages other than English may contain information that is one or more releases behind. You can see the version number on the title page of each manual. </p>
+        <h3>Finding information</h3>
+        <p>You can search all MicroStrategy books and Help for a word or phrase, with a simple Google™ search at <a href="http://www.google.com/" rel="noopener noreferrer">http://www.google.com</a>. For example, type “MicroStrategy derived metric” or “MicroStrategy logical table” into a Google search. As described above, books typically describe general concepts and examples; Help typically provides detailed steps and screen options. To limit your search to MicroStrategy books, on Google’s main page you can click <b>More</b>, then select <b>Books</b>.</p>
+        <h3>Additional formats</h3>
+        <p>MicroStrategy manuals are available as electronic publications, downloadable on the Apple iBookstore or Google Play, and can be read on your iOS or Android device respectively. To download a book, search for the book’s title in the iBookstore or Google Play respectively. To view a list of manuals that are currently available, scan the following QR codes using your device’s camera:</p>
+        <p>For iOS devices, scan the following QR code:</p>
+        <p>
+            <img src="../Shared_Frontmatter/QR_iOS.png" alt="" />
+        </p>
+        <p>For Android devices, scan the following QR code:</p>
+        <p>
+            <img src="../Shared_Frontmatter/QR_Android.png" alt="" />
+        </p>
+        <p class="Note">For new MicroStrategy releases, it may take several days for the latest manuals to be available on the iBookstore or Google Play.</p>
+        <h3>Guides for MicroStrategy overview and evaluation</h3>
+        <p class="Bullet" style="font-style: italic;font-size: 12pt;letter-spacing: 0em;color: #000000;" MadCap:autonum="• "><i>Introduction to MicroStrategy</i>
+        </p>
+        <p class="Indent">Instructions for installing, configuring, and using the MicroStrategy Evaluation Edition of the software. This guide also includes a detailed, step-by-step evaluation process of MicroStrategy features, where you perform reporting with the MicroStrategy Tutorial project and its sample business data.</p>
+        <p class="Bullet" style="font-style: italic;font-size: 12pt;letter-spacing: 0em;color: #000000;" MadCap:autonum="• "><i>MicroStrategy Evaluation Edition Quick Start Guide</i>
+        </p>
+        <p class="Indent">Overview of the installation and evaluation process, and additional resources.</p>
+        <h3>Resources for Security</h3>
+        <p class="Bullet" style="font-style: italic;font-size: 12pt;letter-spacing: 0em;color: #000000;" MadCap:autonum="• "><i>Usher Help</i>
+        </p>
+        <p class="Indent">Steps to setup your Usher Security network, and control access to logical and physical resources. </p>
+        <h3>Manuals for query, reporting, and analysis</h3>
+        <p class="Bullet" style="font-style: italic;font-size: 12pt;letter-spacing: 0em;color: #000000;" MadCap:autonum="• "><i>MicroStrategy Installation and Configuration Guide</i>
+        </p>
+        <p class="Indent">Information to install and configure MicroStrategy products on Windows, UNIX, Linux, and HP platforms, as well as basic maintenance guidelines.</p>
+        <p class="Bullet" style="font-style: italic;font-size: 12pt;letter-spacing: 0em;color: #000000;" MadCap:autonum="• "><i>MicroStrategy Upgrade Guide</i>
+        </p>
+        <p class="Indent">Instructions to upgrade existing MicroStrategy products.</p>
+        <p class="Bullet" style="font-style: italic;font-size: 12pt;letter-spacing: 0em;color: #000000;" MadCap:autonum="• "><i>MicroStrategy Project Design Guide</i>
+        </p>
+        <p class="Indent">Information to create and modify MicroStrategy projects, and understand facts, attributes, hierarchies, transformations, advanced schemas, and project optimization.</p>
+        <p class="Bullet" style="font-style: italic;font-size: 12pt;letter-spacing: 0em;color: #000000;" MadCap:autonum="• "><i>MicroStrategy Basic Reporting Guide</i>
+        </p>
+        <p class="Indent">Instructions to get started with MicroStrategy Developer and MicroStrategy Web, and how to analyze data in a report. Includes the basics for creating reports, metrics, filters, and prompts.</p>
+        <p class="Bullet" style="font-style: italic;font-size: 12pt;letter-spacing: 0em;color: #000000;" MadCap:autonum="• "><i>MicroStrategy Advanced Reporting Guide</i>
+        </p>
+        <p class="Bullet" style="font-style: italic;font-size: 12pt;letter-spacing: 0em;color: #000000;" MadCap:autonum="• "><i>MicroStrategy Report Services Document Creation Guide</i>
+        </p>
+        <p class="Indent">Instructions to design and create Report Services documents, building on information in the <i>Document and Dashboard Analysis Guide</i>. It is organized to help guide you through creating a new document, from creating the document itself, to adding objects to the new document, and formatting the document and its objects. </p>
+        <p class="Bullet" style="font-style: italic;font-size: 12pt;letter-spacing: 0em;color: #000000;" MadCap:autonum="• "><i>MicroStrategy Dashboards and Widgets Creation Guide</i>
+        </p>
+        <p class="Indent">Instructions for designing and creating MicroStrategy Report Services dashboards, a type of document that is optimized for viewing online and for user interactivity. It builds on the basic concepts about documents presented in the <i>MicroStrategy Report Services Document Creation Guide</i>.</p>
+        <p class="Bullet" style="font-style: italic;font-size: 12pt;letter-spacing: 0em;color: #000000;" MadCap:autonum="• "><i>MicroStrategy In-memory Analytics Guide</i>
+        </p>
+        <p class="Indent">Information to use MicroStrategy OLAP Services features, including Intelligent Cubes, derived metrics, derived elements, dynamic aggregation, view filters, and dynamic sourcing.</p>
+        <p class="Bullet" style="font-style: italic;font-size: 12pt;letter-spacing: 0em;color: #000000;" MadCap:autonum="• "><i>MicroStrategy Office User Guide</i>
+        </p>
+        <p class="Indent">Instructions for using MicroStrategy Office to work with MicroStrategy reports and documents in Microsoft® Excel, PowerPoint, and Word, to analyze, format, and distribute business data.</p>
+        <p class="Bullet" style="font-style: italic;font-size: 12pt;letter-spacing: 0em;color: #000000;" MadCap:autonum="• "><i>MicroStrategy Mobile Analysis Guide</i>
+        </p>
+        <p class="Indent">Information and instructions for using MicroStrategy Mobile to view and analyze data, and perform other business tasks with MicroStrategy reports and documents on a mobile device.</p>
+        <p class="Bullet" style="font-style: italic;font-size: 12pt;letter-spacing: 0em;color: #000000;" MadCap:autonum="• "><i>MicroStrategy Mobile Design and Administration Guide</i>
+        </p>
+        <p class="Indent">Information and instructions to install and configure MicroStrategy Mobile, as well as instructions for a designer working in MicroStrategy Developer or MicroStrategy Web to create effective reports and documents for use with MicroStrategy Mobile. </p>
+        <p class="Bullet" style="font-style: italic;font-size: 12pt;letter-spacing: 0em;color: #000000;" MadCap:autonum="• "><i>MicroStrategy System Administration Guide</i>
+        </p>
+        <p class="Indent">Concepts and high-level steps to implement, deploy, maintain, tune, and troubleshoot a MicroStrategy business intelligence system.</p>
+        <p class="Bullet" style="font-style: italic;font-size: 12pt;letter-spacing: 0em;color: #000000;" MadCap:autonum="• "><i>MicroStrategy Supplemental Reference for System Administration</i>
+        </p>
+        <p class="Indent">Information and instructions for MicroStrategy administrative tasks such as configuring VLDB properties and defining data and metadata internationalization, and reference material for other administrative tasks.</p>
+        <p class="Bullet" style="font-style: italic;font-size: 12pt;letter-spacing: 0em;color: #000000;" MadCap:autonum="• "><i>MicroStrategy Functions Reference</i>
+        </p>
+        <p class="Indent">Function syntax and formula components; instructions to use functions in metrics, filters, attribute forms; examples of functions in business scenarios.</p>
+        <p class="Bullet" style="font-style: italic;font-size: 12pt;letter-spacing: 0em;color: #000000;" MadCap:autonum="• "><i>MicroStrategy MDX Cube Reporting Guide</i>
+        </p>
+        <p class="Indent">Information to integrate MicroStrategy with MDX cube sources. You can integrate data from MDX cube sources into your MicroStrategy projects and applications.</p>
+        <h3>Manuals for Analytics Modules</h3>
+        <p class="Bullet" MadCap:autonum="• "><var>Manual for the Human Resources Analytics Module</var>
+        </p>
+        <p class="Bullet" MadCap:autonum="• "><var>Human Resources Analytics Module Reference</var>
+        </p>
+        <h3>Software Development Kits</h3>
+        <p class="Bullet" style="font-style: italic;font-size: 12pt;letter-spacing: 0em;color: #000000;" MadCap:autonum="• "><i>MicroStrategy Developer Library (MSDL)</i>
+        </p>
+        <p class="Indent">Information to understand the MicroStrategy SDK, including details about architecture, object models, customization scenarios, code samples, and so on.</p>
+        <p class="Bullet" style="font-style: italic;font-size: 12pt;letter-spacing: 0em;color: #000000;" MadCap:autonum="• "><i>MicroStrategy Web SDK</i>
+        </p>
+        <p class="Note_Indent">The Web SDK is available in the MicroStrategy Developer Library, which is part of the MicroStrategy SDK</p>
+        <h3>Documentation for MicroStrategy Portlets</h3>
+        <p class="Bullet" style="font-style: italic;font-size: 12pt;letter-spacing: 0em;color: #000000;" MadCap:autonum="• "><i>Enterprise Portal Integration Help</i>
+        </p>
+        <p class="Indent">Information to help you implement and deploy MicroStrategy BI within your enterprise portal, including instructions for installing and configuring out-of-the-box MicroStrategy Portlets for several major enterprise portal servers. </p>
+        <h3>Help</h3>
+        <p>Each MicroStrategy product includes an integrated help system to complement the various interfaces of the product as well as the tasks that can be accomplished using the product. </p>
+        <p>Some of the MicroStrategy help systems require a web browser to be viewed. For supported web browsers, see the MicroStrategy Readme. </p>
+        <p>MicroStrategy provides several ways to access help:</p>
+        <p class="Bullet" MadCap:autonum="• ">Help button: Use the Help button or ? (question mark) icon on most software windows to see help for that window.</p>
+        <p class="Bullet" MadCap:autonum="• ">Help menu: From the Help menu or link at the top of any screen, select MicroStrategy Help to see the table of contents, the Search field, and the index for the help system.</p>
+        <p class="Bullet" MadCap:autonum="• ">F1 key: Press F1 to see context-sensitive help that describes each option in the software window you are currently viewing.</p>
+        <p class="Note_Indent">For MicroStrategy Web, MicroStrategy Web Administrator, and MicroStrategy Mobile Server, pressing the F1 key opens the context-sensitive help for the web browser you are using to access these MicroStrategy interfaces. Use the Help menu or ? (question mark) icon to access help for these MicroStrategy interfaces.</p>
+        <h3><a name="bookoverview_2279103363_1084280"></a><a name="bookoverview_2279103363_34906"></a>Accessing manuals and other documentation sources</h3>
+        <p>The manuals are available <a href="https://microstrategyhelp.atlassian.net/">here</a> as well as from  the machine where MicroStrategy was installed.</p>
+        <p class="Note">Adobe Acrobat Reader is required to view these manuals. If you do not have Acrobat Reader installed on your computer, you can download it <a href="http://get.adobe.com/reader/" rel="noopener noreferrer">here</a>.</p>
+        <p>The best place for all users to begin is with the <i>MicroStrategy Basic Reporting Guide</i>.</p>
+        <h3 class="procedure"><a name="bookoverview_2279103363_1084304"></a><a name="bookoverview_2279103363_48305"></a>To access documentation resources on Windows</h3>
+        <p class="Number_1" MadCap:autonum="1 ">In Windows, choose <b>Start</b> &gt; <b>Programs</b> (or <b>All Programs</b>) &gt; <b>MicroStrategy Documentation</b> &gt; <b>Product Manuals</b>. </p>
+        <p class="Number" MadCap:autonum="2 ">Click the link for the desired manual or other documentation source.</p>
+        <p class="Number" MadCap:autonum="3 ">If you click the link for the Narrowcast Services SDK Guide, a File Download dialog box opens. This documentation resource must be downloaded. Select <b>Open this file from its current location</b>, and click <b>OK</b>.</p>
+        <p class="Note">If bookmarks are not visible on the left side of an Acrobat (PDF) manual, from the <b>View</b> menu click <b>Bookmarks and Page</b>. This step varies slightly depending on your version of Adobe Acrobat Reader.</p>
+        <h3 class="procedure"><a name="bookoverview_2279103363_1084310"></a><a name="bookoverview_2279103363_36996"></a>To access documentation resources on UNIX and Linux	</h3>
+        <p class="Number_1" MadCap:autonum="1 ">Within your UNIX or Linux machine, navigate to the directory where you installed MicroStrategy. The default location is <code>/opt/MicroStrategy</code>, or <code>$HOME/MicroStrategy/install</code> if you do not have write access to <code>/opt/MicroStrategy</code>.</p>
+        <p class="Number" MadCap:autonum="2 ">From the MicroStrategy installation directory, open the <code>Help</code> folder.</p>
+        <p class="Number" MadCap:autonum="3 ">Open the <code>Product_Manuals.htm</code> file in a web browser. A page opens in your browser showing a list of available manuals in PDF format and other documentation sources.</p>
+        <p class="Number" MadCap:autonum="4 ">Click the link for the desired manual or other documentation source.</p>
+        <p class="Number" MadCap:autonum="5 ">If you click the link for the Narrowcast Services SDK Guide, a File Download dialog box opens. This documentation resource must be downloaded. Select <b>Open this file from its current location</b>, and click <b>OK</b>.</p>
+        <p class="Note">If bookmarks are not visible on the left side of an Acrobat (PDF) manual, from the <b>View</b> menu click <b>Bookmarks and Page</b>. This step varies slightly depending on your version of Adobe Acrobat Reader.</p>
+        <h4 class="Topic_L3">Documentation standards</h4>
+        <p>MicroStrategy online help and PDF manuals (available both online and in printed format) use standards to help you identify certain types of content. The following table lists these standards.</p>
+        <p class="Note">These standards may differ depending on the language of this manual; some languages have rules that supersede the table below.</p>
+        <table style="caption-side: top;mc-table-style: url('../../TableStyles/Table.css');width: 100%;" class="TableStyle-Table" cellspacing="0">
+            <col class="TableStyle-Table-Column-Column1" />
+            <col class="TableStyle-Table-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-Table-Head-Header1">
+                    <td class="TableStyle-Table-HeadE-Column1-Header1">
+                        <p class="Table_Heading">Type</p>
+                    </td>
+                    <td class="TableStyle-Table-HeadD-Column2-Header1">
+                        <p class="Table_Heading">Indicates</p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table-Body-Body1">
+                    <td class="TableStyle-Table-BodyE-Column1-Body1">
+                        <p class="Table_Body" style="font-family: Arial;font-weight: bold;font-style: normal;font-size: 10pt;letter-spacing: 0em;color: #000000;"><b>bold</b>
+                        </p>
+                    </td>
+                    <td class="TableStyle-Table-BodyD-Column2-Body1">
+                        <p class="Table_Bullet" MadCap:autonum="• ">Button names, check boxes, options, lists, and menus that are the focus of actions or part of a list of such GUI elements and their definitions</p>
+                        <p class="Table_Body">Example: Click <b>Select Warehouse</b>.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table-Body-Body2">
+                    <td class="TableStyle-Table-BodyE-Column1-Body2">
+                        <p class="Table_Body" style="font-family: Arial;font-weight: normal;font-style: italic;font-size: 10pt;letter-spacing: 0em;color: #000000;"><i>italic</i>
+                        </p>
+                    </td>
+                    <td class="TableStyle-Table-BodyD-Column2-Body2">
+                        <p class="Table_Bullet" MadCap:autonum="• ">Names of other product manuals and documentation resources</p>
+                        <p class="Table_Bullet" MadCap:autonum="• ">When part of a command syntax, indicates variable information to be replaced by the user</p>
+                        <p class="Table_Body">Example: The <i class="glossary_term">aggregation level</i> is the level of calculation for the metric.</p>
+                        <p class="Table_Body">Example: Type <code style="font-size: 10pt;line-height: 12pt;">copy c:\</code><i>filename</i><code style="font-size: 10pt;line-height: 12pt;"> d:\</code><i>foldername</i><code style="font-size: 10pt;line-height: 12pt;">\</code><i>filename</i></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table-Body-Body1">
+                    <td class="TableStyle-Table-BodyE-Column1-Body1">
+                        <p class="Table_Body" style="font-family: 'Courier New';font-weight: normal;font-style: normal;font-size: 12pt;letter-spacing: 0em;color: #000000;"><code>Courier font</code>
+                        </p>
+                    </td>
+                    <td class="TableStyle-Table-BodyD-Column2-Body1">
+                        <p class="Table_Bullet" MadCap:autonum="• ">Calculations</p>
+                        <p class="Table_Bullet" MadCap:autonum="• ">Code samples</p>
+                        <p class="Table_Bullet" MadCap:autonum="• ">Registry keys</p>
+                        <p class="Table_Bullet" MadCap:autonum="• ">Path and file names</p>
+                        <p class="Table_Bullet" MadCap:autonum="• ">URLs</p>
+                        <p class="Table_Bullet" MadCap:autonum="• ">Messages displayed in the screen</p>
+                        <p class="Table_Bullet" MadCap:autonum="• ">Text to be entered by the user</p>
+                        <p class="Table_Body">Example: <code style="font-size: 10pt;line-height: 12pt;">Sum(revenue)/number of months</code>.</p>
+                        <p class="Table_Body">Example: Type <code style="font-size: 10pt;line-height: 12pt;">cmdmgr -f scriptfile.scp</code> and press <b>Enter</b>.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table-Body-Body2">
+                    <td class="TableStyle-Table-BodyE-Column1-Body2">
+                        <p class="Table_Body">+</p>
+                    </td>
+                    <td class="TableStyle-Table-BodyD-Column2-Body2">
+                        <p class="Table_Body">A keyboard command that calls for the use of more than one key (for example, SHIFT+F1).</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table-Body-Body1">
+                    <td class="TableStyle-Table-BodyE-Column1-Body1">
+                        <p class="Note">&#160;</p>
+                    </td>
+                    <td class="TableStyle-Table-BodyD-Column2-Body1">
+                        <p class="Table_Body">A note icon indicates helpful information for specific situations.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Table-Body-Body2">
+                    <td class="TableStyle-Table-BodyB-Column1-Body2">
+                        <p class="Warning">&#160;</p>
+                    </td>
+                    <td class="TableStyle-Table-BodyA-Column2-Body2">
+                        <p class="Table_Body">A warning icon alerts you to important information such as potential security risks; these should be read before continuing.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

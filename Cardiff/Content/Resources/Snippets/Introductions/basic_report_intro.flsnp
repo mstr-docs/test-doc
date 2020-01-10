@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="106" MadCap:lastWidth="1255">
+    <head>
+    </head>
+    <body>
+        <p>
+            <MadCap:conditionalText MadCap:conditions="MSTR_Docs_Conditions.PrintOnly">The </MadCap:conditionalText>MicroStrategy Basic Reporting<MadCap:conditionalText MadCap:conditions="MSTR_Docs_Conditions.PrintOnly"> Guide</MadCap:conditionalText> describes the steps for a business analyst to execute and analyze a business report in MicroStrategy Developer and MicroStrategy Web. It also provides the information necessary for report designers to design, create, and modify simple business reports and reporting objects using the MicroStrategy platform.</p>
+    </body>
+</html>

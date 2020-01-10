@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div id="feedback-survey" class="english" style="display: none;"><span class="question">Did you find this helpful?</span>
+            <div id="feedback-yes" class="feedback-option yes">
+                <div class="feedback-option-button"><i class="far fa-smile fa-2x feedback-yes" aria-hidden="true" title="Yes, this article was helpful." alt="Yes, this article was helpful." data-eventCategory="Feedback" data-eventLabel="yes"></i>
+                    Yes
+                </div>
+                <div class="feedback-dialog yes"><span class="close">x</span>
+                    <p>Great!</p>
+                    <p>Thanks for taking the time to give us some feedback.</p>
+                </div>
+            </div>
+            <div id="feedback-no" class="feedback-option no">
+                <div class="feedback-option-button"><i class="far fa-frown fa-2x feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful."></i>
+                    No
+                </div>
+                <div class="feedback-dialog"><span class="close">x</span>
+                    <p>Sorry about that</p>
+                    <p>Why wasn't this helpful? (check all that apply)</p><span class="divider"></span>
+                    <div class="check-option">
+                        <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" data-eventCategory="Feedback" data-eventLabel="No-Couldn't Find" />
+                        <label for="option1">I couldn't find what I was looking for.</label>
+                    </div>
+                    <div class="check-option">
+                        <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" data-eventCategory="Feedback" data-eventLabel="No-Confusing/Unclear" />
+                        <label for="option2">The instructions are confusing or unclear.</label>
+                    </div>
+                    <div class="check-option">
+                        <input type="checkbox" class="option no" id="option3" value="Instructions didn't work" data-analytics-label="Did not work" data-eventCategory="Feedback" data-eventLabel="No-Didn't Work" />
+                        <label for="option3">The instructions didn't work.</label>
+                    </div>
+                    <div class="thank-you-message">
+                        <div class="text">
+                            <p><b>Thanks for your feedback</b>.</p>
+                            <p>Want to tell us more? Send us an email to leave your feedback.</p>
+                        </div><a class="feedback-button" href="mailto:documentationfeedback@microstrategy.com?subject=Feedback" id="feedbackEmailLink">Email us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="feedback-survey" class="german" style="display: none;"><span class="question">Waren Ihnen die Informationen hilfreich?</span>
+            <div id="feedback-yes" class="feedback-option yes">
+                <div class="feedback-option-button"><i class="far fa-smile fa-2x feedback-yes" aria-hidden="true" title="Yes, this article was helpful." alt="Yes, this article was helpful." data-eventCategory="Feedback" data-eventLabel="yes"></i>
+						Ja
+					</div>
+                <div class="feedback-dialog yes"><span class="close">x</span>
+                    <p>Großartig!</p>
+                    <p>Vielen Dank, das Sie sich die Zeit genommen haben, uns Ihr Feedback mitzuteilen.</p>
+                </div>
+            </div>
+            <div id="feedback-no" class="feedback-option no">
+                <div class="feedback-option-button"><i class="far fa-frown fa-2x feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful."></i>
+						Nein
+					</div>
+                <div class="feedback-dialog"><span class="close">x</span>
+                    <p>Das tut uns leid!</p>
+                    <p>Warum waren diese Informationen nicht hilfreich? (Zutreffendes bitte auswählen)</p><span class="divider"></span>
+                    <div class="check-option">
+                        <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" data-eventCategory="Feedback" data-eventLabel="No-Couldn't Find" />
+                        <label for="option1">Ich konnte nicht finden, wonach ich gesucht habe</label>
+                    </div>
+                    <div class="check-option">
+                        <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" data-eventCategory="Feedback" data-eventLabel="No-Confusing/Unclear" />
+                        <label for="option2">Anweisungen waren verwirrend oder unklar</label>
+                    </div>
+                    <div class="check-option">
+                        <input type="checkbox" class="option no" id="option3" value="Instructions didn't work" data-analytics-label="Did not work" data-eventCategory="Feedback" data-eventLabel="No-Didn't Work" />
+                        <label for="option3">Anweisungen haben nicht zum Ziel geführt</label>
+                    </div>
+                    <div class="thank-you-message">
+                        <div class="text">
+                            <p style="font-weight: bold;">Vielen Dank für Ihre Antworten.</p>
+                            <p>möchten Sie uns noch etwas mitteilen? Senden Sie uns eine E-Mail mit Ihrem Feedback.</p>
+                        </div><a class="feedback-button" href="mailto:documentationfeedback@microstrategy.com?subject=Feedback" id="feedbackEmailLink">E-Mail an uns senden</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="feedback-survey" class="french" style="display: none;"><span class="question">Ces informations vous ont-elles été utiles ?</span>
+            <div id="feedback-yes" class="feedback-option yes">
+                <div class="feedback-option-button"><i class="far fa-smile fa-2x feedback-yes" aria-hidden="true" title="Yes, this article was helpful." alt="Yes, this article was helpful." data-eventCategory="Feedback" data-eventLabel="yes"></i>
+						Oui
+					</div>
+                <div class="feedback-dialog yes"><span class="close">x</span>
+                    <p>Superbe !</p>
+                    <p>Merci de nous avoir accordé un peu de votre temps.</p>
+                </div>
+            </div>
+            <div id="feedback-no" class="feedback-option no">
+                <div class="feedback-option-button"><i class="far fa-frown fa-2x feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful."></i>
+						Non
+					</div>
+                <div class="feedback-dialog"><span class="close">x</span>
+                    <p>Nous en sommes désolés</p>
+                    <p>Pourquoi ne vous ont-elles pas été utiles ? (cochez tous les choix applicables)</p><span class="divider"></span>
+                    <div class="check-option">
+                        <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" data-eventCategory="Feedback" data-eventLabel="No-Couldn't Find" />
+                        <label for="option1">Je n’ai pas trouvé ce que je recherchais</label>
+                    </div>
+                    <div class="check-option">
+                        <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" data-eventCategory="Feedback" data-eventLabel="No-Confusing/Unclear" />
+                        <label for="option2">Instructions confuses ou obscures</label>
+                    </div>
+                    <div class="check-option">
+                        <input type="checkbox" class="option no" id="option3" value="Instructions didn't work" data-analytics-label="Did not work" data-eventCategory="Feedback" data-eventLabel="No-Didn't Work" />
+                        <label for="option3">Les instructions ne fonctionnaient pas</label>
+                    </div>
+                    <div class="thank-you-message">
+                        <div class="text">
+                            <p style="font-weight: bold;">Merci de vos commentaires.</p>
+                            <p>Vous voulez nous en dire plus ? Envoyez-nous un e-mail pour nous laisser vos commentaires.</p>
+                        </div><a class="feedback-button" href="mailto:documentationfeedback@microstrategy.com?subject=Feedback" id="feedbackEmailLink">Envoyez-nous un e-mail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="feedback-survey" class="italian" style="display: none;"><span class="question">Questo contenuto ti è stato utile?</span>
+            <div id="feedback-yes" class="feedback-option yes">
+                <div class="feedback-option-button"><i class="far fa-smile fa-2x feedback-yes" aria-hidden="true" title="Yes, this article was helpful." alt="Yes, this article was helpful." data-eventCategory="Feedback" data-eventLabel="yes"></i>
+						Sì
+					</div>
+                <div class="feedback-dialog yes"><span class="close">x</span>
+                    <p>Perfetto!</p>
+                    <p>Grazie per avere dedicato del tempo per fornirci un tuo commento.</p>
+                </div>
+            </div>
+            <div id="feedback-no" class="feedback-option no">
+                <div class="feedback-option-button"><i class="far fa-frown fa-2x feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful."></i>
+						No
+					</div>
+                <div class="feedback-dialog"><span class="close">x</span>
+                    <p>Siamo spiacenti</p>
+                    <p>Perché non è stato utile? (selezionare tutte le risposte adeguate)</p><span class="divider"></span>
+                    <div class="check-option">
+                        <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" data-eventCategory="Feedback" data-eventLabel="No-Couldn't Find" />
+                        <label for="option1">Non ho trovato quello che stavo cercando</label>
+                    </div>
+                    <div class="check-option">
+                        <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" data-eventCategory="Feedback" data-eventLabel="No-Confusing/Unclear" />
+                        <label for="option2">Le istruzioni erano confuse o poco chiare</label>
+                    </div>
+                    <div class="check-option">
+                        <input type="checkbox" class="option no" id="option3" value="Instructions didn't work" data-analytics-label="Did not work" data-eventCategory="Feedback" data-eventLabel="No-Didn't Work" />
+                        <label for="option3">Le istruzioni non hanno dato il risultato previsto</label>
+                    </div>
+                    <div class="thank-you-message">
+                        <div class="text">
+                            <p style="font-weight: bold;">Grazie per il feedback.</p>
+                            <p>Vuoi inviarci un commento? Inviaci un’e-mail o lasciaci un commento.</p>
+                        </div><a class="feedback-button" href="mailto:documentationfeedback@microstrategy.com?subject=Feedback" id="feedbackEmailLink">Inviaci un’e-mail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="feedback-survey" class="spanish" style="display: none;"><span class="question">¿Le ha resultado útil?</span>
+            <div id="feedback-yes" class="feedback-option yes">
+                <div class="feedback-option-button"><i class="far fa-smile fa-2x feedback-yes" aria-hidden="true" title="Yes, this article was helpful." alt="Yes, this article was helpful." data-eventCategory="Feedback" data-eventLabel="yes"></i>
+						Sí
+					</div>
+                <div class="feedback-dialog yes"><span class="close">x</span>
+                    <p>¡Genial!</p>
+                    <p>Gracias por dedicar su tiempo a proporcionarnos sus comentarios.</p>
+                </div>
+            </div>
+            <div id="feedback-no" class="feedback-option no">
+                <div class="feedback-option-button"><i class="far fa-frown fa-2x feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful."></i>
+						No
+					</div>
+                <div class="feedback-dialog"><span class="close">x</span>
+                    <p>Lo sentimos</p>
+                    <p>¿Por qué no ha sido útil? (Marque todos los que correspondan)</p><span class="divider"></span>
+                    <div class="check-option">
+                        <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" data-eventCategory="Feedback" data-eventLabel="No-Couldn't Find" />
+                        <label for="option1">No he encontrado lo que buscaba</label>
+                    </div>
+                    <div class="check-option">
+                        <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" data-eventCategory="Feedback" data-eventLabel="No-Confusing/Unclear" />
+                        <label for="option2">Las instrucciones eran confusas o no eran claras.</label>
+                    </div>
+                    <div class="check-option">
+                        <input type="checkbox" class="option no" id="option3" value="Instructions didn't work" data-analytics-label="Did not work" data-eventCategory="Feedback" data-eventLabel="No-Didn't Work" />
+                        <label for="option3">Las instrucciones no funcionaban.</label>
+                    </div>
+                    <div class="thank-you-message">
+                        <div class="text">
+                            <p style="font-weight: bold;">Gracias por sus comentarios.</p>
+                            <p>¿Desea informarnos de más cosas? Envíenos un correo electrónico para dejar sus comentarios.</p>
+                        </div><a class="feedback-button" href="mailto:documentationfeedback@microstrategy.com?subject=Feedback" id="feedbackEmailLink">Envíenos un correo electrónico</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="feedback-survey" class="portuguese" style="display: none;"><span class="question">Você achou isso útil?</span>
+            <div id="feedback-yes" class="feedback-option yes">
+                <div class="feedback-option-button"><i class="far fa-smile fa-2x feedback-yes" aria-hidden="true" title="Yes, this article was helpful." alt="Yes, this article was helpful." data-eventCategory="Feedback" data-eventLabel="yes"></i>
+						Sim
+					</div>
+                <div class="feedback-dialog yes"><span class="close">x</span>
+                    <p>Ótimo!</p>
+                    <p>Obrigado por aproveitar o tempo para nos dar alguns comentários.</p>
+                </div>
+            </div>
+            <div id="feedback-no" class="feedback-option no">
+                <div class="feedback-option-button"><i class="far fa-frown fa-2x feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful."></i>
+						Não
+					</div>
+                <div class="feedback-dialog"><span class="close">x</span>
+                    <p>Desculpe por isso</p>
+                    <p>Por que isso não foi útil? (marque todas as que se aplicam)</p><span class="divider"></span>
+                    <div class="check-option">
+                        <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" data-eventCategory="Feedback" data-eventLabel="No-Couldn't Find" />
+                        <label for="option1">Não consegui encontrar o que estava procurando</label>
+                    </div>
+                    <div class="check-option">
+                        <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" data-eventCategory="Feedback" data-eventLabel="No-Confusing/Unclear" />
+                        <label for="option2">Instruções confusas ou não claras.</label>
+                    </div>
+                    <div class="check-option">
+                        <input type="checkbox" class="option no" id="option3" value="Instructions didn't work" data-analytics-label="Did not work" data-eventCategory="Feedback" data-eventLabel="No-Didn't Work" />
+                        <label for="option3">As instruções não funcionaram.</label>
+                    </div>
+                    <div class="thank-you-message">
+                        <div class="text">
+                            <p style="font-weight: bold;">Obrigado pelos seus comentários.</p>
+                            <p>Quer nos contar mais? Envie-nos um e-mail para deixar seus comentários.</p>
+                        </div><a class="feedback-button" href="mailto:documentationfeedback@microstrategy.com?subject=Feedback" id="feedbackEmailLink">Envie-nos um e-mail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="feedback-survey" class="japanese" style="display: none;"><span class="question">役に立ちましたか?</span>
+            <div id="feedback-yes" class="feedback-option yes">
+                <div class="feedback-option-button"><i class="far fa-smile fa-2x feedback-yes" aria-hidden="true" title="Yes, this article was helpful." alt="Yes, this article was helpful." data-eventCategory="Feedback" data-eventLabel="yes"></i>
+						はい
+					</div>
+                <div class="feedback-dialog yes"><span class="close">x</span>
+                    <p>ありがとうございます。</p>
+                    <p>お時間を割いてご意見をお寄せいただき誠にありがとうございます。</p>
+                </div>
+            </div>
+            <div id="feedback-no" class="feedback-option no">
+                <div class="feedback-option-button"><i class="far fa-frown fa-2x feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful."></i>
+						いいえ
+					</div>
+                <div class="feedback-dialog"><span class="close">x</span>
+                    <p>それは残念です</p>
+                    <p>役に立たなかった理由は何ですか? (該当するものをすべてチェックしてください)</p><span class="divider"></span>
+                    <div class="check-option">
+                        <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" data-eventCategory="Feedback" data-eventLabel="No-Couldn't Find" />
+                        <label for="option1">目的の情報を見つけられなかった</label>
+                    </div>
+                    <div class="check-option">
+                        <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" data-eventCategory="Feedback" data-eventLabel="No-Confusing/Unclear" />
+                        <label for="option2">手順がややこしいまたは不明確</label>
+                    </div>
+                    <div class="check-option">
+                        <input type="checkbox" class="option no" id="option3" value="Instructions didn't work" data-analytics-label="Did not work" data-eventCategory="Feedback" data-eventLabel="No-Didn't Work" />
+                        <label for="option3">手順が間違っていた</label>
+                    </div>
+                    <div class="thank-you-message">
+                        <div class="text">
+                            <p style="font-weight: bold;">ご意見をいただき誠にありがとうございます。</p>
+                            <p>もっと詳しくお聞かせいただけますか? メールでご意見をお聞かせください。</p>
+                        </div><a class="feedback-button" href="mailto:documentationfeedback@microstrategy.com?subject=Feedback" id="feedbackEmailLink">メール</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="feedback-survey" class="korean" style="display: none;"><span class="question">도움이 되었습니까?</span>
+            <div id="feedback-yes" class="feedback-option yes">
+                <div class="feedback-option-button"><i class="far fa-smile fa-2x feedback-yes" aria-hidden="true" title="Yes, this article was helpful." alt="Yes, this article was helpful." data-eventCategory="Feedback" data-eventLabel="yes"></i>
+						예
+					</div>
+                <div class="feedback-dialog yes"><span class="close">x</span>
+                    <p>수고하셨습니다.</p>
+                    <p>피드백을 위해 시간 내 주셔서 감사합니다.</p>
+                </div>
+            </div>
+            <div id="feedback-no" class="feedback-option no">
+                <div class="feedback-option-button"><i class="far fa-frown fa-2x feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful."></i>
+						아니오
+					</div>
+                <div class="feedback-dialog"><span class="close">x</span>
+                    <p>죄송합니다.</p>
+                    <p>도움이 되지 않은 이유는 무엇입니까? (해당되는 모든 사항 선택)</p><span class="divider"></span>
+                    <div class="check-option">
+                        <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" data-eventCategory="Feedback" data-eventLabel="No-Couldn't Find" />
+                        <label for="option1">찾는 내용이 없습니다.</label>
+                    </div>
+                    <div class="check-option">
+                        <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" data-eventCategory="Feedback" data-eventLabel="No-Confusing/Unclear" />
+                        <label for="option2">지침이 혼동되거나 불분명합니다.</label>
+                    </div>
+                    <div class="check-option">
+                        <input type="checkbox" class="option no" id="option3" value="Instructions didn't work" data-analytics-label="Did not work" data-eventCategory="Feedback" data-eventLabel="No-Didn't Work" />
+                        <label for="option3">지침이 효과가 없습니다.</label>
+                    </div>
+                    <div class="thank-you-message">
+                        <div class="text">
+                            <p style="font-weight: bold;">Thanks for your feedback.</p>
+                            <p>Want to tell us more? Send us an email to leave your feedback.</p>
+                        </div><a class="feedback-button" href="mailto:documentationfeedback@microstrategy.com?subject=Feedback" id="feedbackEmailLink">Email us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="feedback-survey" class="chinese" style="display: none;"><span class="question">您觉得这篇文章有用吗？</span>
+            <div id="feedback-yes" class="feedback-option yes">
+                <div class="feedback-option-button"><i class="far fa-smile feedback-yes" aria-hidden="true" title="Yes, this article was helpful." alt="Yes, this article was helpful." data-eventCategory="Feedback" data-eventLabel="yes"></i>
+						是
+					</div>
+                <div class="feedback-dialog yes"><span class="close">x</span>
+                    <p>好极了！</p>
+                    <p>感谢您抽出时间给我们提供一些反馈。</p>
+                </div>
+            </div>
+            <div id="feedback-no" class="feedback-option no">
+                <div class="feedback-option-button"><i class="far fa-frown fa-1x feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful."></i>
+						否
+					</div>
+                <div class="feedback-dialog"><span class="close">x</span>
+                    <p>我们对此感到抱歉</p>
+                    <p>为什么您觉得没什么用？ （选中所有适用项）</p><span class="divider"></span>
+                    <div class="check-option">
+                        <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" data-eventCategory="Feedback" data-eventLabel="No-Couldn't Find" />
+                        <label for="option1">无法找到我需要的内容</label>
+                    </div>
+                    <div class="check-option">
+                        <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" data-eventCategory="Feedback" data-eventLabel="No-Confusing/Unclear" />
+                        <label for="option2">说明含混或者不明确</label>
+                    </div>
+                    <div class="check-option">
+                        <input type="checkbox" class="option no" id="option3" value="Instructions didn't work" data-analytics-label="Did not work" data-eventCategory="Feedback" data-eventLabel="No-Didn't Work" />
+                        <label for="option3">说明没有用</label>
+                    </div>
+                    <div class="thank-you-message">
+                        <div class="text">
+                            <p style="font-weight: bold;">感谢您的反馈。</p>
+                            <p>希望告诉我们更多信息吗？ 请发送电子邮件给我们，留下您的反馈。</p>
+                        </div><a class="feedback-button" href="mailto:documentationfeedback@microstrategy.com?subject=Feedback" id="feedbackEmailLink">给我们发送电子邮件</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

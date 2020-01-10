@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="405" MadCap:lastWidth="958">
+    <body>
+        <ol MadCap:continue="true">
+            <li>In the Data Sources/Projects pane, click on the data source/project that contains the data to import.</li>
+            <li>If your data source/project supports namespaces, select a namespace from the <b>Namespace</b> drop-down list in the Available Tables/Datasets pane to display only the tables/datasets within a selected namespace. To search for a namespace, type its name in <b>Namespace</b>. The choices in the drop-down list are filtered as you type.</li>
+            <li>Expand a table/dataset to view the columns within it. Each column appears with its corresponding data type in brackets. To search for a table/dataset, type its name in <b>Table</b>. The tables/datasets are filtered as you type.</li>
+            <li>MicroStrategy creates a cache of the database’s tables and columns when a data source/project is first used. Hover over the <b>Information</b> icon <img src="../Images/info_icon_dataset_cache.png" MadCap:mediastyle="@media print { max-width: 100%; }" class="intext" /> at the top of the Available Tables/Datasets pane to view a tooltip displaying the number of tables and the last time the cache was updated.</li>
+            <li>Click <b>Update namespaces</b><img src="../Images/update.png" MadCap:mediastyle="@media print { max-width: 100%; }" class="intext" /> in the Available Tables/Datasets pane to refresh the namespaces.</li>
+            <li>Click  <b>Update</b><img src="../Images/update.png" MadCap:mediastyle="@media print { max-width: 100%; }" class="intext" /> in the Available Tables/Datasets pane to refresh the tables/datasets.</li>
+            <li>Double-click tables/datasets in the Available Tables/Datasets pane to add them to the list of tables to import. The tables/datasets appear in the Query Builder pane along with their corresponding columns. </li>
+        </ol>
+    </body>
+</html>

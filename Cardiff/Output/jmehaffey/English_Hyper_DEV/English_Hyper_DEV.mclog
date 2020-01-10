@@ -1,0 +1,618 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MadCapLog Protocol="2" Description="MadCap Flare 2019 r2 Generated English_Hyper_DEV.fltar" Date="2020-01-09T17:31:29.6389067-05:00">
+    <Messages>Compiling target English_Hyper_DEV...
+Removing previously generated content...
+Error validating conditional expression: Unrecognized tag: MSTR_Docs_Conditions.Archive Banner
+Loading skin info...
+Gathering Glossary information...
+Gathering Auto-index information...
+Loading Master TOC...
+Processing Master TOC...
+Collecting source files...
+Processing source files...
+Processing CSS: Resources\foundation\css\foundation.min.css...
+Image "add_email_links.png" regenerated for "" medium: Resources\Images\add_email_links.png
+Image "chrome_extension.png" regenerated for "" medium: Resources\Images\chrome_extension.png
+Image "example.png" regenerated for "" medium: Resources\Images\example.png
+Image "hypermobile_cards.png" regenerated for "" medium: Resources\Images\hypermobile_cards.png
+Image "img_tags.png" regenerated for "" medium: Resources\Images\img_tags.png
+Image "rtaImage.png" regenerated for "" medium: Resources\Images\rtaImage.png
+Processing CSS: Resources\Stylesheets\footer_styles.css...
+Processing CSS: Resources\Stylesheets\main.css...
+Processing CSS: Resources\Stylesheets\MSTRDocs_Styles.css...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\printIcons\pdf_download.png
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\printIcons\info-24.png
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\printIcons\alert-24.png
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\printIcons\key-24.png
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\printIcons\ok-24.png
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\SharedImages\expand_22px.png
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\SharedImages\collapse_22px.png
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\SharedImages\expand_arrow.png
+Processing CSS: Resources\TableStyles\table_from_MSTR_website.css...
+Generating output files...
+Processing topic: home_hyperintelligence.htm...
+Applying master page OnlineHelp-Main.flmsp...
+C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\foundation\css\foundation.min.css Line: 1. Char: 7349. Bad token in selector: @page
+The feedback-survey ID has been used more than once in a document.
+Processing sub-toc: Hyper.fltoc...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated home_hyperintelligence.htm
+Processing topic: intro_hyperintelligence.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated intro_hyperintelligence.htm
+Processing topic: prereq_hyperintelligence.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated prereq_hyperintelligence.htm
+Processing topic: Hyper_dataset.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated Hyper_dataset.htm
+Processing topic: Hyper_datasets_with_supported_relationships.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated Hyper_datasets_with_supported_relationships.htm
+Processing topic: Hyper_keyword_attributes.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated Hyper_keyword_attributes.htm
+Processing topic: profile_cards_adding_images.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated profile_cards_adding_images.htm
+Processing topic: add_email_links_to_hypercards.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated add_email_links_to_hypercards.htm
+Processing topic: add_links_to_dataset.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated add_links_to_dataset.htm
+Processing topic: create_cards.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated create_cards.htm
+Processing topic: enable_alternate_keyword_matching.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated enable_alternate_keyword_matching.htm
+Processing topic: dynamic_link.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated dynamic_link.htm
+Processing topic: edit_cards.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated edit_cards.htm
+Processing topic: add_users_to_cards.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated add_users_to_cards.htm
+Processing topic: view_card_activity.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated view_card_activity.htm
+Processing topic: HyperIntelligence_Chrome_Extension.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated HyperIntelligence_Chrome_Extension.htm
+Processing topic: install_hyper_web.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated install_hyper_web.htm
+Processing topic: configure_chrome_extension.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated configure_chrome_extension.htm
+Processing topic: use_hyperintelligence.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated use_hyperintelligence.htm
+Processing topic: HyperIntelligence_FAQ.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated HyperIntelligence_FAQ.htm
+Processing topic: Hyper_Mobile.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated Hyper_Mobile.htm
+Processing topic: Configure_HyperMobile.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated Configure_HyperMobile.htm
+Processing topic: navigate_hypermobile.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated navigate_hypermobile.htm
+Processing topic: How_to_access_cards.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated How_to_access_cards.htm
+Processing topic: calendar_tab.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated calendar_tab.htm
+Processing topic: Calendar_Based_Notifications.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated Calendar_Based_Notifications.htm
+Processing topic: HyperMobile_FAQ.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated HyperMobile_FAQ.htm
+Processing topic: Hyper_Outlook.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated Hyper_Outlook.htm
+Processing topic: Hyperoutlook_prerequisities.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated Hyperoutlook_prerequisities.htm
+Processing topic: installing_hyperoutlook.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated installing_hyperoutlook.htm
+Processing topic: generate_manifest_file.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated generate_manifest_file.htm
+Processing topic: deploy_hyperoutlook.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated deploy_hyperoutlook.htm
+Processing topic: connect_to_mstr.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated connect_to_mstr.htm
+Processing topic: navigate_hyperoutlook.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated navigate_hyperoutlook.htm
+Processing topic: HyperOffice_FAQ.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated HyperOffice_FAQ.htm
+Processing topic: troubleshoot_authoring.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated troubleshoot_authoring.htm
+Processing topic: troubleshoot_web.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated troubleshoot_web.htm
+Processing topic: troubleshoot_mobile.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated troubleshoot_mobile.htm
+Processing topic: troubleshoot_office.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated troubleshoot_office.htm
+Processing topic: configure_platform_analytics.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated configure_platform_analytics.htm
+Processing topic: view_dossier_activity.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated view_dossier_activity.htm
+Processing topic: Navigating_Workstation.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated Navigating_Workstation.htm
+Processing topic: view_application_telemetry.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated view_application_telemetry.htm
+Generating output skins...
+Generating synonyms file...
+Generating alias file...
+Generating final TOC...
+Generating language strings...
+Generating concept and keyword anchors in output files...
+Generating Index...
+Generating Concepts...
+Generating Template Topics...
+Generating Search.htm...
+Topic marked 'not searchable': Search.htm...
+Applying master page OnlineHelp-Main.flmsp...
+Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js
+Generated Search.htm
+Resolving links in output files...
+C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Output\jmehaffey\English_Hyper_DEV\Content\Resources\Stylesheets\main.css Line: 235. Char: 17. Bad token in selector: {
+C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Output\jmehaffey\English_Hyper_DEV\Content\Resources\foundation\css\foundation.min.css Line: 1. Char: 7349. Bad token in selector: @page
+Generating Search Database...
+Writing search entry cache...
+Generating final output...
+Generated Skins\Default\Stylesheets\TextEffects.micro-content.css
+Generated Skins\Default\Stylesheets\Topic.micro-content.css
+Generated index.htm
+Saving result set...
+Ignored Compiler Warnings: 256
+Output generated in 14 second(s).
+
+Done
+Publishing target English_Hyper_DEV...
+Connecting...
+Uploading files...
+Uploading csh.js... succeeded.
+Uploading index.htm... succeeded.
+Uploading index.js... succeeded.
+Uploading index.mcwebhelp... succeeded.
+Uploading index_CSH.htm... succeeded.
+Uploading Content/add_email_links_to_hypercards.htm... succeeded.
+Uploading Content/add_links_to_dataset.htm... succeeded.
+Uploading Content/add_users_to_cards.htm... succeeded.
+Uploading Content/Calendar_Based_Notifications.htm... succeeded.
+Uploading Content/calendar_tab.htm... succeeded.
+Uploading Content/configure_chrome_extension.htm... succeeded.
+Uploading Content/Configure_HyperMobile.htm... succeeded.
+Uploading Content/configure_platform_analytics.htm... succeeded.
+Uploading Content/connect_to_mstr.htm... succeeded.
+Uploading Content/create_cards.htm... succeeded.
+Uploading Content/deploy_hyperoutlook.htm... succeeded.
+Uploading Content/dynamic_link.htm... succeeded.
+Uploading Content/edit_cards.htm... succeeded.
+Uploading Content/enable_alternate_keyword_matching.htm... succeeded.
+Uploading Content/generate_manifest_file.htm... succeeded.
+Uploading Content/home_hyperintelligence.htm... succeeded.
+Uploading Content/How_to_access_cards.htm... succeeded.
+Uploading Content/HyperIntelligence_Chrome_Extension.htm... succeeded.
+Uploading Content/HyperIntelligence_FAQ.htm... succeeded.
+Uploading Content/HyperMobile_FAQ.htm... succeeded.
+Uploading Content/HyperOffice_FAQ.htm... succeeded.
+Uploading Content/Hyperoutlook_prerequisities.htm... succeeded.
+Uploading Content/Hyper_dataset.htm... succeeded.
+Uploading Content/Hyper_datasets_with_supported_relationships.htm... succeeded.
+Uploading Content/Hyper_keyword_attributes.htm... succeeded.
+Uploading Content/Hyper_Mobile.htm... succeeded.
+Uploading Content/Hyper_Outlook.htm... succeeded.
+Uploading Content/installing_hyperoutlook.htm... succeeded.
+Uploading Content/install_hyper_web.htm... succeeded.
+Uploading Content/intro_hyperintelligence.htm... succeeded.
+Uploading Content/navigate_hypermobile.htm... succeeded.
+Uploading Content/navigate_hyperoutlook.htm... succeeded.
+Uploading Content/Navigating_Workstation.htm... succeeded.
+Uploading Content/prereq_hyperintelligence.htm... succeeded.
+Uploading Content/profile_cards_adding_images.htm... succeeded.
+Uploading Content/Search.htm... succeeded.
+Uploading Content/troubleshoot_authoring.htm... succeeded.
+Uploading Content/troubleshoot_mobile.htm... succeeded.
+Uploading Content/troubleshoot_office.htm... succeeded.
+Uploading Content/troubleshoot_web.htm... succeeded.
+Uploading Content/use_hyperintelligence.htm... succeeded.
+Uploading Content/view_application_telemetry.htm... succeeded.
+Uploading Content/view_card_activity.htm... succeeded.
+Uploading Content/view_dossier_activity.htm... succeeded.
+Uploading Content/Resources/Fonts/LucidaGrandeRegular.ttf... succeeded.
+Uploading Content/Resources/foundation/css/foundation.min.css... succeeded.
+Uploading Content/Resources/foundation/js/foundation.min.js... succeeded.
+Uploading Content/Resources/foundation/js/mstr/embeddingTemplate.js... succeeded.
+Uploading Content/Resources/foundation/js/mstr/feedback.js... succeeded.
+Uploading Content/Resources/foundation/js/mstr/gtm.js... succeeded.
+Uploading Content/Resources/foundation/js/mstr/header.js... succeeded.
+Uploading Content/Resources/foundation/js/mstr/tabs.js... succeeded.
+Uploading Content/Resources/Images/502error.png... succeeded.
+Uploading Content/Resources/Images/access_denied_error.png... succeeded.
+Uploading Content/Resources/Images/add_email_links.png... succeeded.
+Uploading Content/Resources/Images/add_keyword_attribute_form.mp4... succeeded.
+Uploading Content/Resources/Images/add_links_to_cards.png... succeeded.
+Uploading Content/Resources/Images/add_new.png... succeeded.
+Uploading Content/Resources/Images/alt_match.PNG... succeeded.
+Uploading Content/Resources/Images/android_account_PNG_framed.png... succeeded.
+Uploading Content/Resources/Images/android_calendar.png... succeeded.
+Uploading Content/Resources/Images/android_cards_PNG_framed.png... succeeded.
+Uploading Content/Resources/Images/android_error1.png... succeeded.
+Uploading Content/Resources/Images/android_error2.png... succeeded.
+Uploading Content/Resources/Images/android_error3.5.png... succeeded.
+Uploading Content/Resources/Images/android_error3.png... succeeded.
+Uploading Content/Resources/Images/android_error5.png... succeeded.
+Uploading Content/Resources/Images/android_template.png... succeeded.
+Uploading Content/Resources/Images/application_error.png... succeeded.
+Uploading Content/Resources/Images/basic_template_2.png... succeeded.
+Uploading Content/Resources/Images/blank_error.png... succeeded.
+Uploading Content/Resources/Images/calendar_notification.png... succeeded.
+Uploading Content/Resources/Images/cardisnotavailable.png... succeeded.
+Uploading Content/Resources/Images/cardnotavailable.png... succeeded.
+Uploading Content/Resources/Images/cardnotavailable_error.png... succeeded.
+Uploading Content/Resources/Images/card_activity.png... succeeded.
+Uploading Content/Resources/Images/card_data_unavailable.png... succeeded.
+Uploading Content/Resources/Images/card_not_available.png... succeeded.
+Uploading Content/Resources/Images/catalog.png... succeeded.
+Uploading Content/Resources/Images/chrome_extension.png... succeeded.
+Uploading Content/Resources/Images/config_URL_Hyper.png... succeeded.
+Uploading Content/Resources/Images/constraints_error.png... succeeded.
+Uploading Content/Resources/Images/datalang.png... succeeded.
+Uploading Content/Resources/Images/disabled_icon.png... succeeded.
+Uploading Content/Resources/Images/dossier_activity.png... succeeded.
+Uploading Content/Resources/Images/edit_outlook_addin.png... succeeded.
+Uploading Content/Resources/Images/edit_pencil_phone.png... succeeded.
+Uploading Content/Resources/Images/enable.png... succeeded.
+Uploading Content/Resources/Images/enabled_extension.png... succeeded.
+Uploading Content/Resources/Images/enable_calendars_in_app.png... succeeded.
+Uploading Content/Resources/Images/enable_calendar_android.png... succeeded.
+Uploading Content/Resources/Images/enable_cards.png... succeeded.
+Uploading Content/Resources/Images/enable_cors.png... succeeded.
+Uploading Content/Resources/Images/enable_spotlight_search.mp4... succeeded.
+Uploading Content/Resources/Images/enter_valid_url.png... succeeded.
+Uploading Content/Resources/Images/environmenterror.png... succeeded.
+Uploading Content/Resources/Images/environments_error2.png... succeeded.
+Uploading Content/Resources/Images/environment_cannot_create_cards.png... succeeded.
+Uploading Content/Resources/Images/example.png... succeeded.
+Uploading Content/Resources/Images/exceeded_space.png... succeeded.
+Uploading Content/Resources/Images/facts.png... succeeded.
+Uploading Content/Resources/Images/FAQ.png... succeeded.
+Uploading Content/Resources/Images/FAQ_2.png... succeeded.
+Uploading Content/Resources/Images/FAQ_3.png... succeeded.
+Uploading Content/Resources/Images/filter.png... succeeded.
+Uploading Content/Resources/Images/filter_cards.png... succeeded.
+Uploading Content/Resources/Images/filter_card_source.png... succeeded.
+Uploading Content/Resources/Images/filter_card_source_android.png... succeeded.
+Uploading Content/Resources/Images/filter_source_icon.png... succeeded.
+Uploading Content/Resources/Images/generate_addin_file.png... succeeded.
+Uploading Content/Resources/Images/generate_disabled.png... succeeded.
+Uploading Content/Resources/Images/generic_error.png... succeeded.
+Uploading Content/Resources/Images/historylisterror.png... succeeded.
+Uploading Content/Resources/Images/hyperintelligence_products.png... succeeded.
+Uploading Content/Resources/Images/hypermobile_cards.png... succeeded.
+Uploading Content/Resources/Images/Hyperoutlook.png... succeeded.
+Uploading Content/Resources/Images/hyperoutlook1.png... succeeded.
+Uploading Content/Resources/Images/hyperoutlook_admin.PNG... succeeded.
+Uploading Content/Resources/Images/HyperOutlook_deployed.PNG... succeeded.
+Uploading Content/Resources/Images/hyperoutlook_deploy_addin.PNG... succeeded.
+Uploading Content/Resources/Images/hyperoutlook_deploy_direct.png... succeeded.
+Uploading Content/Resources/Images/hyper_clear_content.png... succeeded.
+Uploading Content/Resources/Images/hyper_disable_websites.png... succeeded.
+Uploading Content/Resources/Images/hyper_icon.png... succeeded.
+Uploading Content/Resources/Images/hyper_link.png... succeeded.
+Uploading Content/Resources/Images/hyper_settings.png... succeeded.
+Uploading Content/Resources/Images/Hyper_synonyms.png... succeeded.
+Uploading Content/Resources/Images/Image_from_iOS_framed__1_.png... succeeded.
+Uploading Content/Resources/Images/img_tags.png... succeeded.
+Uploading Content/Resources/Images/in-app-search-frame.mp4... succeeded.
+Uploading Content/Resources/Images/incorrectfonticon.png... succeeded.
+Uploading Content/Resources/Images/installation_failed.png... succeeded.
+Uploading Content/Resources/Images/invalidenv.png... succeeded.
+Uploading Content/Resources/Images/invalid_data.png... succeeded.
+Uploading Content/Resources/Images/IServer_not_connected.png... succeeded.
+Uploading Content/Resources/Images/keyword_does_not_exist.png... succeeded.
+Uploading Content/Resources/Images/large_dataset_error.png... succeeded.
+Uploading Content/Resources/Images/link_icons.png... succeeded.
+Uploading Content/Resources/Images/list_widget.png... succeeded.
+Uploading Content/Resources/Images/loading_disabled_cards.png... succeeded.
+Uploading Content/Resources/Images/locale_error.png... succeeded.
+Uploading Content/Resources/Images/lockedattribute.png... succeeded.
+Uploading Content/Resources/Images/locked_keyword_attribute_form_error.png... succeeded.
+Uploading Content/Resources/Images/login_failed-1.png... succeeded.
+Uploading Content/Resources/Images/login_failed-2.png... succeeded.
+Uploading Content/Resources/Images/logs_hyper_web.png... succeeded.
+Uploading Content/Resources/Images/Macbook-Air.png... succeeded.
+Uploading Content/Resources/Images/matrix_template.png... succeeded.
+Uploading Content/Resources/Images/matrix_widget.png... succeeded.
+Uploading Content/Resources/Images/missing_keyword_attribute_error.png... succeeded.
+Uploading Content/Resources/Images/MSTR_logo.png... succeeded.
+Uploading Content/Resources/Images/MSTR_logo_215x35.png... succeeded.
+Uploading Content/Resources/Images/negative_icon.png... succeeded.
+Uploading Content/Resources/Images/networkerror.png... succeeded.
+Uploading Content/Resources/Images/noaccess1.png... succeeded.
+Uploading Content/Resources/Images/noaccess2.png... succeeded.
+Uploading Content/Resources/Images/no_cards.png... succeeded.
+Uploading Content/Resources/Images/no_login_modes.png... succeeded.
+Uploading Content/Resources/Images/off.png... succeeded.
+Uploading Content/Resources/Images/old_metadata_error.png... succeeded.
+Uploading Content/Resources/Images/outlook_pin.png... succeeded.
+Uploading Content/Resources/Images/outlook_web.mp4... succeeded.
+Uploading Content/Resources/Images/Picture1.png... succeeded.
+Uploading Content/Resources/Images/Picture2.png... succeeded.
+Uploading Content/Resources/Images/Picture3.png... succeeded.
+Uploading Content/Resources/Images/Picture4.png... succeeded.
+Uploading Content/Resources/Images/plus_icon.png... succeeded.
+Uploading Content/Resources/Images/plus_icon__workstation.png... succeeded.
+Uploading Content/Resources/Images/port_error.png... succeeded.
+Uploading Content/Resources/Images/privilege_error.png... succeeded.
+Uploading Content/Resources/Images/project_activity.png... succeeded.
+Uploading Content/Resources/Images/reading_pane.png... succeeded.
+Uploading Content/Resources/Images/refresh.png... succeeded.
+Uploading Content/Resources/Images/refresh_lightening.png... succeeded.
+Uploading Content/Resources/Images/ring_template.png... succeeded.
+Uploading Content/Resources/Images/ring_widget.png... succeeded.
+Uploading Content/Resources/Images/rtaImage.png... succeeded.
+Uploading Content/Resources/Images/save_icon__workstation.png... succeeded.
+Uploading Content/Resources/Images/search_index_corrupted.png... succeeded.
+Uploading Content/Resources/Images/section_template.png... succeeded.
+Uploading Content/Resources/Images/servercannotbereached.png... succeeded.
+Uploading Content/Resources/Images/servercanotreach.png... succeeded.
+Uploading Content/Resources/Images/server_error.png... succeeded.
+Uploading Content/Resources/Images/server_error_login.png... succeeded.
+Uploading Content/Resources/Images/session_timeout.png... succeeded.
+Uploading Content/Resources/Images/session_time_out.png... succeeded.
+Uploading Content/Resources/Images/settings.png... succeeded.
+Uploading Content/Resources/Images/SSL1.png... succeeded.
+Uploading Content/Resources/Images/SSL2.png... succeeded.
+Uploading Content/Resources/Images/table_sql_query.png... succeeded.
+Uploading Content/Resources/Images/text_widget.png... succeeded.
+Uploading Content/Resources/Images/thumbtack.png... succeeded.
+Uploading Content/Resources/Images/Turning_Cards_On.mp4... succeeded.
+Uploading Content/Resources/Images/unpublished_cube_error_1.png... succeeded.
+Uploading Content/Resources/Images/unsupported_card_template.png... succeeded.
+Uploading Content/Resources/Images/Update_Schema_icon.PNG... succeeded.
+Uploading Content/Resources/Images/use_hyper_web_privilege_needed.png... succeeded.
+Uploading Content/Resources/Images/warning.png... succeeded.
+Uploading Content/Resources/Images/widgets_drag_and_drop.mp4... succeeded.
+Uploading Content/Resources/Images/workstation_environments.png... succeeded.
+Uploading Content/Resources/Images/Workstation_Window_Navigation.png... succeeded.
+Uploading Content/Resources/Images/Youtube_resolution.PNG... succeeded.
+Uploading Content/Resources/Stylesheets/footer_styles.css... succeeded.
+Uploading Content/Resources/Stylesheets/main.css... succeeded.
+Uploading Content/Resources/Stylesheets/MSTRDocs_Styles.css... succeeded.
+Uploading Content/Resources/TableStyles/table_from_MSTR_website.css... succeeded.
+Uploading Content/Resources/Videos/Android_search.mp4... succeeded.
+Uploading Content/Resources/Videos/multiple_cards.mp4... succeeded.
+Uploading Data/Breakpoints.js... succeeded.
+Uploading Data/Concepts.js... succeeded.
+Uploading Data/HelpSystem.js... succeeded.
+Uploading Data/HelpSystem.xml... succeeded.
+Uploading Data/Index.js... succeeded.
+Uploading Data/Index_Chunk0.js... succeeded.
+Uploading Data/Language.js... succeeded.
+Uploading Data/Search.js... succeeded.
+Uploading Data/SearchPhrase_Chunk0.js... succeeded.
+Uploading Data/SearchPhrase_Chunk1.js... succeeded.
+Uploading Data/SearchPhrase_Chunk2.js... succeeded.
+Uploading Data/SearchPhrase_Chunk3.js... succeeded.
+Uploading Data/SearchPhrase_Chunk4.js... succeeded.
+Uploading Data/SearchPhrase_Chunk5.js... succeeded.
+Uploading Data/SearchPhrase_Chunk6.js... succeeded.
+Uploading Data/SearchPhrase_Chunk7.js... succeeded.
+Uploading Data/SearchStem_Chunk0.js... succeeded.
+Uploading Data/SearchStem_Chunk1.js... succeeded.
+Uploading Data/SearchTopic_Chunk0.js... succeeded.
+Uploading Data/SearchUrl_Chunk0.js... succeeded.
+Uploading Data/Synonyms.js... succeeded.
+Uploading Data/Synonyms.xml... succeeded.
+Uploading Data/Tocs/Hyper.js... succeeded.
+Uploading Data/Tocs/Hyper_Chunk0.js... succeeded.
+Uploading Resources/Scripts/foundation.min.js... succeeded.
+Uploading Resources/Scripts/jquery.min.js... succeeded.
+Uploading Resources/Scripts/MadCapAccessibility.js... succeeded.
+Uploading Resources/Scripts/MadCapDefault.js... succeeded.
+Uploading Resources/Scripts/MadCapDom.js... succeeded.
+Uploading Resources/Scripts/MadCapFeedback.js... succeeded.
+Uploading Resources/Scripts/MadCapGlobal.js... succeeded.
+Uploading Resources/Scripts/MadCapGlossary.js... succeeded.
+Uploading Resources/Scripts/MadCapHelpSystem.js... succeeded.
+Uploading Resources/Scripts/MadCapIndex.js... succeeded.
+Uploading Resources/Scripts/MadCapParser.js... succeeded.
+Uploading Resources/Scripts/MadCapSearch.js... succeeded.
+Uploading Resources/Scripts/MadCapSlideshow.js... succeeded.
+Uploading Resources/Scripts/MadCapTextEffects.js... succeeded.
+Uploading Resources/Scripts/MadCapToc.Breadcrumbs.js... succeeded.
+Uploading Resources/Scripts/MadCapToc.js... succeeded.
+Uploading Resources/Scripts/MadCapToc.MiniToc.js... succeeded.
+Uploading Resources/Scripts/MadCapToc.SideMenu.js... succeeded.
+Uploading Resources/Scripts/MadCapTopic.js... succeeded.
+Uploading Resources/Scripts/MadCapUtilities.js... succeeded.
+Uploading Resources/Scripts/MadCapXhr.js... succeeded.
+Uploading Resources/Scripts/plugins.min.js... succeeded.
+Uploading Resources/Scripts/require.config.js... succeeded.
+Uploading Resources/Scripts/require.min.js... succeeded.
+Uploading Resources/Scripts/stemmer-english.amd.min.js... succeeded.
+Uploading Skins/Default/Scripts/Toolbar_NewLook_PDF.js... succeeded.
+Uploading Skins/Default/Scripts/TopicToolbar_next.js... succeeded.
+Uploading Skins/Default/Stylesheets/DropDownClosed.gif... succeeded.
+Uploading Skins/Default/Stylesheets/DropDownOpen.gif... succeeded.
+Uploading Skins/Default/Stylesheets/Slideshow.css... succeeded.
+Uploading Skins/Default/Stylesheets/TextEffects.css... succeeded.
+Uploading Skins/Default/Stylesheets/TextEffects.micro-content.css... succeeded.
+Uploading Skins/Default/Stylesheets/Topic.css... succeeded.
+Uploading Skins/Default/Stylesheets/Topic.micro-content.css... succeeded.
+Uploading Skins/Default/Stylesheets/Components/Mobile.css... succeeded.
+Uploading Skins/Default/Stylesheets/Components/Styles.css... succeeded.
+Uploading Skins/Default/Stylesheets/Components/Tablet.css... succeeded.
+Uploading Skins/Default/Stylesheets/Components/Images/arrow-down.png... succeeded.
+Uploading Skins/Default/Stylesheets/Components/Images/arrow-up.png... succeeded.
+Uploading Skins/Default/Stylesheets/Components/Images/chevron-left-regular.png... succeeded.
+Uploading Skins/Default/Stylesheets/Components/Images/chevron-right-regular (1).png... succeeded.
+Uploading Skins/Default/Stylesheets/Components/Images/collapse.png... succeeded.
+Uploading Skins/Default/Stylesheets/Components/Images/edit-profile.png... succeeded.
+Uploading Skins/Default/Stylesheets/Components/Images/expand.png... succeeded.
+Uploading Skins/Default/Stylesheets/Components/Images/file.png... succeeded.
+Uploading Skins/Default/Stylesheets/Components/Images/highlight.png... succeeded.
+Uploading Skins/Default/Stylesheets/Components/Images/login.png... succeeded.
+Uploading Skins/Default/Stylesheets/Components/Images/navigate-next.png... succeeded.
+Uploading Skins/Default/Stylesheets/Components/Images/navigate-previous.png... succeeded.
+Uploading Skins/Default/Stylesheets/Components/Images/printer.png... succeeded.
+Uploading Skins/Default/Stylesheets/Components/Images/select-language.png... succeeded.
+Uploading Skins/Default/Stylesheets/Components/Images/select-skin.png... succeeded.
+Uploading Skins/Default/Stylesheets/Components/Images/star-empty.png... succeeded.
+Uploading Skins/Default/Stylesheets/Components/Images/star-full.png... succeeded.
+Uploading Skins/Default/Stylesheets/Components/Images/_MouseOverState.png... succeeded.
+Uploading Skins/Default/Stylesheets/Images/arrow-down.png... succeeded.
+Uploading Skins/Default/Stylesheets/Images/arrow-up.png... succeeded.
+Uploading Skins/Default/Stylesheets/Images/close.png... succeeded.
+Uploading Skins/Default/Stylesheets/Images/collapse.png... succeeded.
+Uploading Skins/Default/Stylesheets/Images/edit-profile.png... succeeded.
+Uploading Skins/Default/Stylesheets/Images/expand.png... succeeded.
+Uploading Skins/Default/Stylesheets/Images/Filter.png... succeeded.
+Uploading Skins/Default/Stylesheets/Images/FilterOutline.png... succeeded.
+Uploading Skins/Default/Stylesheets/Images/help-control.png... succeeded.
+Uploading Skins/Default/Stylesheets/Images/highlight.png... succeeded.
+Uploading Skins/Default/Stylesheets/Images/loading.gif... succeeded.
+Uploading Skins/Default/Stylesheets/Images/login-dialog-icon.png... succeeded.
+Uploading Skins/Default/Stylesheets/Images/login.png... succeeded.
+Uploading Skins/Default/Stylesheets/Images/MCSlider_controls.png... succeeded.
+Uploading Skins/Default/Stylesheets/Images/MCSlider_loader.gif... succeeded.
+Uploading Skins/Default/Stylesheets/Images/navigate-next.png... succeeded.
+Uploading Skins/Default/Stylesheets/Images/navigate-previous.png... succeeded.
+Uploading Skins/Default/Stylesheets/Images/printer.png... succeeded.
+Uploading Skins/Default/Stylesheets/Images/SearchIcon.png... succeeded.
+Uploading Skins/Default/Stylesheets/Images/select-language.png... succeeded.
+Uploading Skins/Default/Stylesheets/Images/select-skin.png... succeeded.
+Uploading Skins/Default/Stylesheets/Images/star-empty.png... succeeded.
+Uploading Skins/Default/Stylesheets/Images/star-full.png... succeeded.
+Uploading Skins/Default/Stylesheets/Images/transparent.gif... succeeded.
+Publish complete.
+Saving log to "C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Output\jmehaffey\English_Hyper_DEV\English_Hyper_DEV.mclog"
+</Messages>
+    <Warnings>
+        <LogEntry Message="Error validating conditional expression: Unrecognized tag: MSTR_Docs_Conditions.Archive Banner&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10052" />
+        <LogEntry File="../../../Content/Resources/Stylesheets/MSTRDocs_Styles.css" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\printIcons\pdf_download.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/Stylesheets/MSTRDocs_Styles.css" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\printIcons\info-24.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/Stylesheets/MSTRDocs_Styles.css" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\printIcons\alert-24.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/Stylesheets/MSTRDocs_Styles.css" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\printIcons\key-24.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/Stylesheets/MSTRDocs_Styles.css" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\printIcons\ok-24.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/Stylesheets/MSTRDocs_Styles.css" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\SharedImages\expand_22px.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/Stylesheets/MSTRDocs_Styles.css" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\SharedImages\collapse_22px.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/Stylesheets/MSTRDocs_Styles.css" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\SharedImages\expand_arrow.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/foundation/css/foundation.min.css" Message="C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\foundation\css\foundation.min.css Line: 1. Char: 7349. Bad token in selector: @page&#xA;" LineIndex="0" CharIndex="7349" Subsystem="CSS Parser" ErrorID="10015" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="The feedback-survey ID has been used more than once in a document.&#xA;" LineIndex="-1" CharIndex="-1" Target="English_Hyper_DEV" ErrorID="10156" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="../../../Content/Resources/MasterPages/OnlineHelp-Main.flmsp" Message="Missing linked source file: C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Content\Resources\js\mstr\foundation-menu-off-canvas-initialisation.js&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="English_Hyper_DEV" ErrorID="10001" />
+        <LogEntry File="Content/Resources/Stylesheets/main.css" Message="C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Output\jmehaffey\English_Hyper_DEV\Content\Resources\Stylesheets\main.css Line: 235. Char: 17. Bad token in selector: {&#xA;" LineIndex="234" CharIndex="17" Subsystem="CSS Parser" ErrorID="10015" />
+        <LogEntry File="Content/Resources/foundation/css/foundation.min.css" Message="C:\ContentTeam-Repositories\source-content\zArchive\zDevelopment\Cardiff\Output\jmehaffey\English_Hyper_DEV\Content\Resources\foundation\css\foundation.min.css Line: 1. Char: 7349. Bad token in selector: @page&#xA;" LineIndex="0" CharIndex="7349" Subsystem="CSS Parser" ErrorID="10015" />
+    </Warnings>
+    <Errors />
+</MadCapLog>

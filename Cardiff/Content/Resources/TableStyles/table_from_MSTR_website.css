@@ -1,0 +1,991 @@
+﻿/* MadCap Table Style: */
+
+/*<meta Version="9" />*/
+
+mcTableStyle
+{
+	name: table_from_MSTR_website;
+	table-layout: fixed;
+	border-collapse: collapse;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #cccccc;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #cccccc;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #cccccc;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #cccccc;
+	max-id: 6;
+	background-color: #dcdcdc;
+	border-spacing-y: 0;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-spacing-x: 0;
+	margin-bottom: 30px;
+}
+
+mcTableColumnStyle
+{
+	span: 1;
+	separator-style: none;
+	separator-width: 0px;
+	separator-color: #11566f;
+	name: Column2;
+	id: 1;
+	ruler-style: solid;
+	ruler-width: 0px;
+	ruler-color: #ffffff;
+	font-family: Arial;
+	color: #999999;
+	text-align: left;
+	font-weight: normal;
+}
+
+mcTableHeadStyle
+{
+	span: 1;
+	separator-style: none;
+	separator-width: 0px;
+	name: Header1;
+	id: 3;
+	background-color: #193B67;
+	color: #ffffff;
+	font-size: 15px;
+	separator-color: #ffffff;
+	cell-padding-top: 15px;
+	cell-padding-bottom: 15px;
+	text-align: center;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+mcTableBodyStyle
+{
+	span: 1;
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #cccccc;
+	name: Body1;
+	id: 2;
+	color: #333333;
+	cell-padding-top: 5px;
+	cell-padding-bottom: 5px;
+	font-size: 14px;
+	cell-padding-left: 10px;
+	vertical-align: middle;
+	background-image: none;
+	type: Automatic;
+	background-color: #ffffff;
+	font-weight: 900;
+}
+
+mcTableBodyStyle
+{
+	span: 1;
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #cccccc;
+	name: Body2;
+	id: 5;
+	color: #333333;
+	cell-padding-top: 5px;
+	cell-padding-bottom: 5px;
+	font-size: 14px;
+	cell-padding-left: 10px;
+	vertical-align: middle;
+	background-image: none;
+	type: Automatic;
+	background-color: #f2f2f2;
+	cell-content-style-tag: p;
+}
+
+
+/* Cell Styles: */
+ 
+.TableStyle-table_from_MSTR_website
+{
+	border-collapse: collapse;
+	background-color: #dcdcdc;
+	border-left-style: solid;
+	border-left-color: #cccccc;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-right-color: #cccccc;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-top-color: #cccccc;
+	border-top-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #cccccc;
+	border-bottom-width: 1px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	margin-bottom: 30px;
+	border-spacing: 0px 0px;
+}
+
+.TableStyle-table_from_MSTR_website-Column-Column2
+{
+	
+}
+
+.TableStyle-table_from_MSTR_website-Head-Header1
+{
+	
+}
+
+.TableStyle-table_from_MSTR_website-HeadI-Column2-Header1
+{
+	font-family: Arial;
+	border-right-width: 0px;
+	border-right-color: #ffffff;
+	border-right-style: solid;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #333333;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.TableStyle-table_from_MSTR_website-HeadI-Column2-Header1 p
+{
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.TableStyle-table_from_MSTR_website-HeadE-Column2-Header1
+{
+	font-family: Arial;
+	border-right-width: 0px;
+	border-right-color: #11566f;
+	border-right-style: none;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #333333;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom-width: 0px;
+	border-bottom-color: #ffffff;
+	border-bottom-style: none;
+}
+
+.TableStyle-table_from_MSTR_website-HeadE-Column2-Header1 p
+{
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.TableStyle-table_from_MSTR_website-HeadF-Column2-Header1
+{
+	font-family: Arial;
+	border-right-width: 0px;
+	border-right-color: #ffffff;
+	border-right-style: solid;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #333333;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom-width: 0px;
+	border-bottom-color: #ffffff;
+	border-bottom-style: none;
+}
+
+.TableStyle-table_from_MSTR_website-HeadF-Column2-Header1 p
+{
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.TableStyle-table_from_MSTR_website-HeadH-Column2-Header1
+{
+	font-family: Arial;
+	border-right-width: 0px;
+	border-right-color: #11566f;
+	border-right-style: none;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #333333;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.TableStyle-table_from_MSTR_website-HeadH-Column2-Header1 p
+{
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.TableStyle-table_from_MSTR_website-HeadD-Column2-Header1
+{
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #333333;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom-width: 0px;
+	border-bottom-color: #ffffff;
+	border-bottom-style: none;
+}
+
+.TableStyle-table_from_MSTR_website-HeadD-Column2-Header1 p
+{
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.TableStyle-table_from_MSTR_website-HeadC-Column2-Header1
+{
+	font-family: Arial;
+	border-right-width: 0px;
+	border-right-color: #ffffff;
+	border-right-style: solid;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #333333;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.TableStyle-table_from_MSTR_website-HeadC-Column2-Header1 p
+{
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.TableStyle-table_from_MSTR_website-HeadB-Column2-Header1
+{
+	font-family: Arial;
+	border-right-width: 0px;
+	border-right-color: #11566f;
+	border-right-style: none;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #333333;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.TableStyle-table_from_MSTR_website-HeadB-Column2-Header1 p
+{
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.TableStyle-table_from_MSTR_website-HeadA-Column2-Header1
+{
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #333333;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.TableStyle-table_from_MSTR_website-HeadA-Column2-Header1 p
+{
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.TableStyle-table_from_MSTR_website-HeadG-Column2-Header1
+{
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #333333;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.TableStyle-table_from_MSTR_website-HeadG-Column2-Header1 p
+{
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.TableStyle-table_from_MSTR_website-FootI-Column2-
+{
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+	text-align: left;
+	border-right-width: 0px;
+	border-right-color: #ffffff;
+	border-right-style: solid;
+}
+
+.TableStyle-table_from_MSTR_website-FootI-Column2- p
+{
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+}
+
+.TableStyle-table_from_MSTR_website-FootE-Column2-
+{
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+	text-align: left;
+	border-right-width: 0px;
+	border-right-color: #11566f;
+	border-right-style: none;
+}
+
+.TableStyle-table_from_MSTR_website-FootE-Column2- p
+{
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+}
+
+.TableStyle-table_from_MSTR_website-FootF-Column2-
+{
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+	text-align: left;
+	border-right-width: 0px;
+	border-right-color: #ffffff;
+	border-right-style: solid;
+}
+
+.TableStyle-table_from_MSTR_website-FootF-Column2- p
+{
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+}
+
+.TableStyle-table_from_MSTR_website-FootH-Column2-
+{
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+	text-align: left;
+	border-right-width: 0px;
+	border-right-color: #11566f;
+	border-right-style: none;
+}
+
+.TableStyle-table_from_MSTR_website-FootH-Column2- p
+{
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+}
+
+.TableStyle-table_from_MSTR_website-FootD-Column2-
+{
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+	text-align: left;
+}
+
+.TableStyle-table_from_MSTR_website-FootD-Column2- p
+{
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+}
+
+.TableStyle-table_from_MSTR_website-FootC-Column2-
+{
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+	text-align: left;
+	border-right-width: 0px;
+	border-right-color: #ffffff;
+	border-right-style: solid;
+}
+
+.TableStyle-table_from_MSTR_website-FootC-Column2- p
+{
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+}
+
+.TableStyle-table_from_MSTR_website-FootB-Column2-
+{
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+	text-align: left;
+	border-right-width: 0px;
+	border-right-color: #11566f;
+	border-right-style: none;
+}
+
+.TableStyle-table_from_MSTR_website-FootB-Column2- p
+{
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+}
+
+.TableStyle-table_from_MSTR_website-FootA-Column2-
+{
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+	text-align: left;
+}
+
+.TableStyle-table_from_MSTR_website-FootA-Column2- p
+{
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+}
+
+.TableStyle-table_from_MSTR_website-FootG-Column2-
+{
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+	text-align: left;
+}
+
+.TableStyle-table_from_MSTR_website-FootG-Column2- p
+{
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+}
+
+.TableStyle-table_from_MSTR_website-Body-Body1
+{
+	
+}
+
+.TableStyle-table_from_MSTR_website-BodyI-Column2-Body1
+{
+	font-size: 14px;
+	vertical-align: middle;
+	background-color: #ffffff;
+	background-image: none;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+	text-align: left;
+	border-right-width: 0px;
+	border-right-color: #ffffff;
+	border-right-style: solid;
+}
+
+.TableStyle-table_from_MSTR_website-BodyI-Column2-Body1 p
+{
+	font-size: 14px;
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+}
+
+.TableStyle-table_from_MSTR_website-BodyE-Column2-Body1
+{
+	font-size: 14px;
+	vertical-align: middle;
+	background-color: #ffffff;
+	background-image: none;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom-width: 1px;
+	border-bottom-color: #cccccc;
+	border-bottom-style: solid;
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+	text-align: left;
+	border-right-width: 0px;
+	border-right-color: #11566f;
+	border-right-style: none;
+}
+
+.TableStyle-table_from_MSTR_website-BodyE-Column2-Body1 p
+{
+	font-size: 14px;
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+}
+
+.TableStyle-table_from_MSTR_website-BodyF-Column2-Body1
+{
+	font-size: 14px;
+	vertical-align: middle;
+	background-color: #ffffff;
+	background-image: none;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom-width: 1px;
+	border-bottom-color: #cccccc;
+	border-bottom-style: solid;
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+	text-align: left;
+	border-right-width: 0px;
+	border-right-color: #ffffff;
+	border-right-style: solid;
+}
+
+.TableStyle-table_from_MSTR_website-BodyF-Column2-Body1 p
+{
+	font-size: 14px;
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+}
+
+.TableStyle-table_from_MSTR_website-BodyH-Column2-Body1
+{
+	font-size: 14px;
+	vertical-align: middle;
+	background-color: #ffffff;
+	background-image: none;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+	text-align: left;
+	border-right-width: 0px;
+	border-right-color: #11566f;
+	border-right-style: none;
+}
+
+.TableStyle-table_from_MSTR_website-BodyH-Column2-Body1 p
+{
+	font-size: 14px;
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+}
+
+.TableStyle-table_from_MSTR_website-BodyD-Column2-Body1
+{
+	font-size: 14px;
+	vertical-align: middle;
+	background-color: #ffffff;
+	background-image: none;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom-width: 1px;
+	border-bottom-color: #cccccc;
+	border-bottom-style: solid;
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+	text-align: left;
+}
+
+.TableStyle-table_from_MSTR_website-BodyD-Column2-Body1 p
+{
+	font-size: 14px;
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+}
+
+.TableStyle-table_from_MSTR_website-BodyC-Column2-Body1
+{
+	font-size: 14px;
+	vertical-align: middle;
+	background-color: #ffffff;
+	background-image: none;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+	text-align: left;
+	border-right-width: 0px;
+	border-right-color: #ffffff;
+	border-right-style: solid;
+}
+
+.TableStyle-table_from_MSTR_website-BodyC-Column2-Body1 p
+{
+	font-size: 14px;
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+}
+
+.TableStyle-table_from_MSTR_website-BodyB-Column2-Body1
+{
+	font-size: 14px;
+	vertical-align: middle;
+	background-color: #ffffff;
+	background-image: none;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+	text-align: left;
+	border-right-width: 0px;
+	border-right-color: #11566f;
+	border-right-style: none;
+}
+
+.TableStyle-table_from_MSTR_website-BodyB-Column2-Body1 p
+{
+	font-size: 14px;
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+}
+
+.TableStyle-table_from_MSTR_website-BodyA-Column2-Body1
+{
+	font-size: 14px;
+	vertical-align: middle;
+	background-color: #ffffff;
+	background-image: none;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+	text-align: left;
+}
+
+.TableStyle-table_from_MSTR_website-BodyA-Column2-Body1 p
+{
+	font-size: 14px;
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+}
+
+.TableStyle-table_from_MSTR_website-BodyG-Column2-Body1
+{
+	font-size: 14px;
+	vertical-align: middle;
+	background-color: #ffffff;
+	background-image: none;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+	text-align: left;
+}
+
+.TableStyle-table_from_MSTR_website-BodyG-Column2-Body1 p
+{
+	font-size: 14px;
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+}
+
+.TableStyle-table_from_MSTR_website-Body-Body2
+{
+	
+}
+
+.TableStyle-table_from_MSTR_website-BodyI-Column2-Body2
+{
+	font-size: 14px;
+	vertical-align: middle;
+	background-color: #f2f2f2;
+	background-image: none;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+	text-align: left;
+	border-right-width: 0px;
+	border-right-color: #ffffff;
+	border-right-style: solid;
+}
+
+.TableStyle-table_from_MSTR_website-BodyI-Column2-Body2 p
+{
+	font-size: 14px;
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+}
+
+.TableStyle-table_from_MSTR_website-BodyE-Column2-Body2
+{
+	font-size: 14px;
+	vertical-align: middle;
+	background-color: #f2f2f2;
+	background-image: none;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom-width: 1px;
+	border-bottom-color: #cccccc;
+	border-bottom-style: solid;
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+	text-align: left;
+	border-right-width: 0px;
+	border-right-color: #11566f;
+	border-right-style: none;
+}
+
+.TableStyle-table_from_MSTR_website-BodyE-Column2-Body2 p
+{
+	font-size: 14px;
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+}
+
+.TableStyle-table_from_MSTR_website-BodyF-Column2-Body2
+{
+	font-size: 14px;
+	vertical-align: middle;
+	background-color: #f2f2f2;
+	background-image: none;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom-width: 1px;
+	border-bottom-color: #cccccc;
+	border-bottom-style: solid;
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+	text-align: left;
+	border-right-width: 0px;
+	border-right-color: #ffffff;
+	border-right-style: solid;
+}
+
+.TableStyle-table_from_MSTR_website-BodyF-Column2-Body2 p
+{
+	font-size: 14px;
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+}
+
+.TableStyle-table_from_MSTR_website-BodyH-Column2-Body2
+{
+	font-size: 14px;
+	vertical-align: middle;
+	background-color: #f2f2f2;
+	background-image: none;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+	text-align: left;
+	border-right-width: 0px;
+	border-right-color: #11566f;
+	border-right-style: none;
+}
+
+.TableStyle-table_from_MSTR_website-BodyH-Column2-Body2 p
+{
+	font-size: 14px;
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+}
+
+.TableStyle-table_from_MSTR_website-BodyD-Column2-Body2
+{
+	font-size: 14px;
+	vertical-align: middle;
+	background-color: #f2f2f2;
+	background-image: none;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom-width: 1px;
+	border-bottom-color: #cccccc;
+	border-bottom-style: solid;
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+	text-align: left;
+}
+
+.TableStyle-table_from_MSTR_website-BodyD-Column2-Body2 p
+{
+	font-size: 14px;
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+}
+
+.TableStyle-table_from_MSTR_website-BodyC-Column2-Body2
+{
+	font-size: 14px;
+	vertical-align: middle;
+	background-color: #f2f2f2;
+	background-image: none;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+	text-align: left;
+	border-right-width: 0px;
+	border-right-color: #ffffff;
+	border-right-style: solid;
+}
+
+.TableStyle-table_from_MSTR_website-BodyC-Column2-Body2 p
+{
+	font-size: 14px;
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+}
+
+.TableStyle-table_from_MSTR_website-BodyB-Column2-Body2
+{
+	font-size: 14px;
+	vertical-align: middle;
+	background-color: #f2f2f2;
+	background-image: none;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+	text-align: left;
+	border-right-width: 0px;
+	border-right-color: #11566f;
+	border-right-style: none;
+}
+
+.TableStyle-table_from_MSTR_website-BodyB-Column2-Body2 p
+{
+	font-size: 14px;
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+}
+
+.TableStyle-table_from_MSTR_website-BodyA-Column2-Body2
+{
+	font-size: 14px;
+	vertical-align: middle;
+	background-color: #f2f2f2;
+	background-image: none;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+	text-align: left;
+}
+
+.TableStyle-table_from_MSTR_website-BodyA-Column2-Body2 p
+{
+	font-size: 14px;
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+}
+
+.TableStyle-table_from_MSTR_website-BodyG-Column2-Body2
+{
+	font-size: 14px;
+	vertical-align: middle;
+	background-color: #f2f2f2;
+	background-image: none;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+	text-align: left;
+}
+
+.TableStyle-table_from_MSTR_website-BodyG-Column2-Body2 p
+{
+	font-size: 14px;
+	color: #999999;
+	font-family: Arial;
+	font-weight: normal;
+}
+

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="reqs">
+            <p>Importing data from a database requires a connection to a data source. You can <a href="../../creating_a_database_connection.htm">create the connection</a> before you begin importing or during the import process.</p>
+            <p>If you are importing from Google BigQuery:<ul><li>You must activate the Google BigQuery API on the project's Google account and enable billing for the project. See the Google BigQuery documentation for more information.</li><li> You must have the Client ID and Client Secret that Google BiqQuery provides when MicroStrategy <MadCap:variable name="Company_ProductNames.VizTool" /> is configured as a remote access application. </li><li>Google BigQuery restricts the amount of data you can import at one time. If your project contains a large amount of data, consider adding filters to your query to retrieve only the data you need. See <a href="https://developers.google.com/bigquery/quota-policy#queries">Google BigQuery Quota Policy</a> for the latest data restrictions.</li></ul></p>
+        </div>
+    </body>
+</html>

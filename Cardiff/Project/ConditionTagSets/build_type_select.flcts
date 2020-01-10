@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet Comment="My set of condition tags">
+    <ConditionTag Comment="" Name="type" BackgroundColor="Blue" />
+    <ConditionTag Comment="" Name="build" BackgroundColor="Red" />
+    <ConditionTag BackgroundColor="#008000" Name="select" Comment="" />
+</CatapultConditionTagSet>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <h1>How to Connect to an On-Premises Environment</h1>
+        <p>You can connect <MadCap:variable name="Company_ProductNames.VizTool"></MadCap:variable> to an on-premises environment.</p>
+        <div class="reqs">
+            <p>An installation of MicroStrategy Library. See the <MadCap:snippetText src="Guide_Links/ICG_link.flsnp" />  for more information about installing and configuring MicroStrategy Library.</p>
+            <p>The .mstrc connection file provided by your administrator or the  MicroStrategy Library URL for your environment</p>
+            <p>Your MicroStrategy login credentials</p>
+        </div>
+        <h2>Setting Up a New Environment</h2>
+        <ol>
+            <li>Open the <a href="../../Navigating_Workstation.htm">[%=Company_ProductNames.VizTool%] Window</a> with the Navigation pane in Smart Mode.</li>
+            <li> In the Navigation pane, click <img src="../Images/plus_icon__workstation.png" /> next to <b>Environments</b>.</li>
+            <li>
+                <p>Drag a connection file into the New Environment window. </p>
+                <p>
+                    <i>or</i>
+                </p>
+                <p>Click <b>Select a file</b> to browse and select a connection file.</p>
+                <p>
+                    <i>or</i>
+                </p>
+                <p>Enter a descriptive environment name and the MicroStrategy Library URL. </p>
+                <p>
+                    <img src="../Images/new_enviro_window.png" />
+                </p>
+            </li>
+            <li>Click <b>Continue</b>.</li>
+            <li>Enter your credentials.</li>
+            <li>Click <b>Connect</b>.</li>
+        </ol>
+        <h2>Connect to an Existing Environment</h2>
+        <p>Once an environment connection has been set up, it appears as an available environment in the <b>Environments</b> smart tab. </p>
+        <p>
+            <img src="../Images/available_enviros.png" style="width: 658px;" />
+        </p>
+        <p>Double-click on an environment to reconnect it.</p>
+        <p>
+            <img src="../Images/active_enviro.png" />
+        </p>
+        <h2 MadCap:conditions="MSTR_Docs_Conditions.OnlineOnly">Related Topics</h2>
+        <p MadCap:conditions="MSTR_Docs_Conditions.OnlineOnly">
+            <MadCap:xref href="../../Change_application_selections.htm">How to Change Your Application Selections for an Environment</MadCap:xref>
+        </p>
+    </body>
+</html>

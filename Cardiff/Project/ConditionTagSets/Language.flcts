@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet
+  Comment="My set of condition tags">
+  <ConditionTag
+    Comment=""
+    Name="Chinese (Simplified)"
+    BackgroundColor="Blue"
+    OriginalName="Chinese (Simplified)" />
+  <ConditionTag
+    Comment=""
+    Name="English"
+    BackgroundColor="Red"
+    OriginalName="English" />
+  <ConditionTag
+    BackgroundColor="#008000"
+    Name="Swedish"
+    Comment=""
+    OriginalName="Swedish" />
+  <ConditionTag
+    BackgroundColor="#ffa500"
+    Name="Portuguese"
+    Comment=""
+    OriginalName="Portuguese" />
+  <ConditionTag
+    BackgroundColor="#8b008b"
+    Name="Spanish"
+    Comment=""
+    OriginalName="Spanish" />
+  <ConditionTag
+    BackgroundColor="#00bfff"
+    Name="German"
+    Comment=""
+    OriginalName="German" />
+  <ConditionTag
+    BackgroundColor="#00ff00"
+    Name="French"
+    Comment=""
+    OriginalName="French" />
+  <ConditionTag
+    Name="Italian"
+    Comment=""
+    OriginalName="Italian"
+    BackgroundColor="#e5cf1c" />
+  <ConditionTag
+    BackgroundColor="#ff00ff"
+    Name="Korean"
+    Comment=""
+    OriginalName="Korean" />
+  <ConditionTag
+    BackgroundColor="#2f4f4f"
+    Name="Japanese"
+    Comment=""
+    OriginalName="Japanese" />
+  <ConditionTag
+    BackgroundColor="#8b4513"
+    Name="Dutch"
+    Comment=""
+    OriginalName="Dutch" />
+</CatapultConditionTagSet>

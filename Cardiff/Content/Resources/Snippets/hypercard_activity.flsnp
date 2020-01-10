@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="MSTR_Tool.Hyper">
+    <head>
+    </head>
+    <body>
+        <p>You can view statistics and trends related to car usage activity. You must have permission to access the card through a connected environment. </p>
+        <div class="reqs">
+            <p id="clearfix">You must <a href="#Analytics">configure Platform Analytics</a>  to view card usage activity. </p>
+            <p>The Platform Analytics cube must be published for the data to show up correctly and in real time.</p>
+            <p>The current user must have view access to the Platform Analytics project.</p>
+        </div>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Configure Platform Analytics<a name="Analytics"></a></MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>You must configure Platform Analytics before you can view <a href="../../view_dossier_activity.htm">dossier</a> or <a href="../../view_application_telemetry.htm">application</a> usage activity.</p>
+                <div class="reqs">
+                    <p>You must be connected to your environment to configure Platform Analytics.</p>
+                </div>
+                <ol>
+                    <li>Open the <a href="../../Navigating_Workstation.htm">[%=Company_ProductNames.VizTool%] window</a> with the Navigation pane in smart mode.</li>
+                    <li>In the Navigation pane, click <b>Environments</b>. </li>
+                    <li>Right-click the environment and choose <b>Properties</b>. </li>
+                    <li>In the <b>Platform Analytics</b> tab, use the drop-down to select the environment where the Platform Analytics application is stored.</li>
+                    <li>Click <b>OK</b>.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2>View Dossier Usage Activity</h2>
+        <ol>
+            <li>Open the <a href="../../Navigating_Workstation.htm">[%=Company_ProductNames.VizTool%] window</a>.</li>
+            <li>In the Navigation pane, click <b>Cards</b>. </li>
+            <li>Right-click a card  and choose <b>Properties</b>.</li>
+            <li>In the left pane, click <b>Activity</b>.<p><img src="../Images/card_activity.png" /></p></li>
+            <li>View statistics and trends about the median execution time, number of users, total number of executions, and error rate, as well as weekly and 30-day trends. <p>You can also view a list of the top 10 users for the last 30 days along with their number of total runs, average run time, and error rate.</p></li>
+            <li>Click <b>OK</b>.</li>
+        </ol>
+    </body>
+</html>

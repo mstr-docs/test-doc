@@ -1,0 +1,1223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../TableStyles/Table.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <ul class="tabs">
+            <li class="tab-link current" data-tab="tab-1">Windows</li>
+            <li class="tab-link" data-tab="tab-2">Linux</li>
+        </ul>
+        <div class="container">
+            <div id="tab-1" class="tab-content current">
+                <p>To help reduce deployment complexity MicroStrategy now includes an embedded repository that can support the following MicroStrategy products:</p>
+                <ul>
+                    <li>Metadata Repository</li>
+                    <li>Collaboration Server</li>
+                    <li>Platform Analytics</li>
+                </ul>
+                <p>You are not required to leverage the embedded repository for any of these products, but the infrastructure is installed and ready for use should this be the right fit for your deployment.  This embedded repository is automatically configured, optimized, and managed for you.  With no manual intervention required for routine usage.</p>
+                <h2>Installation</h2>
+                <p>MicroStrategy Repository is installed if either Platform Analytics, Collaboration Server, or both are installed. </p>
+                <ul>
+                    <li><b>Product Name</b>: Repository</li>
+                    <li><b>Default Installation Path</b>: <span class="code">C:\Program Files (x86)\Common Files\MicroStrategy\Repository</span></li>
+                    <li>
+                        <p><b>Repository directory structure</b>:</p>
+                        <ul>
+                            <li><span class="code">\pgsql</span>
+                            </li>
+                            <li><span class="code">\repository-administration</span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <h3>How to log in to MicroStrategy Repository</h3>
+                <p>The installer will create users and database tables for Platform Analytics and Collaboration Server. <span class="code">Default_Accounts.txt</span> is the  file containing the user names and passwords to the repository  created during the installation. The default location of <span class="code">Default_Accounts.txt</span> is <code>C:\Program Files (x86)\Common Files\MicroStrategy\Default_Accounts.txt</code>. This file should be moved to a secure location upon completing the install. </p>
+                <p>Users created in the Repository by the installer:</p>
+                <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../TableStyles/Table.css');" class="TableStyle-Table" cellspacing="0">
+                    <col class="TableStyle-Table-Column-Column1" />
+                    <col class="TableStyle-Table-Column-Column2" />
+                    <col class="TableStyle-Table-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-Table-Head-Header1">
+                            <th class="TableStyle-Table-HeadE-Column1-Header1">User name</th>
+                            <th class="TableStyle-Table-HeadF-Column2-Header1">Access</th>
+                            <th class="TableStyle-Table-HeadD-Column2-Header1">Privileges</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Table-Body-Body1">
+                            <td class="TableStyle-Table-BodyE-Column1-Body1">mstr</td>
+                            <td class="TableStyle-Table-BodyF-Column2-Body1">MicroStrategy user has access to Platform Analytics and Collaboration Server databases.</td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body1">Super User</td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body2">
+                            <td class="TableStyle-Table-BodyE-Column1-Body2">mstr_pa</td>
+                            <td class="TableStyle-Table-BodyF-Column2-Body2">MicroStrategy user has access to the Platform Analytics database, but does not have access to the Collaboration Server database.</td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body2">CREATE DATABASE, SELECT DATABASE, SELECT TABLE, CREATE TABLE, DROP TABLE</td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body1">
+                            <td class="TableStyle-Table-BodyB-Column1-Body1">mstr_collab</td>
+                            <td class="TableStyle-Table-BodyC-Column2-Body1">MicroStrategy user has access to the Collaboration Server database but does not have access to the Platform Analytics database.</td>
+                            <td class="TableStyle-Table-BodyA-Column2-Body1">No Create DB, SELECT, INSERT, CREATE TABLE, DROP TABLE</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>Databases created in the Repository by the installer:</p>
+                <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../TableStyles/Table.css');" class="TableStyle-Table" cellspacing="0">
+                    <col class="TableStyle-Table-Column-Column1" />
+                    <col class="TableStyle-Table-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-Table-Head-Header1">
+                            <th class="TableStyle-Table-HeadE-Column1-Header1">Product</th>
+                            <th class="TableStyle-Table-HeadD-Column2-Header1">Database</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Table-Body-Body1">
+                            <td class="TableStyle-Table-BodyE-Column1-Body1">Platform Analytics</td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body1">platform_analytics_wh</td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body2">
+                            <td class="TableStyle-Table-BodyB-Column1-Body2">Collaboration Server</td>
+                            <td class="TableStyle-Table-BodyA-Column2-Body2">mstr_collab</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>To log in navigate to: </p>
+                <div class="sdk_code">
+                    <p><span class="code">C:\Program Files (x86)\Common Files\MicroStrategy\Repository\pgsql\bin</span>
+                    </p>
+                </div>
+                <p>and run:</p>
+                <div class="sdk_code">
+                    <p>psql.exe -U &lt;UserName&gt; -d &lt;database&gt; -h &lt;host&gt;</p>
+                </div>
+                <h2>Repository Services</h2>
+                <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../TableStyles/Table.css');" class="TableStyle-Table" cellspacing="0">
+                    <col class="TableStyle-Table-Column-Column1" />
+                    <col class="TableStyle-Table-Column-Column2" />
+                    <col class="TableStyle-Table-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-Table-Head-Header1">
+                            <th class="TableStyle-Table-HeadE-Column1-Header1">
+                                <p>File Name</p>
+                            </th>
+                            <th class="TableStyle-Table-HeadF-Column2-Header1">
+                                <p>Location</p>
+                            </th>
+                            <th class="TableStyle-Table-HeadD-Column2-Header1">
+                                <p>Info</p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Table-Body-Body1">
+                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                <p>MicroStrategy Repository</p>
+                            </td>
+                            <td class="TableStyle-Table-BodyF-Column2-Body1">
+                                <p>C:\Program Files (x86)\Common Files\MicroStrategy\Repository\pgsql\bin</p>
+                            </td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body1">This file accepts start/stop/restart/status parameters.</td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body2">
+                            <td class="TableStyle-Table-BodyB-Column1-Body2">
+                                <p>MicroStrategy Repository administration</p>
+                            </td>
+                            <td class="TableStyle-Table-BodyC-Column2-Body2">
+                                <p>C:\Program Files (x86)\Common Files\MicroStrategy\Repository\repository-administration</p>
+                            </td>
+                            <td class="TableStyle-Table-BodyA-Column2-Body2">
+                                <p>mstr-root@&lt;TIMESTAMP&gt;-repository-administration  is stored into the initd_scripts directory when you decide not to setup the MicroStrategy processes as services, they can use this script to do it later.</p>
+                                <p>Some people also find it practical to have all the startup scripts on the same directory and with the timestamp-less name.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h2>Repository Administration</h2>
+                <p>The following database administration tasks are performed by the Database Administration Tool:</p>
+                <ul>
+                    <li>Backup at a specified frequency or on-demand</li>
+                    <li>Restore a particular database from previously taken backup files</li>
+                    <li>Restore all databases from previously taken backup files</li>
+                </ul>
+                <h3><a name="Configur"></a>Configuration File</h3>
+                <p><span class="code">DBAdminConfig.yaml</span> is a configuration file is used to set up the database connection, the backup location, and database administration tasks frequency. </p>
+                <p>The default location of <span class="code">DBAdminConfig.yaml</span> is:</p>
+                <p><span class="code">C:\Program Files (x86)\Common Files\MicroStrategy\Repository\repository-administration\conf</span>
+                </p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>Sample file:</MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <div class="sdk_code"><pre>---
+<span class="param">pgHost</span>: localhost
+<span class="param">pgDbNames</span>:
+  - platform_analytics_wh
+  - mstr_collab
+<span class="param">pgUser</span>: mstr
+<span class="param">pgPasswd</span>: sest+9y+e6OdXIXTHjgPoC7osqE0rGMzgjR1zA==,kc7GbAQ8pv5yt32L
+<span class="param">pgPort</span>: <span class="param_value">5432
+</span><span class="param">pgSSLcert</span>: ~
+<span class="param">pgSSLkey</span>: ~
+<span class="param">pgSSLrootcert</span>: ~
+<span class="param">pgSSLmode</span>: prefer
+<span class="param">pgBackupLocation</span>: C:\Program Files (x86)\Common Files\MicroStrategy\Repository\pgsql\PGDATA
+<span class="param">pgMaxAllowedBackupCount</span>: <span class="param_value">5</span><![CDATA[
+]]><span class="param">scheduledConfiguration</span>:
+  <span class="param">startDate</span>: 1993-11-12
+  <span class="param">backupFrequencyInDays</span>: <span class="param_value">2</span><![CDATA[ 
+  ]]><span class="param">localTimeOfExecution</span>: <span class="param_value">23:00</span><![CDATA[
+  ]]><span class="param">localTimeOfStatsCollection</span>: 00:30</pre>
+                        </div>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <div class="reqs">
+                    <p> The following files should be accessible: </p>
+                    <ul>
+                        <li><span class="code">pg_dump</span>
+                        </li>
+                        <li><span class="code">pg_restore</span>
+                        </li>
+                    </ul>
+                </div>
+                <h3>Database Administration Tool</h3>
+                <p>To launch the Database Administration Tool:</p>
+                <ol>
+                    <li>
+                        <p>Open the command prompt and navigate to the repository-administration bin folder:</p>
+                        <p><span class="code">C:\Program Files (x86)\Common Files\MicroStrategy\Repository\repository-administration\bin</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Run the file <span class="code">mstr-repo-ondemand-dba-operations.bat</span>.</p>
+                        <p>This will open the DBAOperations utility:</p>
+                        <div class="sdk_code"><pre>****** DBA&#160;Tools ******</pre><pre>Enter choice</pre><pre>1) Backup</pre><pre>2) Restore</pre><pre>3)&#160;Vacuum</pre><pre>0) Exit</pre>
+                        </div>
+                    </li>
+                </ol>
+                <p>The utility exits after every operation.</p>
+                <h4>To Backup</h4>
+                <p>Selecting the Backup option (1) will list all the databases from the <span class="code">DBAdminConfig.yaml</span> file along with the options to backup all databases and exit the utility.</p>
+                <div class="sdk_code"><pre>User selected: 1 (backup)</pre><pre>Select the database you want to backup.</pre><pre>1) platform_analytics_wh</pre><pre>2) mstr_collab</pre><pre>3)&#160;Backup all databases.</pre><pre>0) Exit</pre>
+                </div>
+                <p>Databases will be backed up in the default backup directory, inside their individual folders: </p>
+                <ul>
+                    <li style="color: #333333;"><span class="code">..\Repository\pgsql\PGDATA\platform_analytics_wh</span>
+                    </li>
+                    <li><span class="code">..\Repository\pgsql\PGDATA\mstr_collab</span>
+                    </li>
+                </ul>
+                <p>The utility will compute the following:</p>
+                <ul>
+                    <li>Database size</li>
+                    <li>Estimated backup size</li>
+                    <li>Available free space on disk</li>
+                </ul>
+                <div class="sdk_code"><pre>(platform_analytics_wh) Database Size: 44.9 MiB
+(platform_analytics_wh) Estimated backup size: 4.0 MiB
+(platform_analytics_wh) Available Free Space : 12.3 GiB
+Backing up database: platform_analytics_wh(platform_analytics_wh) Backup File Created: backup_platform_analytics_wh_20191010.sql
+(platform_analytics_wh) Backup File Size: 1.5 MiB
+*** Finished backup operation on database: platform_analytics_wh ***</pre>
+                </div>
+                <p>If the backup was already done on the given day’s timestamp, the utility will ask the user whether he wants to overwrite the existing backup.</p>
+                <div class="sdk_code"><pre>(platform_analytics_wh) Database Size: 44.9 MiB
+(platform_analytics_wh) Estimated backup size: 4.0 MiB
+(platform_analytics_wh) Available Free Space : 12.3 GiB</pre><pre>(platform_analytics_wh) Backup already done today. Date : 20190930</pre><pre>Overwrite File ? (y/n)</pre><pre>y</pre><pre>(platform_analytics_wh) Overwriting existing backup: backup_platform_analytics_wh_20190930.sql</pre><pre>
+Backing up database: platform_analytics_wh(platform_analytics_wh) Backup File Created: backup_platform_analytics_wh_20191010.sql
+(platform_analytics_wh) Backup File Size: 1.5 MiB
+*** Finished backup operation on database: platform_analytics_wh ***</pre>
+                </div>
+                <h4>To Restore</h4>
+                <div class="reqs">
+                    <p>Ensure that all applications connected to the database you want to restore are stopped. For example, if you want to restore <span class="code">platform_analytics_wh</span>, you must stop the Platform Analytics Consumer before selecting and performing the steps in Restore.</p>
+                </div>
+                <p>Selecting the Restore option (2) on the main menu will show a warning that the operation will overwrite the existing data. However, the utility will take a backup just before restoring to ensure no data is lost.</p>
+                <div class="sdk_code"><pre>****** DBA&#160;Tools ******</pre><pre>Enter choice</pre><pre>1) Backup</pre><pre>2) Restore</pre><pre>3)&#160;Vacuum</pre><pre>0) Exit</pre><pre>2</pre><pre>User selected: 2 (restore)</pre><pre>*** This operation WILL DELETE ALL EXISTING DATA and overwrite the database with backup data. Changes CAN NOT be undone later. ***</pre><pre>Do you want to continue? (y/n)</pre>
+                </div>
+                <p>Selecting yes, will move  the utility forward and list all the databases that can be restored as well as an option to restore everything. If Restore all is selected, it will restore all the databases with the latest backup file.</p>
+                <div class="sdk_code"><pre>*** This operation WILL DELETE ALL EXISTING DATA and overwrite the database with backup data. Changes CAN NOT be undone later. ***</pre><pre>Do you want to continue? (y/n)</pre><pre>y</pre><pre>Select the database you want to restore.</pre><pre>1) platform_analytics_wh</pre><pre>2) mstr_collab</pre><pre>3)&#160;Restore all databases.</pre><pre>0) Exit</pre>
+                </div>
+                <p>Selecting a given database will move  the utility forward and display the restore options. The first option will backup the selected database with its latest backup file. The second option allows for selection of a custom backup.</p>
+                <p>If  Restore from Latest Backup is selected, the utility will find the latest backup file in the default directory, print the name of the file, restore the database, and create a pre-restore backup in the directory to ensure data is not lost.</p>
+                <div class="sdk_code"><pre>Select restore file</pre><pre>1) Restore from Latest Backup</pre><pre>2) Restore from Custom Backup</pre><pre>0) Exit</pre><pre>1</pre><pre>Restoring latest backup</pre><pre>Searching for backup files in C:\Program Files (x86)\Common Files\MicroStrategy\Repository\pgsql\PGDATA\platform_analytics_wh</pre><pre>Latest backup file found:&#160;backup_platform_analytics_wh_20190930.sql</pre><pre>Starting restore process</pre><pre>***&#160;Restoring database :&#160;platform_analytics_wh</pre>
+                </div>
+                <p>If Restore from Custom Backup is selected, the utility will print the path to the default backup location and ask the user if they want to search for backups in that path. The user can then select that path or enter a custom path. After the file path is entered, the user needs to enter the restore file name. The utility will search for the file and begin restoring if the file is found.</p>
+                <div class="sdk_code"><pre>Select restore file</pre><pre>1) Restore from Latest Backup</pre><pre>2) Restore from Custom Backup</pre><pre>0) Exit</pre><pre>2</pre><pre>Restoring custom backup</pre><pre>Default backup path : C:\Program Files (x86)\Common Files\MicroStrategy\Repository\pgsql\PGDATA\platform_analytics_wh</pre><pre>Use default backup path ? (y/n)</pre><pre>y</pre><pre>Enter file name to restore. Press x to cancel.</pre><pre>backup_platform_analytics_wh_20190930</pre><pre>File 'backup_platform_analytics_wh_20190930.sql' found.</pre><pre>Restoring file backup_platform_analytics_wh_20190930.sql.</pre><pre>***&#160;Restoring database :&#160;platform_analytics_wh</pre>
+                </div>
+                <h4>To Vacuum</h4>
+                <p>Whenever rows in a PostgreSQL table are updated or deleted, dead rows are left behind. Vacuum gets rid of them so that space can be reused. If a table doesn’t get vacuumed, it will get bloated, which wastes disk space and slows down sequential table scans.</p>
+                <p>If  the Vacuum option (3) is selected, the utility computes bloat for all databases and generates a report to the user.</p>
+                <div class="sdk_code"><pre>****** DBA Tools ******
+Enter choice
+1) Backup
+2) Restore
+3) Vacuum
+0) Exit
+3
+User selected: 3 (vacuum)
+*** BLOAT REPORT ***
+** Bloat report for database: platform_analytics_wh **
+Table Name                                        | Bloat Percent        | Wasted KBs
+lu_minute                                         | 2.0                  | 65536
+etl_lu_status_category                            | 1.0                  | 24576
+etl_rel_action_tran_type                          | 1.3                  | 8192
+lu_action_type                                    | 2.0                  | 8192
+lu_date                                           | 1.1                  | 8192
+lu_privilege                                      | 1.5                  | 8192
+lu_session_source                                 | 1.0                  | 0
+lu_sql_pass_type                                  | 1.0                  | 0
+lu_week                                           | 1.0                  | 0
+rel_date_timeperiod                               | 1.0                  | 0
+rel_date_weektime_window                          | 0.0                  | 0
+etl_rel_source_sub_type_object_type               | 1.0                  | 0
+lu_db_type                                        | 1.0                  | 0
+lu_db_version                                     | 1.0                  | 0
+lu_object_type                                    | 1.0                  | 0
+lu_product                                        | 1.0                  | 0
+** Bloat report for database: mstr_collab **
+Table Name                                        | Bloat Percent        | Wasted KBs
+Select the database you want to vacuum.
+1) platform_analytics_wh
+2) mstr_collab
+3) vacuum all databases.
+4) Full vacuum all databases.
+0) Exit</pre>
+                </div>
+                <p>You can choose to vacuum an individual database, vacuum all databases, or full vacuum all databases.</p>
+                <p>When performing <span class="code">vacuum</span>, the dead space is reclaimed and made available for reuse by the same object, table, etc.</p>
+                <p class="Warning"><span class="code">Full vacuum all databases</span> writes the entire content of the table into a new disk file and releases the wasted space back to the OS. This causes a table-level lock on the table and slows speeds. <span class="code">Full vacuum all databases</span> should be avoided on a high load system. You must stop the Platform Analytics Consumer before performing full vacuum all databases.</p>
+                <div class="sdk_code"><pre>*** Vacuum ***
+Select vacuum type
+1) Vacuum Bloated Tables
+2) Vacuum All Tables
+3) Full Vacuum (Blocks DB)
+0) Exit
+1
+Starting Vacuum on tables in list
+Vacuuming table : lu_minute with 65536 wasted space
+Vacuuming table : etl_lu_status_category with 24576 wasted space
+Vacuuming table : etl_rel_action_tran_type with 8192 wasted space
+Vacuuming table : lu_action_type with 8192 wasted space
+Vacuuming table : lu_date with 8192 wasted space
+Vacuuming table : lu_privilege with 8192 wasted space
+Vacuuming table : lu_session_source with 0 wasted space
+Vacuuming table : lu_sql_pass_type with 0 wasted space
+Vacuuming table : lu_week with 0 wasted space
+Vacuuming table : rel_date_timeperiod with 0 wasted space
+Vacuuming table : rel_date_weektime_window with 0 wasted space
+Vacuuming table : etl_rel_source_sub_type_object_type with 0 wasted space
+Vacuuming table : lu_db_type with 0 wasted space
+Vacuuming table : lu_db_version with 0 wasted space
+Vacuuming table : lu_object_type with 0 wasted space
+Vacuuming table : lu_product with 0 wasted space</pre>
+                </div>
+                <h3>Database Capacity Planning</h3>
+                <p>MicroStrategy <MadCap:variable name="MSTR_Default_Variables.CurrentVersion" /> also includes a tool to monitor MicroStrategy Repository. For configuration settings, please refer to the <MadCap:xref href="#Configur">Configuration File</MadCap:xref> section above. </p>
+                <h4>Trigger statistics collection</h4>
+                <p>Capacity planning statistics collection is turned on by default after installation. The service is controlled with a batch file which accepts <span class="code">start | stop | restart | status</span> as parameters. </p>
+                <ol>
+                    <li>
+                        <p>From the command prompt, go to:</p>
+                        <p><span class="code">C:\Program Files (x86)\Common Files\MicroStrategy\Repository\repository-administration\bin</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Call the following batch file with the applicable parameter:</p>
+                        <p><span class="code">.\mstr-repo-dba-operations.bat start | stop | restart | status</span>
+                        </p>
+                    </li>
+                </ol>
+                <p>To change the time of statistics collection, see <a href="https://community.microstrategy.com/s/article/How-to-Modify-the-Time-of-Statistics-Collection-Using-the-Database-Administration-Tool?language=en_US">KB483944</a>.</p>
+                <h4>Monitoring Database Status</h4>
+                <p>The Platform Analytics project includes the Database Capacity Planning dossier to monitor the status of MicroStratey Repository. </p>
+                <ul>
+                    <li>
+                        <p>Overview page:</p>
+                        <p>The overview will give some basic info about the database, including database names, IP, and database versions as well as the trend of database size growth.</p>
+                        <p>
+                            <img src="../Images/overview.jpg" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>Transactions page:</p>
+                        <p>Transactions will give the daily trend if the database commits, rollbacks, disk reads, cache hits.</p>
+                        <p>
+                            <img src="../Images/transactions.png" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>Table Overview page:</p>
+                        <p>For the table-level information, table overview will show stats about each table in the selected database. Right-click on a listed schema or table, and click <b>Go To Page: Table Trend</b> to get the detailed data of this table or schema.</p>
+                        <p>
+                            <img src="../Images/table overview.png" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>Table Trend page:</p>
+                        <p>
+                            <img src="../Images/table trend.png" />
+                        </p>
+                    </li>
+                </ul>
+                <h2>Installation Scenarios</h2>
+                <p>The tables below explain how the installation and configuration of MicroStrategy Repository  is handled based on the installation type and the components selected. </p>
+                <h3>Fresh Installation</h3>
+                <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../TableStyles/Table.css');" class="TableStyle-Table" cellspacing="0">
+                    <col class="TableStyle-Table-Column-Column1" />
+                    <col class="TableStyle-Table-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-Table-Head-Header1">
+                            <th class="TableStyle-Table-HeadE-Column1-Header1">Components Installed</th>
+                            <th class="TableStyle-Table-HeadD-Column2-Header1">Result</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Table-Body-Body1">
+                            <td class="TableStyle-Table-BodyE-Column1-Body1">Platform Analytics alone is installed</td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body1">Platform Analytics is installed and configured with Repository, mstr &amp; mstr_pa user credentials are populated in the Default_Accounts.txt file </td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body2">
+                            <td class="TableStyle-Table-BodyE-Column1-Body2">Collaboration Server alone is installed</td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body2">Collaboration Server is installed and configured with Repository, mstr &amp; mstr_collab user credentials are populated in the Default_Accounts.txt file</td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body1">
+                            <td class="TableStyle-Table-BodyE-Column1-Body1">Platform Analytics and Collaboration Server are installed</td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body1">Repository is installed and configured with the both products and Default_Accounts.txt file is generated with all three user credentials</td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body2">
+                            <td class="TableStyle-Table-BodyB-Column1-Body2">Collaboration Server is installed in one node and Platform Analytics on other</td>
+                            <td class="TableStyle-Table-BodyA-Column2-Body2">Repository is installed in both nodes
+
+								mstr &amp; mstr_collab user credentials are populated in the Default_Accounts.txt file on the Collaboration Server installation node
+
+							mstr &amp; mstr_pa user credentials are populated in the Default_Accounts.txt file on the Platform Analytics installation node</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>Modify Current Installation</h3>
+                <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../TableStyles/Table.css');" class="TableStyle-Table" cellspacing="0">
+                    <col class="TableStyle-Table-Column-Column1" />
+                    <col class="TableStyle-Table-Column-Column2" />
+                    <col class="TableStyle-Table-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-Table-Head-Header1">
+                            <th class="TableStyle-Table-HeadE-Column1-Header1">Currently Installed Components</th>
+                            <th class="TableStyle-Table-HeadF-Column2-Header1">Modification</th>
+                            <th class="TableStyle-Table-HeadD-Column2-Header1">Result</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Table-Body-Body1">
+                            <td class="TableStyle-Table-BodyE-Column1-Body1" rowspan="3">Neither Platform Analytics or Collaboration Server are  installed</td>
+                            <td class="TableStyle-Table-BodyF-Column2-Body1">Add Platform Analytics and Collaboration Server	</td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body1">Repository is installed and configured with the both products and Default_Accounts.txt file is generated with all three user credentials.</td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body2">
+                            <td class="TableStyle-Table-BodyF-Column2-Body2">
+                                <p>Add Platform Analytics</p>
+                            </td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body2">Platform Analytics is installed and configured with Repository and mstr, mstr_pa user credentials are populated in the Default_Accounts.txt file.</td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body1">
+                            <td class="TableStyle-Table-BodyF-Column2-Body1">Add Collaboration Server	</td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body1">Collaboration Server is installed and configured with Repository and mstr, mstr_collab user credentials are populated in the Default_Accounts.txt file.</td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body2">
+                            <td class="TableStyle-Table-BodyE-Column1-Body2" rowspan="3">Platform Analytics and Collaboration Server are both installed	</td>
+                            <td class="TableStyle-Table-BodyF-Column2-Body2">
+                                <p>Remove Collaboration Server</p>
+                            </td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body2">Collaboration Server is uninstalled and all Collaboration data is deleted from Repository and Collaboration user credentials are deleted from Default_Accounts.txt file (Users are warned to take the backup of Collaboration Server data before performing the install operation).</td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body1">
+                            <td class="TableStyle-Table-BodyF-Column2-Body1">Remove Platform Analytics	</td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body1">Platform Analytics is uninstalled and all Platform Analytics data is deleted from Repository and  Platform Analytics user credentials are deleted from Default_Accounts.txt file (Users are warned to take the backup of  Platform Analytics data before performing the install operation).
+							</td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body2">
+                            <td class="TableStyle-Table-BodyF-Column2-Body2">
+                                <p>Remove Platform Analytics &amp; Collaboration Server</p>
+                            </td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body2">Platform Analytics and Collaboration Server are uninstalled along with Repository and directories are deleted (Users are warned to take the backup of Platform Analytics and Collaboration Server data before performing the install operation).
+							</td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body1">
+                            <td class="TableStyle-Table-BodyE-Column1-Body1">Only Platform Analytics was installed	</td>
+                            <td class="TableStyle-Table-BodyF-Column2-Body1">
+                                <p>Add Collaboration Server</p>
+                            </td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body1">Collaboration Server is installed and configured with existing Repository and collaboration user credentials are appended in Default_Accounts.txt file.</td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body2">
+                            <td class="TableStyle-Table-BodyB-Column1-Body2">Only Collaboration Server was installed	</td>
+                            <td class="TableStyle-Table-BodyC-Column2-Body2">Add Platform Analytics	
+							</td>
+                            <td class="TableStyle-Table-BodyA-Column2-Body2">Platform Analytics is installed and configured with existing Repository and Platform Analytics user credentials are appended in Default_Accounts.txt file.
+
+							</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>Upgrade Current Installation</h3>
+                <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../TableStyles/Table.css');" class="TableStyle-Table" cellspacing="0">
+                    <col class="TableStyle-Table-Column-Column1" />
+                    <col class="TableStyle-Table-Column-Column2" />
+                    <col class="TableStyle-Table-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-Table-Head-Header1">
+                            <th class="TableStyle-Table-HeadE-Column1-Header1">Current Installation </th>
+                            <th class="TableStyle-Table-HeadF-Column2-Header1">Upgraded Installation</th>
+                            <th class="TableStyle-Table-HeadD-Column2-Header1">Result</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Table-Body-Body1">
+                            <td class="TableStyle-Table-BodyE-Column1-Body1" rowspan="3"> Neither Platform Analytics or Collaboration Server Installed	 	</td>
+                            <td class="TableStyle-Table-BodyF-Column2-Body1">Adding Platform Analytics	
+							</td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body1">
+                                <ul>
+                                    <li>Platform Analytics is installed and configured with Repository.
+									</li>
+                                    <li>mstr &amp; mstr_pa user credentials are populated in the Default_Accounts.txt file on the Platform Analytics installation node.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body2">
+                            <td class="TableStyle-Table-BodyF-Column2-Body2">
+                                <p>Adding Collaboration Server</p>
+                            </td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body2">
+                                <ul>
+                                    <li>Collaboration Server is installed and configured with Repository.</li>
+                                    <li>
+									mstr &amp; mstr_collab user credentials are populated in the Default_Accounts.txt file on the Collaboration Server installation node.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body1">
+                            <td class="TableStyle-Table-BodyF-Column2-Body1">Adding Platform Analytics &amp; Collaboration Server	
+							</td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body1">
+                                <ul>
+                                    <li>Platform Analytics and Collaboration Server are installed and configured with Repository.</li>
+                                    <li>Default_Accounts.txt file is generated with all three user credentials.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body2">
+                            <td class="TableStyle-Table-BodyE-Column1-Body2" rowspan="3">Platform Analytics Installed 	</td>
+                            <td class="TableStyle-Table-BodyF-Column2-Body2">
+                                <p>No Changes</p>
+                            </td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body2">
+                                <ul>
+                                    <li>Platform Analytics is upgraded with existing MySQL DB configuration (Post install the Platform Analytics Consumer will be down - user is recommended to upgrade the MySQL WH manually following the documentation).</li>
+                                    <li>PostgreSQL Repository files are laid.
+									</li>
+                                    <li>Platform Analytics Warehouse is upgraded and mstr &amp; mstr_pa user credentials are populated in the Default_Accounts.txt file. </li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body1">
+                            <td class="TableStyle-Table-BodyF-Column2-Body1">Adding Collaboration Server</td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body1">
+                                <ul>
+                                    <li>Platform Analytics is upgraded with existing MySQL DB configuration (Post install  the Platform Analytics Consumer will be down - user is recommended to upgrade the MySQL WH manually following the documentation).</li>
+                                    <li>PostgreSQL Repository files are laid.</li>
+                                    <li>Platform Analytics Warehouse is created
+									Collaboration database will be created. </li>
+                                    <li>
+									mstr, mstr_pa &amp; mstr_collab user credentials are populated in the Default_Accounts.txt file. </li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body2">
+                            <td class="TableStyle-Table-BodyF-Column2-Body2">
+                                <p>Remove Platform Analytics</p>
+                            </td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body2">
+                                <ul>
+                                    <li>Platform Analytics will be uninstalled.</li>
+                                    <li>No Repository files are installed.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body1">
+                            <td class="TableStyle-Table-BodyE-Column1-Body1" rowspan="3">Collaboration Server Installed	</td>
+                            <td class="TableStyle-Table-BodyF-Column2-Body1">
+                                <p>Adding Platform Analytics</p>
+                            </td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body1">
+                                <ul>
+                                    <li>Collaboration Server is upgraded, Platform Analytics is installed and both are  configured with Repository.</li>
+                                    <li>mstr, mstr_pa &amp; mstr_collab user credentials are populated in the Default_Accounts.txt file 
+									</li>
+                                    <li>MongoDB will be backed-up and restored after upgrade install with services down (User can manually start the service and migrate the data following documentation).</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body2">
+                            <td class="TableStyle-Table-BodyF-Column2-Body2">Remove Collaboration Server	
+							</td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body2">
+                                <ul>
+                                    <li>Collaboration Server will be uninstalled.
+									</li>
+                                    <li>No Repository files are installed.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body1">
+                            <td class="TableStyle-Table-BodyF-Column2-Body1">No Changes</td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body1">
+                                <ul>
+                                    <li>Collaboration Server is upgraded and configured with Repository.</li>
+                                    <li>mstr &amp; mstr_collab user credentials are populated in the Default_Accounts.txt file.</li>
+                                    <li>MongoDB will be backed-up and restored after upgrade install with services down (User can manually start the service and migrate the data following documentation).</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body2">
+                            <td class="TableStyle-Table-BodyB-Column1-Body2">Platform Analytics or Collaboration Server Installed	</td>
+                            <td class="TableStyle-Table-BodyC-Column2-Body2">No Changes</td>
+                            <td class="TableStyle-Table-BodyA-Column2-Body2">
+                                <ul>
+                                    <li>Platform Analytics is upgraded with existing MySQL DB configuration (Post install  the Platform Analytics Consumer will be down - user is recommended to upgrade the MySQL WH manually following the documentation).</li>
+                                    <li>PostgreSQL Repository files are laid, Platform Analytics Warehouse is created.</li>
+                                    <li>Collaboration Server is upgraded and configured with Repository.</li>
+                                    <li>mstr, mstr_pa &amp; mstr_collab user credentials are populated in the Default_Accounts.txt file.</li>
+                                    <li> 
+									MongoDB will be backed-up and restored after upgrade install with services down (User can manually start the service and migrate the data following documentation).</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h2>PostgreSQL Commands</h2>
+                <ul>
+                    <li><span class="code">\q</span>: Quit/Exit</li>
+                    <li><span class="code">\c __database__</span>: Connect to a database</li>
+                    <li><span class="code">\d __table__</span>: Show table definition including triggers</li>
+                    <li><span class="code">\d+ __table__</span>: More detailed table definition including description and physical disk size</li>
+                    <li><span class="code">\l</span>: List databases</li>
+                    <li><span class="code">\dy</span>: List events</li>
+                    <li><span class="code">\df</span>: List functions</li>
+                    <li><span class="code">\di</span>: List indexes</li>
+                    <li><span class="code">\dn</span>: List schemas</li>
+                    <li><span class="code">\dt *.*</span>: List tables from all schemas (if <span class="code">*.*</span> is omitted will only show SEARCH_PATH tables)</li>
+                    <li><span class="code">\dT+</span>: List all data types.</li>
+                    <li><span class="code">\dv</span>: List views.</li>
+                    <li><span class="code">\df+ __function__</span> : Show function SQL code.</li>
+                    <li><span class="code">\x</span>: Pretty-format query results instead of the not-so-useful ASCII tables.</li>
+                    <li><span class="code">\copy (SELECT * FROM __table_name__) TO 'file_path_and_name.csv' WITH CSV</span>: Export a table as CSV.</li>
+                </ul>
+                <p>User Related:</p>
+                <ul>
+                    <li><span class="code">\du</span>: List users</li>
+                    <li><span class="code">\du __username__</span>: List a username if present.</li>
+                    <li><span class="code">create role __test1__</span>: Create a role with an existing username.</li>
+                    <li><span class="code">create role __test2__ noinherit login password __passsword__;</span>: Create a role with username and password.</li>
+                    <li><span class="code">set role __test__;</span>: Change role for current session to __test__.</li>
+                    <li><span class="code">grant __test2__ to __test1__;</span>: Allow __test1__ to set its role as __test2__.</li>
+                </ul>
+            </div>
+            <div id="tab-2" class="tab-content">
+                <p>To help reduce deployment complexity MicroStrategy includes an embedded repository that can support the following MicroStrategy products:</p>
+                <ul>
+                    <li>Metadata Repository</li>
+                    <li>Collaboration Server</li>
+                    <li>Platform Analytics</li>
+                </ul>
+                <p>You are not required to leverage the embedded repository for any of these products, but the infrastructure is installed and ready for use should this be the right fit for your deployment.  This embedded repository is automatically configured, optimized, and managed for you.  With no manual intervention required for routine usage.</p>
+                <h2>Installation</h2>
+                <p>Repository is installed if either Platform Analytics, Collaboration Server, or both  installed. </p>
+                <ul>
+                    <li><b>Product Name</b>: Repository</li>
+                    <li><b>Default Installation Path</b>: <span class="code">/opt/mstr/MicroStrategy/install/Repository</span></li>
+                    <li>
+                        <p><b>Repository directory structure</b>:</p>
+                        <ul>
+                            <li><span class="code">/bin</span>
+                            </li>
+                            <li><span class="code">/pgdata</span>
+                            </li>
+                            <li><span class="code">/postgres11</span>
+                            </li>
+                            <li><span class="code">/repository-administration</span>
+                            </li>
+                            <li><span class="code">Default_Accounts.txt</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><b>Compressed file name</b>:&#160;<span class="code">mstr36.tzp</span></li>
+                </ul>
+                <p>To verify the version of the PostgreSQL run: </p>
+                <div class="sdk_code">
+                    <p>/opt/mstr/MicroStrategy/install/Repository/bin/mstr_pgsql --version</p>
+                </div>
+                <h3>How to log in to MicroStrategy Repository</h3>
+                <p>The installer will create users and database tables for Platform Analytics and Collaboration Server. <span class="code">Default_Accounts.txt</span> is the  file containing the user names and passwords to the repository  created during the installation. The default location of <span class="code">Default_Accounts.txt</span> is <code>/opt/mstr/MicroStrategy/install/Repository/Default_Accounts.txt</code>. This file should be moved to a secure location upon completing the install. </p>
+                <p>Users created in the Repository by the installer:</p>
+                <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../TableStyles/Table.css');" class="TableStyle-Table" cellspacing="0">
+                    <col class="TableStyle-Table-Column-Column1" />
+                    <col class="TableStyle-Table-Column-Column2" />
+                    <col class="TableStyle-Table-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-Table-Head-Header1">
+                            <th class="TableStyle-Table-HeadE-Column1-Header1">User name</th>
+                            <th class="TableStyle-Table-HeadF-Column2-Header1">Access</th>
+                            <th class="TableStyle-Table-HeadD-Column2-Header1">Privileges</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Table-Body-Body1">
+                            <td class="TableStyle-Table-BodyE-Column1-Body1">mstr</td>
+                            <td class="TableStyle-Table-BodyF-Column2-Body1">MicroStrategy user has access to Platform Analytics and Collaboration Server databases.</td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body1">Super User</td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body2">
+                            <td class="TableStyle-Table-BodyE-Column1-Body2">mstr_pa</td>
+                            <td class="TableStyle-Table-BodyF-Column2-Body2">MicroStrategy user that has access to the Platform Analytics database, but does not have access to the Collaboration Server database.</td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body2">CREATE DATABASE, SELECT DATABASE, SELECT TABLE, CREATE TABLE, DROP TABLE</td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body1">
+                            <td class="TableStyle-Table-BodyB-Column1-Body1">mstr_collab</td>
+                            <td class="TableStyle-Table-BodyC-Column2-Body1">MicroStrategy user that has access to the Collaboration Server database but does not have access to the Platform Analytics database.</td>
+                            <td class="TableStyle-Table-BodyA-Column2-Body1">No Create DB, SELECT, INSERT, CREATE TABLE, DROP TABLE</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>Databases created in the Repository by the installer:</p>
+                <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../TableStyles/Table.css');" class="TableStyle-Table" cellspacing="0">
+                    <col class="TableStyle-Table-Column-Column1" />
+                    <col class="TableStyle-Table-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-Table-Head-Header1">
+                            <th class="TableStyle-Table-HeadE-Column1-Header1">Product</th>
+                            <th class="TableStyle-Table-HeadD-Column2-Header1">Database</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Table-Body-Body1">
+                            <td class="TableStyle-Table-BodyE-Column1-Body1">Platform Analytics</td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body1">platform_analytics_wh</td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body2">
+                            <td class="TableStyle-Table-BodyB-Column1-Body2">Collaboration Server</td>
+                            <td class="TableStyle-Table-BodyA-Column2-Body2">mstr_collab</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>To log in navigate to: </p>
+                <div class="sdk_code">
+                    <p><span class="code">/opt/mstr/MicroStrategy/install/Repository/bin</span>
+                    </p>
+                </div>
+                <p>and run:</p>
+                <div class="sdk_code">
+                    <p>./mstr_psql -U &lt;UserName&gt; -d &lt;database&gt; -h &lt;hostIP&gt;</p>
+                </div>
+                <h2>Repository Services</h2>
+                <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../TableStyles/Table.css');" class="TableStyle-Table" cellspacing="0">
+                    <col class="TableStyle-Table-Column-Column1" />
+                    <col class="TableStyle-Table-Column-Column2" />
+                    <col class="TableStyle-Table-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-Table-Head-Header1">
+                            <th class="TableStyle-Table-HeadE-Column1-Header1">
+                                <p>File Name</p>
+                            </th>
+                            <th class="TableStyle-Table-HeadF-Column2-Header1">
+                                <p>Location</p>
+                            </th>
+                            <th class="TableStyle-Table-HeadD-Column2-Header1">
+                                <p>Info</p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Table-Body-Body1">
+                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                <p>mstr_pg_ctl</p>
+                            </td>
+                            <td class="TableStyle-Table-BodyF-Column2-Body1">/opt/mstr/MicroStrategy/install/Repository/bin</td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body1">This file accepts star/stop/restart/status parameters.<p>It is a wrapper pointing to &lt;MSTR_INSTALL_PATH&gt;/Repository/postgres11/bin/pg_ctl</p></td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body2">
+                            <td class="TableStyle-Table-BodyE-Column1-Body2">mstr-root@&lt;TIMESTAMP&gt;-repository-server	</td>
+                            <td class="TableStyle-Table-BodyF-Column2-Body2">/etc/init.d</td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body2">
+                                <p>The PostgreSQL service called when booting up or when issuing start/stop/status/restart commands using the "service" command.</p>
+                                <p>This file will be created only if  you have selected to run the MicroStrategy processes as services during the installation.</p>
+                                <p>Setup will set the service to start automatically upon system startup. In case of a Platform Analytics upgrade (and collaboration is not installed), this service is set to manual.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body1">
+                            <td class="TableStyle-Table-BodyE-Column1-Body1">respository-server</td>
+                            <td class="TableStyle-Table-BodyF-Column2-Body1">
+                                <p>	/opt/mstr/MicroStrategy/install/initd_scripts</p>
+                            </td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body1">
+                                <p>mstr-root@&lt;TIMESTAMP&gt;-repository-server is stored into initd_scripts directory when user decides not to setup the MicroStrategy processes as services, they can use this script to do it later.</p>
+                                <p>Some people also find it practical to have all the startup scripts on the same directory and with the timestamp-less name.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body2">
+                            <td class="TableStyle-Table-BodyB-Column1-Body2">
+                                <p>repository-administration</p>
+                            </td>
+                            <td class="TableStyle-Table-BodyC-Column2-Body2">
+                                <p>	/opt/mstr/MicroStrategy/install/initd_scripts</p>
+                            </td>
+                            <td class="TableStyle-Table-BodyA-Column2-Body2">
+                                <p>mstr-root@&lt;TIMESTAMP&gt;-repository-administration  is stored into the initd_scripts directory when you decide not to setup the MicroStrategy processes as services, they can use this script to do it later.</p>
+                                <p>Some people also find it practical to have all the startup scripts on the same directory and with the timestamp-less name.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h2>Repository Administration</h2>
+                <p>The following database administration tasks are performed by the Database Administration Tool:</p>
+                <ul>
+                    <li>Backup at a specified frequency or on-demand</li>
+                    <li>Restore a particular database from previously taken backup files</li>
+                    <li>Restore all databases from previously taken backup files</li>
+                </ul>
+                <p><span class="code">DBAdminConfig.yaml</span> is a configuration file is used to set up the database connection, the backup location, and database administration tasks frequency. </p>
+                <p>The default location of <span class="code">DBAdminConfig.yaml</span> is:</p>
+                <p><span class="code">/opt/MicroStrategy/Repository/repository-administration/conf</span>
+                </p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>Sample file:</MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <div class="sdk_code"><pre>---
+<span class="param">pgHost</span>: localhost
+<span class="param">pgDbNames</span>:
+  - platform_analytics_wh
+  - mstr_collab
+<span class="param">pgUser</span>: mstr
+<span class="param">pgPasswd</span>: sest+9y+e6OdXIXTHjgPoC7osqE0rGMzgjR1zA==,kc7GbAQ8pv5yt32L
+<span class="param">pgPort</span>: <span class="param_value">5432
+</span><span class="param">pgSSLcert</span>: ~
+<span class="param">pgSSLkey</span>: ~
+<span class="param">pgSSLrootcert</span>: ~
+<span class="param">pgSSLmode</span>: prefer
+<span class="param">pgBackupLocation</span>: /opt/MicroStrategy/Repository/repository-administration/backups/
+<span class="param">pgMaxAllowedBackupCount</span>: <span class="param_value">5</span><![CDATA[
+]]><span class="param">scheduledConfiguration</span>:
+  <span class="param">startDate</span>: 1993-11-12
+  <span class="param">backupFrequencyInDays</span>: <span class="param_value">2</span><![CDATA[ 
+  ]]><span class="param">localTimeOfExecution</span>: <span class="param_value">23:00</span><![CDATA[
+  ]]><span class="param">localTimeOfStatsCollection</span>: 00:30</pre>
+                        </div>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <div class="reqs">
+                    <p> The following files should be accessible:</p>
+                    <ul>
+                        <li><span class="code">pg_dump</span>
+                        </li>
+                        <li><span class="code">pg_restore</span>
+                        </li>
+                    </ul>
+                    <p>To change the time of statistics collection, see <a href="https://community.microstrategy.com/s/article/How-to-Modify-the-Time-of-Statistics-Collection-Using-the-Database-Administration-Tool?language=en_US">KB483944</a>.</p>
+                </div>
+                <h3>Database Administration Tool</h3>
+                <p>To launch the Database Administration Tool:</p>
+                <ol>
+                    <li>
+                        <p>Open a terminal window and navigate to the repository-administration/bin folder:</p>
+                        <p><span class="code">/opt/MicroStrategy/Repository/repository-administration/bin</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Run <span class="code">./mstr-repo-ondemand-dba-operations.sh</span>.</p>
+                        <p>This will open the DBAOperations utility:</p>
+                        <div class="sdk_code"><pre>****** DBA&#160;Tools ******</pre><pre>Enter choice</pre><pre>1) Backup</pre><pre>2) Restore</pre><pre>3)&#160;Vacuum</pre><pre>0) Exit</pre>
+                        </div>
+                    </li>
+                </ol>
+                <p>The utility exits after every operation.</p>
+                <h4>To Backup</h4>
+                <p>Selecting the Backup option (1) will list all the databases from the <span class="code">DBAdminConfig.yaml</span> file along with the option to backup all databases and exit the utility.</p>
+                <div class="sdk_code"><pre>User selected: 1 (Backup)</pre><pre>Select the database you want to backup.</pre><pre>1) platform_analytics_wh</pre><pre>2) mstr_collab</pre><pre>3)&#160;Backup all databases.</pre><pre>0) Exit</pre>
+                </div>
+                <p>Databases will be backed up in the default backup directory, inside their individual folders: </p>
+                <ul>
+                    <li style="color: #333333;"><span class="code">/opt/MicroStrategy/Repository/repository-administration/backups/platform_analytics_wh</span>
+                    </li>
+                    <li><span class="code">/opt/MicroStrategy/Repository/repository-administration/backups/mstr_collab</span>
+                    </li>
+                </ul>
+                <p>The utility will compute the following:</p>
+                <ul>
+                    <li>Database size</li>
+                    <li>Estimated backup size</li>
+                    <li>Available free space on disk</li>
+                </ul>
+                <div class="sdk_code"><pre>(platform_analytics_wh) Database Size: 44.9 MiB
+(platform_analytics_wh) Estimated backup size: 4.0 MiB
+(platform_analytics_wh) Available Free Space : 12.3 GiB
+Backing up database: platform_analytics_wh</pre><pre>(platform_analytics_wh) Backup File Created: backupplatform_analytics_wh_20191010.sql
+(platform_analytics_wh) Backup File Size: 1.5 MiB
+*** Finished backup operation on database: platform_analytics_wh ***</pre>
+                </div>
+                <p>If the backup was already done on the given day’s timestamp, it will ask if you want to overwrite the existing backup.</p>
+                <div class="sdk_code"><pre>(platform_analytics_wh) Database Size: 44.9 MiB
+(platform_analytics_wh) Estimated backup size: 4.0 MiB</pre><pre>(platform_analytics_wh) Available Free Space : 12.3 GiB</pre><pre>(platform_analytics_wh) Backup already done today. Date : 20190930</pre><pre>Overwrite File ? (y/n)</pre><pre>y</pre><pre>(platform_analytics_wh) Overwriting existing backup: backup_platform_analytics_wh_20190930.sql</pre><pre>Backing up database: platform_analytics_wh</pre><pre>(platform_analytics_wh) Backup File Created: </pre><pre>backup_platform_analytics_wh_20191010.sql</pre><pre>(platform_analytics_wh) Backup File Size: 1.5 MiB
+*** Finished backup operation on database: platform_analytics_wh ***</pre>
+                </div>
+                <h4>To Restore</h4>
+                <div class="reqs">
+                    <p>Ensure that all applications connected to the database you want to restore are stopped. For example, if you want to restore <span class="code">platform_analytics_wh</span>, you must stop the Platform Analytics Consumer before selecting and performing the steps in Restore.</p>
+                </div>
+                <p>Selecting the Restore option (2) on the main menu will show a warning that the operation will overwrite the existing data. However, the utility will take a backup just before restoring to ensure no data is lost.</p>
+                <div class="sdk_code"><pre>User selected: 2 (restore)</pre><pre>Select the database you want to restore.</pre><pre>1) platform_analytics_wh</pre><pre>2) mstr_collab</pre><pre>3)&#160;Restoreall databases.</pre><pre>0) Exit</pre><pre>2</pre><pre>User selected: 2 (restore)</pre><pre>*** This operation WILL DELETE ALL EXISTING DATA and overwrite the database with backup data. Changes CAN NOT be undone later. ***</pre><pre>Do you want to continue? (y/n)</pre>
+                </div>
+                <p>Selecting yes will move  the utility forward and list all the databases that can be restored along with the option to restore everything. Selecting restore all will restore all the databases with the latest backup file.</p>
+                <div class="sdk_code"><pre>*** This operation WILL DELETE ALL EXISTING DATA and overwrite the database with backup data. Changes CAN NOT be undone later. ***</pre><pre>Do you want to continue? (y/n)</pre><pre>y</pre><pre>Select the database you want to restore.</pre><pre>1) platform_analytics_wh</pre><pre>2) mstr_collab</pre><pre>3)&#160;Restore all databases.</pre><pre>0) Exit</pre>
+                </div>
+                <p>Selecting a given database will move  the utility forward and display the restore options. The first option lets you backup the selected database with its latest backup file. The second option allows you to select a custom backup.</p>
+                <p>If Restore from Latest Backup is selected the utility will find the latest backup file in the default directory, print the name of the file, restore the database, and create a pre-restore backup in the directory to ensure data is not lost.</p>
+                <div class="sdk_code"><pre>Select restore file</pre><pre>1) Restore from Latest Backup</pre><pre>2) Restore from Custom Backup</pre><pre>0) Exit</pre><pre>1</pre><pre>Restoring latest backup</pre><pre>Searching for backup files in <span class="code">/opt/MicroStrategy/Repository/repository-administration/backups/platform_analytics_wh</span></pre><pre>Starting restore process</pre><pre>***&#160;Restoring database :&#160;platform_analytics_wh</pre>
+                </div>
+                <p>If Restore from Custom Backup is selected, the utility will print the path to the default backup location and ask  if you want to search for backups in that path. You can then select that path or enter a custom path. After the file path is entered,  enter the restore file name. The utility will search for the file and begin restoring if the file is found.</p>
+                <div class="sdk_code"><pre>Select restore file</pre><pre>1) Restore from Latest Backup</pre><pre>2) Restore from Custom Backup</pre><pre>0) Exit</pre><pre>2</pre><pre>Restoring custom backup</pre><pre>Default backup path : <span class="code">/opt/MicroStrategy/Repository/repository-administration/backups/platform_analytics_wh</span></pre><pre>Use default backup path ? (y/n)</pre><pre>y</pre><pre>Enter file name to restore. Press x to cancel.</pre><pre>backup_platform_analytics_wh_20190930</pre><pre>File 'backup_platform_analytics_wh_20190930.sql' found.</pre><pre>Restoring file backup_platform_analytics_wh_20190930.sql.</pre><pre>***&#160;Restoring database :&#160;platform_analytics_wh</pre>
+                </div>
+                <h4>To Vacuum</h4>
+                <p>Whenever rows in a PostgreSQL table are updated or deleted, dead rows are left behind. Vacuum gets rid of them so that the space can be reused. If a table doesn’t get vacuumed, it will get bloated, which wastes disk space and slows down sequential table scans.</p>
+                <p>If  the Vacuum option (3) is selected, the utility computes bloat for all databases and generates a report.</p>
+                <div class="sdk_code"><pre>****** DBA Tools ******
+Enter choice
+1) Backup
+2) Restore
+3) Vacuum
+0) Exit
+3
+User selected: 3 (vacuum)
+*** BLOAT REPORT ***
+** Bloat report for database: platform_analytics_wh **
+Table Name                                        | Bloat Percent        | Wasted KBs
+lu_minute                                         | 2.0                  | 65536
+etl_lu_status_category                            | 1.0                  | 24576
+etl_rel_action_tran_type                          | 1.3                  | 8192
+lu_action_type                                    | 2.0                  | 8192
+lu_date                                           | 1.1                  | 8192
+lu_privilege                                      | 1.5                  | 8192
+lu_session_source                                 | 1.0                  | 0
+lu_sql_pass_type                                  | 1.0                  | 0
+lu_week                                           | 1.0                  | 0
+rel_date_timeperiod                               | 1.0                  | 0
+rel_date_weektime_window                          | 0.0                  | 0
+etl_rel_source_sub_type_object_type               | 1.0                  | 0
+lu_db_type                                        | 1.0                  | 0
+lu_db_version                                     | 1.0                  | 0
+lu_object_type                                    | 1.0                  | 0
+lu_product                                        | 1.0                  | 0
+** Bloat report for database: mstr_collab **
+Table Name                                        | Bloat Percent        | Wasted KBs
+Select the database you want to vacuum.
+1) platform_analytics_wh
+2) mstr_collab
+3) vacuum all databases.
+4) Full vacuum all databases.
+0) Exit</pre>
+                </div>
+                <p>You can choose to vacuum an individual database, vacuum all databases, or full vacuum all databases.</p>
+                <p>When performing <span class="code">vacuum</span>, the dead space is reclaimed and made available for reuse by the same object, table, etc.</p>
+                <p class="Warning"><span class="code">Full vacuum all databases</span> writes the entire content of the table into a new disk file and releases the wasted space back to the OS. This causes a table-level lock on the table and slows speeds. <span class="code">Full vacuum all databases</span> should be avoided on a high load system. You must stop the Platform Analytics Consumer before performing full vacuum all databases.</p>
+                <div class="sdk_code"><pre>*** Vacuum ***
+Select vacuum type
+1) Vacuum Bloated Tables
+2) Vacuum All Tables
+3) Full Vacuum (Blocks DB)
+0) Exit
+1
+Starting Vacuum on tables in list
+Vacuuming table : lu_minute with 65536 wasted space
+Vacuuming table : etl_lu_status_category with 24576 wasted space
+Vacuuming table : etl_rel_action_tran_type with 8192 wasted space
+Vacuuming table : lu_action_type with 8192 wasted space
+Vacuuming table : lu_date with 8192 wasted space
+Vacuuming table : lu_privilege with 8192 wasted space
+Vacuuming table : lu_session_source with 0 wasted space
+Vacuuming table : lu_sql_pass_type with 0 wasted space
+Vacuuming table : lu_week with 0 wasted space
+Vacuuming table : rel_date_timeperiod with 0 wasted space
+Vacuuming table : rel_date_weektime_window with 0 wasted space
+Vacuuming table : etl_rel_source_sub_type_object_type with 0 wasted space
+Vacuuming table : lu_db_type with 0 wasted space
+Vacuuming table : lu_db_version with 0 wasted space
+Vacuuming table : lu_object_type with 0 wasted space
+Vacuuming table : lu_product with 0 wasted space</pre>
+                </div>
+                <h2>Installation Scenarios</h2>
+                <p>The tables below explain how the installation and configuration of MicroStrategy Repository  is handled based on the installation type and the components selected. </p>
+                <h3>Fresh Installation</h3>
+                <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../TableStyles/Table.css');" class="TableStyle-Table" cellspacing="0">
+                    <col class="TableStyle-Table-Column-Column1" />
+                    <col class="TableStyle-Table-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-Table-Head-Header1">
+                            <th class="TableStyle-Table-HeadE-Column1-Header1">Components Installed</th>
+                            <th class="TableStyle-Table-HeadD-Column2-Header1">Result</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Table-Body-Body1">
+                            <td class="TableStyle-Table-BodyE-Column1-Body1">Platform Analytics alone is installed</td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body1">Platform Analytics is installed and configured with Repository, mstr &amp; mstr_pa user credentials are populated in the Default_Accounts.txt file </td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body2">
+                            <td class="TableStyle-Table-BodyE-Column1-Body2">Collaboration Server alone is installed</td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body2">Collaboration Server is installed and configured with Repository, mstr &amp; mstr_collab user credentials are populated in the Default_Accounts.txt file</td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body1">
+                            <td class="TableStyle-Table-BodyE-Column1-Body1">Platform Analytics and Collaboration Server are installed</td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body1">Repository is installed and configured with the both products and Default_Accounts.txt file is generated with all three user credentials</td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body2">
+                            <td class="TableStyle-Table-BodyB-Column1-Body2">Collaboration Server is installed in one node and Platform Analytics on other</td>
+                            <td class="TableStyle-Table-BodyA-Column2-Body2">Repository is installed in both nodes
+
+								mstr &amp; mstr_collab user credentials are populated in the Default_Accounts.txt file on the Collaboration Server installation node
+
+							mstr &amp; mstr_pa user credentials are populated in the Default_Accounts.txt file on the Platform Analytics installation node</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>Modify Current Installation</h3>
+                <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../TableStyles/Table.css');" class="TableStyle-Table" cellspacing="0">
+                    <col class="TableStyle-Table-Column-Column1" />
+                    <col class="TableStyle-Table-Column-Column2" />
+                    <col class="TableStyle-Table-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-Table-Head-Header1">
+                            <th class="TableStyle-Table-HeadE-Column1-Header1">Currently Installed Components</th>
+                            <th class="TableStyle-Table-HeadF-Column2-Header1">Modification</th>
+                            <th class="TableStyle-Table-HeadD-Column2-Header1">Result</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Table-Body-Body1">
+                            <td class="TableStyle-Table-BodyE-Column1-Body1" rowspan="3">Neither Platform Analytics or Collaboration Server are  installed</td>
+                            <td class="TableStyle-Table-BodyF-Column2-Body1">Add Platform Analytics and Collaboration Server	</td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body1">Repository is installed and configured with the both products and Default_Accounts.txt file is generated with all three user credentials.</td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body2">
+                            <td class="TableStyle-Table-BodyF-Column2-Body2">
+                                <p>Add Platform Analytics</p>
+                            </td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body2">Platform Analytics is installed and configured with Repository and mstr, mstr_pa user credentials are populated in the Default_Accounts.txt file.</td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body1">
+                            <td class="TableStyle-Table-BodyF-Column2-Body1">Add Collaboration Server	</td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body1">Collaboration Server is installed and configured with Repository and mstr, mstr_collab user credentials are populated in the Default_Accounts.txt file.</td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body2">
+                            <td class="TableStyle-Table-BodyE-Column1-Body2" rowspan="3">Platform Analytics and Collaboration Server are both installed	</td>
+                            <td class="TableStyle-Table-BodyF-Column2-Body2">
+                                <p>Remove Collaboration Server</p>
+                            </td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body2">Collaboration Server is uninstalled and all Collaboration data is deleted from Repository and Collaboration user credentials are deleted from Default_Accounts.txt file (Users are warned to take the backup of Collaboration Server data before performing the install operation).</td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body1">
+                            <td class="TableStyle-Table-BodyF-Column2-Body1">Remove Platform Analytics	</td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body1">Platform Analytics is uninstalled and all Platform Analytics data is deleted from Repository and  Platform Analytics user credentials are deleted from Default_Accounts.txt file (Users are warned to take the backup of  Platform Analytics data before performing the install operation).
+							</td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body2">
+                            <td class="TableStyle-Table-BodyF-Column2-Body2">
+                                <p>Remove Platform Analytics &amp; Collaboration Server</p>
+                            </td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body2">Platform Analytics and Collaboration Server are uninstalled along with Repository and directories are deleted (Users are warned to take the backup of Platform Analytics and Collaboration Server data before performing the install operation).
+							</td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body1">
+                            <td class="TableStyle-Table-BodyE-Column1-Body1">Only Platform Analytics was installed	</td>
+                            <td class="TableStyle-Table-BodyF-Column2-Body1">
+                                <p>Add Collaboration Server</p>
+                            </td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body1">Collaboration Server is installed and configured with existing Repository and collaboration user credentials are appended in Default_Accounts.txt file.</td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body2">
+                            <td class="TableStyle-Table-BodyB-Column1-Body2">Only Collaboration Server was installed	</td>
+                            <td class="TableStyle-Table-BodyC-Column2-Body2">Add Platform Analytics	
+							</td>
+                            <td class="TableStyle-Table-BodyA-Column2-Body2">Platform Analytics is installed and configured with existing Repository and Platform Analytics user credentials are appended in Default_Accounts.txt file.
+
+							</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>Upgrade Current Installation</h3>
+                <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../TableStyles/Table.css');" class="TableStyle-Table" cellspacing="0">
+                    <col class="TableStyle-Table-Column-Column1" />
+                    <col class="TableStyle-Table-Column-Column2" />
+                    <col class="TableStyle-Table-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-Table-Head-Header1">
+                            <th class="TableStyle-Table-HeadE-Column1-Header1">Current Installation </th>
+                            <th class="TableStyle-Table-HeadF-Column2-Header1">Upgraded Installation</th>
+                            <th class="TableStyle-Table-HeadD-Column2-Header1">Result</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Table-Body-Body1">
+                            <td class="TableStyle-Table-BodyE-Column1-Body1" rowspan="3"> Neither Platform Analytics or Collaboration Server Installed	 	</td>
+                            <td class="TableStyle-Table-BodyF-Column2-Body1">Adding Platform Analytics	
+							</td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body1">
+                                <ul>
+                                    <li>Platform Analytics is installed and configured with Repository.
+									</li>
+                                    <li>mstr &amp; mstr_pa user credentials are populated in the Default_Accounts.txt file on the Platform Analytics installation node.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body2">
+                            <td class="TableStyle-Table-BodyF-Column2-Body2">
+                                <p>Adding Collaboration Server</p>
+                            </td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body2">
+                                <ul>
+                                    <li>Collaboration Server is installed and configured with Repository.</li>
+                                    <li>
+									mstr &amp; mstr_collab user credentials are populated in the Default_Accounts.txt file on the Collaboration Server installation node.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body1">
+                            <td class="TableStyle-Table-BodyF-Column2-Body1">Adding Platform Analytics &amp; Collaboration Server	
+							</td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body1">
+                                <ul>
+                                    <li>Platform Analytics and Collaboration Server are installed and configured with Repository.</li>
+                                    <li>Default_Accounts.txt file is generated with all three user credentials.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body2">
+                            <td class="TableStyle-Table-BodyE-Column1-Body2" rowspan="3">Platform Analytics Installed 	</td>
+                            <td class="TableStyle-Table-BodyF-Column2-Body2">
+                                <p>No Changes</p>
+                            </td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body2">
+                                <ul>
+                                    <li>Platform Analytics is upgraded with existing MySQL DB configuration (Post install the Platform Analytics Consumer will be down - user is recommended to upgrade the MySQL WH manually following the documentation).</li>
+                                    <li>PostgreSQL Repository files are laid.
+									</li>
+                                    <li>Platform Analytics Warehouse is upgraded and mstr &amp; mstr_pa user credentials are populated in the Default_Accounts.txt file. </li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body1">
+                            <td class="TableStyle-Table-BodyF-Column2-Body1">Adding Collaboration Server</td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body1">
+                                <ul>
+                                    <li>Platform Analytics is upgraded with existing MySQL DB configuration (Post install  the Platform Analytics Consumer will be down - user is recommended to upgrade the MySQL WH manually following the documentation).</li>
+                                    <li>PostgreSQL Repository files are laid.</li>
+                                    <li>Platform Analytics Warehouse is created
+									Collaboration database will be created. </li>
+                                    <li>
+									mstr, mstr_pa &amp; mstr_collab user credentials are populated in the Default_Accounts.txt file. </li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body2">
+                            <td class="TableStyle-Table-BodyF-Column2-Body2">
+                                <p>Remove Platform Analytics</p>
+                            </td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body2">
+                                <ul>
+                                    <li>Platform Analytics will be uninstalled.</li>
+                                    <li>No Repository files are installed.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body1">
+                            <td class="TableStyle-Table-BodyE-Column1-Body1" rowspan="3">Collaboration Server Installed	</td>
+                            <td class="TableStyle-Table-BodyF-Column2-Body1">
+                                <p>Adding Platform Analytics</p>
+                            </td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body1">
+                                <ul>
+                                    <li>Collaboration Server is upgraded, Platform Analytics is installed and both are  configured with Repository.</li>
+                                    <li>mstr, mstr_pa &amp; mstr_collab user credentials are populated in the Default_Accounts.txt file 
+									</li>
+                                    <li>MongoDB will be backed-up and restored after upgrade install with services down (User can manually start the service and migrate the data following documentation).</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body2">
+                            <td class="TableStyle-Table-BodyF-Column2-Body2">Remove Collaboration Server	
+							</td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body2">
+                                <ul>
+                                    <li>Collaboration Server will be uninstalled.
+									</li>
+                                    <li>No Repository files are installed.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body1">
+                            <td class="TableStyle-Table-BodyF-Column2-Body1">No Changes</td>
+                            <td class="TableStyle-Table-BodyD-Column2-Body1">
+                                <ul>
+                                    <li>Collaboration Server is upgraded and configured with Repository.</li>
+                                    <li>mstr &amp; mstr_collab user credentials are populated in the Default_Accounts.txt file.</li>
+                                    <li>MongoDB will be backed-up and restored after upgrade install with services down (User can manually start the service and migrate the data following documentation).</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Table-Body-Body2">
+                            <td class="TableStyle-Table-BodyB-Column1-Body2">Platform Analytics or Collaboration Server Installed	</td>
+                            <td class="TableStyle-Table-BodyC-Column2-Body2">No Changes</td>
+                            <td class="TableStyle-Table-BodyA-Column2-Body2">
+                                <ul>
+                                    <li>Platform Analytics is upgraded with existing MySQL DB configuration (Post install  the Platform Analytics Consumer will be down - user is recommended to upgrade the MySQL WH manually following the documentation).</li>
+                                    <li>PostgreSQL Repository files are laid, Platform Analytics Warehouse is created.</li>
+                                    <li>Collaboration Server is upgraded and configured with Repository.</li>
+                                    <li>mstr, mstr_pa &amp; mstr_collab user credentials are populated in the Default_Accounts.txt file.</li>
+                                    <li> 
+									MongoDB will be backed-up and restored after upgrade install with services down (User can manually start the service and migrate the data following documentation).</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h2>PostgreSQL Commands</h2>
+                <ul>
+                    <li><span class="code">\q</span>: Quit/Exit</li>
+                    <li><span class="code">\c __database__</span>: Connect to a database</li>
+                    <li><span class="code">\d __table__</span>: Show table definition including triggers</li>
+                    <li><span class="code">\d+ __table__</span>: More detailed table definition including description and physical disk size</li>
+                    <li><span class="code">\l</span>: List databases</li>
+                    <li><span class="code">\dy</span>: List events</li>
+                    <li><span class="code">\df</span>: List functions</li>
+                    <li><span class="code">\di</span>: List indexes</li>
+                    <li><span class="code">\dn</span>: List schemas</li>
+                    <li><span class="code">\dt *.*</span>: List tables from all schemas (if <span class="code">*.*</span> is omitted will only show SEARCH_PATH tables)</li>
+                    <li><span class="code">\dT+</span>: List all data types.</li>
+                    <li><span class="code">\dv</span>: List views.</li>
+                    <li><span class="code">\df+ __function__</span> : Show function SQL code.</li>
+                    <li><span class="code">\x</span>: Pretty-format query results instead of the not-so-useful ASCII tables.</li>
+                    <li><span class="code">\copy (SELECT * FROM __table_name__) TO 'file_path_and_name.csv' WITH CSV</span>: Export a table as CSV.</li>
+                </ul>
+                <p>User Related:</p>
+                <ul>
+                    <li><span class="code">\du</span>: List users</li>
+                    <li><span class="code">\du __username__</span>: List a username if present.</li>
+                    <li><span class="code">create role __test1__</span>: Create a role with an existing username.</li>
+                    <li><span class="code">create role __test2__ noinherit login password __passsword__;</span>: Create a role with username and password.</li>
+                    <li><span class="code">set role __test__;</span>: Change role for current session to __test__.</li>
+                    <li><span class="code">grant __test2__ to __test1__;</span>: Allow __test1__ to set its role as __test2__.</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

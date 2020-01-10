@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet>
+  <ConditionTag
+    Name="PrintOnly"
+    OriginalName="PrintOnly"
+    BackgroundColor="#00ffff"
+    Comment="Apply this condition if content is for PDF output only, and must not be shown in online output" />
+  <ConditionTag
+    Name="OnlineOnly"
+    BackgroundColor="#218921"
+    OriginalName="OnlineOnly"
+    Comment="Apply this condition if content is for online output only, and must not be shown in PDF output" />
+  <ConditionTag
+    BackgroundColor="#ffff33"
+    Name="CHM_Only"
+    Comment="Reserved for future use"
+    OriginalName="CHM_Only" />
+  <ConditionTag
+    BackgroundColor="#ff0000"
+    Name="Internal Comment"
+    Comment=""
+    OriginalName="Internal Comment" />
+  <ConditionTag
+    BackgroundColor="#0000ff"
+    Name="Development"
+    Comment="Reserved for future use"
+    OriginalName="Development" />
+  <ConditionTag
+    BackgroundColor="#00ff00"
+    Name="Production"
+    Comment="Reserved for future use"
+    OriginalName="Production" />
+  <ConditionTag
+    BackgroundColor="#6495ed"
+    Name="Condensed Only"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#d2691e"
+    Name="Full Version Only"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#a006f5"
+    Name="SharedContent"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#010101"
+    Name="Deprecated"
+    Comment="Deprecated topics kept around because" />
+</CatapultConditionTagSet>

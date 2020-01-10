@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <div class="Note">
+            <p>If you are running MicroStrategy Developer on Windows for the first time, run it as an administrator.</p>
+            <p>Right&#8209;click the program icon and select <b>Run as Administrator</b>.</p>
+            <p>This is necessary in order to properly set the Windows registry keys. For more information, see <a href="https://community.microstrategy.com/s/article/KB43491-What-access-does-the-Microsoft-Windows-User-need-to-have" target="_blank">KB43491</a>.</p>
+        </div>
+    </body>
+</html>

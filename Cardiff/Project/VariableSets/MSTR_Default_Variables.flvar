@@ -1,0 +1,548 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Name="CurrentVersion"
+    Comment="The current version of the software, displayed in the boilerplate/legal information"
+    Definition="Some text"
+    EvaluatedDefinition="2020">2020</Variable>
+  <Variable
+    Name="ReleaseMonthAndYear"
+    Comment="Use for copyright notices, book edition, etc. Do not edit."
+    Type="DateTime">MMMM yyyy</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="Used for the book cover in the PDF. In the output target, select the appropriate value"
+    EvaluatedDefinition="Workstation Online Help">Workstation Online Help</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="">Advanced Reporting Guide</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment=""
+    EvaluatedDefinition="Desktop User Guide">Desktop User Guide</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="">Basic Reporting Guide</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="">Command Manager</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="">Customer Analysis Module Reference</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="">Dashboards and Widgets Creation Guide</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="">Document Analysis Guide</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="">Document Creation Guide</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="">Financial Reporting Analysis Module Reference</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="">Functions Reference</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="">Human Resources Analysis Module Reference</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment=""
+    EvaluatedDefinition="In-memory Analytics Guide">In-memory Analytics Guide</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="">Installation and Configuration Guide</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="">Analytics Modules: Installation and Porting Guide</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="">Introduction to MicroStrategy: Evaluation Guide</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="">Installation and Porting Guide for the Analytics Module</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="">MDX Cube Reporting Guide</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="">MicroStrategy Desktop Quick Start Guide</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="">MicroStrategy Evaluation Edition Quick Start Guide</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="">MicroStrategy Office User Guide</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment=""
+    EvaluatedDefinition="MicroStrategy Web Help">MicroStrategy Web Help</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment=""
+    EvaluatedDefinition="Mobile Design and Analysis Guide">Mobile Design and Analysis Guide</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment=""
+    EvaluatedDefinition="Mobile Administration Guide">Mobile Administration Guide</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="">Narrowcast Server Getting Started Guide</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="">Narrowcast Server Installation and Configuration Guide</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="">Narrowcast Server Upgrade Guide</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="">Narrowcast Server Application Designer Guide</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="">Narrowcast Server System Administrator Guide</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="">Operations Manager Guide</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="">Project Design Guide</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="">Quick Start Reference Guide</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="">R Integration Pack User Guide</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="">Report Designer</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="">Sales and Distribution Analysis Module Reference</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="">Supplemental Reference for System Administration</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="">System Administration Guide</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="">Supplemental Reference for System Administration</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="">Upgrade Guide</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="">Usher Help</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="">Usher Developer</Variable>
+  <Variable
+    Name="CurrentYear"
+    Comment="For copyright notices, etc. Do not edit."
+    Type="DateTime">yyyy</Variable>
+  <Variable
+    Comment="The guide subtitle, displayed on the cover in the PDF. Change the value of this variable in the output target"
+    Name="GuideSubTitle"
+    OriginalName="GuideTitle">Subtitle</Variable>
+  <Variable
+    Name="DocNumber"
+    Comment="The Document Number. To get the document number, refer to the production instructions, or contact Roxy Schoen.">[DocNumber]1040</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="">Introduction to MicroStrategy Big Data</Variable>
+  <Variable
+    Name="PROD_Server_Path"
+    Comment="This includes the version snippet"
+    EvaluatedDefinition="https://www2.microstrategy.com/producthelp">https://www2.microstrategy.com/producthelp</Variable>
+  <Variable
+    Name="Snippet_Link_Title"
+    Comment=""
+    EvaluatedDefinition="Help Guide">Help Guide</Variable>
+  <Variable
+    Name="Snippet_Topic_PathAndLink"
+    Comment=""
+    EvaluatedDefinition="bookoverview.htm">bookoverview.htm</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="KO - Desktop Quick Start Guide"
+    EvaluatedDefinition="MicroStrategy Desktop 빠른시작개요">MicroStrategy Desktop 빠른시작개요</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="JA - Desktop Quick Start Guide"
+    EvaluatedDefinition="MicroStrategy Desktopクイックスタート概要">MicroStrategy Desktopクイックスタート概要</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="PT - Desktop Quick Start Guide"
+    EvaluatedDefinition="MicroStrategy Desktop Visão geral de início rápido">MicroStrategy Desktop Visão geral de início rápido</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="ES - MicroStrategy Web Help"
+    EvaluatedDefinition="Ayuda de MicroStrategy Web">Ayuda de MicroStrategy Web</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="DE - MicroStrategy Web Help"
+    EvaluatedDefinition="Hilfe für MicroStrategy Web">Hilfe für MicroStrategy Web</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="FR - MicroStrategy Web Help"
+    EvaluatedDefinition="Aide de MicroStrategy Web">Aide de MicroStrategy Web</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="IT - MicroStrategy Web Help"
+    EvaluatedDefinition="Guida di MicroStrategy Web">Guida di MicroStrategy Web</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="SV - MicroStrategy Web Help"
+    EvaluatedDefinition="MicroStrategy Web-hjälp">MicroStrategy Web-hjälp</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="JA - MicroStrategy Web Help"
+    EvaluatedDefinition="MicroStrategy Web ヘルプへよ">MicroStrategy Web ヘルプへよ</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="PT - MicroStrategy Web Help"
+    EvaluatedDefinition="Ajuda do MicroStrategy Web">Ajuda do MicroStrategy Web</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="NL - MicroStrategy Web Help"
+    EvaluatedDefinition="Help voor MicroStrategy Web">Help voor MicroStrategy Web</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="DE - Desktop Quick Start Guide"
+    EvaluatedDefinition="MicroStrategy Desktop Übersicht „Schnellstart“">MicroStrategy Desktop Übersicht „Schnellstart“</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="SZH - Desktop Quick Start Guide"
+    EvaluatedDefinition="MicroStrategy Desktop 快速入门概述">MicroStrategy Desktop 快速入门概述</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="ES - Desktop Quick Start Guide"
+    EvaluatedDefinition="MicroStrategy Desktop Descripción general del inicio rápido">MicroStrategy Desktop Descripción general del inicio rápido</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="DE - Desktop User Guide"
+    EvaluatedDefinition="Benutzerhandbuch MicroStrategy Desktop">Benutzerhandbuch MicroStrategy Desktop</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="FR - Desktop User Guide"
+    EvaluatedDefinition="Guide de l’utilisateur de MicroStrategy Desktop">Guide de l’utilisateur de MicroStrategy Desktop</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="SZH - Desktop User Guide"
+    EvaluatedDefinition="MicroStrategy Desktop 用户指南">MicroStrategy Desktop 用户指南</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="ES - Desktop User Guide"
+    EvaluatedDefinition="Guía del usuario de MicroStrategy Desktop">Guía del usuario de MicroStrategy Desktop</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="JA - Desktop User Guide"
+    EvaluatedDefinition="MicroStrategy Desktop ユーザー ガイド">MicroStrategy Desktop ユーザー ガイド</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="KO - Desktop User Guide"
+    EvaluatedDefinition="MicroStrategy Desktop 사용자 안내서">MicroStrategy Desktop 사용자 안내서</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="PT - Desktop User Guide"
+    EvaluatedDefinition="Manual do usuario do MicroStrategy Desktop">Manual do usuario do MicroStrategy Desktop</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment=""
+    EvaluatedDefinition="Enterprise Manager Guide">Enterprise Manager Guide</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="FR - Desktop Quick Start Guide"
+    EvaluatedDefinition="MicroStrategy Desktop Présentation de démarrage rapide">MicroStrategy Desktop Présentation de démarrage rapide</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="IT - Desktop Quick Start Guide"
+    EvaluatedDefinition="MicroStrategy Desktop Panoramica Quick Start">MicroStrategy Desktop Panoramica Quick Start</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="IT - Desktop User Guide"
+    EvaluatedDefinition="Guida utente MicroStrategy Desktop">Guida utente MicroStrategy Desktop</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment=""
+    EvaluatedDefinition="Administration Manager Guide">Administration Manager Guide</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment=""
+    EvaluatedDefinition="Administration Management Guide">Administration Management Guide</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment=""
+    EvaluatedDefinition="Enterprise Manager Quick Start Guide">Enterprise Manager Quick Start Guide</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment=""
+    EvaluatedDefinition="Condensed Upgrade Guide">Condensed Upgrade Guide</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="JA - Upgrade Guide"
+    EvaluatedDefinition="アップグレードガイド">アップグレードガイド</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment=""
+    EvaluatedDefinition="MicroStrategy Readme">MicroStrategy Readme</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment=""
+    EvaluatedDefinition="MicroStrategy Web Administrator Help">MicroStrategy Web Administrator Help</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment="KO - MicroStrategy Web Help"
+    EvaluatedDefinition="MicroStrategy Web 도움말을">MicroStrategy Web 도움말을</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment=""
+    EvaluatedDefinition="Desktop Online Help">Desktop Online Help</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment=""
+    EvaluatedDefinition="Platform Upgrade Advisory">Platform Upgrade Advisory</Variable>
+  <Variable
+    Name="SnippetURL"
+    Comment=""
+    EvaluatedDefinition="2020">2020</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment=""
+    EvaluatedDefinition="Identity Help">Identity Help</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment=""
+    EvaluatedDefinition="MicroStrategy Cloud Console">MicroStrategy Cloud Platform</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment=""
+    EvaluatedDefinition="MicroStrategy Library">MicroStrategy Library</Variable>
+  <Variable
+    Name="UpdateNumber"
+    Comment="Instead of hotfix, we will use the update number"
+    EvaluatedDefinition=""></Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment="This is the short version of a product name that appears in ther upper-right corner of our online help."
+    EvaluatedDefinition="Advanced Reporting">Advanced Reporting</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Basic Reporting">Basic Reporting</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Cloud Platform">Cloud Platform</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Command Manager">Command Manager</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Dashboards &amp; Widgets">Dashboards &amp; Widgets</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Desktop">Desktop</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Document Creation">Document Creation</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Enterprise Manager">Enterprise Manager</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Functions Reference">Functions Reference</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Data Gateways">Data Gateways</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="GIS Integration">GIS Integration</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Human Resources Analysis Module">Human Resources Analysis Module</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="HyperIntelligence">HyperIntelligence</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="In-Memory Analytics">In-Memory Analytics</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Install &amp; Config">Install &amp; Config</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Intro to MSTR">Intro to MSTR</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Library">Library</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="MDX Cube">MDX Cube</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Mobile Admin">Mobile Admin</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Mobile Design">Mobile Design</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Badge">Badge</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="MicroStrategy Web">MicroStrategy Web</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Office">Office</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Platform Analytics">Platform Analytics</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Project Design">Project Design</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Readme">Readme</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Report Designer">Report Designer</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="R Integration">R Integration</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="System Admin">System Admin</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Analytics Architect Tutorial">Analytics Architect Tutorial</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Analyst Tutorial">Analyst Tutorial</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Application Architect Tutorial">Application Architect Tutorial</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Business User Tutorial">Business User Tutorial</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Upgrade">Upgrade</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Web Admin">Web Admin</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Workstation">Workstation</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Customizations Explorer">Customizations Explorer</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Data Connector SDK">Data Connector SDK</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Emedding SDK">Emedding SDK</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Identity SDK">Identity SDK</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Library Mobile SDK">Library Mobile SDK</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Library SDK">Library SDK</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Mobile SDK">Mobile SDK</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="REST APIs">REST APIs</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Visualization SDK">Visualization SDK</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Web SDK">Web SDK</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Gateway Assessments">Gateway Assessments</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Getting Started with Desktop">Getting Started with Desktop</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Office SDK">Office SDK</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="I-Server SDK">I-Server SDK</Variable>
+  <Variable
+    Name="GuideTitle"
+    Comment=""
+    EvaluatedDefinition="Document Authoring">Document Authoring</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Identity">Identity</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="Custom Visualization Tool">Custom Visualization Tool</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="MicroStrategy for RStudio">MicroStrategy for RStudio</Variable>
+  <Variable
+    Name="ProductNameShort"
+    Comment=""
+    EvaluatedDefinition="MicroStrategy for Jupyter">MicroStrategy for Jupyter</Variable>
+  
+</CatapultVariableSet>

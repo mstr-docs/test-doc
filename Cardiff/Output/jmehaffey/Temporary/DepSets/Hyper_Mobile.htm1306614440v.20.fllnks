@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Images/Picture1.png" />
+    <Link
+      Url="Content/Configure_HyperMobile.htm" />
+    <Link
+      Url="Content/navigate_hypermobile.htm" />
+    <Link
+      Url="Content/How_to_access_cards.htm" />
+    <Link
+      Url="Content/Calendar_Based_Notifications.htm" />
+    <Link
+      Url="Content/HyperMobile_FAQ.htm" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Images/Picture1.png" />
+    <Link
+      Url="Content/Configure_HyperMobile.htm" />
+    <Link
+      Url="Content/navigate_hypermobile.htm" />
+    <Link
+      Url="Content/How_to_access_cards.htm" />
+    <Link
+      Url="Content/Calendar_Based_Notifications.htm" />
+    <Link
+      Url="Content/HyperMobile_FAQ.htm" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

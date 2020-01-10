@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileProperties>
+    <ImageOverlay>
+        <OriginalImage Type="Image" ShapeTimeSpan="10000" ComputedWidth="103" ComputedHeight="43" Format="png" DPI="96.012">iVBORw0KGgoAAAANSUhEUgAAAGcAAAArCAYAAABl25buAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wcQDikI/j5y0AAAAAd0RVh0QXV0aG9yAKmuzEgAAAAMdEVYdERlc2NyaXB0aW9uABMJISMAAAAKdEVYdENvcHlyaWdodACsD8w6AAAADnRFWHRDcmVhdGlvbiB0aW1lADX3DwkAAAAJdEVYdFNvZnR3YXJlAF1w/zoAAAALdEVYdERpc2NsYWltZXIAt8C0jwAAAAh0RVh0V2FybmluZwDAG+aHAAAAB3RFWHRTb3VyY2UA9f+D6wAAAAh0RVh0Q29tbWVudAD2zJa/AAAABnRFWHRUaXRsZQCo7tInAAAAhUlEQVR4nO3RMRHAIADAwFIr7Pi3ghqqoDMZ/hXkLmPPdR6S3tsB/DMnzJwwc8LMCTMnzJwwc8LMCTMnzJwwc8LMCTMnzJwwc8LMCTMnzJwwc8LMCTMnzJwwc8LMCTMnzJwwc8LMCTMnzJwwc8LMCTMnzJwwc8LMCTMnzJwwc8LMCTMn7APKVQJ/WXqiFgAAAABJRU5ErkJggg==</OriginalImage>
+        <Variables />
+        <Shapes>
+            <Shape Type="Rectangle" PaddingLeft="0" PaddingBottom="0" PaddingRight="0" PaddingTop="0" BackgroundColor="#d9232e" X="6" Y="11" Width="90" Height="20" ShapeTimeSpan="10000" Right="7" Bottom="12" FontSize="12pt" FontFamily="Arial" FontWeight="normal" FontStyle="normal" Underline="false" Color="#ffffff" Left="6" Top="11" LineWidth="0" Transparency="0" EnableShadow="false" Rotate="0" Anchors="" Conditions="" CornerRadius="0" BackgroundColorAlt="#d9232e">Get Started</Shape>
+        </Shapes>
+        <Shapes IsResourceLayer="true" Name="Resources" />
+        <ConditionTagSet />
+    </ImageOverlay>
+</fileProperties>

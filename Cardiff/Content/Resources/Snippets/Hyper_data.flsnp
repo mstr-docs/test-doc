@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="MSTR_Tool.Hyper">
+    <head>
+    </head>
+    <body>
+        <div>
+            <p>Ensure your dataset is an in-memory cube. Live-connect is not supported. For example, you can create a card based on an Intelligent cube, super cube, or an in-memory MDX/SAP cube. You cannot create a card based on a live-connect MDX/SAP cube. Additionally, your data needs to have attributes with either <i>one-to-one relationships</i> or <i>many-to-one relationships. </i></p>
+            <p>For more information on supported datasets, see <MadCap:xref href="../../Hyper_dataset.htm">How to Optimize a HyperIntelligence Dataset</MadCap:xref>.</p>
+        </div>
+    </body>
+</html>

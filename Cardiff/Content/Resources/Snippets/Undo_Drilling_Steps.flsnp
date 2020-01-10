@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="252" MadCap:lastWidth="792">
+    <body>
+        <ol>
+            <li>Hover over the visualization to display the <b>Filter</b> icon <img src="../Images/filter_viz_icon_workstation.png" /> in the title bar.</li>
+            <li>Click <b>Filter</b> <img src="../Images/filter_viz_icon_workstation.png" />.</li>
+            <li>
+                <p>Choose <b>Clear "<i>drill conditions</i>"</b> to remove a specific drill condition.</p>
+            </li>
+            <li>In the Editor panel, replace or remove any attributes or metrics that were removed or added as part of the drilling.</li>
+        </ol>
+        <p class="Note_Indent">You can also click <b>Undo</b> <img src="../Images/undo_ws.png" class="intext" style="vertical-align: bottom;" /> to undo drilling.</p>
+    </body>
+</html>

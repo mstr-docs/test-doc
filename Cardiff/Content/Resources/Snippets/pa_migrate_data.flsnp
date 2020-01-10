@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <ul class="tabs">
+            <li class="tab-link current" data-tab="tab-1">Windows</li>
+            <li class="tab-link" data-tab="tab-2">Linux</li>
+        </ul>
+        <div class="container">
+            <div id="tab-1" class="tab-content current">
+                <p>The Platform Analytics Data Migration tool is used to help existing customers migrate their data from MySQL to the newly supported PostgreSQL repository. This tool can help migrate both new and old versions of MySQL dump files to the latest version of Platform Analytics.</p>
+                <div class="reqs">
+                    <p><b>Backup Prerequisites</b>:</p>
+                    <ul>
+                        <li>
+                            <p><code>C:\Program Files (x86)\MicroStrategy\Platform Analytics\PAConsumerConfig.yaml</code> populated with:</p>
+                            <p><span class="code">warehouseDbConnection</span>:</p>
+                            <ul>
+                                <li><span class="code">whHost</span>: 127.0.0.1</li>
+                                <li><span class="code">whUser</span>: root</li>
+                                <li><span class="code">whPasswd</span>: encrypted_password</li>
+                                <li><span class="code">whPort</span>: 3306</li>
+                                <li><span class="code">whDb</span>: platform_analytics_wh</li>
+                            </ul>
+                        </li>
+                        <li><span class="code">mysql-connector-java.jar</span> is present in <span class="code">PlatformAnalytics\lib</span> directory.</li>
+                        <li>Disk space sufficient to hold a backup of your MySQL <span class="code">platform_analytics_wh</span> database.</li>
+                    </ul>
+                    <p><b>Restore Prerequisites</b>:</p>
+                    <ul>
+                        <li>
+                            <p><span class="code">PAConsumerConfig.yaml</span> populated with:</p>
+                            <p><span class="code">pgWarehouseDbConnection</span>:</p>
+                            <ul>
+                                <li>
+                                    <p><span class="code">pgWhHost</span>: 127.0.0.1</p>
+                                </li>
+                                <li>
+                                    <p><span class="code">pgWhUser</span>: postgres</p>
+                                </li>
+                                <li>
+                                    <p><span class="code">pgWhPasswd</span>: encrypted password</p>
+                                </li>
+                                <li>
+                                    <p><span class="code">pgWhPort</span>: 5432</p>
+                                </li>
+                                <li>
+                                    <p><span class="code">pgWhDb</span>: platform_analytics_wh</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>Path to <span class="code">.csv</span> files from a previous backup of <span class="code">platform_analytics_wh</span>.</p>
+                        </li>
+                        <li>
+                            <p>Enough disk space available to PostgreSQL to restore the backed up .<span class="code">.csv</span> files from MySQL.</p>
+                        </li>
+                    </ul>
+                </div>
+                <h2>Launching the Platform Analytics Data Migration Tool</h2>
+                <ol>
+                    <li>
+                        <p>Navigate to your Platform Analytics home directory and go into the bin directory:</p>
+                        <p><span class="code"> C:\Program Files (x86)\MicroStrategy\Platform Analytics\bin</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Call the following script:</p>
+                        <p><span class="code">platform-analytics-data-migration-tool.bat</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>You will then be prompted with the following :</p>
+                        <div class="sdk_code"><pre>This is the Platform Analytics Data Migration Tool. The purpose of this tool is to help migrate your data from an existing Mysql Warehouse to a new PostgreSQL Warehouse.
+Please select from the following options:
+1) Backup
+2) Restore
+3) Backup and Restore
+0) Exit
+</pre>
+                        </div>
+                    </li>
+                </ol>
+                <h2>Migration Workflow</h2>
+                <MadCap:snippetBlock src="../../../../../Administrators/PlatformAnalytics/Content/Resources/Snippets/pa_migration_tool_workflow.flsnp" />
+                <h2>Recommended Upgrade Procedures</h2>
+                <h3> In-Place Upgrades</h3>
+                <p>If you are performing an in-place upgrade the best practice steps would be as followed:</p>
+                <ol>
+                    <li>Confirm that the Platform Analytics Consumer is stopped. Data migration should not take place while new entries are still being processed.</li>
+                    <li>Confirm that the <span class="code">PAConsumerConfig.yaml</span> has the MySQL and PostgreSQL  information shown in the prerequisites above.</li>
+                    <li>Go to your Platform Analytics bin directory and call the <span class="code">platform-analytics-data-migration-tool.bat</span> file.</li>
+                    <li>Select the Backup and Restore option  (3).</li>
+                    <li>Enter the full desired directory path for the database to be backed up to and restored from.</li>
+                    <li>Wait until the backup is complete. The tool you will then prompt if it is okay to recreate the PostgreSQL warehouse and select yes.</li>
+                    <li>The program will then restore your MySQL backup  files into your new PostgreSQL warehouse and the data migration will be complete.</li>
+                    <li>
+                        <p>If you have installed Workstation and Service Registration, the service's grouping and dependency information in MicroStrategy Workstation's Topology view should be updated. When Topology is not updated, the view will show Consumer as dependent on five other services, including Repository (MySQL). </p>
+                        <p>To update Topology in Workstation: </p>
+                        <ol>
+                            <li>Locate the MicroStrategy-shipped java path.&#160;By default, this is <span class="code">C:\Program Files (x86)\Common Files\MicroStrategy\JRE\180_222</span>.</li>
+                            <li>Locate the Services Registration's installation directory. By default, this is C:\Program Files <span class="code">(x86)\MicroStrategy\Services Registration\jar</span>. </li>
+                            <li>
+                                <p>Execute the following command:</p>
+                                <div class="sdk_code"><pre>"C:\Program Files (x86)\Common Files\MicroStrategy\JRE\180_222\Win64\bin\java" -jar </pre><pre>"C:\Program Files (x86)\MicroStrategy\Services Registration\jar\svcsreg-admin.jar" migrate MicroStrategy-Platform-Analytics-Consumer MySQL PostgreSQL</pre>
+                                </div>
+                            </li>
+                            <li>Open Workstation and select the Topology tab. Consumer should now appear to depend on and belong to the same group as Store (PostgreSQL).</li>
+                        </ol>
+                    </li>
+                </ol>
+                <h3>Parallel Upgrades</h3>
+                <ol>
+                    <li>
+                        <p>On your new MicroStrategy <MadCap:variable name="MSTR_Default_Variables.CurrentVersion" /> machine, populate the <span class="code">PAConsumerConfig.yaml</span> has the MySQL and PostgreSQL  information shown in the prerequisites above.</p>
+                    </li>
+                    <li>Copy the <span class="code">mysql-connector-java.jar</span> from your previous installation to the <span class="code">Platform Analytics\lib</span> directory on the new machine.</li>
+                    <li>Go to your Platform Analytics bin directory and call the <span class="code">platform-analytics-data-migration-tool.bat</span> file.</li>
+                    <li>Select the Backup and Restore option  (3).</li>
+                    <li>Enter the full desired directory path for the database to be backed up to and restored from.</li>
+                    <li>Wait until the backup is complete. The tool you will then prompt if it is okay to recreate the PostgreSQL warehouse and select yes.</li>
+                    <li>The program will then restore your MySQL backup  files into your new PostgreSQL warehouse and the data migration will be complete.</li>
+                    <li>
+                        <p>If you have installed Workstation and Service Registration, the service's grouping and dependency information in MicroStrategy Workstation's Topology view should be updated. When Topology is not updated, the view will show Consumer as dependent on five other services, including Repository (MySQL). </p>
+                        <p>To update Topology in Workstation: </p>
+                        <ol>
+                            <li>Locate the MicroStrategy-shipped java path.&#160;By default, this is<span class="code"> C:\Program Files (x86)\Common Files\MicroStrategy\JRE\180_222</span>.</li>
+                            <li>Locate the Services Registration's installation directory. By default, this is <span class="code">C:\Program Files (x86)\MicroStrategy\Services Registration\jar</span>. </li>
+                            <li>
+                                <p>Execute the following command:</p>
+                                <div class="sdk_code"><pre>"C:\Program Files (x86)\Common Files\MicroStrategy\JRE\180_222\Win64\bin\java" -jar </pre><pre>"C:\Program Files (x86)\MicroStrategy\Services Registration\jar\svcsreg-admin.jar" migrate MicroStrategy-Platform-Analytics-Consumer MySQL PostgreSQL</pre>
+                                </div>
+                            </li>
+                            <li>Open Workstation and select the Topology tab. Consumer should now appear to depend on and belong to the same group as Store (PostgreSQL).</li>
+                        </ol>
+                    </li>
+                </ol>
+            </div>
+            <div id="tab-2" class="tab-content">
+                <p>The Platform Analytics Data Migration tool is used to help existing customers migrate their data from MySQL to the newly supported PostgreSQL repository. This tool can help migrate both new and old versions of MySQL dump files to the latest version of Platform Analytics.</p>
+                <div class="reqs">
+                    <p><b>Backup Prerequisites</b>:</p>
+                    <ul>
+                        <li>
+                            <p><code>/MicroStrategy/install/PlatformAnalytics/PAConsumerConfig.yaml</code> populated with:</p>
+                            <p><span class="code">warehouseDbConnection</span>:</p>
+                            <ul>
+                                <li><span class="code">whHost</span>: 127.0.0.1</li>
+                                <li><span class="code">whUser</span>: root</li>
+                                <li><span class="code">whPasswd</span>: encrypted_password</li>
+                                <li><span class="code">whPort</span>: 3306</li>
+                                <li><span class="code">whDb</span>: platform_analytics_wh</li>
+                            </ul>
+                        </li>
+                        <li><span class="code">mysql-connector-java.jar</span> is present in <span class="code">PlatformAnalytics/lib</span> directory.</li>
+                        <li>Disk space sufficient to hold a backup of your MySQL <span class="code">platform_analytics_wh</span> database.</li>
+                    </ul>
+                    <p><b>Restore Prerequisites</b>:</p>
+                    <ul>
+                        <li>
+                            <p><span class="code">PAConsumerConfig.yaml</span> populated with:</p>
+                            <p><span class="code">pgWarehouseDbConnection</span>:</p>
+                            <ul>
+                                <li>
+                                    <p><span class="code">pgWhHost</span>: 127.0.0.1</p>
+                                </li>
+                                <li>
+                                    <p><span class="code">pgWhUser</span>: postgres</p>
+                                </li>
+                                <li>
+                                    <p><span class="code">pgWhPasswd</span>: encrypted password</p>
+                                </li>
+                                <li>
+                                    <p><span class="code">pgWhPort</span>: 5432</p>
+                                </li>
+                                <li>
+                                    <p><span class="code">pgWhDb</span>: platform_analytics_wh</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>Path to <span class="code">.csv</span> files from a previous backup of <span class="code">platform_analytics_wh</span>.</p>
+                        </li>
+                        <li>
+                            <p>Enough disk space available to PostgreSQL to restore the backed up .<span class="code">.csv</span> files from MySQL.</p>
+                        </li>
+                    </ul>
+                </div>
+                <h2>Launching the Platform Analytics Data Migration Tool</h2>
+                <ol>
+                    <li>
+                        <p>Navigate to your Platform Analytics home directory and go into the bin directory:</p>
+                        <p><span class="code"> /opt/mstr/MicroStrategy/PlatformAnalytics/bin</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Run the following script:</p>
+                        <p><span class="code">./platform-analytics-data-migration-tool.sh</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>You will then be prompted with the following :</p>
+                        <div class="sdk_code"><pre>This is the Platform Analytics Data Migration Tool. The purpose of this tool is to help migrate your data from an existing Mysql Warehouse to a new PostgreSQL Warehouse.
+Please select from the following options:
+1) Backup
+2) Restore
+3) Backup and Restore
+0) Exit
+</pre>
+                        </div>
+                    </li>
+                </ol>
+                <h2>Migration Workflow</h2>
+                <MadCap:snippetBlock src="../../../../../Administrators/PlatformAnalytics/Content/Resources/Snippets/pa_migration_tool_workflow.flsnp" />
+                <h2>Recommended Upgrade Procedures</h2>
+                <h3> In-Place Upgrades</h3>
+                <p>If you are performing an in-place upgrade the best practice steps would be as followed:</p>
+                <ol>
+                    <li>Confirm that the Platform Analytics Consumer is stopped. Data migration should not take place while new entries are still being processed.</li>
+                    <li>Confirm that the <span class="code">PAConsumerConfig.yaml</span> has the MySQL and PostgreSQL  information shown in the prerequisites above.</li>
+                    <li>Go to your <span class="code">PlatformAnalytics/bin</span> directory and call the <span class="code">platform-analytics-data-migration-tool.sh</span> file.</li>
+                    <li>Select the Backup and Restore option  (3).</li>
+                    <li>Enter the full desired directory path for the database to be backed up to and restored from.</li>
+                    <li>Wait until the backup is complete. The tool will then prompt if it is okay to recreate the PostgreSQL warehouse and select yes.</li>
+                    <li>The program will then restore your MySQL backup  files into your new PostgreSQL warehouse and the data migration will be complete.</li>
+                    <li>
+                        <p>The service's grouping and dependency information needs to be updated in MicroStrategy Workstation's Topology view.  When Topology is not updated, Telemetry Consumer does not appear to be dependent on Store (PostgreSQL). </p>
+                        <p>To update Topology in Workstation:</p>
+                        <ol>
+                            <li>Find the owner of the MicroStrategy installation directory. By default, the owner is the mstr user. </li>
+                            <li>Locate the MicroStrategy-shipped java path. By default, this is <span class="code">/opt/MicroStrategy/_jre</span>.</li>
+                            <li>Locate the Services Registration's installation directory. By default, this is <span class="code">/opt/MicroStrategy/ServicesRegistration</span>.</li>
+                            <li>
+                                <p>Execute the following command:</p>
+                                <div class="sdk_code"><pre>$ su - mstr
+$ /opt/MicroStrategy/_jre/bin/java -jar /opt/MicroStrategy/ServicesRegistration/jar/svcsreg-admin.jar migrate MicroStrategy-Platform-Analytics-Consumer MySQL PostgreSQL</pre>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Open MicroStrategy Workstation and select the Topology tab. Consumer should now depend on Store (PostgreSQL).</p>
+                            </li>
+                        </ol>
+                    </li>
+                </ol>
+                <h3>Parallel Upgrades</h3>
+                <ol>
+                    <li>
+                        <p>On your new MicroStrategy <MadCap:variable name="MSTR_Default_Variables.CurrentVersion" /> machine, populate the <span class="code">PAConsumerConfig.yaml</span> has the MySQL and PostgreSQL  information shown in the prerequisites above.</p>
+                    </li>
+                    <li>Copy the <span class="code">mysql-connector-java.jar</span> from your previous installation to the <span class="code">PlatformAnalytics/lib</span> directory on the new machine.</li>
+                    <li>Go to your <span class="code">PlatformAnalytics/bin</span> directory and call the <span class="code">platform-analytics-data-migration-tool.sh</span> file.</li>
+                    <li>Select the Backup and Restore option  (3).</li>
+                    <li>Enter the full desired directory path for the database to be backed up to and restored from.</li>
+                    <li>Wait until the backup is complete. The tool will then prompt if it is okay to recreate the PostgreSQL warehouse and select yes.</li>
+                    <li>The program will then restore your MySQL backup  files into your new PostgreSQL warehouse and the data migration will be complete.</li>
+                    <li>
+                        <p>The service's grouping and dependency information needs to be updated in MicroStrategy Workstation's Topology view.  When Topology is not updated, Telemetry Consumer does not appear to be dependent on Store (PostgreSQL). </p>
+                        <p>To update Topology in Workstation:</p>
+                        <ol>
+                            <li>Find the owner of the MicroStrategy installation directory. By default, the owner is the mstr user. </li>
+                            <li>Locate the MicroStrategy-shipped java path. By default, this is <span class="code">/opt/MicroStrategy/_jre</span>.</li>
+                            <li>Locate the Services Registration's installation directory. By default, this is <span class="code">/opt/MicroStrategy/ServicesRegistration</span>.</li>
+                            <li>
+                                <p>Execute the following command:</p>
+                                <div class="sdk_code"><pre>$ su - mstr
+$ /opt/MicroStrategy/_jre/bin/java -jar /opt/MicroStrategy/ServicesRegistration/jar/svcsreg-admin.jar migrate MicroStrategy-Platform-Analytics-Consumer MySQL PostgreSQL</pre>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Open MicroStrategy Workstation and select the Topology tab. Consumer should now depend on Store (PostgreSQL).</p>
+                            </li>
+                        </ol>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </body>
+</html>

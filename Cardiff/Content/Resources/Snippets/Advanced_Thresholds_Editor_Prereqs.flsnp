@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="reqs">
+            <p>Your dossier must contain a grid visualization. You can only use the Advanced Thresholds Editor for grid visualizations.</p>
+            <p>You have placed a metric in the <b>Metrics</b> area or an attribute in the <b>Rows</b> or <b>Columns</b> area.</p>
+        </div>
+    </body>
+</html>

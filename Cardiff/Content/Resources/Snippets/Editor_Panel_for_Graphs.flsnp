@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="482" MadCap:lastWidth="924">
+    <body>
+        <p>Each dataset object on the <b>Vertical</b> or <b>Horizontal</b> area of the Editor panel displays an icon indicating the location in which the object appears.</p>
+        <ul>
+            <li>
+                <b>Left Axis </b>
+                <img src="../Images/left_axis_icon.png" style="margin-left: 1.49976px;margin-right: 1.500479px;vertical-align: baseline;" />: Displays the dataset object on the left vertical axis. </li>
+            <li>
+                <b>Right Axis</b>
+                <img src="../Images/right_axis_icon.png" style="margin-left: 1.73448px;margin-top: 0.79704px;margin-right: 1.73376px;margin-bottom: 0.797039px;vertical-align: baseline;" />: Displays the dataset object on the right vertical axis. </li>
+            <li>
+                <b>Top Axis </b>
+                <img src="../Images/top_axis_icon.png" style="margin-left: 1.35936px;margin-top: 0.79704px;margin-right: 1.35936px;margin-bottom: 0.797039px;vertical-align: baseline;" />: Displays the dataset object on the top horizontal axis. </li>
+            <li>
+                <b>Bottom Axis</b>
+                <img src="../Images/bottom_axis_icon.png" style="margin-left: 0.32832px;margin-top: 1.49976px;margin-right: 0.3275991px;margin-bottom: 1.499759px;vertical-align: baseline;" />: Displays the dataset object on the bottom horizontal axis. </li>
+            <li>
+                <b>Top Column </b>
+                <img src="../Images/top_column_icon.png" style="margin-left: 2.1096px;margin-top: 1.54656px;margin-right: 2.108879px;margin-bottom: 1.54728px;vertical-align: baseline;" /> (available for attributes): Splits the data into columns of graphs. A separate column appears for each element in the attribute. </li>
+            <li>
+                <b>Left Row</b>
+                <img src="../Images/left_row_icon.png" style="margin-top: 1.35936px;margin-bottom: 1.35936px;vertical-align: baseline;" /> (available for attributes): Splits the data into rows of graphs. A separate row appears for each element in the attribute. </li>
+        </ul>
+        <p>Switch axes by right-clicking one the icons listed above and choosing a new axis.</p>
+        <p>Drag an attribute or metric, within a graph visualization, to a different axis location. A blue indicator line appears, showing where you can place the attribute or metric.</p>
+        <p>Add up to two metrics, on different axes, at the same time. These can be adjacent axes, such as scatter and bubble graphs, or opposite axes, such as dual-axis graphs. </p>
+    </body>
+</html>

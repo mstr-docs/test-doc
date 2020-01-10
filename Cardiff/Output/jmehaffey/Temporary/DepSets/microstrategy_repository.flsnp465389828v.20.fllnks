@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/TableStyles/Table.css" />
+    <Link
+      Url="Project/VariableSets/MSTR_Default_Variables.flvar" />
+    <Link
+      Url="Content/Resources/Snippets/microstrategy_repository.flsnp" />
+    <Link
+      Url="https://community.microstrategy.com/s/article/How-to-Modify-the-Time-of-Statistics-Collection-Using-the-Database-Administration-Tool" />
+    <Link
+      Url="Content/Resources/Images/overview.jpg" />
+    <Link
+      Url="Content/Resources/Images/transactions.png" />
+    <Link
+      Url="Content/Resources/Images/table overview.png" />
+    <Link
+      Url="Content/Resources/Images/table trend.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/TableStyles/Table.css" />
+    <Link
+      Url="Project/VariableSets/MSTR_Default_Variables.flvar" />
+    <Link
+      Url="Content/Resources/Snippets/microstrategy_repository.flsnp#Configur" />
+    <Link
+      Url="https://community.microstrategy.com/s/article/How-to-Modify-the-Time-of-Statistics-Collection-Using-the-Database-Administration-Tool?language=en_US" />
+    <Link
+      Url="Content/Resources/Images/overview.jpg" />
+    <Link
+      Url="Content/Resources/Images/transactions.png" />
+    <Link
+      Url="Content/Resources/Images/table overview.png" />
+    <Link
+      Url="Content/Resources/Images/table trend.png" />
+  </LongLinks>
+  <Anchors>
+    <Anchor
+      Name="Configur" />
+  </Anchors>
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="MSTR_Default_Variables.CurrentVersion" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/Table.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

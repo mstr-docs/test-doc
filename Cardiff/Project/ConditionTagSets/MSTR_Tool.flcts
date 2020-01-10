@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet
+  Comment="My set of condition tags">
+  <ConditionTag
+    Comment=""
+    Name="Workstation"
+    BackgroundColor="#00eb81" />
+  <ConditionTag
+    Comment="Use for Desktop prior to 10.9."
+    Name="Desktop"
+    BackgroundColor="#ff12b8" />
+  <ConditionTag
+    BackgroundColor="#f39c12"
+    Name="Web"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#0ac8f7"
+    Name="Desktop_NEW"
+    Comment="Use for Desktop from 10.10 onward." />
+  <ConditionTag
+    BackgroundColor="#ff0000"
+    Name="UsherAdmin"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#0000ff"
+    Name="SystemAdmin"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#008000"
+    Name="DAWG"
+    Comment=""
+    OriginalName="DAWG" />
+  <ConditionTag
+    BackgroundColor="#6a4603"
+    Name="ARG"
+    Comment=""
+    OriginalName="ARG" />
+  <ConditionTag
+    BackgroundColor="#8b008b"
+    Name="AWS"
+    Comment=""
+    OriginalName="AWS" />
+  <ConditionTag
+    BackgroundColor="#00bfff"
+    Name="BRG"
+    Comment=""
+    OriginalName="BRG" />
+  <ConditionTag
+    BackgroundColor="#00ff00"
+    Name="DCG"
+    Comment=""
+    OriginalName="DCG" />
+  <ConditionTag
+    BackgroundColor="#898b13"
+    Name="FuncRef"
+    Comment=""
+    OriginalName="FuncRef" />
+  <ConditionTag
+    BackgroundColor="#c48ac4"
+    Name="UsherBadge"
+    Comment=""
+    OriginalName="HRAM" />
+  <ConditionTag
+    BackgroundColor="#2f4f4f"
+    Name="IMA"
+    Comment=""
+    OriginalName="IMA" />
+  <ConditionTag
+    BackgroundColor="#9acd32"
+    Name="IntroMSTR"
+    Comment=""
+    OriginalName="IntroMSTR" />
+  <ConditionTag
+    BackgroundColor="#fa8072"
+    Name="MDX"
+    Comment=""
+    OriginalName="MDX" />
+  <ConditionTag
+    BackgroundColor="#ff0000"
+    Name="Mobile"
+    Comment=""
+    OriginalName="Mobile" />
+  <ConditionTag
+    BackgroundColor="#0000ff"
+    Name="Office"
+    Comment=""
+    OriginalName="Office" />
+  <ConditionTag
+    BackgroundColor="#008000"
+    Name="PDG"
+    Comment=""
+    OriginalName="PDG" />
+  <ConditionTag
+    BackgroundColor="#71aefe"
+    Name="R"
+    Comment=""
+    OriginalName="R" />
+  <ConditionTag
+    BackgroundColor="#00ffcc"
+    Name="Lib"
+    Comment=""
+    OriginalName="Lib" />
+  <ConditionTag
+    BackgroundColor="#ffa500"
+    Name="ICG"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#8b4513"
+    Name="CmdMgr"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ff00ff"
+    Name="PA"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ffa500"
+    Name="UPG"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#8b008b"
+    Name="WebAdmin"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ff1493"
+    Name="Hyper"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#f10bca"
+    Name="Document Editor"
+    Comment="" />
+</CatapultConditionTagSet>

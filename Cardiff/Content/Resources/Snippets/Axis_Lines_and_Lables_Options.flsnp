@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="718" MadCap:lastWidth="787">
+    <body>
+        <h3>Axis Lines and Labels</h3>
+        <p>The following options are available to format the axes in a visualization.</p>
+        <h4>Axis Labels</h4>
+        <p>Select the axis to format from the drop-down.</p>
+        <p>
+            <b>Show Labels</b>: Select this checkbox to show axis labels.</p>
+        <p>
+            <b>Font</b>: Select font formatting options for the axis label text.</p>
+        <p>
+            <b>Rotation</b>: Select whether to display the axis labels as <b>Automatic</b> (default), <b>Vertical</b>, or <b>Horizontal</b>. This option is only available if you are formatting the X axis.</p>
+        <h4>Axis Lines</h4>
+        <p>Select the axis lines to format from the drop-down.</p>
+        <p>
+            <b>Line</b>: Select the style and color of the axis lines from the drop-downs.</p>
+        <h3>Axis Titles</h3>
+        <p>Select the axis titles to format from the drop-down.</p>
+        <p>
+            <b>Show Axis Title</b>: Select this checkbox to show axis labels.</p>
+        <p>
+            <b>Font</b>: Select font formatting options for the axis title text.</p>
+        <h3>Grid Lines</h3>
+        <p>Select options to format the grid lines from the drop-down.</p>
+        <p>
+            <b>Line</b>: Select the style and color of the grid lines from the drop-downs.</p>
+    </body>
+</html>

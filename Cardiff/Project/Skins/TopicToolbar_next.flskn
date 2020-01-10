@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="3"
+  SkinType="Component"
+  Comment="HTML5 Toolbar skin"
+  ComponentType="TopicToolbar"
+  EnableResponsiveOutput="True">
+  <Stylesheet>
+    <Styles>
+      <Style
+        Name="ToolbarItem">
+        <Classes>
+          <StyleClass
+            Name="NextTopic">
+            <Properties>
+              <Property
+                Name="BorderTop">solid 0px #e1e1e1</Property>
+              <Property
+                Name="BorderRight">solid 0px #e1e1e1</Property>
+              <Property
+                Name="BorderBottom">solid 0px #e1e1e1</Property>
+              <Property
+                Name="BorderLeft">solid 0px #e1e1e1</Property>
+              <Property
+                Name="BorderTopLeftRadius">0px</Property>
+              <Property
+                Name="BorderTopRightRadius">0px</Property>
+              <Property
+                Name="BorderBottomRightRadius">0px</Property>
+              <Property
+                Name="BorderBottomLeftRadius">0px</Property>
+              <Property
+                Name="BackgroundGradient">vertical transparent transparent</Property>
+              <Property
+                Name="BackgroundColor">transparent</Property>
+              <Property
+                Name="BoxShadowVShadow">0px</Property>
+              <Property
+                Name="BoxShadowColor">transparent</Property>
+              <Property
+                Name="BackgroundImage">url('chevron-right-regular%20(1).png')</Property>
+              <Property
+                Name="Height">25px</Property>
+              <Property
+                Name="Width">225px</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="PreviousTopic">
+            <Properties>
+              <Property
+                Name="BorderTop">solid 0px #e1e1e1</Property>
+              <Property
+                Name="BorderRight">solid 0px #e1e1e1</Property>
+              <Property
+                Name="BorderBottom">solid 0px #e1e1e1</Property>
+              <Property
+                Name="BorderLeft">solid 0px #e1e1e1</Property>
+              <Property
+                Name="BorderTopLeftRadius">0px</Property>
+              <Property
+                Name="BorderTopRightRadius">0px</Property>
+              <Property
+                Name="BorderBottomRightRadius">0px</Property>
+              <Property
+                Name="BorderBottomLeftRadius">0px</Property>
+              <Property
+                Name="BackgroundGradient">vertical transparent transparent</Property>
+              <Property
+                Name="BackgroundColor">transparent</Property>
+              <Property
+                Name="BoxShadowVShadow">0px</Property>
+              <Property
+                Name="BoxShadowColor">transparent</Property>
+              <Property
+                Name="BackgroundImage">url('chevron-left-regular.png')</Property>
+              <Property
+                Name="Height">25px</Property>
+              <Property
+                Name="Width">225px</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
+      </Style>
+      <Style
+        Name="Toolbar">
+        <Properties>
+          <Property
+            Name="MarginTop">30px</Property>
+        </Properties>
+      </Style>
+    </Styles>
+    <Resources>
+      <Resource
+        Name="Arrow_red_right.png">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</Resource>
+      <Resource
+        Name="Arrow_red_left.png">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</Resource>
+      <Resource
+        Name="chevron-left-regular.png">H4sIAAAAAAAEAAHoARf+iVBORw0KGgoAAAANSUhEUgAAAAsAAAAVCAYAAAHndyRbAAAAAXNSR0IArs4c6QAAAaJJREFUKBVjYAACv75VKiAaATy7l1RDeO5di08wWZrK2DCD+A3797Owa7tUgOVAUhBFUBLFHI/OxX4QZZ2L/6MygDwmqBYE5Q5TBhMCGcAI44DogP71At9/fXnPyMwUDBcHaXPvWrIULuDRueQZhllwWSADXQdhO2C6PboW32GBcUA00K5LQEoBxAYDoEs2o1ju0bm0FyQABGB7mDy6lyb/Z/hXJMYkxsPIyAgOGab///7NYWRitlpc6v4VZhQTIxNTyv9/f4/Fdu/khgvuKI2ey8jA1Pfq36svMDNhkgzItqP4CuxORgYtuEoYA+QjFJUwCRjt3r9YkvEX47H/DP8VGBkYn2NVHNq3ivPzn1+7gQ6yBmlkYmJM214aMxtFMci1Ht1LFjD8Z4gDKQKaNmlHeUw+iA0CcMWenUvL/zH864CK7pDn1/SblW7yG8yHEoyencsC/jP+WwM0FZQwr3Nxc9uuzwl6i6wIxsZIayy//kBSJEwFEk2aM5A0MqB7EBiBE7eXRRfA1MBNhgmAaKKCDlkDiA2KFIbfDEeBQakIihQAOU24vSKv9TwAAAAASUVORK5CYII/gvq+6AEAAA==</Resource>
+      <Resource
+        Name="chevron-right-regular (1).png">H4sIAAAAAAAEAAHNATL+iVBORw0KGgoAAAANSUhEUgAAAAsAAAAVCAYAAAHndyRbAAAAAXNSR0IArs4c6QAAAYdJREFUKBVj8Ohc7McAA+6di//D2Mg0XBzOgMmCBVDM8OtbpQKTZfr991d4w/79LDABBveuxSdAHCa4CIjj2b2k2tJUxgYsiGwAo0fP0qD/f/+t5WTjEdxQGPgBWRuY7d61ZCmyqxjRVYAkGRkYn8PFMXTgtMOja/EduDYoA+hwRgWPziWX0CUYQBYBzd6MIvH//39GkIRH59JekATcebHdO7lf/Xv1hYmRMRkuCFLh0b3M8v+/v8fggjCVjExMKeBgA5kJ0srIwNS3ozR6LjNI2wkulf8MjIxbdpbHJID4DB5dS/5guBObjxiBqp79Z/gvCXTcfQZWBuudhbGI0AKbhSDArgJGV+q/f/9ngYQZGRmP8rKwua4uCvuOUAZhwb0A4gJtmQi0JQ8sxciwaEdpTAJQMzy9oSgGKUqbeYb14cfrmxj+M3iA+EwMTBXby6M7QWwMxSBBEAicsk7429evh4FMTaDpfxn/M4WgpDWwKijB8usP3HqYOIbJRDuDKA8SHXSkRAoABTq9OoeiFWMAAAAASUVORK5CYILt6p6yzQEAAA==</Resource>
+    </Resources>
+  </Stylesheet>
+  <TopicToolbar
+    EnableCustomLayout="true"
+    Buttons="PreviousTopic|NextTopic">
+    <Script></Script>
+  </TopicToolbar>
+  <Strings>
+    <Stylesheet
+      lang="en-us">
+      <Stylesheet>
+        <Styles>
+          <Style
+            Name="ToolbarItem">
+            <Classes>
+              <StyleClass
+                Name="NextTopic">
+                <Properties>
+                  <Property
+                    Name="Tooltip">Navigate next</Property>
+                </Properties>
+              </StyleClass>
+            </Classes>
+          </Style>
+        </Styles>
+      </Stylesheet>
+    </Stylesheet>
+  </Strings>
+</CatapultSkin>

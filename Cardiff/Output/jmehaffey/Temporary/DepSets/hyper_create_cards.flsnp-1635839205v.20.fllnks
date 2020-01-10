@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/ConditionTagSets/MSTR_Tool.flcts" />
+    <Link
+      Url="Content/Navigating_Workstation.htm" />
+    <Link
+      Url="Project/VariableSets/Company_ProductNames.flvar" />
+    <Link
+      Url="Content/Resources/Images/plus_icon__workstation.png" />
+    <Link
+      Url="Content/Resources/Images/basic_template_2.png" />
+    <Link
+      Url="Content/Resources/Images/ring_template.png" />
+    <Link
+      Url="Content/Resources/Images/matrix_template.png" />
+    <Link
+      Url="Content/Resources/Images/section_template.png" />
+    <Link
+      Url="Content/Resources/Images/list_widget.png" />
+    <Link
+      Url="Content/Resources/Images/matrix_widget.png" />
+    <Link
+      Url="Content/Resources/Images/ring_widget.png" />
+    <Link
+      Url="Content/Resources/Images/text_widget.png" />
+    <Link
+      Url="Content/Resources/Images/widgets_drag_and_drop.mp4" />
+    <Link
+      Url="Content/dynamic_link.htm" />
+    <Link
+      Url="Content/Resources/Images/hyper_link.png" />
+    <Link
+      Url="Content/Resources/Images/hyper_clear_content.png" />
+    <Link
+      Url="Content/Resources/Images/alt_match.PNG" />
+    <Link
+      Url="Content/enable_alternate_keyword_matching.htm" />
+    <Link
+      Url="Content/add_users_to_cards.htm" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/ConditionTagSets/MSTR_Tool.flcts" />
+    <Link
+      Url="Content/Navigating_Workstation.htm" />
+    <Link
+      Url="Project/VariableSets/Company_ProductNames.flvar" />
+    <Link
+      Url="Content/Resources/Images/plus_icon__workstation.png" />
+    <Link
+      Url="Content/Resources/Images/basic_template_2.png" />
+    <Link
+      Url="Content/Resources/Images/ring_template.png" />
+    <Link
+      Url="Content/Resources/Images/matrix_template.png" />
+    <Link
+      Url="Content/Resources/Images/section_template.png" />
+    <Link
+      Url="Content/Resources/Images/list_widget.png" />
+    <Link
+      Url="Content/Resources/Images/matrix_widget.png" />
+    <Link
+      Url="Content/Resources/Images/ring_widget.png" />
+    <Link
+      Url="Content/Resources/Images/text_widget.png" />
+    <Link
+      Url="Content/Resources/Images/widgets_drag_and_drop.mp4" />
+    <Link
+      Url="Content/dynamic_link.htm" />
+    <Link
+      Url="Content/Resources/Images/hyper_link.png" />
+    <Link
+      Url="Content/Resources/Images/hyper_clear_content.png" />
+    <Link
+      Url="Content/Resources/Images/alt_match.PNG" />
+    <Link
+      Url="Content/enable_alternate_keyword_matching.htm" />
+    <Link
+      Url="Content/add_users_to_cards.htm" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="Company_ProductNames.VizTool" />
+  </Variables>
+  <FileConditions>
+    <Condition
+      Tag="MSTR_Tool.Hyper" />
+  </FileConditions>
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="MSTR_Tool.Hyper" />
+  </AllConditions>
+  <Stylesheets />
+</CatapultFileLinkSet>

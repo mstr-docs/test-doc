@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet
+  Comment="My set of condition tags">
+  <ConditionTag
+    Comment=""
+    Name="Feature"
+    BackgroundColor="#00ff6e"
+    OriginalName="Feature" />
+  <ConditionTag
+    Comment=""
+    Name="Platform"
+    BackgroundColor="#bc00ff"
+    OriginalName="Platform" />
+</CatapultConditionTagSet>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="MSTR_Tool.Hyper">
+    <body>
+        <p>HyperIntelligence is a new addition to MicroStrategy Workstation that allows analysts to inject analytics and intelligence directly into every user's experience. This enterprise analytics tool works seamlessly across web-based content, mobile devices, and Microsoft Outlook to bring answers to people through relevant, context-based analytics. </p>
+        <p> You no longer have to log into an environment, find a report, and then locate relevant information. HyperIntelligence brings answers directly to you through simple contextualized analytics. Organizations of all types can use HyperIntelligence to share employee information including name, job title, phone number, email address, reporting structure, and more to others within the organization. This eliminates the needs to pull up an organization chart to find out someone’s role or responsibilities and helps streamline communication.</p>
+        <p style="text-align: center;">
+            <img src="../Images/hyperintelligence_products.png" />
+        </p>
+        <h2>Understanding Cards</h2>
+        <p>Cards are objects that host data. When a user creates a card in MicroStrategy Workstation, they select a keyword attribute, or topic, that defines the purpose of the card. Specific attributes and metrics can be added to the card’s KPIs or ring visualizations to display relevant information. You can view cards through MicroStrategy HyperIntelligence for Web, Office, and Mobile. </p>
+    </body>
+</html>

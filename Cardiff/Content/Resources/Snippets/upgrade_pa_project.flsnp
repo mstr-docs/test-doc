@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>As of 2019, you can upgrade your Platform Analytics project in the metadata of your connected Intelligence Server.
+</p>
+        <ol>
+            <li>Open Configuration Wizard.</li>
+            <li>Select <b>Upgrade existing environment to MicroStrategy Secure Enterprise</b>, and click <b>Next</b>.</li>
+            <li>
+                <p>Select <b>Upgrade Platform Analytics Project</b>, and click <b>Next</b>. </p>
+            </li>
+            <li>Provide the following information:</li>
+            <ul>
+                <li><b>User Name</b>: Enter the MicroStrategy user name that can access the Intelligence Server.<div class="Note"><p>If this is your first time connecting to the MicroStrategy Intelligence Server, use the user name <b>Administrator</b> without a password.</p></div></li>
+                <li><b>Password</b>: Enter the password for the MicroStrategy user that can access the Intelligence Server.</li>
+            </ul>
+            <li>Choose the Platform Analytics Repository.<div class="Note"><p>Select the MySQL/PostgreSQL DSN for the Platform Analytics Repository that was used to create Platform Analytics.</p></div></li>
+            <li>Enter your <b>User Name</b> and <b>Password</b> for the DSN.</li>
+            <li>Click <b>Next</b>.</li>
+            <li>
+                <p>Click <b>Apply</b>. The Configuration Wizard automatically applies the following configuration files:</p>
+                <ul>
+                    <li> PlatformAnalyticsConfigurationNew.scp</li>
+                    <li>PlatformAnalyticsConfigurationNew_PostgreSQL.scp</li>
+                    <li>PlatformAnalyticsConfigurationUpgrade.scp</li>
+                    <li>PlatformAnalyticsConfigurationUpgrade_PostgreSQL.scp</li>
+                </ul>
+            </li>
+            <li>If an error appears about being unable to automatically apply project settings to Platform Analtyics, you must manually update the project settings. For instructions, see <a href="http://www2.microstrategy.com/producthelp/current/PlatformAnalytics/en-us/Content/tuning_platform_analytics_project.htm" target="_blank">Configure the Platform Analytics Project</a>.</li>
+        </ol>
+    </body>
+</html>

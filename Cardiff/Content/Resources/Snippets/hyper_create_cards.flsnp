@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="MSTR_Tool.Hyper">
+    <body>
+        <p>Cards are objects that hold the data about a keyword attribute. When creating a new card, you can select from a variety of card templates, add widgets, and customize your cards format.</p>
+        <div class="reqs">
+            <p>You must be connected to an environment to create cards.</p>
+            <p>You must have the Use Workstation and Certify Content privileges to create and use cards.</p>
+        </div>
+        <ol>
+            <li>Open the <a href="../../Navigating_Workstation.htm">[%=Company_ProductNames.VizTool%] window</a>.</li>
+            <li>In the Navigation pane, click <b>Create a New Card </b><img src="../Images/plus_icon__workstation.png" style="max-width: 100%;" /> next to <b>Cards</b>.</li>
+            <li>Select an in-memory cube. </li>
+            <li>Click <b>OK</b>. The Card Editor appears. </li>
+            <li>
+                <p>On the Template tab, click <b>Change Template</b> to use one of the four card templates.</p>
+                <p>
+                    <div class="row align-justify">
+                        <div class="card columns small-12 medium-3">
+                            <div class="card-divider hyper-card-header-basic">
+								Basic Card</div>
+                            <div class="card-section">
+                                <p style="text-align: center;">
+                                    <img src="../Images/basic_template_2.png" />
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card columns small-12 medium-3">
+                            <div class="card-divider hyper-card-header-ring">
+								Ring Card</div>
+                            <div class="card-section">
+                                <p style="text-align: center;">
+                                    <img src="../Images/ring_template.png" />
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card columns small-12 medium-3">
+                            <div class="card-divider hyper-card-header-matrix">
+								Matrix Card</div>
+                            <div class="card-section">
+                                <p style="text-align: center;">
+                                    <img src="../Images/matrix_template.png" />
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card columns small-12 medium-3">
+                            <div class="card-divider hyper-card-header-section">
+								Section Card</div>
+                            <div class="card-section">
+                                <p style="text-align: center;">
+                                    <img src="../Images/section_template.png" />
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </p>
+            </li>
+            <li>On the Format tab, click the <b>Header drop-down</b> to customize your card's header. Depending on the template you selected, other drop-down options are available to customize. </li>
+            <li>
+                <p>On the Widgets panel, drag and drop List, Matrix, Ring, or Text Box widgets on your card. To remove widgets, drag the widget off of the card.</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>What is this widget?</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>
+                            <div class="row hyper-widgets-padding">
+                                <div class="columns small-0 medium-1">
+                                    <img src="../Images/list_widget.png" />
+                                </div>
+                                <div class="columns small-12 medium-11">The <b>List widget</b> displays objects in a list format. A list can have a maximum of 15 rows. To change the distance between an object's label and value, drag the separator to its desired location.</div>
+                            </div>
+                            <div class="row hyper-widgets-padding">
+                                <div class="columns small-0 medium-1">
+                                    <img src="../Images/matrix_widget.png" />
+                                </div>
+                                <div class="columns small-12 medium-11">The <b>Matrix widget</b> displays objects in a grid format. A matrix can have display objects from 1 x 1 to 4 x 5, with the option to modify the matrix height. </div>
+                            </div>
+                            <div class="row hyper-widgets-padding">
+                                <div class="columns small-0 medium-1">
+                                    <img src="../Images/ring_widget.png" />
+                                </div>
+                                <div class="columns small-12 medium-11">The <b>Ring widget</b> displays percentage metrics in a ring chart visualization. This widget will always contain two ring chart visualizations.</div>
+                            </div>
+                            <div class="row hyper-widgets-padding">
+                                <div class="columns small-0 medium-1">
+                                    <img src="../Images/text_widget.png" />
+                                </div>
+                                <div class="columns small-12 medium-11">The <b>Text Box widget</b> allows you to enter customized text or drag an attribute to display as a KPI.</div>
+                            </div>
+                        </p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <p>
+                    <object MadCap:HTML5Video="true" src="../Images/widgets_drag_and_drop.mp4" MadCap:Param_controls="false" MadCap:Param_muted="true" MadCap:Param_loop="true" MadCap:Param_autoplay="true" style="width: 75%;">
+                    </object>
+                </p>
+            </li>
+            <li>Drag  the attribute you want to serve as the <MadCap:popup><MadCap:popupHead>keyword attribute</MadCap:popupHead><MadCap:popupBody>The keyword attribute identifies the elements you want to highlight to trigger the card in your web browser.</MadCap:popupBody></MadCap:popup> from the left pane to the header of the card template. A star appears next to the chosen keyword attribute.  The header displays sample data using one data point from your attribute. </li>
+            <li>Use the icons in the header to add a link or a <a href="../../dynamic_link.htm">contextual link</a><img src="../Images/hyper_link.png" />, clear content <img src="../Images/hyper_clear_content.png" />, set keyword matching <img src="../Images/alt_match.PNG" style="width: 24px;height: 17px;" />, or specify the display of attribute forms for titles and subtitles. See <MadCap:xref href="../../enable_alternate_keyword_matching.htm">Enable Alternate Keyword Matching</MadCap:xref> for more information.</li>
+            <li>Add information to the card by dragging  objects from the dataset to the card template. You can change the order of information on the card by dragging a specific widget or list item to a different location.</li>
+            <li>Click <b>Save</b>.</li>
+        </ol>
+        <p>When you save the card, it is only visible to you. To allow users to view your card,  see <MadCap:xref href="../../add_users_to_cards.htm">How to View and Edit Card Properties and Security</MadCap:xref>.</p>
+    </body>
+</html>

@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="index.xml" data-mc-path-to-help-system="../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Troubleshooting">
+    <head>
+        <meta name="description" content="With HyperIntelligence™, zero-click insights are now available everywhere, all the time, for everyone.  " />
+        <meta name="keywords" content="HyperIntelligence, HyperIntelligence for Mobile, HyperIntelligence for Office, MicroStrategy, Business Intelligence, documentation, Data Analysis, zero-click insights, help, 2019" />
+        <meta name="description" content="With HyperIntelligence™, zero-click insights are now available everywhere, all the time, for everyone." />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Troubleshooting HyperIntelligence for Mobile</title>
+        <link href="../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="Resources/foundation/css/foundation.min.css" rel="stylesheet" />
+        <link href="Resources/Stylesheets/main.css" rel="stylesheet" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.select-language-button
+{
+	-pie-background: url('../Skins/Default/Stylesheets/Images/select-language.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.button.pdf-button
+{
+	-pie-background: url('../Skins/Default/Stylesheets/Images/file.png') no-repeat center center, linear-gradient(transparent, transparent);
+}
+
+.needs-pie
+{
+	behavior: url('../Resources/Scripts/PIE-no-motw.htc');
+}
+
+</style>
+        <style>/*&lt;meta /&gt;*/
+
+.button.previous-topic-button
+{
+	-pie-background: url('../Skins/Default/Stylesheets/Images/chevron-left-regular.png') no-repeat center center, linear-gradient(transparent, transparent);
+}
+
+.button.next-topic-button
+{
+	-pie-background: url('../Skins/Default/Stylesheets/Images/chevron-right-regular (1).png') no-repeat center center, linear-gradient(transparent, transparent);
+}
+
+.needs-pie
+{
+	behavior: url('../Resources/Scripts/PIE-no-motw.htc');
+}
+
+</style>
+        <script src="../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../Resources/Scripts/require.min.js" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/require.config.js" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/foundation.min.js" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/plugins.min.js" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/MadCapGlobal.js" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/MadCapDom.js" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/MadCapUtilities.js" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/MadCapXhr.js" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/MadCapTextEffects.js" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/MadCapSlideshow.js" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/MadCapFeedback.js" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/MadCapDefault.js" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/MadCapAccessibility.js" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/MadCapHelpSystem.js" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/MadCapToc.js" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/MadCapToc.Breadcrumbs.js" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/MadCapToc.MiniToc.js" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/MadCapToc.SideMenu.js" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/MadCapIndex.js" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/MadCapGlossary.js" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/MadCapParser.js" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/MadCapSearch.js" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/MadCapTopic.js" defer="defer">
+        </script>
+        <script src="../Skins/Default/Scripts/Toolbar_NewLook_PDF.js">
+        </script>
+        <script src="../Skins/Default/Scripts/TopicToolbar_next.js">
+        </script>
+    </head>
+    <body>
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WLQTSS" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <div class="off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <!-- Title bar displayed on small screen only, hidden for medium up -->
+                <div class="title-bar hide-for-medium">
+                    <div class="title-bar-right">
+                        <!-- Button opens element with ID 'offCanvasLeft' which is the left off-canvas area -->
+                        <button class="menu-icon" type="button" data-open="offCanvasMenu">
+                        </button>
+                    </div>
+                </div>
+                <div class="off-canvas position-left" id="offCanvasMenu" data-off-canvas="">
+                    <!-- Container for Drilldown menu -->
+                    <div id="nav-drilldown">
+                        <!-- Copy of the drilldown menu is inserted here by the script -->
+                    </div>
+                </div>
+                <div class="off-canvas-content" data-off-canvas-content="">
+                    <div class="mstr-doc-grid">
+                        <div class="mstr-doc-header">
+                            <div class="header">
+                                <ul id="header-ul">
+                                    <li id="navigation" value="0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="rows" width="24px" height="100%">
+                                            <path d="M21.5 6.5h-19c-.3 0-.7-.4-.7-.7V4.4c0-.4.4-.7.7-.7h19c.3 0 .7.3.7.7v1.4c0 .3-.4.7-.7.7zm0 6.8h-19c-.3 0-.7-.3-.7-.7v-1.3c0-.4.4-.7.7-.7h19c.3 0 .7.3.7.7v1.4c0 .3-.4.6-.7.6zm0 7h-19c-.3 0-.7-.3-.7-.7v-1.4c0-.3.4-.7.7-.7h19c.3 0 .7.4.7.7v1.4c0 .4-.4.7-.7.7z" />
+                                        </svg>
+                                    </li>
+                                    <li id="logo-li"><a href="https://community.microstrategy.com/s/"><img id="logo" src="Resources/Images/MSTR_logo_215x35.png" style="width: 215;height: 35;" /></a>
+                                    </li>
+                                    <li title="MicroStrategy Community" id="community">COMMUNITY</li>
+                                    <li class="header-item" title="Home"><a href="https://community.microstrategy.com/s/">Home</a>
+                                    </li>
+                                    <li class="header-item" title="Gallery"><a href="https://community.microstrategy.com/s/gallery">Gallery</a>
+                                    </li>
+                                    <li class="header-item" title="Learning Center"><a href="https://community.microstrategy.com/s/learning-center">Learning Center</a>
+                                    </li>
+                                    <li class="header-item" title="Discussions"><a href="https://community.microstrategy.com/s/discussions">Discussions</a>
+                                    </li>
+                                    <li class="header-item" title="Downloads"><a href="https://community.microstrategy.com/s/products">Downloads</a>
+                                    </li>
+                                    <li class="header-item" title="Cases"><a href="https://community.microstrategy.com/s/contactsupport">Cases</a>
+                                    </li>
+                                    <li class="header-item" title="Activation Site"><a href="https://licensing.microstrategy.com/">Activation Site</a>
+                                    </li>
+                                    <li class="header-item" title="Groups"><a href="https://community.microstrategy.com/s/group/CollaborationGroup/00BE0000004Cob6MAC">Groups</a>
+                                    </li>
+                                    <li class="header-item" title="Announcements"><a href="https://community.microstrategy.com/s/announcements">Announcements</a>
+                                    </li>
+                                    <li class="header-item" title="Ideas"><a href="https://community.microstrategy.com/s/ideas">Ideas</a>
+                                    </li>
+                                    <li class="header-item" title="Members"><a href="https://community.microstrategy.com/s/members">Members</a>
+                                    </li>
+                                    <li class="header-item" title="简体中文"><a href="https://community.microstrategy.com/s/topic/0TO44000000QAGaGAO">简体中文</a>
+                                    </li>
+                                    <li class="header-item" title="日本語"><a href="https://community.microstrategy.com/s/topic/0TO44000000QAGVGA4">日本語</a>
+                                    </li>
+                                    <li class="header-item" title="한국어"><a href="https://community.microstrategy.com/s/topic/0TO2R000000kaD0WAI">한국어</a>
+                                    </li>
+                                    <li class="header-item" title="More" id="more"><a href="#">More</a>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="chevrondown">
+                                            <path d="M22 8.2l-9.5 9.6c-.3.2-.7.2-1 0L2 8.2c-.2-.3-.2-.7 0-1l1-1c.3-.3.8-.3 1.1 0l7.4 7.5c.3.3.7.3 1 0l7.4-7.5c.3-.2.8-.2 1.1 0l1 1c.2.3.2.7 0 1z" />
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <ul class="overflow">
+                                </ul>
+                                <ul class="nav-header">
+                                    <li class="znav-item" title="Home"><a href="https://community.microstrategy.com/s/">Home</a>
+                                    </li>
+                                    <li class="znav-item" title="Gallery"><a href="https://community.microstrategy.com/s/gallery">Gallery</a>
+                                    </li>
+                                    <li class="znav-item" title="Learning Center"><a href="https://community.microstrategy.com/s/learning-center">Learning Center</a>
+                                    </li>
+                                    <li class="znav-item" title="Discussions"><a href="https://community.microstrategy.com/s/discussions">Discussions</a>
+                                    </li>
+                                    <li class="znav-item" title="Downloads"><a href="https://community.microstrategy.com/s/products">Downloads</a>
+                                    </li>
+                                    <li class="znav-item" title="Cases"><a href="https://community.microstrategy.com/s/contactsupport">Cases</a>
+                                    </li>
+                                    <li class="znav-item" title="Activation Site"><a href="https://licensing.microstrategy.com/">Activation Site</a>
+                                    </li>
+                                    <li class="znav-item" title="Groups"><a href="https://community.microstrategy.com/s/group/CollaborationGroup/00BE0000004Cob6MAC">Groups</a>
+                                    </li>
+                                    <li class="znav-item" title="Announcements"><a href="https://community.microstrategy.com/s/announcements">Announcements</a>
+                                    </li>
+                                    <li class="znav-item" title="Ideas"><a href="https://community.microstrategy.com/s/ideas">Ideas</a>
+                                    </li>
+                                    <li class="znav-item" title="Members"><a href="https://community.microstrategy.com/s/members">Members</a>
+                                    </li>
+                                    <li class="znav-item" title="简体中文"><a href="https://community.microstrategy.com/s/topic/0TO44000000QAGaGAO">简体中文</a>
+                                    </li>
+                                    <li class="znav-item" title="日本語"><a href="https://community.microstrategy.com/s/topic/0TO44000000QAGVGA4">日本語</a>
+                                    </li>
+                                    <li class="znav-item" title="한국어"><a href="https://community.microstrategy.com/s/topic/0TO2R000000kaD0WAI">한국어</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mstr-doc-left">
+                            <ul class="nocontent menu _Skins_in_topic_menu mc-component" data-mc-linked-toc="Data/Tocs/Hyper.js" data-mc-side-menu="True" data-mc-max-depth="-1" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                            </ul>
+                        </div>
+                        <div class="mstr-doc-middle">
+                            <div class="row medium-up-2">
+                                <div class="column">
+                                    <div class="buttons popup-container clearfix topicToolbarProxy _Skins_Toolbar_NewLook_PDF mc-component nocontent" style="mc-topic-toolbar-items: SelectLanguage;">
+                                        <div class="button-group-container-left">
+                                            <button class="button needs-pie select-language-button" title="Change language">
+                                                <img alt="Change language" src="../Skins/Default/Stylesheets/Images/transparent.gif" class="invisible-label" />
+                                            </button>
+                                            <button class="button needs-pie pdf-button" onclick="window.open(buildUrl())" title="Download the PDF">
+                                                <img src="../Skins/Default/Stylesheets/Images/transparent.gif" class="invisible-label" />
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <p id="version">Version <span xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="MSTR_Default_VariablesCurrentVersion">2020</span></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="small-12 columns">
+                                    <div xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" role="main" id="mc-main-content">
+                                        <h1 id="TroubleshootingHyperIntelligenceforMobile" data-magellan-target="TroubleshootingHyperIntelligenceforMobile">Troubleshooting HyperIntelligence for Mobile</h1>
+                                        <p>While using HyperIntelligence for Mobile for iOS or Android, you may encounter the following errors. Use the guidance below to troubleshoot these errors.</p>
+                                        <ul class="tabs">
+                                            <li class="tab-link current" data-tab="tab-1" value="1">iOS</li>
+                                            <li class="tab-link" data-tab="tab-2" value="2">Android</li>
+                                        </ul>
+                                        <div class="container">
+                                            <div class="tab-content current" id="tab-1">
+                                                <p>Below are a series of ways to troubleshoot issues in HyperIntelligence for Mobile for iOS. If you find these solutions do not work for you, please enable Debug Mode to assist in troubleshooting. </p>
+                                                <h2 id="HowtoEnableDebugMode" data-magellan-target="HowtoEnableDebugMode">How to Enable Debug Mode</h2>
+                                                <ol>
+                                                    <li value="1">Open your OS level settings and select <b>Hyper</b>.</li>
+                                                    <li value="2">Under Hyper Settings, use the toggle next to <b>Enable Debug Mode</b> to enable or disable the setting.</li>
+                                                </ol>
+                                                <h2 id="ErrorMessagenotfoundinuserhistorylist" data-magellan-target="ErrorMessagenotfoundinuserhistorylist">Error: Message not found in user history list</h2>
+                                                <p>
+                                                    <img src="Resources/Images/historylisterror.png" />
+                                                </p>
+                                                <p>This error occurs when a card begins to automatically download after connecting to an environments with many large cards. To resolve this error, disable and then enable the card to restart the download process.</p>
+                                                <h2 id="IssueCardsareredownloadedwhenpullingdowntorefreshcards" data-magellan-target="IssueCardsareredownloadedwhenpullingdowntorefreshcards">Issue: Cards are re-downloaded when pulling down to refresh cards</h2>
+                                                <p>In the HyperIntelligence for Mobile app, if you pull down to refresh your list of cards, some cards will re-download even though the card is already up-to-date. This occurs because the HyperIntelligence app is verifying that the card data is valid by checking the card cache. </p>
+                                                <p>If a card is created in Workstation 2019, it does not have caching enabled. Cards created or re-saved using Workstation 2019 Update 1 or newer will have caching enabled.</p>
+                                                <h2 id="IssueSSLerrorsappearwhenconnectingtoanenvironment" data-magellan-target="IssueSSLerrorsappearwhenconnectingtoanenvironment">Issue: SSL errors appear when connecting to an environment</h2>
+                                                <p>When connecting to an environment, you may receive the error, "An SSL error has occurred and a secure connection to the server cannot be made." or "The certificate for this server is invalid. You might be connecting to a server that is pretending to be 'server_name' which could put your confidential information at risk."</p>
+                                                <div class="row">
+                                                    <div class="columns small-12 large-6">
+                                                        <p>
+                                                            <img src="Resources/Images/SSL1.png" />
+                                                        </p>
+                                                    </div>
+                                                    <div class="columns small-12 large-6">
+                                                        <p>
+                                                            <img src="Resources/Images/SSL2.png" />
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <p>The reason these error messages may occur is that the SSL is not properly configured for the Library Server. Try connecting to an environment using HTTP instead of an HTTPS URL to ensure that network connectivity is not impacted.</p>
+                                                <h2 id="ErrorPleaseenteravalidenvironmentURL" data-magellan-target="ErrorPleaseenteravalidenvironmentURL">Error: Please enter a valid environment URL</h2>
+                                                <p>
+                                                    <img src="Resources/Images/invalidenv.png" />
+                                                </p>
+                                                <p>This error may occur when connecting to an incorrect environment URL. . Ensure your URL contains <span class="code">MicroStrategyLibrary</span> at the end, like <span class="code">http://…/MicroStrategyLibrary</span>.</p>
+                                                <h2 id="ErrorServercannotbereached" data-magellan-target="ErrorServercannotbereached">Error: Server cannot be reached</h2>
+                                                <div class="row">
+                                                    <div class="small-12 large-6 columns">
+                                                        <p>
+                                                            <img src="Resources/Images/servercanotreach.png" />
+                                                        </p>
+                                                    </div>
+                                                    <div class="small-12 large-6 columns">
+                                                        <p>
+                                                            <img src="Resources/Images/servercannotbereached.png" />
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <p>These errors appear when the Library Server is down. Contact your Library Administrator to ensure the Library Server is running.</p>
+                                                <h2 id="ErrorCardisnotavailable" data-magellan-target="ErrorCardisnotavailable">Error: Card is not available</h2>
+                                                <p>
+                                                    <img src="Resources/Images/cardnotavailable_error.png" />
+                                                </p>
+                                                <p>This error may appear for one of two reasons:</p>
+                                                <ul>
+                                                    <li value="1">When connecting to an environment where the Intelligence Server is down. Contact your Administrator to ensure that the Intelligence Server is running and accessible. </li>
+                                                    <li value="2">When the Library Server is configured for Trusted Authentication. For a list of supported authentication modes, see <a href="HyperMobile_FAQ.htm" class="MCXref xref">HyperIntelligence for Mobile FAQ (iOS)</a>.</li>
+                                                </ul>
+                                                <h2 id="ErrorUnabletoaccessHyperIntelligence" data-magellan-target="ErrorUnabletoaccessHyperIntelligence">Error: Unable to access HyperIntelligence</h2>
+                                                <div class="row">
+                                                    <div class="columns small-12 large-6">
+                                                        <p>
+                                                            <img src="Resources/Images/noaccess1.png" />
+                                                        </p>
+                                                    </div>
+                                                    <div class="columns small-12 large-6">
+                                                        <p>
+                                                            <img src="Resources/Images/noaccess2.png" />
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <p>You may see these errors after updating the HyperIntelligence for Mobile application. This is because of the new privileges introduced in MicroStrategy 2019 Update 2 for various HyperIntelligence products. The updated app will check for the new HyperIntelligence for Mobile privilege called <b>Use Hyper Mobile</b>. Contact your administrator to obtain this privilege. For a list of all privileges, see the <a href="https://www2.microstrategy.com/producthelp/Current/SystemAdmin/WebHelp/Lang_1033/Content/List_of_all_privileges.htm">System Admin Guide</a>.</p>
+                                                <h2 id="IssueCarddatadisplaysinlanguagesotherthanthedefaultdatalanguage" data-magellan-target="IssueCarddatadisplaysinlanguagesotherthanthedefaultdatalanguage">Issue: Card data displays in languages other than the default data language</h2>
+                                                <p>
+                                                    <img src="Resources/Images/datalang.png" />
+                                                </p>
+                                                <p>When viewing a card, you may notice the data on the card is displayed in a language that is not the default language. This is a known issue in MicroStrategy 2019 Update 1 and Update 2. In MicroStrategy 2019 Update 1, cache is enabled by default for all cards. The card cache is created in the language of the first user who executes the card and generates the cache. This card cache is then used for all subsequent executions of the card regardless of the user's language. This issue is resolved in MicroStrategy 2019 Update 3, upgrade to the 2019 Update 3 or later to take advantage of the fix.</p>
+                                                <h2 id="IssueCardsdonotappearinSpotlightsearch" data-magellan-target="IssueCardsdonotappearinSpotlightsearch">Issue: Cards do not appear in Spotlight search</h2>
+                                                <p>Searching for cards using the Spotlight search does not return any cards. The reason for this is because in 2019 Update 2, cards must now manually be enabled to appear in the Spotlight search. To enable this feature, see <a href="How_to_access_cards.htm#ios_spotlight" class="MCXref xref">iOS Spotlight Search</a>.</p>
+                                                <h2 id="IssueCardsappearinSpotlightsearchafterloggingoutofanenvironment" data-magellan-target="IssueCardsappearinSpotlightsearchafterloggingoutofanenvironment">Issue:&#160;Cards appear in Spotlight search after logging out of an environment</h2>
+                                                <p>After logging out of an environment, cards may still appear in the Spotlight search. This is due to a limitation with Spotlight search, where it may take several minutes to delete the indexes. After a few minutes, the cards should disappear from the Spotlight search.</p>
+                                                <h2 id="IssueNotificationsdonotappearforaCalendarevent" data-magellan-target="IssueNotificationsdonotappearforaCalendarevent">Issue: Notifications do not appear for a Calendar event </h2>
+                                                <p>For a Calendar event  that was recently created, you may not receive a notification from the app to display relevant cards. The reason for this is that Calendar events  are synced with the HyperIntelligence app when you launch the app and periodically in the background. The frequency of the background syncing is controlled by iOS. If you create a Calendar event for a time in the near future, the background sync may not occur in time for you to get a card notification.</p>
+                                                <h2 id="IssueDifferentcardsappearinanotificationthantheonesseenforthesameCalendareventintheCalendartaboftheapp" data-magellan-target="IssueDifferentcardsappearinanotificationthantheonesseenforthesameCalendareventintheCalendartaboftheapp">Issue: Different cards appear in a notification than the ones seen for the same Calendar event in the Calendar tab of the app</h2>
+                                                <p>The reason you may see different cards from your Calendar event notifications than from your Calendar tab is because the keyword matching rules for notifications are different than the keyword matching rules used in the Calendar tab in the app. For notifications, cards are matched based on keywords in the event title and the attendees. Cards may also be included in a notification if a card synonym matches a keyword in the event title or of the attendees. The Calendar tab in the app, however, matches cards based on the event title, attendees, and the notes of the event. Here, synonym matching is only done for the attendees. </p>
+                                                <h2 id="IssueSelectingtheCalendartabforthefirsttimedisplaysnocardsforCalendarevents" data-magellan-target="IssueSelectingtheCalendartabforthefirsttimedisplaysnocardsforCalendarevents">Issue: Selecting the Calendar tab for the first time displays no cards for Calendar events</h2>
+                                                <p>Opening the Calendar tab in the HyperIntelligence for Mobile app for the first time causes the message, "No cards for events" to appear. The reason for this is that the data source for the Calendar tab was not refreshed when the calendar list was changed. Instead, the data source was updated after the pre-search for the changed calendar list was done. This is a known issue under investigation by MicroStrategy's Technology team.</p>
+                                                <h2 id="IssueLoadingspinnerdisplaysondisabledcards" data-magellan-target="IssueLoadingspinnerdisplaysondisabledcards">Issue: Loading spinner displays on disabled cards</h2>
+                                                <p>
+                                                    <img src="Resources/Images/loading_disabled_cards.png" />
+                                                </p>
+                                                <p>One of the major changes in HyperIntelligence for Mobile 2020 is card downloading. As of 2020, all cards will start to download once you log in to the app, regardless of whether the card is enabled or not. This is an enhancement that allows you to get card data from the server as fast as possible and improve performance.</p>
+                                                <h2 id="IssueTheCalendartabcanonlydisplaydataforthepastmonth" data-magellan-target="IssueTheCalendartabcanonlydisplaydataforthepastmonth">Issue: The Calendar tab can only display data for the past month</h2>
+                                                <p>This is a behavior change for the Calendar data range. HyperIntelligence for Mobile can display Calendar data for the past one or two months as compared to the date range in 2019 Update 4 where you could see the last three months and next three months in the Calendar tab.</p>
+                                                <h2 id="IssueInappsearchresultsdisplayfewercardsthanthepreviousversionsofHyperIntelligence" data-magellan-target="IssueInappsearchresultsdisplayfewercardsthanthepreviousversionsofHyperIntelligence">Issue: In-app search results display fewer cards than the previous versions of HyperIntelligence</h2>
+                                                <p>This is another behavior change in MicroStrategy 2020. To remove less relevant results and keep consistency with HyperIntelligence for Mobile for Android, the phrase "Contains" was removed in the matching algorithm.</p>
+                                                <p>&#160;</p>
+                                            </div>
+                                        </div>
+                                        <div class="container">
+                                            <div class="tab-content" id="tab-2">
+                                                <p>Below are a series of ways to troubleshoot issues in HyperIntelligence for Mobile for Android. If you find that these solutions do not work for you, please enable the Debug Mode to assist your troubleshooting. Debug Mode will allow you to see error messages on the Cards tab to help you investigate issues with downloading and refreshing cards.</p>
+                                                <h2 id="HowtoEnableDebugMode1" data-magellan-target="HowtoEnableDebugMode1">How to Enable Debug Mode</h2>
+                                                <ol>
+                                                    <li value="1">Open the HyperIntelligence for Mobile application.</li>
+                                                    <li value="2">Tap the <b>Account</b> tab.</li>
+                                                    <li value="3">Tap your user name eight times. The message "Debug mode is enabled!" appears when enabled.</li>
+                                                    <li value="4">Use the toggle to enable or disable Debug mode. You must re-enable debug mode every time the app is completely closed and reopened.</li>
+                                                </ol>
+                                                <h2 id="ErrorMessagenotfoundinuserhistorylist1" data-magellan-target="ErrorMessagenotfoundinuserhistorylist1">Error: Message not found in user history list</h2>
+                                                <p>
+                                                    <img src="Resources/Images/android_error1.png" />
+                                                </p>
+                                                <p>This error occurs when a card begins to automatically download after connecting to an environments with many large cards. To resolve this error, disable and then enable the car to restart the card download. </p>
+                                                <p>Alternatively, an administrator can increase the number of cards that can be simultaneously executed by changing the following settings in MicroStrategy Web.</p>
+                                                <ol>
+                                                    <li value="1">Open MicroStrategy Web.</li>
+                                                    <li value="2">Click the drop-down next to your user name and select <b>Preferences</b>.</li>
+                                                    <li value="3">Under Preferences Level, select <b>Project Defaults</b>.</li>
+                                                    <li value="4">Under Preferences, select <b>History List</b>.</li>
+                                                    <li value="5">Enter a larger value in the setting called <b>If manually, how many of the most recently run reports and documents do you want to keep available for manipulation?</b></li>
+                                                    <li value="6">Click <b>Apply</b>.</li>
+                                                </ol>
+                                                <h2 id="IssueCardsareredownloadedwhenpullingdowntorefreshcards1" data-magellan-target="IssueCardsareredownloadedwhenpullingdowntorefreshcards1">Issue: Cards are re-downloaded when pulling down to refresh cards</h2>
+                                                <p>In the HyperIntelligence for Mobile app, if you pull down to refresh your list of cards, some cards will re-download even though the card is already up-to-date. This occurs because the HyperIntelligence app is verifying that the card data is valid by checking the card cache. </p>
+                                                <p>If a card is created in Workstation 2019, it does not have caching enabled. Cards created or re-saved using Workstation 2019 Update 1 or newer will have caching enabled.</p>
+                                                <h2 id="ErrorPleaseenteravalidenvironmentURL1" data-magellan-target="ErrorPleaseenteravalidenvironmentURL1">Error: Please enter a valid environment URL</h2>
+                                                <p>
+                                                    <img src="Resources/Images/android_error2.png" />
+                                                </p>
+                                                <p>This error may occur when connecting to an incorrect environment URL. Ensure your URL contains <span class="code">MicroStrategyLibrary</span> at the end, like <span class="code">http://…/MicroStrategyLibrary</span>.</p>
+                                                <h2 id="ErrorTheserveriscurrentlyunreachable" data-magellan-target="ErrorTheserveriscurrentlyunreachable">Error: The server is currently unreachable</h2>
+                                                <div class="row">
+                                                    <div class="12-small 6-large columns">
+                                                        <p>
+                                                            <img src="Resources/Images/android_error3.png" />
+                                                        </p>
+                                                    </div>
+                                                    <div class="12-small 6-large columns">
+                                                        <p>
+                                                            <img src="Resources/Images/android_error3.5.png" />
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <p>This error may appear for a few reasons:</p>
+                                                <ul>
+                                                    <li value="1">When connecting to an environment where the Library Server is down. Contact your Administrator to ensure that the Library Server is running and accessible. </li>
+                                                    <li value="2">When the Library Server is configured for Trusted Authentication. Trusted Authentication is not supported for HyperIntelligence for Mobile for Android.</li>
+                                                    <li value="3">When SSL is not configured properly on the Library Server. Try using HTTP instead of HTTPS to resolve the error.</li>
+                                                </ul>
+                                                <h2 id="IssueCarddatadisplayinlanguagesotherthanthedefaultdatalanguage" data-magellan-target="IssueCarddatadisplayinlanguagesotherthanthedefaultdatalanguage">Issue: Card data display in languages other than the default data language</h2>
+                                                <p>
+                                                    <img src="Resources/Images/android_error5.png" />
+                                                </p>
+                                                <p>When viewing a card, you may notice that the data on the card is in a language that is not the default language. This is a known issue in MicroStrategy 2019 Update 1 and Update 2. In MicroStrategy 2019 Update 1, cache is enabled by default for all cards. The card cache is created in the language of the first user who executes the card and generates the cache. This card cache is then used for all subsequent executions of the card regardless of the user's language. This issue is resolved in MicroStrategy 2019 Update 3. Upgrade to MicroStrategy 2019 Update 3 or later to take advantage of the fix.</p>
+                                                <h2 id="IssueInanasymmetricclusteredenvironmentcardsfromcertainprojectsaremissingtheHyperIntelligenceforMobileforAndroidapp" data-magellan-target="IssueInanasymmetricclusteredenvironmentcardsfromcertainprojectsaremissingtheHyperIntelligenceforMobileforAndroidapp">Issue: In an asymmetric clustered environment, cards from certain projects are missing the HyperIntelligence for Mobile for Android app</h2>
+                                                <p>In an asymmetric clustered environment, cards from certain projects are missing the HyperIntelligence for Mobile for Android application; however, cards from other projects can still be viewed. This is a known issue in MicroStrategy 2019. Asymmetric clustering is not supported in MicroStrategy 2019 for HyperIntelligence for Mobile. As such, cards from only one node at a time will be seen in the app. </p>
+                                                <p>This issue is resolved in MicroStrategy 2020, where in the latest version, asymmetric clustered environments are supported. </p>
+                                                <h2 id="IssueEventsaremissingfromtheCalendartabthatshouldhavematchingcards" data-magellan-target="IssueEventsaremissingfromtheCalendartabthatshouldhavematchingcards">Issue:&#160;Events are missing from the Calendar tab that should have matching cards</h2>
+                                                <p>HyperIntelligence for Mobile for Android devices syncs with your Google Calendar to show events related to your cards. If an event is not appearing in the app, first verify that the event shows up in your Google Calendar on your mobile device. </p>
+                                                <p>If you do not see the event in your Google Calendar, verify that the correct account is synced with Google Calendar on your Android device. For instructions on synching events with theGoogle&#160;Calendar app, see <a href="https://support.google.com/calendar/answer/6261951">Google's Calendar Help</a>.</p>
+                                                <p>If you see the event in Google Calendar but no in the HyperIntelligence app, try waiting a few minutes if your event was recently created. Iti can take a few minutes for the app to process new or updated events. After, verify that the cards that match your event have been downloaded to the device and that the cards are enabled. If you can find the card using the in-app search, then the card is downloaded and enabled. Finally, make sure the calendar containing the event is enabled in the HyperIntelligence app. For steps to check if your calendar is enabled, see <a href="calendar_tab.htm" class="MCXref xref">View Calendar Tab</a></p>
+                                                <h2 id="IssueCalendarsaremissingfromtheEnabledCalendarsscreen" data-magellan-target="IssueCalendarsaremissingfromtheEnabledCalendarsscreen">Issue:&#160;Calendars are missing from the Enabled Calendars screen</h2>
+                                                <p>HyperIntelligence for Mobile for Android devices syncs with your Google Calendar, so any calendar that can be seen in the Google Calendar app should be seen in the HyperIntelligence app. To retrieve the list of calendars, the HyperIntelligence app reads from the Android device's system calendar repository. When a new calendar is added to Google Calendar, there may be a delay before the calendar is saved to the system calendar repository. </p>
+                                                <p>This issue is being investigated by MicroStrategy's Technology Team. For a quick workaround, try opening the Google Calendar app and manually refreshing the calendar. This syncing process can speed up how quickly the calendar is saved to the system calendar repository.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="small-12 columns">
+                                    <div class="buttons popup-container clearfix topicToolbarProxy _Skins_TopicToolbar_next mc-component nocontent" style="mc-topic-toolbar-items: ;">
+                                        <div class="button-group-container-left">
+                                            <button class="button needs-pie previous-topic-button" title="Navigate previous">
+                                                <img alt="Navigate previous" src="../Skins/Default/Stylesheets/Images/transparent.gif" class="invisible-label" />
+                                            </button>
+                                            <button class="button needs-pie next-topic-button" title="Navigate next">
+                                                <img alt="Navigate next" src="../Skins/Default/Stylesheets/Images/transparent.gif" class="invisible-label" />
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mstr-doc-right">
+                            <ul data-magellan="" data-animation-duration="250" data-active-class="selected" data-scroll-container-on="small" class="nocontent menu _Skins_in_topic_menu mc-component">
+                                <li><a href="#TroubleshootingHyperIntelligenceforMobile">Troubleshooting HyperIntelligence for Mobile</a>
+                                </li>
+                                <ul>
+                                    <li><a href="#HowtoEnableDebugMode">How to Enable Debug Mode</a>
+                                    </li>
+                                    <li><a href="#ErrorMessagenotfoundinuserhistorylist">Error: Message not found in user history list</a>
+                                    </li>
+                                    <li><a href="#IssueCardsareredownloadedwhenpullingdowntorefreshcards">Issue: Cards are re-downloaded when pulling down to refresh cards</a>
+                                    </li>
+                                    <li><a href="#IssueSSLerrorsappearwhenconnectingtoanenvironment">Issue: SSL errors appear when connecting to an environment</a>
+                                    </li>
+                                    <li><a href="#ErrorPleaseenteravalidenvironmentURL">Error: Please enter a valid environment URL</a>
+                                    </li>
+                                    <li><a href="#ErrorServercannotbereached">Error: Server cannot be reached</a>
+                                    </li>
+                                    <li><a href="#ErrorCardisnotavailable">Error: Card is not available</a>
+                                    </li>
+                                    <li><a href="#ErrorUnabletoaccessHyperIntelligence">Error: Unable to access HyperIntelligence</a>
+                                    </li>
+                                    <li><a href="#IssueCarddatadisplaysinlanguagesotherthanthedefaultdatalanguage">Issue: Card data displays in languages other than the default data language</a>
+                                    </li>
+                                    <li><a href="#IssueCardsdonotappearinSpotlightsearch">Issue: Cards do not appear in Spotlight search</a>
+                                    </li>
+                                    <li><a href="#IssueCardsappearinSpotlightsearchafterloggingoutofanenvironment">Issue:&#160;Cards appear in Spotlight search after logging out of an environment</a>
+                                    </li>
+                                    <li><a href="#IssueNotificationsdonotappearforaCalendarevent">Issue: Notifications do not appear for a Calendar event </a>
+                                    </li>
+                                    <li><a href="#IssueDifferentcardsappearinanotificationthantheonesseenforthesameCalendareventintheCalendartaboftheapp">Issue: Different cards appear in a notification than the ones seen for the same Calendar event in the Calendar tab of the app</a>
+                                    </li>
+                                    <li><a href="#IssueSelectingtheCalendartabforthefirsttimedisplaysnocardsforCalendarevents">Issue: Selecting the Calendar tab for the first time displays no cards for Calendar events</a>
+                                    </li>
+                                    <li><a href="#IssueLoadingspinnerdisplaysondisabledcards">Issue: Loading spinner displays on disabled cards</a>
+                                    </li>
+                                    <li><a href="#IssueTheCalendartabcanonlydisplaydataforthepastmonth">Issue: The Calendar tab can only display data for the past month</a>
+                                    </li>
+                                    <li><a href="#IssueInappsearchresultsdisplayfewercardsthanthepreviousversionsofHyperIntelligence">Issue: In-app search results display fewer cards than the previous versions of HyperIntelligence</a>
+                                    </li>
+                                    <li><a href="#HowtoEnableDebugMode1">How to Enable Debug Mode</a>
+                                    </li>
+                                    <li><a href="#ErrorMessagenotfoundinuserhistorylist1">Error: Message not found in user history list</a>
+                                    </li>
+                                    <li><a href="#IssueCardsareredownloadedwhenpullingdowntorefreshcards1">Issue: Cards are re-downloaded when pulling down to refresh cards</a>
+                                    </li>
+                                    <li><a href="#ErrorPleaseenteravalidenvironmentURL1">Error: Please enter a valid environment URL</a>
+                                    </li>
+                                    <li><a href="#ErrorTheserveriscurrentlyunreachable">Error: The server is currently unreachable</a>
+                                    </li>
+                                    <li><a href="#IssueCarddatadisplayinlanguagesotherthanthedefaultdatalanguage">Issue: Card data display in languages other than the default data language</a>
+                                    </li>
+                                    <li><a href="#IssueInanasymmetricclusteredenvironmentcardsfromcertainprojectsaremissingtheHyperIntelligenceforMobileforAndroidapp">Issue: In an asymmetric clustered environment, cards from certain projects are missing the HyperIntelligence for Mobile for Android app</a>
+                                    </li>
+                                    <li><a href="#IssueEventsaremissingfromtheCalendartabthatshouldhavematchingcards">Issue:&#160;Events are missing from the Calendar tab that should have matching cards</a>
+                                    </li>
+                                    <li><a href="#IssueCalendarsaremissingfromtheEnabledCalendarsscreen">Issue:&#160;Calendars are missing from the Enabled Calendars screen</a>
+                                    </li>
+                                </ul>
+                            </ul>
+                        </div>
+                        <div class="mstr-doc-footer">
+                            <div id="feedback-survey" class="english" style="display: none;"><span class="question">Did you find this helpful?</span>
+                                <div id="feedback-yes" class="feedback-option yes">
+                                    <div class="feedback-option-button"><i class="far fa-smile fa-2x feedback-yes" aria-hidden="true" title="Yes, this article was helpful." alt="Yes, this article was helpful." data-eventCategory="Feedback" data-eventLabel="yes"></i>
+                    Yes
+                </div>
+                                    <div class="feedback-dialog yes"><span class="close">x</span>
+                                        <p>Great!</p>
+                                        <p>Thanks for taking the time to give us some feedback.</p>
+                                    </div>
+                                </div>
+                                <div id="feedback-no" class="feedback-option no">
+                                    <div class="feedback-option-button"><i class="far fa-frown fa-2x feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful."></i>
+                    No
+                </div>
+                                    <div class="feedback-dialog"><span class="close">x</span>
+                                        <p>Sorry about that</p>
+                                        <p>Why wasn't this helpful? (check all that apply)</p><span class="divider"></span>
+                                        <div class="check-option">
+                                            <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" data-eventCategory="Feedback" data-eventLabel="No-Couldn't Find" />
+                                            <label for="option1">I couldn't find what I was looking for.</label>
+                                        </div>
+                                        <div class="check-option">
+                                            <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" data-eventCategory="Feedback" data-eventLabel="No-Confusing/Unclear" />
+                                            <label for="option2">The instructions are confusing or unclear.</label>
+                                        </div>
+                                        <div class="check-option">
+                                            <input type="checkbox" class="option no" id="option3" value="Instructions didn't work" data-analytics-label="Did not work" data-eventCategory="Feedback" data-eventLabel="No-Didn't Work" />
+                                            <label for="option3">The instructions didn't work.</label>
+                                        </div>
+                                        <div class="thank-you-message">
+                                            <div class="text">
+                                                <p><b>Thanks for your feedback</b>.</p>
+                                                <p>Want to tell us more? Send us an email to leave your feedback.</p>
+                                            </div><a class="feedback-button" href="mailto:documentationfeedback@microstrategy.com?subject=Feedback" id="feedbackEmailLink">Email us</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="feedback-survey" class="german" style="display: none;"><span class="question">Waren Ihnen die Informationen hilfreich?</span>
+                                <div id="feedback-yes" class="feedback-option yes">
+                                    <div class="feedback-option-button"><i class="far fa-smile fa-2x feedback-yes" aria-hidden="true" title="Yes, this article was helpful." alt="Yes, this article was helpful." data-eventCategory="Feedback" data-eventLabel="yes"></i>
+						Ja
+					</div>
+                                    <div class="feedback-dialog yes"><span class="close">x</span>
+                                        <p>Großartig!</p>
+                                        <p>Vielen Dank, das Sie sich die Zeit genommen haben, uns Ihr Feedback mitzuteilen.</p>
+                                    </div>
+                                </div>
+                                <div id="feedback-no" class="feedback-option no">
+                                    <div class="feedback-option-button"><i class="far fa-frown fa-2x feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful."></i>
+						Nein
+					</div>
+                                    <div class="feedback-dialog"><span class="close">x</span>
+                                        <p>Das tut uns leid!</p>
+                                        <p>Warum waren diese Informationen nicht hilfreich? (Zutreffendes bitte auswählen)</p><span class="divider"></span>
+                                        <div class="check-option">
+                                            <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" data-eventCategory="Feedback" data-eventLabel="No-Couldn't Find" />
+                                            <label for="option1">Ich konnte nicht finden, wonach ich gesucht habe</label>
+                                        </div>
+                                        <div class="check-option">
+                                            <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" data-eventCategory="Feedback" data-eventLabel="No-Confusing/Unclear" />
+                                            <label for="option2">Anweisungen waren verwirrend oder unklar</label>
+                                        </div>
+                                        <div class="check-option">
+                                            <input type="checkbox" class="option no" id="option3" value="Instructions didn't work" data-analytics-label="Did not work" data-eventCategory="Feedback" data-eventLabel="No-Didn't Work" />
+                                            <label for="option3">Anweisungen haben nicht zum Ziel geführt</label>
+                                        </div>
+                                        <div class="thank-you-message">
+                                            <div class="text">
+                                                <p style="font-weight: bold;">Vielen Dank für Ihre Antworten.</p>
+                                                <p>möchten Sie uns noch etwas mitteilen? Senden Sie uns eine E-Mail mit Ihrem Feedback.</p>
+                                            </div><a class="feedback-button" href="mailto:documentationfeedback@microstrategy.com?subject=Feedback" id="feedbackEmailLink">E-Mail an uns senden</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="feedback-survey" class="french" style="display: none;"><span class="question">Ces informations vous ont-elles été utiles ?</span>
+                                <div id="feedback-yes" class="feedback-option yes">
+                                    <div class="feedback-option-button"><i class="far fa-smile fa-2x feedback-yes" aria-hidden="true" title="Yes, this article was helpful." alt="Yes, this article was helpful." data-eventCategory="Feedback" data-eventLabel="yes"></i>
+						Oui
+					</div>
+                                    <div class="feedback-dialog yes"><span class="close">x</span>
+                                        <p>Superbe !</p>
+                                        <p>Merci de nous avoir accordé un peu de votre temps.</p>
+                                    </div>
+                                </div>
+                                <div id="feedback-no" class="feedback-option no">
+                                    <div class="feedback-option-button"><i class="far fa-frown fa-2x feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful."></i>
+						Non
+					</div>
+                                    <div class="feedback-dialog"><span class="close">x</span>
+                                        <p>Nous en sommes désolés</p>
+                                        <p>Pourquoi ne vous ont-elles pas été utiles ? (cochez tous les choix applicables)</p><span class="divider"></span>
+                                        <div class="check-option">
+                                            <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" data-eventCategory="Feedback" data-eventLabel="No-Couldn't Find" />
+                                            <label for="option1">Je n’ai pas trouvé ce que je recherchais</label>
+                                        </div>
+                                        <div class="check-option">
+                                            <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" data-eventCategory="Feedback" data-eventLabel="No-Confusing/Unclear" />
+                                            <label for="option2">Instructions confuses ou obscures</label>
+                                        </div>
+                                        <div class="check-option">
+                                            <input type="checkbox" class="option no" id="option3" value="Instructions didn't work" data-analytics-label="Did not work" data-eventCategory="Feedback" data-eventLabel="No-Didn't Work" />
+                                            <label for="option3">Les instructions ne fonctionnaient pas</label>
+                                        </div>
+                                        <div class="thank-you-message">
+                                            <div class="text">
+                                                <p style="font-weight: bold;">Merci de vos commentaires.</p>
+                                                <p>Vous voulez nous en dire plus ? Envoyez-nous un e-mail pour nous laisser vos commentaires.</p>
+                                            </div><a class="feedback-button" href="mailto:documentationfeedback@microstrategy.com?subject=Feedback" id="feedbackEmailLink">Envoyez-nous un e-mail</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="feedback-survey" class="italian" style="display: none;"><span class="question">Questo contenuto ti è stato utile?</span>
+                                <div id="feedback-yes" class="feedback-option yes">
+                                    <div class="feedback-option-button"><i class="far fa-smile fa-2x feedback-yes" aria-hidden="true" title="Yes, this article was helpful." alt="Yes, this article was helpful." data-eventCategory="Feedback" data-eventLabel="yes"></i>
+						Sì
+					</div>
+                                    <div class="feedback-dialog yes"><span class="close">x</span>
+                                        <p>Perfetto!</p>
+                                        <p>Grazie per avere dedicato del tempo per fornirci un tuo commento.</p>
+                                    </div>
+                                </div>
+                                <div id="feedback-no" class="feedback-option no">
+                                    <div class="feedback-option-button"><i class="far fa-frown fa-2x feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful."></i>
+						No
+					</div>
+                                    <div class="feedback-dialog"><span class="close">x</span>
+                                        <p>Siamo spiacenti</p>
+                                        <p>Perché non è stato utile? (selezionare tutte le risposte adeguate)</p><span class="divider"></span>
+                                        <div class="check-option">
+                                            <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" data-eventCategory="Feedback" data-eventLabel="No-Couldn't Find" />
+                                            <label for="option1">Non ho trovato quello che stavo cercando</label>
+                                        </div>
+                                        <div class="check-option">
+                                            <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" data-eventCategory="Feedback" data-eventLabel="No-Confusing/Unclear" />
+                                            <label for="option2">Le istruzioni erano confuse o poco chiare</label>
+                                        </div>
+                                        <div class="check-option">
+                                            <input type="checkbox" class="option no" id="option3" value="Instructions didn't work" data-analytics-label="Did not work" data-eventCategory="Feedback" data-eventLabel="No-Didn't Work" />
+                                            <label for="option3">Le istruzioni non hanno dato il risultato previsto</label>
+                                        </div>
+                                        <div class="thank-you-message">
+                                            <div class="text">
+                                                <p style="font-weight: bold;">Grazie per il feedback.</p>
+                                                <p>Vuoi inviarci un commento? Inviaci un’e-mail o lasciaci un commento.</p>
+                                            </div><a class="feedback-button" href="mailto:documentationfeedback@microstrategy.com?subject=Feedback" id="feedbackEmailLink">Inviaci un’e-mail</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="feedback-survey" class="spanish" style="display: none;"><span class="question">¿Le ha resultado útil?</span>
+                                <div id="feedback-yes" class="feedback-option yes">
+                                    <div class="feedback-option-button"><i class="far fa-smile fa-2x feedback-yes" aria-hidden="true" title="Yes, this article was helpful." alt="Yes, this article was helpful." data-eventCategory="Feedback" data-eventLabel="yes"></i>
+						Sí
+					</div>
+                                    <div class="feedback-dialog yes"><span class="close">x</span>
+                                        <p>¡Genial!</p>
+                                        <p>Gracias por dedicar su tiempo a proporcionarnos sus comentarios.</p>
+                                    </div>
+                                </div>
+                                <div id="feedback-no" class="feedback-option no">
+                                    <div class="feedback-option-button"><i class="far fa-frown fa-2x feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful."></i>
+						No
+					</div>
+                                    <div class="feedback-dialog"><span class="close">x</span>
+                                        <p>Lo sentimos</p>
+                                        <p>¿Por qué no ha sido útil? (Marque todos los que correspondan)</p><span class="divider"></span>
+                                        <div class="check-option">
+                                            <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" data-eventCategory="Feedback" data-eventLabel="No-Couldn't Find" />
+                                            <label for="option1">No he encontrado lo que buscaba</label>
+                                        </div>
+                                        <div class="check-option">
+                                            <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" data-eventCategory="Feedback" data-eventLabel="No-Confusing/Unclear" />
+                                            <label for="option2">Las instrucciones eran confusas o no eran claras.</label>
+                                        </div>
+                                        <div class="check-option">
+                                            <input type="checkbox" class="option no" id="option3" value="Instructions didn't work" data-analytics-label="Did not work" data-eventCategory="Feedback" data-eventLabel="No-Didn't Work" />
+                                            <label for="option3">Las instrucciones no funcionaban.</label>
+                                        </div>
+                                        <div class="thank-you-message">
+                                            <div class="text">
+                                                <p style="font-weight: bold;">Gracias por sus comentarios.</p>
+                                                <p>¿Desea informarnos de más cosas? Envíenos un correo electrónico para dejar sus comentarios.</p>
+                                            </div><a class="feedback-button" href="mailto:documentationfeedback@microstrategy.com?subject=Feedback" id="feedbackEmailLink">Envíenos un correo electrónico</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="feedback-survey" class="portuguese" style="display: none;"><span class="question">Você achou isso útil?</span>
+                                <div id="feedback-yes" class="feedback-option yes">
+                                    <div class="feedback-option-button"><i class="far fa-smile fa-2x feedback-yes" aria-hidden="true" title="Yes, this article was helpful." alt="Yes, this article was helpful." data-eventCategory="Feedback" data-eventLabel="yes"></i>
+						Sim
+					</div>
+                                    <div class="feedback-dialog yes"><span class="close">x</span>
+                                        <p>Ótimo!</p>
+                                        <p>Obrigado por aproveitar o tempo para nos dar alguns comentários.</p>
+                                    </div>
+                                </div>
+                                <div id="feedback-no" class="feedback-option no">
+                                    <div class="feedback-option-button"><i class="far fa-frown fa-2x feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful."></i>
+						Não
+					</div>
+                                    <div class="feedback-dialog"><span class="close">x</span>
+                                        <p>Desculpe por isso</p>
+                                        <p>Por que isso não foi útil? (marque todas as que se aplicam)</p><span class="divider"></span>
+                                        <div class="check-option">
+                                            <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" data-eventCategory="Feedback" data-eventLabel="No-Couldn't Find" />
+                                            <label for="option1">Não consegui encontrar o que estava procurando</label>
+                                        </div>
+                                        <div class="check-option">
+                                            <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" data-eventCategory="Feedback" data-eventLabel="No-Confusing/Unclear" />
+                                            <label for="option2">Instruções confusas ou não claras.</label>
+                                        </div>
+                                        <div class="check-option">
+                                            <input type="checkbox" class="option no" id="option3" value="Instructions didn't work" data-analytics-label="Did not work" data-eventCategory="Feedback" data-eventLabel="No-Didn't Work" />
+                                            <label for="option3">As instruções não funcionaram.</label>
+                                        </div>
+                                        <div class="thank-you-message">
+                                            <div class="text">
+                                                <p style="font-weight: bold;">Obrigado pelos seus comentários.</p>
+                                                <p>Quer nos contar mais? Envie-nos um e-mail para deixar seus comentários.</p>
+                                            </div><a class="feedback-button" href="mailto:documentationfeedback@microstrategy.com?subject=Feedback" id="feedbackEmailLink">Envie-nos um e-mail</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="feedback-survey" class="japanese" style="display: none;"><span class="question">役に立ちましたか?</span>
+                                <div id="feedback-yes" class="feedback-option yes">
+                                    <div class="feedback-option-button"><i class="far fa-smile fa-2x feedback-yes" aria-hidden="true" title="Yes, this article was helpful." alt="Yes, this article was helpful." data-eventCategory="Feedback" data-eventLabel="yes"></i>
+						はい
+					</div>
+                                    <div class="feedback-dialog yes"><span class="close">x</span>
+                                        <p>ありがとうございます。</p>
+                                        <p>お時間を割いてご意見をお寄せいただき誠にありがとうございます。</p>
+                                    </div>
+                                </div>
+                                <div id="feedback-no" class="feedback-option no">
+                                    <div class="feedback-option-button"><i class="far fa-frown fa-2x feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful."></i>
+						いいえ
+					</div>
+                                    <div class="feedback-dialog"><span class="close">x</span>
+                                        <p>それは残念です</p>
+                                        <p>役に立たなかった理由は何ですか? (該当するものをすべてチェックしてください)</p><span class="divider"></span>
+                                        <div class="check-option">
+                                            <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" data-eventCategory="Feedback" data-eventLabel="No-Couldn't Find" />
+                                            <label for="option1">目的の情報を見つけられなかった</label>
+                                        </div>
+                                        <div class="check-option">
+                                            <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" data-eventCategory="Feedback" data-eventLabel="No-Confusing/Unclear" />
+                                            <label for="option2">手順がややこしいまたは不明確</label>
+                                        </div>
+                                        <div class="check-option">
+                                            <input type="checkbox" class="option no" id="option3" value="Instructions didn't work" data-analytics-label="Did not work" data-eventCategory="Feedback" data-eventLabel="No-Didn't Work" />
+                                            <label for="option3">手順が間違っていた</label>
+                                        </div>
+                                        <div class="thank-you-message">
+                                            <div class="text">
+                                                <p style="font-weight: bold;">ご意見をいただき誠にありがとうございます。</p>
+                                                <p>もっと詳しくお聞かせいただけますか? メールでご意見をお聞かせください。</p>
+                                            </div><a class="feedback-button" href="mailto:documentationfeedback@microstrategy.com?subject=Feedback" id="feedbackEmailLink">メール</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="feedback-survey" class="korean" style="display: none;"><span class="question">도움이 되었습니까?</span>
+                                <div id="feedback-yes" class="feedback-option yes">
+                                    <div class="feedback-option-button"><i class="far fa-smile fa-2x feedback-yes" aria-hidden="true" title="Yes, this article was helpful." alt="Yes, this article was helpful." data-eventCategory="Feedback" data-eventLabel="yes"></i>
+						예
+					</div>
+                                    <div class="feedback-dialog yes"><span class="close">x</span>
+                                        <p>수고하셨습니다.</p>
+                                        <p>피드백을 위해 시간 내 주셔서 감사합니다.</p>
+                                    </div>
+                                </div>
+                                <div id="feedback-no" class="feedback-option no">
+                                    <div class="feedback-option-button"><i class="far fa-frown fa-2x feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful."></i>
+						아니오
+					</div>
+                                    <div class="feedback-dialog"><span class="close">x</span>
+                                        <p>죄송합니다.</p>
+                                        <p>도움이 되지 않은 이유는 무엇입니까? (해당되는 모든 사항 선택)</p><span class="divider"></span>
+                                        <div class="check-option">
+                                            <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" data-eventCategory="Feedback" data-eventLabel="No-Couldn't Find" />
+                                            <label for="option1">찾는 내용이 없습니다.</label>
+                                        </div>
+                                        <div class="check-option">
+                                            <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" data-eventCategory="Feedback" data-eventLabel="No-Confusing/Unclear" />
+                                            <label for="option2">지침이 혼동되거나 불분명합니다.</label>
+                                        </div>
+                                        <div class="check-option">
+                                            <input type="checkbox" class="option no" id="option3" value="Instructions didn't work" data-analytics-label="Did not work" data-eventCategory="Feedback" data-eventLabel="No-Didn't Work" />
+                                            <label for="option3">지침이 효과가 없습니다.</label>
+                                        </div>
+                                        <div class="thank-you-message">
+                                            <div class="text">
+                                                <p style="font-weight: bold;">Thanks for your feedback.</p>
+                                                <p>Want to tell us more? Send us an email to leave your feedback.</p>
+                                            </div><a class="feedback-button" href="mailto:documentationfeedback@microstrategy.com?subject=Feedback" id="feedbackEmailLink">Email us</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="feedback-survey" class="chinese" style="display: none;"><span class="question">您觉得这篇文章有用吗？</span>
+                                <div id="feedback-yes" class="feedback-option yes">
+                                    <div class="feedback-option-button"><i class="far fa-smile feedback-yes" aria-hidden="true" title="Yes, this article was helpful." alt="Yes, this article was helpful." data-eventCategory="Feedback" data-eventLabel="yes"></i>
+						是
+					</div>
+                                    <div class="feedback-dialog yes"><span class="close">x</span>
+                                        <p>好极了！</p>
+                                        <p>感谢您抽出时间给我们提供一些反馈。</p>
+                                    </div>
+                                </div>
+                                <div id="feedback-no" class="feedback-option no">
+                                    <div class="feedback-option-button"><i class="far fa-frown fa-1x feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful."></i>
+						否
+					</div>
+                                    <div class="feedback-dialog"><span class="close">x</span>
+                                        <p>我们对此感到抱歉</p>
+                                        <p>为什么您觉得没什么用？ （选中所有适用项）</p><span class="divider"></span>
+                                        <div class="check-option">
+                                            <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" data-eventCategory="Feedback" data-eventLabel="No-Couldn't Find" />
+                                            <label for="option1">无法找到我需要的内容</label>
+                                        </div>
+                                        <div class="check-option">
+                                            <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" data-eventCategory="Feedback" data-eventLabel="No-Confusing/Unclear" />
+                                            <label for="option2">说明含混或者不明确</label>
+                                        </div>
+                                        <div class="check-option">
+                                            <input type="checkbox" class="option no" id="option3" value="Instructions didn't work" data-analytics-label="Did not work" data-eventCategory="Feedback" data-eventLabel="No-Didn't Work" />
+                                            <label for="option3">说明没有用</label>
+                                        </div>
+                                        <div class="thank-you-message">
+                                            <div class="text">
+                                                <p style="font-weight: bold;">感谢您的反馈。</p>
+                                                <p>希望告诉我们更多信息吗？ 请发送电子邮件给我们，留下您的反馈。</p>
+                                            </div><a class="feedback-button" href="mailto:documentationfeedback@microstrategy.com?subject=Feedback" id="feedbackEmailLink">给我们发送电子邮件</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="page-footer">
+                                <nav role="navigation">
+                                    <div id="footer-navigation" class="row medium-up-4">
+                                        <div class="column">
+                                            <ul class="menu vertical compact component-red">
+                                                <li class="menu-label" value="1">Products</li>
+                                                <li class="menu-item" value="2"><a href="https://www2.microstrategy.com/producthelp/Current/Readme/en-us/content/whats_new.htm">What's New</a>
+                                                </li>
+                                                <li class="menu-item" value="3"><a href="https://www2.microstrategy.com/producthelp/Current/Hyper/index.htm">HyperIntelligence</a>
+                                                </li>
+                                                <li class="menu-item" value="4"><a href="https://www2.microstrategy.com/producthelp/Current/Workstation/WebHelp/Lang_1033/index.htm">Workstation</a>
+                                                </li>
+                                                <li class="menu-item" value="5"><a href="https://www2.microstrategy.com/producthelp/Current/Cloud/index.htm">Cloud Platform</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="column">
+                                            <ul class="menu vertical compact component-blue">
+                                                <li class="menu-label" value="1">Interact</li>
+                                                <li class="menu-item" value="2"><a href="mailto:documentationfeedback@microstrategy.com">Documentation Feedback</a>
+                                                </li>
+                                                <li class="menu-item" value="3"><a href="https://community.microstrategy.com/s/ideas">Idea Exchange</a>
+                                                </li>
+                                                <li class="menu-item" value="4"><a href="https://community.microstrategy.com/s/discussions">Community Discussions</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="column">
+                                            <ul class="menu vertical compact component-orange">
+                                                <li class="menu-label" value="1">Resources</li>
+                                                <li class="menu-item" value="2"><a href="https://community.microstrategy.com/s/learning-center">Learning Center</a>
+                                                </li>
+                                                <li class="menu-item" value="3"><a href="https://www2.microstrategy.com/producthelp/Current/Readme/en-us/content/certified_configurations.htm">Platform Certifications</a>
+                                                </li>
+                                                <li class="menu-item" value="4"><a href="https://www.microstrategy.com/us/resources/library">Resource Library</a>
+                                                </li>
+                                                <li class="menu-item" value="5"><a href="https://www.microstrategy.com/us/services/technical-support">Technical Support</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="column">
+                                            <ul class="menu vertical compact component-navy-blue">
+                                                <li class="menu-label" value="1">Company</li>
+                                                <li class="menu-item" value="2"><a href="https://www.microstrategy.com/us/company/press">Press Center</a>
+                                                </li>
+                                                <li class="menu-item" value="3"><a href="https://www.microstrategy.com/us/company/careers">Careers</a>
+                                                </li>
+                                                <li class="menu-item" value="4"><a href="https://www.microstrategy.com/us/company/contact">Contact MicroStrategy</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </nav>
+                                <div id="legal-row" class="row medium-up-2 align-justify">
+                                    <div id="copyright-column" class="column align-left">
+                                        <p id="copyright">Copyright © 2019 MicroStrategy Incorporated. All Rights Reserved.</p>
+                                    </div>
+                                    <div id="legal-links" class="column align-right">
+                                        <nav role="navigation">
+                                            <ul class="menu">
+                                                <li class="menu-item" value="1"><a href="https://www.microstrategy.com/us/legal/legal-policies">Legal Policies |</a>
+                                                </li>
+                                                <li class="menu-item" value="2"><a href="https://www.microstrategy.com/us/legal/legal-policies/privacy-policy">Privacy Policy |</a>
+                                                </li>
+                                                <li class="menu-item" value="3"><a href="https://www.microstrategy.com/us/legal/legal-policies/terms-of-use">Terms of Use |</a>
+                                                </li>
+                                                <li class="menu-item" value="4"><a href="https://www.microstrategy.com/us/legal/ethics-line" target="_blank">Ethics Line</a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js">
+        </script>
+        <script src="Resources/foundation/js/foundation.min.js">
+        </script>
+        <script src="Resources/foundation/js/mstr/header.js">
+        </script>
+        <script src="Resources/foundation/js/mstr/feedback.js">
+        </script>
+        <script src="Resources/foundation/js/mstr/tabs.js">
+        </script>
+        <script src="Resources/foundation/js/mstr/embeddingTemplate.js">
+        </script>
+        <script src="Resources/foundation/js/mstr/gtm.js">
+        </script>
+        <script src="https://kit.fontawesome.com/a24e839ca1.js" crossorigin="anonymous">
+        </script>
+        <script src="Resources/js/mstr/foundation-menu-off-canvas-initialisation.js">
+        </script>
+        <script>/* <![CDATA[ */$(document).foundation();/* ]]> */</script>
+    </body>
+</html>

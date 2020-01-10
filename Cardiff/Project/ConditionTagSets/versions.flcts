@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet
+  Comment="My set of condition tags">
+  <ConditionTag
+    Comment=""
+    Name="version10_10"
+    BackgroundColor="#ffe4c4"
+    OriginalName="version10_10" />
+  <ConditionTag
+    Comment=""
+    Name="version10_11"
+    OriginalName="version10_11"
+    BackgroundColor="#7fffd4" />
+  <ConditionTag
+    BackgroundColor="#ffa500"
+    Name="version10_4"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ae84ae"
+    Name="version10_9"
+    Comment=""
+    OriginalName="version10_9" />
+  <ConditionTag
+    BackgroundColor="#008000"
+    Name="iOS"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#00bfff"
+    Name="Android"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#00ff00"
+    Name="Windows"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#f2b3ac"
+    Name="version10_12"
+    Comment="" />
+</CatapultConditionTagSet>

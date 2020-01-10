@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>
+                <MadCap:snippetText src="Create_new_or_open_existing.flsnp" />
+            </li>
+            <li>If necessary, click <b><MadCap:snippetText src="insert_viz_icon.flsnp" /></b> to add a new, blank visualization to the dossier.</li>
+            <li>If necessary, <a href="../../add_datasets_dossier.htm">add datasets</a> to the dossier.</li>
+            <li>In the Visualization Gallery, click <b>Map</b> <img src="../Images/map_viz_icon__workstation.png" style="width: 22px;" />.</li>
+            <li>In the Format panel, select <b>Map Options</b> from the first drop-down list. </li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title>Deploying with Tomcat</title>
+    </head>
+    <body>
+        <ul class="tabs">
+            <li class="tab-link current" data-tab="tab-1">Windows</li>
+            <li class="tab-link" data-tab="tab-2">Linux</li>
+        </ul>
+        <div class="container">
+            <div id="tab-1" class="tab-content current">
+                <p>
+                    This section provides information used to deploy and configure MicroStrategy JSP applications in a Tomcat-only environment. For information on how to configure Tomcat to work with IIS, see <code>iishowto.html</code> (Tomcat 6.0) in the Tomcat documentation. You can use the steps below to deploy MicroStrategy Web (JSP) and MicroStrategy Mobile Server (JSP): </p>
+                <ul>
+                    <li>
+                        <MadCap:xref class="section_name_and_page" href="Preconfiguration_information_3.htm#ic_wuconfig_2660991842_1078717">Preconfiguration information</MadCap:xref>: Configuration that must occur before you begin deploying MicroStrategy Web (JSP), Mobile Server (JSP) (JSP).</li>
+                    <li>
+                        <MadCap:xref class="section_name_and_page" href="Deploying_MicroStrategy_Web__Mobile_Server__or_Ope_3.htm#ic_wuconfig_2660991842_1078777">Deploying MicroStrategy Web and Mobile Server</MadCap:xref>: Instructions for deploying, including step-by<span class="_Override" style="color: #ff0000;">-</span>step procedures.</li>
+                </ul>
+                <h2><a name="ic_wuconfig_2660991842_1078717"></a><a name="ic_wuconfig_2660991842_65868"></a>Preconfiguration Information</h2>
+                <p>This section provides the preconfiguration information necessary to deploy MicroStrategy JSP applications on Tomcat on your machine. </p>
+                <h3>Installing the JDK</h3>
+                <p>If you have not installed the Oracle JDK yet, download the file from the <a href="http://www.oracle.com/technetwork/java/index.html">website</a>. Be sure to install the JDK and not the JRE software options. </p>
+                <p class="Note">To configure the JDK, a system variable must point to the folder where you install the JDK. If you install the JDK to a simple folder path such as <code>C:\ </code>setting the system variable is easier and more likely to be correct.</p>
+                <h3>Configuring the JDK</h3>
+                <p class="Note">The third-party products discussed below are manufactured by vendors independent of MicroStrategy, and the steps to configure these products is subject to change. Refer to the appropriate Microsoft documentation for steps to access and modify the environment variables.</p>
+                <ol>
+                    <li>From the <b>Start</b> menu, go to <b>Computer</b> &gt; <b>System properties</b> &gt; <b>Advanced system settings</b> &gt; <b>Environment Variables</b> &gt; <b>System Variables</b>. </li>
+                    <li>Under , click <b>New</b> to create a system variable. </li>
+                    <li>In the <b>Variable Name</b> field, type <code style="font-weight: bold;">JAVA_HOME</code>.</li>
+                    <li>In the <b>Variable Value</b> field, type the path of the folder where you installed the JDK and click <b>OK</b>. </li>
+                </ol>
+                <p class="Indent">For example, if the fully qualified path to your JDK executable is <code>C:\jdk1.6.0\bin\java.exe</code>, the value of your <code>JAVA_HOME</code> variable is <code>C:\jdk1.6.0</code>.</p>
+                <p class="Note">If you have installed JDK under the <code>Program Files</code> folder, type <code style="font-weight: bold;">Progra~1</code> when specifying the folder name in the Variable Value box; otherwise the system does not recognize the folder. For example, type <code>C:\Progra~1\jdk1.6.0</code> in the Variable Value box.</p>
+                <h3>Configuring Tomcat</h3>
+                <p>This procedure assumes that you have downloaded and installed Tomcat on your machine. You can download Tomcat from the Apache website; depending on the version you want to download, you may need to locate the appropriate file in Apache's Archive area. Instructions for downloading and installing Tomcat are also available on the Apache website.</p>
+                <p>To configure Tomcat, a system variable must point to the folder where you install Tomcat. Installing Tomcat to a simple folder path such as <code>C:\Tomcat </code>makes it easier to define the system variable.</p>
+                <p class="Note">The third-party products discussed below are manufactured by vendors independent of MicroStrategy, and the steps to configure these products is subject to change. Refer to the appropriate Microsoft documentation for steps to access and modify the environment variables.</p>
+                <ol>
+                    <li>From the <b>Start</b> menu, go to <b>Computer</b> &gt; <b>System properties</b> &gt; <b>Advanced system settings</b> &gt; <b>Environment Variables</b> &gt; <b>System Variables</b>.</li>
+                    <li>Click <b>New</b> to create a system variable. </li>
+                    <li>In the <b>Variable Name</b> field, type <code>CATALINA_HOME</code>.</li>
+                    <li>In the <b>Variable Value</b> field, specify the path of the folder where you installed Tomcat and click <b>OK</b>. For example, if you installed Tomcat directly to the C drive, the destination folder is <code>C:\Tomcat</code>.</li>
+                </ol>
+                <p class="Note_Indent">If you installed Tomcat under the <code>Program Files</code> folder, type <code style="font-weight: bold;">Progra~1</code> when specifying the folder in the Variable Value box. Otherwise, the system does not recognize the folder. For example, type <code>C:\Progra~1\Tomcat</code> in the Variable Value box.</p>
+                <h3>Setting the Java heap size</h3>
+                <p>The Java heap size for the Tomcat can be modified by defining the <code>JAVA_OPTS</code> parameter in the <code>catalina.bat</code> file. For example, you can define this parameter as follows:</p>
+                <p style="font-weight: normal;font-style: normal;font-size: 12pt;letter-spacing: 0em;color: #000000;text-decoration: none;"><code>JAVA_OPTS = "-Xms1024m -Xmx2048m"</code>
+                </p>
+                <p>This value may need to be modified to reflect the requirements of your specific environment. Refer to your third-party application server documentation for information on how to determine a satisfactory Java heap size for your environment.</p>
+            </div>
+            <h2><a name="ic_wuconfig_2660991842_1078777"></a><a name="ic_wuconfig_2660991842_54455"></a>Deploying MicroStrategy Web and Mobile Server</h2>
+            <p>Assuming you have made all the necessary configurations described above, you can begin deploying MicroStrategy Web (JSP), Mobile Server (JSP) (JSP) with Tomcat. </p>
+            <h3><a name="ic_wuconfig_2660991842_1078793"></a><a name="ic_wuconfig_2660991842_34533"></a>Deploying using Tomcat as a stand-alone Web container</h3>
+            <ol>
+                <li>Locate the WAR file for your MicroStrategy JSP application, as described in <MadCap:xref class="section_name_and_page" href="../Locating_the_WAR_file.htm#ic_wuconfig_2660991842_1208239">Locating the WAR file</MadCap:xref>.</li>
+                <li>Copy the WAR file to the <code class="italic">Tomcat</code><code>\webapps</code> folder. </li>
+                <li>From the <b>Start</b> menu, select <b>Run</b>.</li>
+                <li>Type <code class="bold">cmd</code> in the Open drop-down list and click <b>OK</b>.</li>
+                <li>
+                    <p>Browse to the <code class="italic">Tomcat</code><code>\bin</code> folder, where <code class="italic">Tomcat</code> is the folder in which you installed Tomcat. For example, in the command prompt, type</p><pre><code>cd C:\Tomcat\bin</code></pre>
+                </li>
+                <li>Click <b>Enter</b>. <code>C:\Tomcat\bin&gt;</code> is displayed at the command prompt.</li>
+                <li>Type the required commands to start and stop Tomcat, which depends on your version of Tomcat. For example, for Tomcat 7, type <code class="bold">Tomcat7 start</code> to start Tomcat and type <code class="bold">Tomcat7 stop</code> to stop Tomcat. Refer to your third-party Apache documentation for information on the commands to start and stop Tomcat. </li>
+            </ol>
+            <p class="Note">If you installed Tomcat under the <code>Program Files</code> folder, type <b>Progra~1</b> when you change folders in the command prompt. Otherwise, the system does not recognize the folder. For example, type <code>C:\Progra~1\Tomcat\bin</code> in the command prompt.</p>
+            <p>Your MicroStrategy JSP application is deployed automatically, based on the following:</p>
+            <ul>
+                <li>If you have configured Tomcat to deploy an exploded WAR file, which is often the default behavior, a folder is created within the <code class="italic">Tomcat</code><code>\webapps</code> folder:<ul><li>When deploying MicroStrategy Web (JSP), the folder is named <code>MicroStrategy</code> by default. </li><li>When deploying MicroStrategy Mobile Server (JSP), the folder is named <code>MicroStrategyMobile</code> by default. </li></ul></li>
+                <li>If you have configured Tomcat to deploy an unexploded WAR file, the configuration files are created within the system's default temporary file directory. For Windows systems, the temporary file directory is commonly defined by the <code>TMP</code> environment variable:<ul><li>When deploying MicroStrategy Web (JSP), a <code>/microstrategy/web-</code><code class="italic">Version</code><code>/</code> folder is created within the temporary file directory, where <code class="italic">Version</code> is the version number for the MicroStrategy Web (JSP) product. Within this folder location, various configuration files can be found within the <code>WEB-INF</code> folder and its subfolders. </li><li>When deploying MicroStrategy Mobile Server (JSP), a <code>/microstrategy/mobile-</code><code class="italic">Version</code><code>/</code> folder is created within the temporary file directory, where <code class="italic">Version</code> is the version number for the MicroStrategy Mobile Server (JSP) product. Within this folder location, various configuration files can be found within the <code>WEB-INF</code> folder and its subfolders. </li></ul></li>
+            </ul>
+            <h3><a name="ic_wuconfig_2660991842_1215380"></a><a name="ic_wuconfig_2660991842_76221"></a>Configuring administrative access your MicroStrategy JSP applications</h3>
+            <p>To allow users authorized to access MicroStrategy Web Administrator, MicroStrategy Mobile Server Administrator, you must create the users and assign them the role of <code>admin</code> under the Tomcat user configuration file. The steps to configure this access are below.</p>
+            <ol>
+                <li>In the <code class="italic">Tomcat</code><code>\conf</code> folder, open the <code>tomcat-users.xml</code> file in a program that allows you to edit the file, such as Notepad.</li>
+                <li>Add the following tag and save the file:<p><code>&lt;user name="</code><code class="italic">administrator</code><code>" password="</code><code class="italic">administrator</code><code>" roles="admin"/&gt;</code></p><p class="Note">You can specify any value in the <code>user name</code> and <code>password</code> fields.</p></li>
+                <li>Stop and start Tomcat from the command line.</li>
+            </ol>
+            <h3><a name="ic_wuconfig_2660991842_1078813"></a><a name="ic_wuconfig_2660991842_10427"></a>Accessing the MicroStrategy JSP application administrative page</h3>
+            <p>You can use the steps below to access the administrative page for your MicroStrategy JSP application. </p>
+            <ol>
+                <li>Access the servlet by typing the following URL in a Web browser:<ul><li>For Web (JSP): <code>http://</code><code class="italic">localhost</code><code>:</code><code style="font-style: italic;">8080/</code><code>MicroStrategy/servlet/mstrWebAdmin</code></li><li>For Mobile Server (JSP): <code>http://</code><code class="italic">localhost</code><code>:</code><code style="font-style: italic;">8080/</code><code>MicroStrategyMobile/servlet/mstrWebAdmin</code></li></ul><p>The servlet names at the end of the URL are case-sensitive. Make sure to use the correct case when typing the servlet name. If the application server is enabled with security, a dialog box related to the administrator authentication opens.</p><p>If you are using Tomcat integrated with IIS, you do not need to specify the port number in the URL. However, when using Tomcat as a stand-alone Web container, you must specify the port number. The default port for Tomcat is 8080.</p></li>
+                <li>When prompted for a user name and password, use the same values you specified in the <code>tomcat-users.xml</code> file. </li>
+                <li>If you are deploying MicroStrategy Web (JSP), the MicroStrategy Web Administrator page appears. Add and connect to an Intelligence Server. </li>
+                <li>If you are deploying MicroStrategy Mobile Server (JSP), the MicroStrategy Mobile Server Administrator page appears. Add and connect to an Intelligence Server. Once connected, click <b>Mobile Configuration</b> to configure your MicroStrategy Mobile applications to communicate with Mobile Server and Intelligence Server. For steps on how to define this configuration, see the <MadCap:snippetText src="../Resources/Snippets/Guide_Links/MDAG_link.flsnp" />. Creating a configuration completes the steps required to deploy Mobile Server (JSP).</li>
+            </ol>
+            <h2><a name="ic_wuconfig_2660991842_1078831"></a><a name="ic_wuconfig_2660991842_49749"></a>Launching the project</h2>
+            <p>In a Web browser, access MicroStrategy Web (JSP) using this URL:</p><pre><code>http://</code><code class="italic">localhost</code><code>:</code><code style="font-style: italic;">8080/</code><code>MicroStrategy/servlet/mstrWeb</code></pre>
+            <div id="tab-2" class="tab-content">
+                <p>This section provides information on how to deploy and configure MicroStrategy JSP applications with Tomcat in a Linux environment. You can use the steps below to deploy MicroStrategy Web (JSP) and MicroStrategy Mobile Server (JSP):</p>
+                <ul>
+                    <li>
+                        <MadCap:xref class="section_name_and_page" href="Preconfiguration_information_4.htm#ic_wuconfig_2660991842_1038763">Preconfiguration information</MadCap:xref>: Configuration that must occur before you begin deploying MicroStrategy Web (JSP), Mobile Server (JSP) (JSP).</li>
+                    <li>
+                        <MadCap:xref class="section_name_and_page" href="Deploying_MicroStrategy_Web__Mobile_Server__or_Ope_4.htm#ic_wuconfig_2660991842_1038841">Deploying MicroStrategy Web and Mobile Server</MadCap:xref>: Instructions for deploying, including detailed steps.</li>
+                </ul>
+                <h2><a name="ic_wuconfig_2660991842_1038763"></a><a name="ic_wuconfig_2660991842_91518"></a>Preconfiguration Information</h2>
+                <p>This section provides the preconfiguration information necessary to deploy MicroStrategy JSP applications with Tomcat on your Linux machine.</p>
+                <h3><a name="ic_wuconfig_2660991842_1069769"></a><a name="ic_wuconfig_2660991842_41748"></a>Installing the JDK</h3>
+                <p>If you have not installed Oracle JDK yet, download the shell file <a href="http://www.oracle.com/technetwork/java/index.html">here</a>. Be sure to install the JDK and not the JRE software options. </p>
+                <p class="Note">To configure the JDK, a system variable must point to the folder where you install the JDK. If you install the JDK to a simple folder path such as <code>C:\</code> setting the system variable is easier and more likely to be correct.</p>
+                <p>From the location in which to install the JDK, run the file you downloaded:</p>
+                <p class="Indent" style="font-weight: normal;font-style: normal;font-size: 12pt;letter-spacing: 0em;color: #000000;text-decoration: none;"><code>jdk-</code><code class="italic">Version</code><code>-linux-i586.bin</code>
+                </p>
+                <p>For example, to install version 1.6.0, type the following:</p>
+                <p class="Indent" style="font-weight: normal;font-style: normal;font-size: 12pt;letter-spacing: 0em;color: #000000;text-decoration: none;"><code>jdk-1_6_0-linux-i586.bin</code>
+                </p>
+                <h3><a name="ic_wuconfig_2660991842_1072222"></a><a name="ic_wuconfig_2660991842_50041"></a>Configuring the JDK</h3>
+                <ol>
+                    <li>Open the <code>/etc/profile</code> file using a program that allows you to edit the file. </li>
+                    <li>Add the following line:<p><code>export JAVA_HOME=/</code><code class="italic">PathName</code><code>/jdk</code><code class="italic">Version</code><code>;</code></p><p>where <code class="italic">PathName</code> is the destination folder where you installed the JDK and <code class="italic">Version</code> is the version, such as 1_6_0, of the JDK.</p></li>
+                </ol>
+                <h3><a name="ic_wuconfig_2660991842_1072342"></a><a name="ic_wuconfig_2660991842_97097"></a>Installing Tomcat</h3>
+                <p>This procedure assumes that you have downloaded and installed Tomcat in a directory named <code class="italic">Tomcat</code> on your machine. If you have not installed Tomcat<span class="_Override" style="color: #ff0000;"> </span>yet, download the zip file from the following links:</p>
+                <ul>
+                    <li><a href="http://tomcat.apache.org/download-70.cgi">Tomcat 7.0.x</a>
+                    </li>
+                    <li><a href="http://tomcat.apache.org/download-80.cgi">Tomcat 8.0.x</a>
+                    </li>
+                </ul>
+                <p class="Note">Contact your System Administrator or visit the Apache website for instructions on downloading and installing Tomcat. </p>
+                <h3><a name="ic_wuconfig_2660991842_1072345"></a><a name="ic_wuconfig_2660991842_43233"></a>Configuring Tomcat</h3>
+                <p>After you install Tomcat, you must configure Tomcat. The Tomcat configuration includes creating the environment variable <code>CATALINA_HOME</code> and defining this environment variable to point to the Tomcat directory.</p>
+                <ol>
+                    <li>Open the <i style="font-family: 'Courier New';">etc/profile</i> file in a program that allows you to edit the file.</li>
+                    <li>Type the following:<p><code>export CATALINA_HOME = /</code><code class="italic">PathName</code></p><p>where <code class="italic">PathName</code> is the directory where you have installed Tomcat.</p><p>For example,</p><p><code>export CATALINA_HOME = /Tomcat</code></p></li>
+                </ol>
+                <h3>Setting the Java Heap Size</h3>
+                <p>The Java heap size for the Tomcat can be modified by defining the <code>JAVA_OPTS</code> parameter in the <code>catalina.sh</code> file. For example, you can define this parameter as follows:</p>
+                <p style="font-weight: normal;font-style: normal;font-size: 12pt;letter-spacing: 0em;color: #000000;text-decoration: none;"><code>JAVA_OPTS = "-Xms1024m -Xmx2048m"</code>
+                </p>
+                <p>This value may need to be modified to reflect the requirements of your specific environment. Refer to your third-party application server documentation for information on how to determine a satisfactory Java heap size for your environment.</p>
+                <h2><a name="ic_wuconfig_2660991842_1038841"></a><a name="ic_wuconfig_2660991842_75896"></a><a name="ic_wuconfig_2660991842_34539"></a><a name="ic_wuconfig_2660991842_36223"></a>Deploying MicroStrategy Web and Mobile Server</h2>
+                <p>After you have performed the configurations described above, you can begin deploying MicroStrategy JSP applications with Tomcat. </p>
+                <h3><a name="ic_wuconfig_2660991842_1038857"></a><a name="ic_wuconfig_2660991842_37126"></a>Deploying using Tomcat as a standalone Web container</h3>
+                <ol>
+                    <li>Locate the WAR file for your MicroStrategy JSP application, as described in <MadCap:xref class="section_name_and_page" href="../Locating_the_WAR_file.htm#ic_wuconfig_2660991842_1208239">Locating the WAR file</MadCap:xref>.</li>
+                    <li>Copy the WAR file to the <code class="italic">Tomcat</code><code>/webapps</code> directory. </li>
+                </ol>
+                <h4 class="procedure_sub">To start and stop Tomcat from the command line</h4>
+                <p>Type <code># $CATALINA_HOME/bin/startup.sh</code> and click <b>Enter</b> to start Tomcat, which deploys your MicroStrategy JSP applications automatically, based on the following:</p>
+                <ul>
+                    <li>If you have configured Tomcat to deploy an exploded WAR file, which is often the default behavior, a folder is created within the <code class="italic">Tomcat/</code><code>webapps</code> folder:<ul><li>When deploying MicroStrategy Web (JSP), the folder is named <code>MicroStrategy</code> by default. </li><li>When deploying MicroStrategy Mobile Server (JSP), the folder is named <code>MicroStrategyMobile</code> by default. </li></ul></li>
+                    <li>If you have configured Tomcat to deploy an unexploded WAR file, the configuration files are created within the system's default temporary file directory. For Linux systems, the temporary file directory is usually <code>/tmp/</code> or /<code>var/tmp/</code>:<ul><li>When deploying MicroStrategy Web (JSP), a <code>/microstrategy/web-</code><code class="italic">Version</code><code>/</code> folder is created within the temporary file directory, where <code class="italic">Version</code> is the version number for the MicroStrategy Web (JSP) product. Within this folder location, various configuration files can be found within the <code>WEB-INF</code> folder and its subfolders. </li><li>When deploying MicroStrategy Mobile Server (JSP), a <code>/microstrategy/mobile-</code><code class="italic">Version</code><code>/</code> folder is created within the temporary file directory, where <code class="italic">Version</code> is the version number for the MicroStrategy Mobile Server (JSP) product. Within this folder location, various configuration files can be found within the <code>WEB-INF</code> folder and its subfolders. </li></ul></li>
+                </ul>
+                <h3>Configuring administrative access to MicroStrategy JSP applications </h3>
+                <p>To allow users authorized to access MicroStrategy Web Administrator, MicroStrategy Mobile Server Administrator, you must create the users and assign them the role of <code>admin</code> under the Tomcat user configuration file. The steps to configure this access are below.</p>
+                <ol>
+                    <li>In the <code class="italic">Tomcat</code><code>/conf</code> directory, open the <code>tomcat-users.xml</code> file using a program that allows you to edit the file. </li>
+                    <li>
+                        <p>Add the following tags and save the file:</p>
+                        <p><code>&lt;role rolename="admin"/&gt;</code>
+                        </p>
+                        <p><code>&lt;user username="admin" password="admin" roles="admin"/&gt;</code>
+                        </p>
+                        <p class="Note">You can specify any value in the <code>user name</code> and <code>password</code> fields. These are used to log in to the MicroStrategy Web Administrator and Mobile Server Administrator pages. The <code>roles</code> field must be <code style="font-weight: bold;">admin</code>.</p>
+                    </li>
+                    <li>Stop and restart Tomcat.</li>
+                </ol>
+                <p>Now you can access and configure your MicroStrategy JSP application, as described in <MadCap:xref class="section_name" href="#ic_wuconfig_2660991842_1038877">Accessing the MicroStrategy JSP application administrative page</MadCap:xref>.</p>
+                <h3><a name="ic_wuconfig_2660991842_1038877"></a><a name="ic_wuconfig_2660991842_96344"></a>Accessing the MicroStrategy JSP application administrative page</h3>
+                <p>You can use the steps below to access the administrative page for your MicroStrategy JSP application. </p>
+                <ol>
+                    <li>Access the servlet by typing the following URL in a Web browser:<ul><li>For Web (JSP): <code>http://</code><code class="italic">localhost</code><code>:</code><code style="font-style: italic;">8080/</code><code>MicroStrategy/servlet/mstrWebAdmin</code></li><li><p>For Mobile Server (JSP): <code>http://</code><code class="italic">localhost</code><code>:</code><code style="font-style: italic;">8080/</code><code>MicroStrategyMobile/servlet/mstrWebAdmin</code></p><p>The servlet names at the end of the URL are case-sensitive. Make sure to use the correct case when typing the servlet name. If the application server is enabled with security, a dialog box related to the administrator authentication opens.</p></li></ul></li>
+                    <li>When prompted for a user name and password, use the same values you specified in the <code>tomcat-users.xml</code> file. </li>
+                    <li>After you are authenticated:</li>
+                    <ul>
+                        <li>If you are deploying MicroStrategy Web (JSP), the MicroStrategy Web Administrator page appears. Add and connect to an Intelligence Server. </li>
+                        <li>If you are deploying MicroStrategy Mobile Server (JSP), the MicroStrategy Mobile Server Administrator page appears. Add and connect to an Intelligence Server. Once connected, click <b>Mobile Configuration</b> to configure your MicroStrategy Mobile applications to communicate with Mobile Server and Intelligence Server. For steps on how to define this configuration, see the <MadCap:snippetText src="../Resources/Snippets/Guide_Links/MDAG_link.flsnp" />. Creating a configuration completes the steps required to deploy Mobile Server (JSP).</li>
+                    </ul>
+                    <li>
+                        <p>If you are deploying MicroStrategy Web (JSP), proceed to launch the MicroStrategy project. In a Web browser, access MicroStrategy Web (JSP) using the following URL:</p>
+                        <p class="Indent"><code>http://</code><code class="italic">localhost</code><code>:8080</code><code style="font-style: italic;">/</code><code>MicroStrategy/servlet/mstrWeb</code>
+                        </p>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </body>
+</html>

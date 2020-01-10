@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="MSTR_Tool.Hyper">
+    <head>
+    </head>
+    <body>
+        <h1>Allow Alternate Keyword Matching</h1>
+        <p>When creating a dataset for HyperIntelligence, you can map additional descriptive information (attribute forms) to a given attribute. For example, you have an attribute called Customer. Each element of the Customer attribute represents a different customer, and in the data, you store the customer number, address, and email address.</p>
+        <p>To improve your card matches, you can choose the attribute forms that best suits your use case. This is an Alias Forms solution that allows you to pick other existing forms of the displayed attribute on the card for matching. These forms can be hidden or displayed on the card. </p>
+        <h3>Create a Multi-Form Attribute for Alternate Keyword Matching</h3>
+        <p>You can add alternate keywords to a card to broaden the scope of what appears as a keyword attribute in your browser. Alternate keywords do not replace a keyword attribute. Rather, they  identify words or numbers that are synonymous with a keyword attribute so that both alternate keywords, and the keyword attribute  appear in your browser. </p>
+        <p>For instance, if your keyword attribute is employee name, you could add employee ID as an alternate keyword. This way if your browser displays an employee ID instead of an employee name, the employee ID would still be underlined as if it were the keyword attribute and  the same card would appear. </p>
+        <p>You can add an alternate keyword by creating a multi-form attribute. </p>
+        <ol>
+            <li>From the Workstation window, select <b>Datasets</b>.</li>
+            <li>Right-click on the dataset or cube you are using to create cards.</li>
+            <li>Select <b>Edit Dataset</b>.</li>
+            <li>Multi-select the attributes you want to combine into a <MadCap:popup><MadCap:popupHead>multi-form attribute</MadCap:popupHead><MadCap:popupBody>A multi-form attribute is used to combine two or more forms of the same attribute into a single attribute.</MadCap:popupBody></MadCap:popup>.</li>
+            <li>Right-click on one of the attributes you have selected and click <b>Create Multi-form Attribute</b>. </li>
+            <li>Open the drop-down menu next to the attribute you want to use as an alternate keyword and select <b>Synonym 1</b>.<p>The synonym number you select will depend on how you choose to map your alternate keywords. For example, if you select Synonym 1, then in the Workstation card editor you will have to enable Synonym 1 to activate the alternate keyword it is mapped to in the Create Multi-Form Attribute dialog. </p><p><img src="Resources/Images/Hyper_synonyms.png" style="height: auto;width: 850px;" /></p></li>
+            <li>Click <b>Submit</b>.</li>
+            <li>Click <b>Update Dataset</b>.</li>
+            <li>Return to the Card Editor and select the <b>Alternate Keyword Matching </b><img src="Resources/Images/alt_match.PNG" />icon.</li>
+            <li>Select the <b>Synonym #</b> to add to keyword matches.</li>
+        </ol>
+        <p>The alternate keywords you have chosen can be enabled in the Workstation Card Editor. </p>
+    </body>
+</html>

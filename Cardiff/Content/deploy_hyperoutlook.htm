@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>How to Deploy the HyperIntelligence for Office Add-in</h1>
+        <p>You can deploy add-in as an administrator to multiple users at once, or directly to a specific Outlook account. Once the add-in is deployed, users will have access to all of the cards available in their environment. </p>
+        <div class="reqs">
+            <p>Before deployment, you must first <MadCap:xref href="generate_manifest_file.htm">Generate the Manifest File Using Workstation</MadCap:xref></p>
+        </div>
+        <h2>Deploy as an Administrator</h2>
+        <ol>
+            <li>From the Microsoft Admin Center, select <b>Settings</b> &gt; <b>Services &amp; add-ins</b>.<p><img src="Resources/Images/hyperoutlook_admin.PNG" style="width: 1067px;height: 540px;" /></p></li>
+            <li>Click <b>Deploy Add-In</b> on the Services &amp; add-ins page.</li>
+            <li>Select <b>I have the manifest file...</b> from the Deploy Add-In dialog.<p><img src="Resources/Images/hyperoutlook_deploy_addin.PNG" /></p><p class="Note">If you've placed your manifest file online, you can select <b>I have a URL...</b> instead.</p></li>
+            <li>Click <b>Browse</b> to add the manifest file from your machine.</li>
+            <li>Click <b>Next</b>.</li>
+            <li>Select the group(s) you are deploying add-in to.</li>
+            <li>Click <b>Deploy Now</b>.</li>
+        </ol>
+        <p>Once these steps are complete, within 12 hours the add-in will be deployed to the selected group(s) in your network. Deploying HyperIntelligence for Office to user's accounts allows them to view HyperIntelligence Cards on Outlook for desktop and Outlook for web.</p>
+        <h2>Deploy Directly to the Outlook Desktop App</h2>
+        <ol>
+            <li>Click <b>Get Add-ins</b> from the ribbon of your Outlook desktop app.<p><img src="Resources/Images/hyperoutlook_deploy_direct.png" /></p></li>
+            <li>Select <b>My add-ins</b> from the side-navigation panel. </li>
+            <li>
+                <p>Click <b>Add a custom add-in</b> &gt; <b>Add from file</b> under Custom add-ins.</p>
+                <p class="Note">If you've placed your manifest file online, you can select <b>Add from URL</b> instead.</p>
+            </li>
+            <li>Open the manifest file from your machine. The add-in is available in the ribbon bar.<p><img src="Resources/Images/HyperOutlook_deployed.PNG" /></p></li>
+        </ol>
+        <p>For more information about deployment, see the official <a href="https://docs.microsoft.com/en-us/office/dev/add-ins/publish/centralized-deployment">Microsoft documentation</a>. </p>
+        <p class="Note">If you are using Azure Single Sign-On to log in to HyperIntelligence, you may encounter an error. For troubleshooting steps, see <a href="https://community.microstrategy.com/s/article/Using-Azure-Single-Sign-On-to-log-into-the-HyperIntelligence-for-Office-Outlook-add-in-results-in-the-error-A-problem-occurred-while-trying-to-reach-this-add-in?language=en_US">KB483733</a>.</p>
+    </body>
+</html>

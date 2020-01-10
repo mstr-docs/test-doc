@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="https://community.microstrategy.com/s/" />
+    <Link
+      Url="Content/Resources/Images/MSTR_logo.png" />
+    <Link
+      Url="https://community.microstrategy.com/s/gallery" />
+    <Link
+      Url="https://community.microstrategy.com/s/learning-center" />
+    <Link
+      Url="https://community.microstrategy.com/s/discussions" />
+    <Link
+      Url="https://community.microstrategy.com/s/products" />
+    <Link
+      Url="https://community.microstrategy.com/s/contactsupport" />
+    <Link
+      Url="https://licensing.microstrategy.com/" />
+    <Link
+      Url="https://community.microstrategy.com/s/group/CollaborationGroup/00BE0000004Cob6MAC" />
+    <Link
+      Url="https://community.microstrategy.com/s/announcements" />
+    <Link
+      Url="https://community.microstrategy.com/s/ideas" />
+    <Link
+      Url="https://community.microstrategy.com/s/members" />
+    <Link
+      Url="https://community.microstrategy.com/s/topic/0TO44000000QAGaGAO" />
+    <Link
+      Url="https://community.microstrategy.com/s/topic/0TO44000000QAGVGA4" />
+    <Link
+      Url="https://community.microstrategy.com/s/topic/0TO2R000000kaD0WAI" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="https://community.microstrategy.com/s/" />
+    <Link
+      Url="Content/Resources/Images/MSTR_logo.png" />
+    <Link
+      Url="https://community.microstrategy.com/s/gallery" />
+    <Link
+      Url="https://community.microstrategy.com/s/learning-center" />
+    <Link
+      Url="https://community.microstrategy.com/s/discussions" />
+    <Link
+      Url="https://community.microstrategy.com/s/products" />
+    <Link
+      Url="https://community.microstrategy.com/s/contactsupport" />
+    <Link
+      Url="https://licensing.microstrategy.com/" />
+    <Link
+      Url="https://community.microstrategy.com/s/group/CollaborationGroup/00BE0000004Cob6MAC" />
+    <Link
+      Url="https://community.microstrategy.com/s/announcements" />
+    <Link
+      Url="https://community.microstrategy.com/s/ideas" />
+    <Link
+      Url="https://community.microstrategy.com/s/members" />
+    <Link
+      Url="https://community.microstrategy.com/s/topic/0TO44000000QAGaGAO" />
+    <Link
+      Url="https://community.microstrategy.com/s/topic/0TO44000000QAGVGA4" />
+    <Link
+      Url="https://community.microstrategy.com/s/topic/0TO2R000000kaD0WAI" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

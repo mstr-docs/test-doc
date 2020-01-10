@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Before installing Platform Analytics on a Windows or Linux machine, ensure that all of the prerequisites are met for each of the following areas:</p>
+        <ul>
+            <li>
+                <p>
+                    <MadCap:xref href="#Ports">Ports</MadCap:xref>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:xref href="#MySQL">MySQL Server</MadCap:xref>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:xref href="#MySQL2">MySQL JDBC and ODBC</MadCap:xref>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:xref href="#Disable">Disable MySQL SSL</MadCap:xref>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:xref href="#Platform">Platform Analytics Warehouse</MadCap:xref>
+                </p>
+            </li>
+        </ul>
+        <h2><a name="Ports"></a>Ports</h2>
+        <p>The following ports must be open and available in the machines where you will install the Telemetry Server(s) and Platform Analytics:</p>
+        <ul>
+            <li>9092</li>
+            <li>2181</li>
+            <li>6379</li>
+            <li>3306</li>
+            <li>2888 and 3888 (only if you plan to cluster three or more Telemetry Servers)</li>
+        </ul>
+        <h2><a name="MySQL"></a>MySQL Server</h2>
+        <p class="Note">Only MySQL Version 5.7 and above are supported. The recommended MySQL&#160;version for MicroStrategy 2019 is 8.0.16</p>
+        <ol>
+            <li>
+                <p>Install MySql.</p>
+                <p>There are two options for installing MySQL:</p>
+                <ul>
+                    <li>
+                        <p><b>Option 1</b>: Download rpm bundle files from the <a href="https://dev.mysql.com/downloads/mysql/">MySQL Downloads</a> page.</p>
+                        <p>The following four libraries are required for mysql installation:</p>
+                        <ul>
+                            <li><code>mysql-community-client</code>
+                            </li>
+                            <li><code>mysql-community-common</code>
+                            </li>
+                            <li><code>mysql-community-libs</code>
+                            </li>
+                            <li><code>mysql-community-server</code>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p><b>Option 2</b>: You can also follow the official MySQL&#160;procedure to install the <a href="https://dev.mysql.com/doc/refman/8.0/en/binary-installation.html">MySQL generic binaries</a>.</p>
+                        <p class="Note">When using this approach the MySQL database and service must be set up manually. To initialize the database and enable the MySQL service, follow the <a href="https://dev.mysql.com/doc/refman/8.0/en/postinstallation.html">MySQL&#160;post-installation instructions</a>.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>Once MySQL has been installed, start and enable the MySQL service using the following commands:</p>
+                <p class="Note">The temporary password for the <code>root</code> user will be available on <code>/var/log/mysqld.log</code></p>
+                <div class="sdk_code"><pre>systemctl start mysqld
+
+systemctl enable mysqld</pre>
+                </div>
+            </li>
+        </ol>
+        <h2><a name="MySQL2"></a>MySQL JDBC and ODBC</h2>
+        <p>See the official instructions from MySQL&#160;for:</p>
+        <ul>
+            <li><a href="https://dev.mysql.com/doc/connector-odbc/en/connector-odbc-installation-binary-unix-tarball.html">ODBC Installatio</a>
+            </li>
+            <li><a href="https://dev.mysql.com/downloads/connector/j/">JDBC (Connector/J) Installation</a>
+            </li>
+        </ul>
+        <h2><a name="Disable"></a>Disable MySQL SSL</h2>
+        <p>To disable SSL, follow the following steps:</p>
+        <ol>
+            <li>Delete the <code>*.pem</code> certificate and key files from the MySQL data directory <code>/var/lib/mysql</code></li>
+            <li>Add a line entry <code>ssl=0</code> and comment out all SSL entries, such as ssl-ca, ssl-cert, and ssl-key in the <code>my.cnf</code> file.</li>
+            <li>
+                <p>Restart MySQL service using the following command</p>
+                <p><pre><span class="sdk_code">systemctl restart mysqld</span></pre>
+                </p>
+            </li>
+            <li>
+                <p>Login via the MySQL console using the temporary password in <code>/var/log/mysqld.log</code></p><pre class="sdk_code">mysql -u root -p &lt;temp_pwd&gt;</pre>
+            </li>
+            <li>
+                <p>The status of SSL should show as <code>Not in use</code>, as shown below:</p>
+                <div class="sdk_code"><pre>mysql&gt; status;
+--------------
+mysql  Ver 8.0.16 for Linux on x86_64 (MySQL Community Server - GPL)
+
+Connection id:		72343
+Current database:
+Current user:		root@localhost
+SSL:			Not in use
+Current pager:		stdout
+Using outfile:		''
+Using delimiter:	;
+Server version:		8.0.16 MySQL Community Server - GPL
+Protocol version:	10
+Connection:		Localhost via UNIX socket
+Server characterset:	utf8mb4
+Db     characterset:	utf8mb4
+Client characterset:	utf8mb4
+Conn.  characterset:	utf8mb4
+UNIX socket:		/var/lib/mysql/mysql.sock
+Uptime:			11 days 14 hours 56 min 57 sec
+
+Threads: 12  Questions: 1699769  Slow queries: 0  Opens: 54013  Flush tables: 3  Open tables: 3411  Queries per second avg: 1.692
+--------------</pre>
+                </div>
+            </li>
+        </ol>
+        <div class="Note">
+            <p>In Windows environments:</p>
+            <ul>
+                <li>The SSL configuration is controlled by the <code>my.ini</code> file instead of <code>my.cnf</code>. Follow the procedure above, making the edits to <code>my.ini</code>.</li>
+                <li>The MySQL service should be restarted from the Services app. Open <b>Start</b> &gt; <b>Windows Administrative Tools</b> &gt; <b>Services</b>.</li>
+            </ul>
+        </div>
+        <h2><a name="Platform"></a>Platform Analytics Warehouse</h2>
+        <p>There are three steps  to setup Platform Analytics warehouse:</p>
+        <ol>
+            <li>
+                <p>Create a user.</p>
+                <ul>
+                    <li>
+                        <p><b>MySQL 5</b>:</p>
+                        <p><code>CREATE USER 'mstr'@'%' IDENTIFIED BY 'YOUR_PASSWORD';</code>
+                        </p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p><b>MySQL 8</b>:</p>
+                        <p><code>CREATE USER 'mstr'@'%' IDENTIFIED WITH mysql_native_password BY 'YOUR_PASSWORD';</code>
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>Create the database.</p>
+                <p>Platform Analytics requires the database be named <code>platform_analytics_wh</code>.</p>
+                <p><code>CREATE DATABASE platform_analytics_wh DEFAULT CHARACTER SET utf8 DEFAULT COLLATE utf8_general_ci;</code>
+                </p>
+            </li>
+            <li>
+                <p>Grant privileges.</p>
+                <p>You must provide the credentials of a MySQL database user with the following permissions:</p>
+                <ul>
+                    <li>Create</li>
+                    <li>Index</li>
+                    <li>Select</li>
+                    <li>Create/alter routine</li>
+                    <li>Insert</li>
+                    <li>Delete</li>
+                    <li>Create temporary tables</li>
+                    <li>Alter</li>
+                    <li>Update</li>
+                    <li>Create view</li>
+                    <li>Drop</li>
+                    <li>Execute</li>
+                </ul>
+                <div class="sdk_code"><pre>GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, INDEX, ALTER, EXECUTE, CREATE TEMPORARY TABLES, CREATE VIEW, CREATE ROUTINE, ALTER ROUTINE ON platform_analytics_wh.* TO 'mstr'@'%';
+FLUSH PRIVILEGES;</pre>
+                </div>
+            </li>
+        </ol>
+    </body>
+</html>

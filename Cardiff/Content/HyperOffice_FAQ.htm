@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="Resources/TableStyles/table_from_MSTR_website.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>HyperIntelligence for Office FAQ</h1>
+        <p>Use this document to find answers to the most common questions surrounding the HyperIntelligence for Office. For more detailed information, and steps on how to set up and use the add-in, see the HyperIntelligence for Office <MadCap:xref href="Hyper_Outlook.htm">product documentation</MadCap:xref>. </p>
+        <ol>
+            <li>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>What is the HyperIntelligence for Office add-in?</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>The add-in gives users access to the cards in their environment on the Outlook Desktop application for macOS and Windows OS. When the add-in is enabled, users can see relevant cards based on the subject of an email, the sender and recipient of the email, and the text in the body of an email.</p>
+                        <p style="text-align: left;">
+                            <img src="Resources/Images/Hyperoutlook.png" />
+                        </p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </li>
+            <li>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Why is the HyperIntelligence for Office add-in disabled on the Outlook toolbar?</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p style="text-align: left;">The add-in will be disabled in the toolbar if the Reading Pane is turned off. Turning the Reading Pane off will disable all add-ins in Outlook.</p>
+                        <p style="text-align: left;">To turn on the Reading Pane, go to the<b> View</b> tab. In the Layout section, click the Reading Pane drop-down and choose <b>Right</b> or <b>Bottom</b>. </p>
+                        <p style="text-align: left;">
+                            <img src="Resources/Images/reading_pane.png" style="width: 262px;height: 262px;" />
+                        </p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </li>
+            <li>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>How do I install the HyperIntelligence for Office add-in?</MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>You can install HyperOffice either as an administrator or directly to your own Outlook app by adding a generated manifest file from your environment. For instructions on installation and deployment, see <MadCap:xref href="installing_hyperoutlook.htm">Installing the HyperIntelligence for Office add-in.</MadCap:xref></p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </li>
+            <li>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Why is the Generate Add-in File button grayed out on Workstation?</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>Check your environment URL. The environment must have an HTTPS URL because Outlook does not support add-ins connecting to HTTP URLs. For more information, see <a href="https://docs.microsoft.com/en-us/office/dev/add-ins/concepts/privacy-and-security#other-security-practices">Privacy and Security for Office Add-ins</a>.</p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </li>
+            <li>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>How do I switch environments? </MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>The add-in can only connect to one environment at a time, because the manifest file used to deploy the it comes pre-configured with that environment's information.</p>
+                        <p>If you need to connect to another environment, you need another add-in/manifest file with the new environment's information.</p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </li>
+            <li>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>How do I stop the add-in from disappearing as I switch between emails?</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>After enabling the add-in, click on the pin icon <img src="Resources/Images/outlook_pin.png" /> in so that it points down. This will ensure that the window remains open even when switching between emails.</p>
+                        <p> You can also drag the window to resize it to best fit your needs.</p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </li>
+            <li>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>What authentication modes are available for the HyperIntelligence for Office add-in?</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>The add-in connects to the MicroStrategy platform via the Library Server. It currently supports a subset of the authentication modes supported by Library. Use the table below to learn the differences:</p>
+                        <table style="width: 100%;mc-table-style: url('Resources/TableStyles/table_from_MSTR_website.css');" class="TableStyle-table_from_MSTR_website" cellspacing="0">
+                            <col class="TableStyle-table_from_MSTR_website-Column-Column2" style="width: 358px;" />
+                            <col class="TableStyle-table_from_MSTR_website-Column-Column2" style="width: 294px;" />
+                            <col class="TableStyle-table_from_MSTR_website-Column-Column2" style="width: 284px;" />
+                            <col class="TableStyle-table_from_MSTR_website-Column-Column2" />
+                            <thead>
+                                <tr class="TableStyle-table_from_MSTR_website-Head-Header1">
+                                    <th class="TableStyle-table_from_MSTR_website-HeadE-Column2-Header1">Supported Authentication</th>
+                                    <th class="TableStyle-table_from_MSTR_website-HeadE-Column2-Header1">Library</th>
+                                    <th class="TableStyle-table_from_MSTR_website-HeadE-Column2-Header1">Add-in</th>
+                                    <th class="TableStyle-table_from_MSTR_website-HeadD-Column2-Header1">Notes</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="TableStyle-table_from_MSTR_website-Body-Body1">
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body1" style="text-align: center;">Standard</td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body1" style="text-align: center;">Yes</td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body1" style="text-align: center;">Yes</td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyD-Column2-Body1" style="text-align: center;">&#160;</td>
+                                </tr>
+                                <tr class="TableStyle-table_from_MSTR_website-Body-Body2">
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body2" style="text-align: center;">
+                                        <p>LDAP</p>
+                                    </td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body2" style="text-align: center;">
+                                        <p>Yes</p>
+                                    </td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body2" style="text-align: center;">
+                                        <p>Yes</p>
+                                    </td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyD-Column2-Body2" style="text-align: center;">
+                                        <p>&#160;</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-table_from_MSTR_website-Body-Body1">
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body1" style="text-align: center;">Guest</td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body1" style="text-align: center;">Yes</td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body1" style="text-align: center;">Yes</td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyD-Column2-Body1" style="text-align: center;">&#160;</td>
+                                </tr>
+                                <tr class="TableStyle-table_from_MSTR_website-Body-Body2">
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body2" style="text-align: center;">
+                                        <p>Integrated</p>
+                                    </td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body2" style="text-align: center;">
+                                        <p>Yes</p>
+                                    </td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body2" style="text-align: center;">
+                                        <p>No</p>
+                                    </td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyD-Column2-Body2" style="text-align: center;">
+                                        <p>&#160;</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-table_from_MSTR_website-Body-Body1">
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body1" style="text-align: center;">Trusted</td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body1" style="text-align: center;">Yes</td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body1" style="text-align: center;">No</td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyD-Column2-Body1" style="text-align: center;">
+                                        <p>&#160;</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-table_from_MSTR_website-Body-Body2">
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body2" style="text-align: center;">
+                                        <p>MicroStrategy Identity</p>
+                                    </td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body2" style="text-align: center;">
+                                        <p>Yes</p>
+                                    </td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body2" style="text-align: center;">
+                                        <p>Yes</p>
+                                    </td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyD-Column2-Body2" style="text-align: center;">
+                                        <p>&#160;</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-table_from_MSTR_website-Body-Body1">
+                                    <td class="TableStyle-table_from_MSTR_website-BodyB-Column2-Body1" style="text-align: center;">SAML</td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyB-Column2-Body1" style="text-align: center;">Yes</td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyB-Column2-Body1" style="text-align: center;">Yes</td>
+                                    <td class="TableStyle-table_from_MSTR_website-BodyA-Column2-Body1" style="text-align: center;">Only HTTP Redirect Binding is currently supported</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </li>
+            <li>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Why are keywords not underlined in Outlook?</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>The add-in functions differently than other HyperIntelligence products.  The add-in does not underline and highlight detected keywords like HyperIntelligence for Web does. Instead, it scans selected emails to show cards in a side panel based on its subject, body, sender, and recipient.</p>
+                        <p>
+                            <img src="Resources/Images/Hyperoutlook.png" />
+                        </p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </li>
+            <li>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>How do you deploy the HyperIntelligence for Office add-in to an enterprise?</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>You can deploy the add-in as an administrator to multiple users at once, or directly to a specific Outlook account. Once the add-in is deployed, users will have access to all of the cards available in the environment that your manifest file is created from in their Outlook. Click <a href="installing_hyperoutlook.htm">here</a> to learn more.</p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </li>
+            <li>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>What is the data volume size supported by HyperIntelligence for Office</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>HyperIntelligence for Office can support over one million keywords. However, for optimal performance, it is recommended to only use up to one million keywords. More than one million keywords may cause performance issues due to the large memory consumption and CPU usage.</p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </li>
+            <li>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>What languages does HyperIntelligence for Office support?</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>The following languages are supported:</p>
+                        <ul>
+                            <li>English (US)</li>
+                            <li>German (Germany)</li>
+                            <li>Danish (Denmark)</li>
+                            <li>Simplified Chinese (China mainland)</li>
+                            <li>Traditional Chinese (Taiwan, Singapore, and Hong Kong)</li>
+                            <li>Italian (Italy)</li>
+                            <li>Japanese (Japan)</li>
+                            <li>Spanish (Spain)</li>
+                            <li>French (France)</li>
+                            <li>Portuguese (Brazil)</li>
+                            <li>Dutch (Netherlands)</li>
+                            <li>Korean (Korea)</li>
+                            <li>Polish (Poland)</li>
+                            <li>Swedish (Sweden)</li>
+                        </ul>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </li>
+        </ol>
+    </body>
+</html>

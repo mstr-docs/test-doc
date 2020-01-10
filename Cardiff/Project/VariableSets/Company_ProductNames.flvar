@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="CompanyName"
+    EvaluatedDefinition="MicroStrategy">MicroStrategy</Variable>
+  <Variable
+    Comment="Core of the MSTR Architecture"
+    Name="Iserver"
+    EvaluatedDefinition="Intelligence Server">Intelligence Server</Variable>
+  <Variable
+    Name="Desktop"
+    Comment="Free product as intro to MSTR"
+    EvaluatedDefinition="Desktop">Desktop</Variable>
+  <Variable
+    Name="Transaction Services"
+    Comment=""
+    EvaluatedDefinition="Transaction Services">Transaction Services</Variable>
+  <Variable
+    Name="Dossier"
+    Comment="This is the new version of Desktop"
+    EvaluatedDefinition="Dossier">Dossier</Variable>
+  <Variable
+    Name="Command Manager"
+    Comment=""
+    EvaluatedDefinition="" />
+  <Variable
+    Name="Enterprise Manager"
+    Comment=""
+    EvaluatedDefinition="" />
+  <Variable
+    Name="Project"
+    Comment="No longer used"
+    EvaluatedDefinition="dashboard">dashboard</Variable>
+  <Variable
+    Name="Cloud Tool"
+    Comment=""
+    EvaluatedDefinition="MicroStrategy Cloud Platform for AWS">MicroStrategy Cloud Platform for AWS</Variable>
+  <Variable
+    Name="Cloud Console"
+    Comment=""
+    EvaluatedDefinition="MicroStrategy Cloud Platform">MicroStrategy Cloud Platform</Variable>
+  <Variable
+    Name="DigitalIdentify"
+    Comment=""
+    EvaluatedDefinition="Usher">Usher</Variable>
+  <Variable
+    Name="VizTool"
+    Comment="This should be either Desktop, Workstation, or Web (used as Product Name)"
+    EvaluatedDefinition="Desktop">Desktop</Variable>
+  <Variable
+    Name="VizTool"
+    Comment=""
+    EvaluatedDefinition="Workstation">Workstation</Variable>
+  <Variable
+    Name="Project"
+    Comment="This is a dossier in Desktop, Workstation, or Web"
+    EvaluatedDefinition="dossier">dossier</Variable>
+  <Variable
+    Name="Project-Capitalized"
+    Comment="Use when Dashboard needs to be capitalized"
+    EvaluatedDefinition="Dashboard">Dashboard</Variable>
+  <Variable
+    Name="ParentSegment_Caps"
+    Comment="This is in a visualization in Desktop or Web"
+    EvaluatedDefinition="Sheet">Sheet</Variable>
+  <Variable
+    Name="ParentSegment_Caps"
+    Comment="This is in a visualization in Workstation"
+    EvaluatedDefinition="Chapter">Chapter</Variable>
+  <Variable
+    Name="ParentSegment_lowercase"
+    Comment="This is in a visualization in Desktop or Web"
+    EvaluatedDefinition="Sheet">sheet</Variable>
+  <Variable
+    Name="ParentSegment_lowercase"
+    Comment="This is in a visualization in Workstation"
+    EvaluatedDefinition="Chapter">chapter</Variable>
+  <Variable
+    Name="ChildSegment_Caps"
+    Comment="This is in a visualization in Desktop or Web"
+    EvaluatedDefinition="Panel">Panel</Variable>
+  <Variable
+    Name="ChildSegment_Caps"
+    Comment="This is in a visualization in Workstation."
+    EvaluatedDefinition="Page">Page</Variable>
+  <Variable
+    Name="ChildSegment_lowercase"
+    Comment="This is in a visualization in Desktop or Web"
+    EvaluatedDefinition="Panel">panel</Variable>
+  <Variable
+    Name="ChildSegment_lowercase"
+    Comment="This is in a visualization in Workstation."
+    EvaluatedDefinition="Page">page</Variable>
+  <Variable
+    Name="Project-Capitalized"
+    Comment="When Dossier needs to be capitalized"
+    EvaluatedDefinition="Dossier">Dossier</Variable>
+  <Variable
+    Name="VizTool"
+    Comment=""
+    EvaluatedDefinition="Web">Web</Variable>
+  <Variable
+    Name="OnlineHelpTitle"
+    Comment=""
+    EvaluatedDefinition="Command Manager">Command Manager</Variable>
+  <Variable
+    Name="OnlineHelpTitle"
+    Comment=""
+    EvaluatedDefinition="Installation and Configuration">Installation and Configuration</Variable>
+  <Variable
+    Name="OnlineHelpTitle"
+    Comment=""
+    EvaluatedDefinition="Platform Analytics">Platform Analytics</Variable>
+  <Variable
+    Name="OnlineHelpTitle"
+    Comment=""
+    EvaluatedDefinition="Platform Upgrade Advisory">Platform Upgrade Advisory</Variable>
+  <Variable
+    Name="OnlineHelpTitle"
+    Comment=""
+    EvaluatedDefinition="R Integration">R Integration</Variable>
+  <Variable
+    Name="OnlineHelpTitle"
+    Comment=""
+    EvaluatedDefinition="System Administration">System Administration</Variable>
+  <Variable
+    Name="OnlineHelpTitle"
+    Comment=""
+    EvaluatedDefinition="Upgrade Guide">Upgrade Guide</Variable>
+  <Variable
+    Name="OnlineHelpTitle"
+    Comment=""
+    EvaluatedDefinition="Usher Badge">Usher Badge</Variable>
+  <Variable
+    Name="OnlineHelpTitle"
+    Comment=""
+    EvaluatedDefinition="Usher">Usher</Variable>
+  <Variable
+    Name="OnlineHelpTitle"
+    Comment=""
+    EvaluatedDefinition="Web Administration">Web Administration</Variable>
+  <Variable
+    Name="OnlineHelpTitle"
+    Comment=""
+    EvaluatedDefinition="Desktop">Desktop</Variable>
+  <Variable
+    Name="OnlineHelpTitle"
+    Comment=""
+    EvaluatedDefinition="Basic Reporting">Basic Reporting</Variable>
+  <Variable
+    Name="OnlineHelpTitle"
+    Comment=""
+    EvaluatedDefinition="Workstation">Workstation</Variable>
+  <Variable
+    Name="OnlineHelpTitle"
+    Comment=""
+    EvaluatedDefinition="MicroStrategy Web">MicroStrategy Web</Variable>
+  <Variable
+    Name="OnlineHelpTitle"
+    Comment=""
+    EvaluatedDefinition="Advanced Reporting">Advanced Reporting</Variable>
+  <Variable
+    Name="OnlineHelpTitle"
+    Comment=""
+    EvaluatedDefinition="Dashboards and Widgets">Dashboards and Widgets</Variable>
+  <Variable
+    Name="OnlineHelpTitle"
+    Comment=""
+    EvaluatedDefinition="Document Creation">Document Creation</Variable>
+  <Variable
+    Name="OnlineHelpTitle"
+    Comment=""
+    EvaluatedDefinition="Functions Reference">Functions Reference</Variable>
+  <Variable
+    Name="OnlineHelpTitle"
+    Comment=""
+    EvaluatedDefinition="MicroStrategy Library">MicroStrategy Library</Variable>
+  <Variable
+    Name="OnlineHelpTitle"
+    Comment=""
+    EvaluatedDefinition="MDX Cube Reporting">MDX Cube Reporting</Variable>
+  <Variable
+    Name="OnlineHelpTitle"
+    Comment=""
+    EvaluatedDefinition="MicroStrategy Mobile">MicroStrategy Mobile</Variable>
+  <Variable
+    Name="OnlineHelpTitle"
+    Comment=""
+    EvaluatedDefinition="Project Design">Project Design</Variable>
+  <Variable
+    Name="OnlineHelpTitle"
+    Comment=""
+    EvaluatedDefinition="Readme">Readme</Variable>
+  <Variable
+    Name="OnlineHelpTitle"
+    Comment=""
+    EvaluatedDefinition="Report Designer">Report Designer</Variable>
+  <Variable
+    Name="OnlineHelpTitle"
+    Comment=""
+    EvaluatedDefinition="In-memory Analytics">In-memory Analytics</Variable>
+  <Variable
+    Name="Cloud Tool (Azure)"
+    Comment=""
+    EvaluatedDefinition="MicroStrategy Cloud Platform for Azure">MicroStrategy Cloud Platform for Azure</Variable>
+  <Variable
+    Name="Office"
+    Comment="MicroStrategy add-in for Microsoft Office"
+    EvaluatedDefinition="MicroStrategy for Office">MicroStrategy for Office</Variable>
+  <Variable
+    Name="HyperOffice"
+    Comment="Official/full-length Hyper Outlook title"
+    EvaluatedDefinition="HyperOffice Outlook add-in">HyperOffice Outlook add-in</Variable>
+  <Variable
+    Name="HyperOffice Outlook"
+    Comment="Shortened Hyper Outlook name"
+    EvaluatedDefinition="HyperOffice Outlook">HyperOffice Outlook</Variable>
+  <Variable
+    Name="Cards"
+    Comment="Hyper object"
+    EvaluatedDefinition="card">card</Variable>
+  <Variable
+    Name="Jupyter plugin"
+    Comment="MicroStrategy plugin for Jupyter"
+    EvaluatedDefinition="MicroStrategy for Jupyter">MicroStrategy for Jupyter</Variable>
+  <Variable
+    Name="RStudio plugin"
+    Comment="MicroStrategy plugin for RStudio"
+    EvaluatedDefinition="MicroStrategy for RStudio">MicroStrategy for RStudio</Variable>
+  <Variable
+    Name="Project"
+    Comment="This is a report services document in Workstation"
+    EvaluatedDefinition="document">document</Variable>
+  <Variable
+    Name="Project-Capitalized"
+    Comment="When Document needs to be capitalized"
+    EvaluatedDefinition="Document">Document</Variable>
+</CatapultVariableSet>

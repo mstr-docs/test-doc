@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/ConditionTagSets/MSTR_Tool.flcts" />
+    <Link
+      Url="Content/profile_cards_adding_images.htm" />
+    <Link
+      Url="Content/Resources/Images/img_tags.png" />
+    <Link
+      Url="Content/Hyper_keyword_attributes.htm" />
+    <Link
+      Url="Content/Resources/Images/example.png" />
+    <Link
+      Url="https://community.microstrategy.com/s/article/KB483140-Example-of-Adding-Images-to-HyperCards" />
+    <Link
+      Url="Content/Resources/Images/table_sql_query.png" />
+    <Link
+      Url="Content/Resources/Snippets/admin_rights_windows.flsnp" />
+    <Link
+      Url="Content/Resources/Images/refresh_lightening.png" />
+    <Link
+      Url="Content/Resources/Images/catalog.png" />
+    <Link
+      Url="Content/Resources/Images/facts.png" />
+    <Link
+      Url="Content/Resources/Images/Update Schema icon.PNG" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/ConditionTagSets/MSTR_Tool.flcts" />
+    <Link
+      Url="Content/profile_cards_adding_images.htm#html_tags" />
+    <Link
+      Url="Content/profile_cards_adding_images.htm#URLs" />
+    <Link
+      Url="Content/Resources/Images/img_tags.png" />
+    <Link
+      Url="Content/Hyper_keyword_attributes.htm" />
+    <Link
+      Url="Content/Resources/Images/example.png" />
+    <Link
+      Url="https://community.microstrategy.com/s/article/KB483140-Example-of-Adding-Images-to-HyperCards?language=en_US" />
+    <Link
+      Url="Content/profile_cards_adding_images.htm#Create_tables" />
+    <Link
+      Url="Content/profile_cards_adding_images.htm#add_table" />
+    <Link
+      Url="Content/profile_cards_adding_images.htm#Create_attributes" />
+    <Link
+      Url="Content/profile_cards_adding_images.htm#Create_metrics" />
+    <Link
+      Url="Content/profile_cards_adding_images.htm#cube" />
+    <Link
+      Url="Content/Resources/Images/table_sql_query.png" />
+    <Link
+      Url="Content/Resources/Snippets/admin_rights_windows.flsnp" />
+    <Link
+      Url="Content/Resources/Images/refresh_lightening.png" />
+    <Link
+      Url="Content/Resources/Images/catalog.png" />
+    <Link
+      Url="Content/Resources/Images/facts.png" />
+    <Link
+      Url="Content/Resources/Images/Update Schema icon.PNG" />
+  </LongLinks>
+  <Anchors>
+    <Anchor
+      Name="html_tags" />
+    <Anchor
+      Name="URLs" />
+    <Anchor
+      Name="Create_tables" />
+    <Anchor
+      Name="add_table" />
+    <Anchor
+      Name="Create_attributes" />
+    <Anchor
+      Name="Create_metrics" />
+    <Anchor
+      Name="cube" />
+  </Anchors>
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions>
+    <Condition
+      Tag="MSTR_Tool.Hyper" />
+  </FileConditions>
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="MSTR_Tool.Hyper" />
+  </AllConditions>
+  <Stylesheets />
+</CatapultFileLinkSet>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="344" MadCap:lastWidth="735">
+    <body>
+        <h3>Title and Container</h3>
+        <p>The following options are available to format the title, background, and borders in a visualization:</p>
+        <h4>Title</h4>
+        <p>
+            <b>Show titlebar</b>: Select the checkbox to display the visualization's title.</p>
+        <p>
+            <b>Font</b>: Select font formatting options.</p>
+        <h4>Container</h4>
+        <p>
+            <b>Fill Color</b>: Select the background color of the visualization from the palette.</p>
+        <p>
+            <b>Outer Border</b>: Select the style and color of the visualization's borders from the drop-down lists. </p>
+    </body>
+</html>

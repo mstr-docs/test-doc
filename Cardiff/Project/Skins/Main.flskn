@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="3"
+  SkinType="WebHelp2"
+  ComponentType="MasterPage"
+  TemplateName="Fluid"
+  Comment="HTML5 Side Navigation skin"
+  EnableResponsiveOutput="True"
+  AutoSyncTOC="true">
+  <WebHelpOptions
+    NavigationPanePosition="Right"
+    OffCanvasMenuStyle="Drilldown"
+    MainMenuPosition="Left"
+    EnableSticky="All"
+    TopMenuDepth="3" />
+  <Stylesheet>
+    <Styles>
+      <Style
+        Name="Side Navigation Menu">
+        <Properties>
+          <Property
+            Name="BackgroundColor">transparent</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Menu" />
+      <Style
+        Name="Search Submit Button">
+        <Properties>
+          <Property
+            Name="BackgroundColor">#ffffff</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Header">
+        <Properties>
+          <Property
+            Name="BackgroundColor">#333333</Property>
+          <Property
+            Name="MaxWidth">100%</Property>
+          <Property
+            Name="Display">none</Property>
+          <Property
+            Name="PaddingLeft">0em</Property>
+          <Property
+            Name="PaddingRight">0em</Property>
+          <Property
+            Name="PaddingTop">0px</Property>
+          <Property
+            Name="PaddingBottom">0px</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Side Navigation Menu Item">
+        <Properties>
+          <Property
+            Name="MarginTop">3px</Property>
+          <Property
+            Name="BackgroundColor">#ffffff</Property>
+          <Property
+            Name="BorderTop">none 0px #dadada</Property>
+          <Property
+            Name="BorderRight">none 1px #dadada</Property>
+          <Property
+            Name="BorderBottom">none 1px #dadada</Property>
+          <Property
+            Name="BorderLeft">none 1px #dadada</Property>
+          <Property
+            Name="LineHeight">1.2em</Property>
+          <Property
+            Name="Color">#444444</Property>
+        </Properties>
+        <Classes>
+          <StyleClass
+            Name="1st Level">
+            <Properties>
+              <Property
+                Name="BorderRight">none 1px #dadada</Property>
+              <Property
+                Name="BorderBottom">none 1px #dadada</Property>
+              <Property
+                Name="BorderLeft">none 1px #dadada</Property>
+              <Property
+                Name="FontSize">0.98em</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="2nd Level">
+            <Properties>
+              <Property
+                Name="FontSize">0.96em</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="Expander Icon">
+            <Properties>
+              <Property
+                Name="ExpanderBorderColor">#666666</Property>
+              <Property
+                Name="ExpanderBorderWidth">6px</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
+      </Style>
+      <Style
+        Name="Side Navigation Menu Item (selected)">
+        <Properties>
+          <Property
+            Name="BorderRight">none 1px #dadada</Property>
+          <Property
+            Name="Color">#d9232e</Property>
+          <Property
+            Name="FontStyle">normal</Property>
+          <Property
+            Name="BorderBottom">solid 1px #777777</Property>
+        </Properties>
+        <Classes>
+          <StyleClass
+            Name="2nd Level">
+            <Properties>
+              <Property
+                Name="FontSize">0.96em</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="1st Level">
+            <Properties>
+              <Property
+                Name="FontSize">0.98em</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
+      </Style>
+      <Style
+        Name="Side Navigation Menu Item (hover)">
+        <Properties>
+          <Property
+            Name="BackgroundColor">#f2f2f2</Property>
+          <Property
+            Name="FontSize">1.1em</Property>
+          <Property
+            Name="Color">#d9232e</Property>
+        </Properties>
+        <Classes>
+          <StyleClass
+            Name="1st Level">
+            <Properties>
+              <Property
+                Name="FontSize">1em</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="2nd Level">
+            <Properties>
+              <Property
+                Name="FontSize">0.98em</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="3rd Level">
+            <Properties>
+              <Property
+                Name="FontSize">0.96em</Property>
+              <Property
+                Name="FontWeight">bold</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="Expander Icon">
+            <Properties>
+              <Property
+                Name="ExpanderBorderWidth">0px</Property>
+              <Property
+                Name="ExpanderBorderColor">#d9232e</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
+      </Style>
+      <Medium
+        Name="Tablet">
+        <Style
+          Name="Navigation Panel">
+          <Properties>
+            <Property
+              Name="BackgroundColor">#dadada</Property>
+          </Properties>
+        </Style>
+        <Style
+          Name="Navigation Panel Item">
+          <Properties>
+            <Property
+              Name="BorderBottom">none 0px #262626</Property>
+            <Property
+              Name="Color">#262626</Property>
+          </Properties>
+        </Style>
+        <Style
+          Name="Navigation Panel Item (hover)">
+          <Properties>
+            <Property
+              Name="BackgroundColor">transparent</Property>
+            <Property
+              Name="Color">#181818</Property>
+          </Properties>
+        </Style>
+      </Medium>
+      <Style
+        Name="Logo">
+        <Properties>
+          <Property
+            Name="Display">none</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Bar">
+        <Properties>
+          <Property
+            Name="Display">none</Property>
+        </Properties>
+      </Style>
+    </Styles>
+    <Stylesheet></Stylesheet>
+  </Stylesheet>
+  <Strings />
+</CatapultSkin>

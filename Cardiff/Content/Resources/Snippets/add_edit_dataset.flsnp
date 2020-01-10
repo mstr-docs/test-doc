@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol start="1">
+            <li>
+                <a href="../../Creating_a_New_Blank_Dashboard.htm">Create a blank dossier</a> or <a href="../../open_dossier.htm">open an existing one</a>.</li>
+            <li>
+                <p> Choose <b>Add Data</b> <img src="../Images/add_data_icon__workstation.png" /> &gt; <b>New Data</b> to import data into a new dataset.</p>
+                <p>
+                    <i>or</i>
+                </p>
+                <p>In the Datasets panel, <MadCap:snippetText src="click_More_lowercase.flsnp" /> next to the dataset name and choose <b>Edit Dataset</b> to add data to the dataset. The <MadCap:xref href="../../Preview_page.htm">Preview Dialog</MadCap:xref> opens. Click <b>Add a new table</b>.</p>
+                <p>The Data Sources dialog opens.</p>
+            </li>
+        </ol>
+    </body>
+</html>

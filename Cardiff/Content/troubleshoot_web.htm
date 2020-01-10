@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="Resources/TableStyles/table_from_MSTR_website.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>Troubleshooting HyperIntelligence for Web</h1>
+        <p>While using HyperIntelligence for Web, you may encounter the following errors. Use the guidance below to troubleshoot these errors.</p>
+        <h2>Error:&#160;Invalid Data or Card</h2>
+        <p>
+            <img src="Resources/Images/invalid_data.png" />
+        </p>
+        <p>This error appears in the extension when trying to enable a card that has been modified or deleted in Workstation. To resolve the warning, click the <b>Refresh</b><img src="Resources/Images/refresh.png" />button in the extension. The card is removed from the extension if it was deleted.</p>
+        <h2>Error: Access Denied</h2>
+        <p>
+            <img src="Resources/Images/access_denied_error.png" />
+        </p>
+        <p>This error appears on the extension when you do not have the necessary security access. To view cards, you must have <b>View</b> access or higher to the card and the cube. To modify the permissions to an object, see <a href="https://www2.microstrategy.com/producthelp/Current/SystemAdmin/WebHelp/Lang_1033/Content/Controlling_access_to_objects__Permissions.htm">Controlling Access to Objects:&#160;Permissions</a>. If you already have View access to both the card and its cube, ensure you have access to the keyword attribute. To view the card, you need View access or higher on the attributes on the card. Verify your permissions by checking the ACL to attributes in Object Security Access.</p>
+        <p>If the above troubleshooting techniques do not resolve the warning, click the <b>Refresh</b><img src="Resources/Images/refresh.png" />button on the extension. Its possible the card was removed from Workstation or ACL permissions were recently modified. </p>
+        <h2>Error:&#160;Missing Keyword Attribute</h2>
+        <p>
+            <img src="Resources/Images/missing_keyword_attribute_error.png" />
+        </p>
+        <p>This error appears on the extension when your card does not contain a keyword attribute. It's possible your card was saved without an attribute in the card header. Open the Card Editor in Workstation to verify if your card has an attribute in the header. If your card does have an attribute in the header and the warning persists, ensure the attribute and its values were not deleted or set to null in your cube. If your card header appears with two dashes (--) then your attribute has a value of null. </p>
+        <p>If the above troubleshooting techniques do not resolve the warning, open MicroStrategy Developer or Workstation to check to see if one or more security filters on your cube exclude the data for your keyword attribute. </p>
+        <h2>Error:&#160;Locked Keyword Attribute Form</h2>
+        <p>
+            <img src="Resources/Images/locked_keyword_attribute_form_error.png" />
+        </p>
+        <p>This error appears when enabling a card containing a multi-form keyword attribute that has a locked attribute form. To resolve the warning, you must unlock the keyword attribute form or use a different attribute as your keyword attribute. For more information on locked attribute elements, see <a href="https://www2.microstrategy.com/producthelp/current/ProjectDesignGuide/WebHelp/Lang_1033/Content/Controlling_the_display_of_attribute_elements.htm">Controlling the display of attribute elements</a>.</p>
+        <p>To unlock an attribute form, perform the following steps:</p>
+        <ol>
+            <li>Open MicroStrategy Developer.</li>
+            <li>Double-click your keyword attribute. The Attribute Editor appears.</li>
+            <li>Select the <b>Display</b> tab.</li>
+            <li>Under Element Display, select <b>Unlocked</b>.</li>
+            <li>Click <b>Save and Close</b>.</li>
+            <li>Restart the Intelligence Server for your changes to take affect.</li>
+        </ol>
+        <h2>Error: Unsupported Card Template</h2>
+        <p>
+            <img src="Resources/Images/unsupported_card_template.png" />
+        </p>
+        <p>This error appears when a card's template is not supported by the Library Server. </p>
+        <p>This can happen in certain situations when you view the card on a different Library Server than the one you created the card on. For example, say your card was built with a custom template that was coded and added on the Library Server and stored in the metadata. If you connect to the same metadata using a different Library Server, you cannot enable the card since the Library Server you are using does not have the custom coded template. Similarly, say you build a card with a new template using the latest version of the Library Server and store the card in the metadata. If you connect to the same metadata using an older Library Server version, you cannot enable the card.</p>
+        <h2>Error:&#160;You have exceeded the maximum storage available</h2>
+        <p>
+            <img src="Resources/Images/exceeded_space.png" />
+        </p>
+        <p>This error appears when the total number of keywords and alternate keywords from all enabled cards exceeds 500,000. Turn off some cards in the extension (preferably with large datasets) to free up space to enable other cards.&#160;</p>
+        <h2>Error:&#160;Server Error</h2>
+        <p>
+            <img src="Resources/Images/server_error.png" />
+        </p>
+        <p>This error appears when enabling a card while the Intelligence Server is down or has timed out. Contact your administrator to check the status of the Intelligence Server.</p>
+        <h2>Error:&#160;Your session timed out, please log in again</h2>
+        <p>
+            <img src="Resources/Images/session_time_out.png" />
+        </p>
+        <p>This error appears when enabling a card while the Intelligence Server is down or has timed out. Contact your administrator to check the status of the Intelligence Server.</p>
+        <h2>Error:&#160;Card is not available</h2>
+        <p>
+            <img src="Resources/Images/cardnotavailable.png" />
+        </p>
+        <p>The error "Card is not available" may appear for several reasons:</p>
+        <ul>
+            <li>You have more than 10 cards enabled and after refreshing the extension, the warning appears. The reason the warning appears in this situation is because the cards were not downloaded properly after enabling them. This is due to the working set limitation on the Server side.</li>
+            <li>The cube data behind the card has been re-structured or deleted in the metadata or Workstation. Confirm whether or not the cube has been modified or deleted.</li>
+            <li>The hard disk of your machine is running out of space and you continue to enable more cards in the extension. The reason the warning appears in this situation is because you need to free HD space on the machine to make room for more cards.</li>
+            <li>You are not connected to the network or the network is off. Check the status of the network on your machine and try again.</li>
+            <li>It's possible that large data preparation on the Server side has caused it to time out.&#160;You can check the network transaction using Developer Tools on your browser. Look for the sentence, "Your request has timed out. Please try again later."</li>
+        </ul>
+        <h2>Error:&#160;Card Data is Unavailable</h2>
+        <p>
+            <img src="Resources/Images/card_data_unavailable.png" />
+        </p>
+        <p>This error appears when creating or editing a card based on an unpublished cube. To publish your cube, see the <a href="https://www2.microstrategy.com/producthelp/Current/inmemoryanalytics/webhelp/lang_1033/content/inmemoryanalysis/publishing_intelligent_cubes.htm">In-Memory Analytics Help</a>.</p>
+        <p>This error appears when hovering over keyword attributes for cards enabled in the extension, but deleted from Workstation. To resolve the error, refresh the extension so you have the latest list of cards available in your environment. </p>
+        <h2>Error: Please connect to an environment version 2019 or newer</h2>
+        <p>
+            <img src="Resources/Images/environmenterror.png" />
+        </p>
+        <p>This error occurs when the extension is connected to a Library Server that is connected to an Intelligence Server older than MicroStrategy 2019. To resolve this error, in the Library Server admin page, connect to an Intelligence Server version 2019 or later and then log in to the extension.</p>
+        <h2>Error:&#160;You don't have the required privilege to use HyperIntelligence</h2>
+        <p>
+            <img src="Resources/Images/use_hyper_web_privilege_needed.png" />
+        </p>
+        <p>This error appears when you do not have the necessary privilege to use the HyperIntelligence extension. Contact your administrator to grant you the <b>Use Hyper Web</b> privilege.</p>
+        <h2>Error: Please enter a valid environment URL</h2>
+        <p>
+            <img src="Resources/Images/enter_valid_url.png" />
+        </p>
+        <p>This error may appear if the wrong environment URL is entered in the extension. Ensure your URL contains <span class="code">MicroStrategyLibrary</span> at the end, like <span class="code">http://…/MicroStrategyLibrary</span>. If your environment URL is correct and the error persists, ensure you have network connection. Alternatively, contact your administrator to check the status of the Library Server, as this may be a result of the Library Server being down.</p>
+        <h2>Error: Server Error</h2>
+        <p>
+            <img src="Resources/Images/server_error_login.png" />
+        </p>
+        <p>This error appears when logging in to the extension while the Intelligence Server is down or has timed out. Contact your administrator to check the status of the Intelligence Server.</p>
+        <h2>Error: No Cards</h2>
+        <p>
+            <img src="Resources/Images/no_cards.png" />
+        </p>
+        <p>This message may appear for several reasons:</p>
+        <ul>
+            <li>You do not have access to any cards in your environment. To see what access is required to view the card, open Workstation and select the <b>Cards</b> tab. Right-click your card and select <b>Properties</b>. Choose the <b>Security Access</b> tab to see what permission level you have.</li>
+            <li>You have access to the card, but the search index for one or a few of the projects in the environment are in a corrupted state. To resolve this issue, contact your administrator to rebuild the search index. </li>
+            <li>You have a few cards enabled at the same time the Intelligence Server goes down. If you refresh the extension, the error appears. Contact your administrator to check the status of the Intelligence Server. </li>
+        </ul>
+        <h2>Error: Card is not available</h2>
+        <p>
+            <img src="Resources/Images/card_not_available.png" />
+        </p>
+        <p>This message may appear when hovering over keyword attributes for several reasons:</p>
+        <ul>
+            <li>The card object was deleted from Workstation but the extension has not been refreshed. When you hover over keyword attributes, the "Card is not available"&#160;error appears on non-cached cards. To resolve this error, click the <b>Refresh</b><img src="Resources/Images/refresh.png" />button to remove the card.</li>
+            <li>&#160;The Library Server or the <MadCap:variable name="Company_ProductNames.Iserver" /> is down but the extension has not been refreshed. When you hover over keyword attributes, the "Card is not available"&#160;error appears on non-cached cards. Contact your administrator to check the status of both the Library Server and the <MadCap:variable name="Company_ProductNames.Iserver" />.</li>
+            <li>If the network has been lost, hovering over keyword attributes will causes the "Card is not available"&#160;error to appear on non-cached cards. Check the network status on your machine to resolve the error.</li>
+        </ul>
+        <h2>Error: No login modes are available</h2>
+        <p>
+            <img src="Resources/Images/no_login_modes.png" />
+        </p>
+        <p>This error appears when all the authentication modes configured in the Library Server are not supported by the extension. The table below lists the supported authentication methods:</p>
+        <table style="width: 100%;mc-table-style: url('Resources/TableStyles/table_from_MSTR_website.css');" class="TableStyle-table_from_MSTR_website" cellspacing="0">
+            <col class="TableStyle-table_from_MSTR_website-Column-Column2" style="width: 358px;" />
+            <col class="TableStyle-table_from_MSTR_website-Column-Column2" style="width: 294px;" />
+            <col class="TableStyle-table_from_MSTR_website-Column-Column2" style="width: 284px;" />
+            <thead>
+                <tr class="TableStyle-table_from_MSTR_website-Head-Header1">
+                    <th class="TableStyle-table_from_MSTR_website-HeadE-Column2-Header1">Supported Authentication</th>
+                    <th class="TableStyle-table_from_MSTR_website-HeadE-Column2-Header1">Library</th>
+                    <th class="TableStyle-table_from_MSTR_website-HeadD-Column2-Header1">HyperIntelligence for Web</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-table_from_MSTR_website-Body-Body1">
+                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body1" style="text-align: center;">Standard</td>
+                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body1" style="text-align: center;">Yes</td>
+                    <td class="TableStyle-table_from_MSTR_website-BodyD-Column2-Body1" style="text-align: center;">Yes</td>
+                </tr>
+                <tr class="TableStyle-table_from_MSTR_website-Body-Body2">
+                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body2" style="text-align: center;">
+                        <p>LDAP</p>
+                    </td>
+                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body2" style="text-align: center;">
+                        <p>Yes</p>
+                    </td>
+                    <td class="TableStyle-table_from_MSTR_website-BodyD-Column2-Body2" style="text-align: center;">
+                        <p>Yes</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-table_from_MSTR_website-Body-Body1">
+                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body1" style="text-align: center;">Guest</td>
+                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body1" style="text-align: center;">Yes</td>
+                    <td class="TableStyle-table_from_MSTR_website-BodyD-Column2-Body1" style="text-align: center;">Yes</td>
+                </tr>
+                <tr class="TableStyle-table_from_MSTR_website-Body-Body2">
+                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body2" style="text-align: center;">
+                        <p>Integrated</p>
+                    </td>
+                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body2" style="text-align: center;">
+                        <p>Yes</p>
+                    </td>
+                    <td class="TableStyle-table_from_MSTR_website-BodyD-Column2-Body2" style="text-align: center;">
+                        <p>Yes</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-table_from_MSTR_website-Body-Body1">
+                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body1" style="text-align: center;">Trusted</td>
+                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body1" style="text-align: center;">Yes</td>
+                    <td class="TableStyle-table_from_MSTR_website-BodyD-Column2-Body1" style="text-align: center;">Yes</td>
+                </tr>
+                <tr class="TableStyle-table_from_MSTR_website-Body-Body2">
+                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body2" style="text-align: center;">
+                        <p>MicroStrategy Identity</p>
+                    </td>
+                    <td class="TableStyle-table_from_MSTR_website-BodyE-Column2-Body2" style="text-align: center;">
+                        <p>Yes</p>
+                    </td>
+                    <td class="TableStyle-table_from_MSTR_website-BodyD-Column2-Body2" style="text-align: center;">
+                        <p>Yes</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-table_from_MSTR_website-Body-Body1">
+                    <td class="TableStyle-table_from_MSTR_website-BodyB-Column2-Body1" style="text-align: center;">SAML</td>
+                    <td class="TableStyle-table_from_MSTR_website-BodyB-Column2-Body1" style="text-align: center;">Yes</td>
+                    <td class="TableStyle-table_from_MSTR_website-BodyA-Column2-Body1" style="text-align: center;">Yes</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Error: Log in failed</h2>
+        <div class="row">
+            <div class="small-12 large-6 column">
+                <p>
+                    <img src="Resources/Images/login_failed-1.png" />
+                </p>
+            </div>
+            <div class="small-12 large-6 column">
+                <p>
+                    <img src="Resources/Images/login_failed-2.png" />
+                </p>
+            </div>
+        </div>
+        <p>This error appears under the environment URL when Kerberos is the only authentication mode enabled in the environment. This error may also appear under the Log In button if there are multiple authentication modes enabled in your environment. </p>
+        <p>These errors may appear for several reasons:</p>
+        <ul>
+            <li>Kerberos is not configured correctly with the Library Server or the <MadCap:variable name="Company_ProductNames.Iserver" />. Try opening the Library link in a separate browser. If it returns an error, it is most likely a configuration error. Contact your administrator to check the status of your Kerberos configuration. </li>
+            <li>You account is unlinked or disabled. To confirm this, open MicroStrategy Developer and ensure Kerberos is linked to the corporate account and does not have a disabled status.</li>
+            <li>Your machine or browser is not properly configured for integrated authentication with Kerberos. To ensure your machine or browser are configured correctly, locate the existing documentation for Kerberos authentication with Library in terms of browser set up.</li>
+        </ul>
+    </body>
+</html>

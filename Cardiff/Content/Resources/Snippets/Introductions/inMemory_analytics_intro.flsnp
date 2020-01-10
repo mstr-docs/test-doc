@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="106" MadCap:lastWidth="1255">
+    <head>
+    </head>
+    <body>
+        <p>In-memory Analytics provides information on in-memory datasets that you create using MicroStrategy OLAP Services and MicroStrategy PRIME.
+This content assumes that you are familiar with the fundamental concepts about the MicroStrategy product and have experience with the various features the product offers. In addition, you should have basic knowledge of Multidimensional Online Analytical Processing (MOLAP) and Relational OLAP (ROLAP) analyses.</p>
+    </body>
+</html>

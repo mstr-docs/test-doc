@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileClass="no-js"
+  FileTitle="Welcome"
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/foundation/css/foundation.min.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/main.css" />
+    <Link
+      Url="https://www.googletagmanager.com/ns.html" />
+    <Link
+      Url="https://community.microstrategy.com/s/" />
+    <Link
+      Url="Content/Resources/images/MSTR_logo.png" />
+    <Link
+      Url="https://community.microstrategy.com/s/gallery" />
+    <Link
+      Url="https://community.microstrategy.com/s/learning-center" />
+    <Link
+      Url="https://community.microstrategy.com/s/discussions" />
+    <Link
+      Url="https://community.microstrategy.com/s/products" />
+    <Link
+      Url="https://community.microstrategy.com/s/contactsupport" />
+    <Link
+      Url="https://licensing.microstrategy.com/" />
+    <Link
+      Url="https://community.microstrategy.com/s/group/CollaborationGroup/00BE0000004Cob6MAC" />
+    <Link
+      Url="https://community.microstrategy.com/s/announcements" />
+    <Link
+      Url="https://community.microstrategy.com/s/ideas" />
+    <Link
+      Url="https://community.microstrategy.com/s/members" />
+    <Link
+      Url="https://community.microstrategy.com/s/topic/0TO44000000QAGaGAO" />
+    <Link
+      Url="https://community.microstrategy.com/s/topic/0TO44000000QAGVGA4" />
+    <Link
+      Url="https://community.microstrategy.com/s/topic/0TO2R000000kaD0WAI" />
+    <Link
+      Url="Project/TOCs/Hyper.fltoc" />
+    <Link
+      Url="Project/VariableSets/MSTR_Default_Variables.flvar" />
+    <Link
+      Url="Project/Skins/TopicToolbar_next.flskn" />
+    <Link
+      Url="Project/Skins/in_topic_menu.flskn" />
+    <Link
+      Url="Content/Resources/Snippets/DesignComponents/feedback.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/DesignComponents/footer-XY-grid.flsnp" />
+    <Link
+      Url="https://code.jquery.com/jquery-2.1.4.min.js" />
+    <Link
+      Url="Content/Resources/foundation/js/foundation.min.js" />
+    <Link
+      Url="Content/Resources/foundation/js/mstr/header.js" />
+    <Link
+      Url="Content/Resources/foundation/js/mstr/feedback.js" />
+    <Link
+      Url="Content/Resources/foundation/js/mstr/tabs.js" />
+    <Link
+      Url="Content/Resources/foundation/js/mstr/embeddingTemplate.js" />
+    <Link
+      Url="Content/Resources/foundation/js/mstr/gtm.js" />
+    <Link
+      Url="https://kit.fontawesome.com/a24e839ca1.js" />
+    <Link
+      Url="Content/Resources/js/foundation-menu-off-canvas-initialisation.js" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/foundation/css/foundation.min.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/main.css" />
+    <Link
+      Url="https://www.googletagmanager.com/ns.html?id=GTM-WLQTSS" />
+    <Link
+      Url="https://community.microstrategy.com/s/" />
+    <Link
+      Url="Content/Resources/images/MSTR_logo.png" />
+    <Link
+      Url="https://community.microstrategy.com/s/gallery" />
+    <Link
+      Url="https://community.microstrategy.com/s/learning-center" />
+    <Link
+      Url="https://community.microstrategy.com/s/discussions" />
+    <Link
+      Url="https://community.microstrategy.com/s/products" />
+    <Link
+      Url="https://community.microstrategy.com/s/contactsupport" />
+    <Link
+      Url="https://licensing.microstrategy.com/" />
+    <Link
+      Url="https://community.microstrategy.com/s/group/CollaborationGroup/00BE0000004Cob6MAC" />
+    <Link
+      Url="https://community.microstrategy.com/s/announcements" />
+    <Link
+      Url="https://community.microstrategy.com/s/ideas" />
+    <Link
+      Url="https://community.microstrategy.com/s/members" />
+    <Link
+      Url="https://community.microstrategy.com/s/topic/0TO44000000QAGaGAO" />
+    <Link
+      Url="https://community.microstrategy.com/s/topic/0TO44000000QAGVGA4" />
+    <Link
+      Url="https://community.microstrategy.com/s/topic/0TO2R000000kaD0WAI" />
+    <Link
+      Url="Project/TOCs/Hyper.fltoc" />
+    <Link
+      Url="Project/VariableSets/MSTR_Default_Variables.flvar" />
+    <Link
+      Url="Project/Skins/TopicToolbar_next.flskn" />
+    <Link
+      Url="Project/Skins/in_topic_menu.flskn" />
+    <Link
+      Url="Content/Resources/Snippets/DesignComponents/feedback.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/DesignComponents/footer-XY-grid.flsnp" />
+    <Link
+      Url="https://code.jquery.com/jquery-2.1.4.min.js" />
+    <Link
+      Url="Content/Resources/foundation/js/foundation.min.js" />
+    <Link
+      Url="Content/Resources/foundation/js/mstr/header.js" />
+    <Link
+      Url="Content/Resources/foundation/js/mstr/feedback.js" />
+    <Link
+      Url="Content/Resources/foundation/js/mstr/tabs.js" />
+    <Link
+      Url="Content/Resources/foundation/js/mstr/embeddingTemplate.js" />
+    <Link
+      Url="Content/Resources/foundation/js/mstr/gtm.js" />
+    <Link
+      Url="https://kit.fontawesome.com/a24e839ca1.js" />
+    <Link
+      Url="Content/Resources/js/foundation-menu-off-canvas-initialisation.js" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="MSTR_Default_Variables.CurrentVersion" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/foundation/css/foundation.min.css" />
+    <Url
+      Source="Content/Resources/Stylesheets/main.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

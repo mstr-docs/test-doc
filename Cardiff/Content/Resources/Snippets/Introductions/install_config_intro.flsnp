@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="153" MadCap:lastWidth="1255">
+    <head>
+    </head>
+    <body>
+        <p>MicroStrategy Installation and Configuration provides comprehensive information on how to install and configure MicroStrategy software, as well as basic maintenance guidelines. This guide gets you started using the Linux and Windows versions of the MicroStrategy platform.</p>
+        <p>For Linux installations, this guide assumes a basic understanding of how to use Linux either from a Linux server or by using a viewer on a PC.</p>
+        <p>For tasks that require advanced system administration commands, this document assumes you are either familiar with those commands or can contact your system administrator.</p>
+    </body>
+</html>

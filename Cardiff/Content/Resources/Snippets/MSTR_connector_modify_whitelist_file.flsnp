@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <ol>
+            <li>
+                <p>Navigate to your Community Connector server and open the <span class="code">whitelist.txt</span> file. </p>
+                <p>This is usually in Tomcat, in the file path <span class="code">[Tomcat]\webapps\CommunityConnectors\WEB-INF\whitelist.txt</span>.</p>
+            </li>
+            <li>
+                <p>Add a new line and enter your MicroStrategy Web server hostname.</p>
+                <p>
+                    <img src="../../../../../Administrators/WebAdmin/Content/Resources/Images/web_hostname.png" />
+                </p>
+            </li>
+            <li>
+                <p>If the connector is deployed with cluster mode, you must add the MicroStrategy Web server hostname to the <span class="code">whitelist.txt</span> file for each connector.</p>
+                <p class="Note">If your Web server is deployed with cluster mode, then use the web load balancer's hostname in the <span class="code">whitelist.txt</span> file.</p>
+            </li>
+        </ol>
+    </body>
+</html>

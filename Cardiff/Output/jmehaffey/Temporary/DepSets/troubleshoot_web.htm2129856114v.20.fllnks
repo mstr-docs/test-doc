@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/TableStyles/table_from_MSTR_website.css" />
+    <Link
+      Url="Content/Resources/Images/invalid_data.png" />
+    <Link
+      Url="Content/Resources/Images/refresh.png" />
+    <Link
+      Url="Content/Resources/Images/access_denied_error.png" />
+    <Link
+      Url="https://www2.microstrategy.com/producthelp/Current/SystemAdmin/WebHelp/Lang_1033/Content/Controlling_access_to_objects__Permissions.htm" />
+    <Link
+      Url="Content/Resources/Images/missing_keyword_attribute_error.png" />
+    <Link
+      Url="Content/Resources/Images/locked_keyword_attribute_form_error.png" />
+    <Link
+      Url="https://www2.microstrategy.com/producthelp/current/ProjectDesignGuide/WebHelp/Lang_1033/Content/Controlling_the_display_of_attribute_elements.htm" />
+    <Link
+      Url="Content/Resources/Images/unsupported_card_template.png" />
+    <Link
+      Url="Content/Resources/Images/exceeded_space.png" />
+    <Link
+      Url="Content/Resources/Images/server_error.png" />
+    <Link
+      Url="Content/Resources/Images/session_time_out.png" />
+    <Link
+      Url="Content/Resources/Images/cardnotavailable.png" />
+    <Link
+      Url="Content/Resources/Images/card_data_unavailable.png" />
+    <Link
+      Url="https://www2.microstrategy.com/producthelp/Current/inmemoryanalytics/webhelp/lang_1033/content/inmemoryanalysis/publishing_intelligent_cubes.htm" />
+    <Link
+      Url="Content/Resources/Images/environmenterror.png" />
+    <Link
+      Url="Content/Resources/Images/use_hyper_web_privilege_needed.png" />
+    <Link
+      Url="Content/Resources/Images/enter_valid_url.png" />
+    <Link
+      Url="Content/Resources/Images/server_error_login.png" />
+    <Link
+      Url="Content/Resources/Images/no_cards.png" />
+    <Link
+      Url="Content/Resources/Images/card_not_available.png" />
+    <Link
+      Url="Project/VariableSets/Company_ProductNames.flvar" />
+    <Link
+      Url="Content/Resources/Images/no_login_modes.png" />
+    <Link
+      Url="Content/Resources/Images/login_failed-1.png" />
+    <Link
+      Url="Content/Resources/Images/login_failed-2.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/TableStyles/table_from_MSTR_website.css" />
+    <Link
+      Url="Content/Resources/Images/invalid_data.png" />
+    <Link
+      Url="Content/Resources/Images/refresh.png" />
+    <Link
+      Url="Content/Resources/Images/access_denied_error.png" />
+    <Link
+      Url="https://www2.microstrategy.com/producthelp/Current/SystemAdmin/WebHelp/Lang_1033/Content/Controlling_access_to_objects__Permissions.htm" />
+    <Link
+      Url="Content/Resources/Images/missing_keyword_attribute_error.png" />
+    <Link
+      Url="Content/Resources/Images/locked_keyword_attribute_form_error.png" />
+    <Link
+      Url="https://www2.microstrategy.com/producthelp/current/ProjectDesignGuide/WebHelp/Lang_1033/Content/Controlling_the_display_of_attribute_elements.htm" />
+    <Link
+      Url="Content/Resources/Images/unsupported_card_template.png" />
+    <Link
+      Url="Content/Resources/Images/exceeded_space.png" />
+    <Link
+      Url="Content/Resources/Images/server_error.png" />
+    <Link
+      Url="Content/Resources/Images/session_time_out.png" />
+    <Link
+      Url="Content/Resources/Images/cardnotavailable.png" />
+    <Link
+      Url="Content/Resources/Images/card_data_unavailable.png" />
+    <Link
+      Url="https://www2.microstrategy.com/producthelp/Current/inmemoryanalytics/webhelp/lang_1033/content/inmemoryanalysis/publishing_intelligent_cubes.htm" />
+    <Link
+      Url="Content/Resources/Images/environmenterror.png" />
+    <Link
+      Url="Content/Resources/Images/use_hyper_web_privilege_needed.png" />
+    <Link
+      Url="Content/Resources/Images/enter_valid_url.png" />
+    <Link
+      Url="Content/Resources/Images/server_error_login.png" />
+    <Link
+      Url="Content/Resources/Images/no_cards.png" />
+    <Link
+      Url="Content/Resources/Images/card_not_available.png" />
+    <Link
+      Url="Project/VariableSets/Company_ProductNames.flvar" />
+    <Link
+      Url="Content/Resources/Images/no_login_modes.png" />
+    <Link
+      Url="Content/Resources/Images/login_failed-1.png" />
+    <Link
+      Url="Content/Resources/Images/login_failed-2.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="Company_ProductNames.Iserver" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/table_from_MSTR_website.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

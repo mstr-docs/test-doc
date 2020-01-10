@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="false"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/printIcons/pdf_download.png" />
+    <Link
+      Url="Content/Resources/printIcons/info-24.png" />
+    <Link
+      Url="Content/Resources/printIcons/alert-24.png" />
+    <Link
+      Url="Content/Resources/printIcons/key-24.png" />
+    <Link
+      Url="Content/Resources/printIcons/ok-24.png" />
+    <Link
+      Url="Content/Resources/SharedImages/expand_22px.png" />
+    <Link
+      Url="Content/Resources/SharedImages/collapse_22px.png" />
+    <Link
+      Url="Content/Resources/SharedImages/expand_arrow.png" />
+    <Link
+      Url="Content/Resources/Stylesheets/footer_styles.css" />
+    <Link
+      Url="Content/Resources/Fonts/LucidaGrandeRegular.ttf" />
+  </Links>
+  <LongLinks />
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

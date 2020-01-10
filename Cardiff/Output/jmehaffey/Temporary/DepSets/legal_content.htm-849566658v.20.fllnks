@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle="Legal Information"
+  FileSearchable="false"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/ConditionTagSets/MSTR_Docs_Conditions.flcts" />
+    <Link
+      Url="Project/VariableSets/MSTR_Default_Variables.flvar" />
+    <Link
+      Url="Content/Resources/Snippets/Shared_Frontmatter/Legal_Boilerplate.flsnp" />
+    <Link
+      Url="https://www.microstrategy.com/us/legal-folder/privacy-policy" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/ConditionTagSets/MSTR_Docs_Conditions.flcts" />
+    <Link
+      Url="Project/VariableSets/MSTR_Default_Variables.flvar" />
+    <Link
+      Url="Content/Resources/Snippets/Shared_Frontmatter/Legal_Boilerplate.flsnp" />
+    <Link
+      Url="https://www.microstrategy.com/us/legal-folder/privacy-policy" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="MSTR_Default_Variables.CurrentVersion" />
+    <Variable
+      Name="MSTR_Default_Variables.ReleaseMonthAndYear" />
+  </Variables>
+  <FileConditions>
+    <Condition
+      Tag="MSTR_Docs_Conditions.OnlineOnly" />
+  </FileConditions>
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="MSTR_Docs_Conditions.OnlineOnly" />
+  </AllConditions>
+  <Stylesheets />
+</CatapultFileLinkSet>

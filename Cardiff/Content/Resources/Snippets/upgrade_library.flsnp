@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>In MicroStrategy 10.9 through 11.0, MicroStrategy Library was automatically deployed in Tomcat and the <code>MicroStrategyLibrary.war</code> file installed in the <span class="code">&lt;INSTALL_PATH&gt;\Library</span> directory. MicroStrategy <MadCap:variable name="MSTR_Default_Variables.CurrentVersion" /> gives administrators the option to not perform the Library deployment. </p>
+        <p> This section contains high level steps and considerations for performing an upgrade or migrating MicroStrategy Library to a new environment.</p>
+        <h2>Windows Environments</h2>
+        <p>In MicroStrategy 10.9 to 11.0, MicroStrategy Library automatically deployed in Tomcat and the <code>Library.war</code> file installed in the <span class="code">&lt;INSTALL_PATH&gt;\Library</span> directory. Starting in 2019, administrators can choose to not  deploy Library automatically.</p>
+        <p>Perform the following steps when doing a direct upgrade of MicroStrategy Library 10.9 - 11.0 to MicroStrategy 2019.</p>
+        <ol>
+            <li>Within the Tomcat directory, the following files are backed up:<ul><li>webapps folder</li><li>server.xml</li><li>tomcat-users.xml</li></ul></li>
+            <li>Uninstall old Tomcat.</li>
+            <li>Install new Tomcat 9.0.12.</li>
+            <li>All backed up files are restored to the new Tomcat installation.</li>
+            <li>Start Tomcat.</li>
+            <li>The new <code>Library.war</code> file is only installed in <span class="code">&lt;INSTALL_PATH&gt;\Library</span>.</li>
+        </ol>
+        <h2>Linux Environments</h2>
+        <p>In MicroStrategy 10.9 to 11.0, the MicroStrategy installer asks the administrator to enter a path to the Tomcat folder in order to deploy the <code>Library.war</code> file and installs the WAR file in the <span class="code">&lt;INSTALL_PATH&gt;/Library</span> directory. Starting in 2019, administrators are no longer prompted with the Tomcat directory and can deploy the WAR file to the JEE server of choice.</p>
+        <h2>Deploying the New WAR File</h2>
+        <p>Use the following steps to deploy a new WAR file for both Windows and Linux.</p>
+        <ol>
+            <li>Use the MicroStrategy installer to create a new MicroStrategy 2019 <span class="code">Library.war</span> file by doing a direct upgrade or new installation.</li>
+            <li>Redeploy the new <code>Library.war</code> file from the Library install directory to the J2EE server being used. See the <a href="https://www2.microstrategy.com/producthelp/current/Readme/content/requirements_library_web_mobile_server.htm">list of supported servers</a>.</li>
+            <li>
+                <p>Migrate your customizations to the new environment, such as:</p>
+                <ul>
+                    <li><code>.../webapps/MicroStrategyLibrary/images/</code>
+                    </li>
+                    <li><code>.../webapps/MicroStrategyLibrary/plugins/</code>
+                    </li>
+                    <li><code>.../webapps/MicroStrategyLibrary/WEB-INF/classes/auth/</code>
+                        <ul>
+                            <li>Customized authentication configuration, such as SAML authentication</li>
+                        </ul>
+                    </li>
+                    <li><code>.../webapps/MicroStrategyLibrary/WEB-INF/classes/config/configOverride.properties</code>
+                        <ul>
+                            <li>Make sure MicroStrategy Library is pointing to the correct Intelligence Server and Collaboration Server with correct authentication setting by going to the Library Administration Control Panel.</li>
+                        </ul>
+                    </li>
+                    <li><code>.../webapps/MicroStrategyLibrary/WEB-INF/classes/logback.xml</code>
+                    </li>
+                    <li>Any other customizations including SSL configurations</li>
+                </ul>
+            </li>
+            <li>Verify that MicroStrategy Library functionality including collaboration, sharing, exporting, printing, and all other features are working properly. Ensure dossiers and documents are appearing.</li>
+        </ol>
+    </body>
+</html>

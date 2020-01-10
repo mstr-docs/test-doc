@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="105" MadCap:lastWidth="663">
+    <body>
+        <ol MadCap:continue="true">
+            <li>Select the data you want to import, according to your <a href="../../ImportingData.htm">data source type</a>. </li>
+            <li>Once you have selected the data you want to import, click <b>Prepare Data</b> to open the Preview dialog.</li>
+        </ol>
+    </body>
+</html>

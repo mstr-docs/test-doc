@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Welcome</title>
+        <link rel="stylesheet" href="../foundation/css/foundation.min.css" />
+        <link rel="stylesheet" href="../Stylesheets/main.css" />
+    </head>
+    <body>
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WLQTSS" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <div class="off-canvas-wrapper">
+			<div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+				<!-- Title bar displayed on small screen only, hidden for medium up -->
+				<div class="title-bar hide-for-medium">
+					<div class="title-bar-right">
+						<!-- Button opens element with ID 'offCanvasLeft' which is the left off-canvas area -->
+						<button class="menu-icon" type="button" data-open="offCanvasMenu">
+						</button>
+					</div>
+				</div>
+				<div class="off-canvas position-left" id="offCanvasMenu" data-off-canvas="">
+					<!-- Container for Drilldown menu -->
+					<div id="nav-drilldown">
+						<!-- Copy of the drilldown menu is inserted here by the script -->
+					</div>
+				</div>
+				<div class="off-canvas-content" data-off-canvas-content="">
+					<div class="mstr-doc-grid">
+						<div class="mstr-doc-header">
+							<div class="header">
+								<ul id="header-ul">
+									<li id="navigation">
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="rows" width="24px" height="100%">
+											<path d="M21.5 6.5h-19c-.3 0-.7-.4-.7-.7V4.4c0-.4.4-.7.7-.7h19c.3 0 .7.3.7.7v1.4c0 .3-.4.7-.7.7zm0 6.8h-19c-.3 0-.7-.3-.7-.7v-1.3c0-.4.4-.7.7-.7h19c.3 0 .7.3.7.7v1.4c0 .3-.4.6-.7.6zm0 7h-19c-.3 0-.7-.3-.7-.7v-1.4c0-.3.4-.7.7-.7h19c.3 0 .7.4.7.7v1.4c0 .4-.4.7-.7.7z">
+											</path>
+										</svg>
+									</li>
+									<li id="logo-li"><a href="https://community.microstrategy.com/s/"><img id="logo" src="../images/MSTR_logo.png" /></a>
+									</li>
+									<li title="MicroStrategy Community" id="community">COMMUNITY</li>
+									<li class="header-item" title="Home"><a href="https://community.microstrategy.com/s/">Home</a>
+									</li>
+									<li class="header-item" title="Gallery"><a href="https://community.microstrategy.com/s/gallery">Gallery</a>
+									</li>
+									<li class="header-item" title="Learning Center"><a href="https://community.microstrategy.com/s/learning-center">Learning Center</a>
+									</li>
+									<li class="header-item" title="Discussions"><a href="https://community.microstrategy.com/s/discussions">Discussions</a>
+									</li>
+									<li class="header-item" title="Downloads"><a href="https://community.microstrategy.com/s/products">Downloads</a>
+									</li>
+									<li class="header-item" title="Cases"><a href="https://community.microstrategy.com/s/contactsupport">Cases</a>
+									</li>
+									<li class="header-item" title="Activation Site"><a href="https://licensing.microstrategy.com/">Activation Site</a>
+									</li>
+									<li class="header-item" title="Groups"><a href="https://community.microstrategy.com/s/group/CollaborationGroup/00BE0000004Cob6MAC">Groups</a>
+									</li>
+									<li class="header-item" title="Announcements"><a href="https://community.microstrategy.com/s/announcements">Announcements</a>
+									</li>
+									<li class="header-item" title="Ideas"><a href="https://community.microstrategy.com/s/ideas">Ideas</a>
+									</li>
+									<li class="header-item" title="Members"><a href="https://community.microstrategy.com/s/members">Members</a>
+									</li>
+									<li class="header-item" title="简体中文"><a href="https://community.microstrategy.com/s/topic/0TO44000000QAGaGAO">简体中文</a>
+									</li>
+									<li class="header-item" title="日本語"><a href="https://community.microstrategy.com/s/topic/0TO44000000QAGVGA4">日本語</a>
+									</li>
+									<li class="header-item" title="한국어"><a href="https://community.microstrategy.com/s/topic/0TO2R000000kaD0WAI">한국어</a>
+									</li>
+									<li class="header-item" title="More" id="more"><a href="#">More</a>
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="chevrondown">
+											<path d="M22 8.2l-9.5 9.6c-.3.2-.7.2-1 0L2 8.2c-.2-.3-.2-.7 0-1l1-1c.3-.3.8-.3 1.1 0l7.4 7.5c.3.3.7.3 1 0l7.4-7.5c.3-.2.8-.2 1.1 0l1 1c.2.3.2.7 0 1z">
+											</path>
+										</svg>
+									</li>
+								</ul>
+								<ul class="overflow">
+								</ul>
+								<ul class="nav-header">
+									<li class="znav-item" title="Home"><a href="https://community.microstrategy.com/s/">Home</a>
+									</li>
+									<li class="znav-item" title="Gallery"><a href="https://community.microstrategy.com/s/gallery">Gallery</a>
+									</li>
+									<li class="znav-item" title="Learning Center"><a href="https://community.microstrategy.com/s/learning-center">Learning Center</a>
+									</li>
+									<li class="znav-item" title="Discussions"><a href="https://community.microstrategy.com/s/discussions">Discussions</a>
+									</li>
+									<li class="znav-item" title="Downloads"><a href="https://community.microstrategy.com/s/products">Downloads</a>
+									</li>
+									<li class="znav-item" title="Cases"><a href="https://community.microstrategy.com/s/contactsupport">Cases</a>
+									</li>
+									<li class="znav-item" title="Activation Site"><a href="https://licensing.microstrategy.com/">Activation Site</a>
+									</li>
+									<li class="znav-item" title="Groups"><a href="https://community.microstrategy.com/s/group/CollaborationGroup/00BE0000004Cob6MAC">Groups</a>
+									</li>
+									<li class="znav-item" title="Announcements"><a href="https://community.microstrategy.com/s/announcements">Announcements</a>
+									</li>
+									<li class="znav-item" title="Ideas"><a href="https://community.microstrategy.com/s/ideas">Ideas</a>
+									</li>
+									<li class="znav-item" title="Members"><a href="https://community.microstrategy.com/s/members">Members</a>
+									</li>
+									<li class="znav-item" title="简体中文"><a href="https://community.microstrategy.com/s/topic/0TO44000000QAGaGAO">简体中文</a>
+									</li>
+									<li class="znav-item" title="日本語"><a href="https://community.microstrategy.com/s/topic/0TO44000000QAGVGA4">日本語</a>
+									</li>
+									<li class="znav-item" title="한국어"><a href="https://community.microstrategy.com/s/topic/0TO2R000000kaD0WAI">한국어</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="mstr-doc-left">
+							<MadCap:menuProxy mc-linked-toc="/Project/TOCs/Hyper.fltoc" style="mc-context-sensitive: False;mc-include-parent: True;mc-include-siblings: True;mc-include-children: True;" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+						</div>
+						<div class="mstr-doc-middle">
+							<div class="row medium-up-2">
+								<div class="column">
+									<MadCap:topicToolbarProxy style="mc-topic-toolbar-items: SelectLanguage;" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+								</div>
+								<div class="column">
+									<p id="version">Version <MadCap:variable name="MSTR_Default_Variables.CurrentVersion" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /></p>
+								</div>
+							</div>
+							<div class="row small-up-1">
+								<div class="column">
+									<MadCap:bodyProxy xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+								</div>
+							</div>
+							<div class="row small-up-1">
+								<div class="column bottom-nav">
+									<MadCap:topicToolbarProxy style="mc-topic-toolbar-items: ;" data-mc-skin="/Project/Skins/TopicToolbar_next.flskn" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+								</div>
+							</div>
+						</div>
+						<div class="mstr-doc-right">
+							<MadCap:menuProxy data-mc-skin="/Project/Skins/in_topic_menu.flskn" mc-linked-toc="$topicHeadings" style="mc-context-sensitive: True;mc-include-parent: True;mc-include-siblings: True;mc-include-children: True;" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+						</div>
+						<div class="mstr-doc-footer">
+							<MadCap:snippetBlock src="../Snippets/DesignComponents/feedback.flsnp" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+							<MadCap:snippetBlock src="../Snippets/DesignComponents/footer-XY-grid.flsnp" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+						</div>
+					</div>
+				</div>			
+			</div>	
+		</div>
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js">
+        </script>
+        <script src="../foundation/js/foundation.min.js">
+        </script>
+        <script src="../foundation/js/mstr/header.js">
+        </script>
+        <script src="../foundation/js/mstr/feedback.js">
+        </script>
+        <script src="../foundation/js/mstr/tabs.js">
+        </script>
+        <script src="../foundation/js/mstr/embeddingTemplate.js">
+        </script>
+        <script src="../foundation/js/mstr/gtm.js">
+        </script>
+        <script src="https://kit.fontawesome.com/a24e839ca1.js" crossorigin="anonymous">
+        </script>		
+		<script src="../js/foundation-menu-off-canvas-initialisation.js">
+		</script>
+		<script>$(document).foundation();</script>
+    </body>
+</html>

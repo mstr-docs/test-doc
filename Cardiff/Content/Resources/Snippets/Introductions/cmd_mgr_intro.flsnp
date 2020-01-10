@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="187" MadCap:lastWidth="1255">
+    <head>
+    </head>
+    <body>
+        <p>MicroStrategy Command Manager automates maintenance and other administrative operations using simple text-based commands. These commands can be compiled into script files and run from a graphical interface or from the command line. The script files can be scheduled through operating system utilities or integrated into third-party Systems Management Software, automating repetitive maintenance tasks.
+</p>
+        <p>
+Command Manager minimizes administrative costs by automating critical, time-consuming administrative tasks, such as managing users and security, purging caches, and expiring jobs. Command Manager contains over 200 commands that automate administrative tasks. Command Manager makes it easy to incorporate MicroStrategy administration into any software management system.</p>
+    </body>
+</html>

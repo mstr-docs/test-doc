@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Images/left_axis_icon.png" />
+    <Link
+      Url="Content/Resources/Images/right_axis_icon.png" />
+    <Link
+      Url="Content/Resources/Images/top_axis_icon.png" />
+    <Link
+      Url="Content/Resources/Images/bottom_axis_icon.png" />
+    <Link
+      Url="Content/Resources/Images/top_column_icon.png" />
+    <Link
+      Url="Content/Resources/Images/left_row_icon.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Images/left_axis_icon.png" />
+    <Link
+      Url="Content/Resources/Images/right_axis_icon.png" />
+    <Link
+      Url="Content/Resources/Images/top_axis_icon.png" />
+    <Link
+      Url="Content/Resources/Images/bottom_axis_icon.png" />
+    <Link
+      Url="Content/Resources/Images/top_column_icon.png" />
+    <Link
+      Url="Content/Resources/Images/left_row_icon.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

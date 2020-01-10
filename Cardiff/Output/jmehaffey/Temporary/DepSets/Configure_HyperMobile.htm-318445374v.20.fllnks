@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/TableStyles/table_from_MSTR_website.css" />
+    <Link
+      Url="https://itunes.apple.com/us/app/microstrategy-hypermobile/id1455897339" />
+    <Link
+      Url="Content/Resources/Images/config_URL_Hyper.png" />
+    <Link
+      Url="Content/Resources/Images/hypermobile_cards.png" />
+    <Link
+      Url="https://play.google.com/store/apps/details" />
+    <Link
+      Url="Content/Resources/Images/android_cards_PNG_framed.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/TableStyles/table_from_MSTR_website.css" />
+    <Link
+      Url="https://itunes.apple.com/us/app/microstrategy-hypermobile/id1455897339?mt=8" />
+    <Link
+      Url="Content/Resources/Images/config_URL_Hyper.png" />
+    <Link
+      Url="Content/Resources/Images/hypermobile_cards.png" />
+    <Link
+      Url="https://play.google.com/store/apps/details?id=com.microstrategy.android.hyper&amp;hl=en_US" />
+    <Link
+      Url="Content/Resources/Images/android_cards_PNG_framed.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/table_from_MSTR_website.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>
